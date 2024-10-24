@@ -42,21 +42,19 @@ df = pd.DataFrame(combined_data, columns=['Account', 'Platform', 'Department', '
 df = df.drop_duplicates(subset='URL')
 df.to_csv('sm.csv', index=False)
 
-# Create a CSV with date and count of each platform
+# Create a CSV with date, count of each platform, and language
 current_date = datetime.now().strftime('%Y-%m-%d')
-platform_counts = df['Platform'].value_counts()
-platform_df = platform_counts.reset_index()
-platform_df.columns = ['Platform', 'Count']
-platform_df['Date'] = current_date
+platform_counts = df.groupby(['Platform', 'Language']).size().reset_index(name='Count')
+platform_counts['Date'] = current_date
 
 # Append to the existing platform_counts CSV or create a new one if it doesn't exist
 try:
     existing_df = pd.read_csv('platform_counts.csv')
-    platform_df = pd.concat([existing_df, platform_df], ignore_index=True)
+    platform_counts = pd.concat([existing_df, platform_counts], ignore_index=True)
 except FileNotFoundError:
     pass
 
-platform_df.to_csv('platform_counts.csv', index=False)
+platform_counts.to_csv('platform_counts.csv', index=False)
 
 # Create a CSV with date, department name, and count (long data format)
 department_counts = df['Department'].value_counts().reset_index()
