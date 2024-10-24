@@ -3,9 +3,6 @@ name: Fetch JSON and Convert to CSV
 on:
   schedule:
     - cron: '0 0 * * *' # Runs daily at midnight
-  push:
-    branches:
-      - main
   workflow_dispatch:
 
 jobs:
