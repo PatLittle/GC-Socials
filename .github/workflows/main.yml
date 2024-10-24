@@ -31,7 +31,7 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add sm.csv
+          git add *.csv
           git commit -m "Update sm.csv from JSON"
           git push
         env:
