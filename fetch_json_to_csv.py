@@ -2,6 +2,7 @@ import requests
 import pandas as pd
 import re
 from bs4 import BeautifulSoup
+from datetime import datetime
 
 # Fetch the JSON data (English and French)
 urls = [
@@ -38,4 +39,36 @@ df = pd.DataFrame(combined_data, columns=['Account', 'Platform', 'Department', '
 df = df.drop_duplicates(subset='URL')
 df.to_csv('sm.csv', index=False)
 
-print("CSV file 'sm.csv' has been created successfully.")
+# Create a CSV with date and count of each platform
+current_date = datetime.now().strftime('%Y-%m-%d')
+platform_counts = df['Platform'].value_counts()
+platform_counts['Date'] = current_date
+
+# Convert to DataFrame and reorder columns
+platform_df = platform_counts.reset_index().pivot(index=None, columns='index', values='Platform').fillna(0)
+platform_df.insert(0, 'Date', current_date)
+
+# Append to the existing platform_counts CSV or create a new one if it doesn't exist
+try:
+    existing_df = pd.read_csv('platform_counts.csv')
+    platform_df = pd.concat([existing_df, platform_df], ignore_index=True)
+except FileNotFoundError:
+    pass
+
+platform_df.to_csv('platform_counts.csv', index=False)
+
+# Create a CSV with date, department name, and count (long data format)
+department_counts = df['Department'].value_counts().reset_index()
+department_counts.columns = ['Department Name', 'Count']
+department_counts['Date'] = current_date
+
+# Append to the existing department_counts CSV or create a new one if it doesn't exist
+try:
+    existing_department_df = pd.read_csv('department_counts.csv')
+    department_counts = pd.concat([existing_department_df, department_counts], ignore_index=True)
+except FileNotFoundError:
+    pass
+
+department_counts.to_csv('department_counts.csv', index=False)
+
+print("CSV files 'sm.csv', 'platform_counts.csv', and 'department_counts.csv' have been created successfully.")
