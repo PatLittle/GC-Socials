@@ -7,7 +7,7 @@ df = pd.read_csv('sm.csv')
 platform_counts = df['Platform'].value_counts()
 
 # Generate the Mermaid.js pie chart syntax for Platform
-platform_pie_chart = "```mermaid\npie title Platform Distribution\n"
+platform_pie_chart = "```mermaid\npie showData title Platform Distribution\n"
 for platform, count in platform_counts.items():
     platform_pie_chart += f"    \"{platform}\": {count}\n"
 platform_pie_chart += "```"
@@ -16,7 +16,7 @@ platform_pie_chart += "```"
 language_counts = df['Language'].value_counts()
 
 # Generate the Mermaid.js pie chart syntax for Language
-language_pie_chart = "```mermaid\npie title Language Distribution\n"
+language_pie_chart = "```mermaid\npie showData title Language Distribution\n"
 for language, count in language_counts.items():
     language_pie_chart += f"    \"{language}\": {count}\n"
 language_pie_chart += "```"
