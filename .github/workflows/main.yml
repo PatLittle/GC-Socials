@@ -36,18 +36,3 @@ jobs:
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Create CSV with Git Diff Information
-        run: |
-          git diff > git_diff.txt
-          if [ -s git_diff.txt ]; then
-            python create_git_diff_csv.py
-          fi
-
-      - name: Commit Git Diff CSV file
-        run: |
-          git add git_diff.csv
-          git commit -m "Update git_diff.csv with latest changes"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
