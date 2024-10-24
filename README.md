@@ -1,7 +1,7 @@
 # Social Media Platform Distribution
 
 ```mermaid
-pie title Platform Distribution
+pie showData title Platform Distribution
     "X": 730
     "Facebook": 676
     "YouTube": 146
