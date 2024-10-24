@@ -23,11 +23,14 @@ for url in urls:
         # The last field contains the link information
         for field in record[:-1]:
             # Remove HTML tags using BeautifulSoup
-            soup = BeautifulSoup(field, 'html.parser')
-            text = soup.get_text(strip=True)
-            # Remove keys (e.g., 'Department: ', 'Language: ')
-            cleaned_text = re.sub(r'^(Department|Language|Langue|Ministère):\s*', '', text)
-            cleaned_record.append(cleaned_text)
+            if isinstance(field, str):
+                soup = BeautifulSoup(field, 'html.parser')
+                text = soup.get_text(strip=True)
+                # Remove keys (e.g., 'Department: ', 'Language: ')
+                cleaned_text = re.sub(r'^(Department|Language|Langue|Ministère):\s*', '', text)
+                cleaned_record.append(cleaned_text)
+            else:
+                cleaned_record.append(field)
         # Extract href link from the last field
         link_field = BeautifulSoup(record[-1], 'html.parser')
         link_url = link_field.a['href'] if link_field.a and link_field.a.has_attr('href') else None
@@ -42,11 +45,9 @@ df.to_csv('sm.csv', index=False)
 # Create a CSV with date and count of each platform
 current_date = datetime.now().strftime('%Y-%m-%d')
 platform_counts = df['Platform'].value_counts()
-platform_counts['Date'] = current_date
-
-# Convert to DataFrame and reorder columns
-platform_df = platform_counts.reset_index().pivot(index=None, columns='index', values='Platform').fillna(0)
-platform_df.insert(0, 'Date', current_date)
+platform_df = platform_counts.reset_index()
+platform_df.columns = ['Platform', 'Count']
+platform_df['Date'] = current_date
 
 # Append to the existing platform_counts CSV or create a new one if it doesn't exist
 try:
