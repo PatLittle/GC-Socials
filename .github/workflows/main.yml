@@ -28,7 +28,7 @@ jobs:
 
       - name: Fetch JSON and Convert to CSV
         run: |
-          python -c "
+          python -c """
 import requests
 import pandas as pd
 
@@ -49,7 +49,7 @@ for url in urls:
 # Convert combined JSON to DataFrame and then to CSV
 df = pd.json_normalize(combined_data)
 df.to_csv('sm.csv', index=False)
-"
+"""
 
       - name: Commit CSV file
         run: |
@@ -64,7 +64,7 @@ df.to_csv('sm.csv', index=False)
       - name: Create CSV with Git Diff Information
         run: |
           git diff > git_diff.txt
-          python -c "
+          python -c """
 import pandas as pd
 
 # Read git diff information
@@ -74,7 +74,7 @@ with open('git_diff.txt', 'r') as f:
 # Convert diff data to DataFrame
 diff_df = pd.DataFrame({'diff': diff_data})
 diff_df.to_csv('git_diff.csv', index=False)
-"
+"""
 
       - name: Commit Git Diff CSV file
         run: |
