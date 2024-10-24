@@ -26,7 +26,7 @@ with open('readme_static.md', 'r') as static_file:
     static_content = static_file.read()
 
 # Append the static content and pie charts to the README file
-with open('README.md', 'a') as readme_file:
+with open('README.md', 'w') as readme_file:
     readme_file.write(static_content + "\n\n")
     readme_file.write("# Social Media Platform Distribution\n\n")
     readme_file.write(platform_pie_chart + "\n\n")
