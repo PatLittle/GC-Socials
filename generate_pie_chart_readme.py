@@ -33,8 +33,7 @@ department_xy_chart += "y-axis \"Count\" 0 --> " + str(department_counts.max() +
 department_xy_chart += "bar ["
 for count in department_counts:
     department_xy_chart += f"{count}, "
-department_xy_chart = department_xy_chart.rstrip(', ') + "]\n```
-"
+department_xy_chart = department_xy_chart.rstrip(', ') + "]\n```"
 
 # Read static markdown content from readme_static.md
 with open('readme_static.md', 'r') as static_file:
