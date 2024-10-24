@@ -8,7 +8,7 @@ View the current list from https://www.canada.ca/en/social.html and https://www.
 # Social Media Platform Distribution
 
 ```mermaid
-pie title Platform Distribution
+pie showData title Platform Distribution
     "X": 730
     "Facebook": 676
     "YouTube": 146
@@ -26,7 +26,7 @@ pie title Platform Distribution
 # Language Distribution
 
 ```mermaid
-pie title Language Distribution
+pie showData title Language Distribution
     "English": 806
     "Français": 794
     "Bilingual": 212
