@@ -25,7 +25,7 @@ for url in urls:
             soup = BeautifulSoup(field, 'html.parser')
             text = soup.get_text(strip=True)
             # Remove keys (e.g., 'Department: ', 'Language: ')
-            cleaned_text = re.sub(r'^(Department|Language):\s*', '', text)
+            cleaned_text = re.sub(r'^(Department|Language|Langue|Ministère):\s*', '', text)
             cleaned_record.append(cleaned_text)
         # Extract href link from the last field
         link_field = BeautifulSoup(record[-1], 'html.parser')
