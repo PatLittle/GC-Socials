@@ -31,47 +31,104 @@ pie showData title Language Distribution
     "Français": 794
     "Bilingual": 212
     "Bilingue": 12
-```# GC-Socials
-## Tracking the GC Offical Social Media Accounts Overtime
-
-View the current list from https://www.canada.ca/en/social.html and https://www.canada.ca/fr/sociaux.html
-[![Static Badge](https://img.shields.io/badge/Open%20in%20Flatdata%20Viewer-FF00E8?style=for-the-badge&logo=github&logoColor=black)](https://flatgithub.com/PatLittle/GC-Socials)
-
-
-# Social Media Platform Distribution
-
-```mermaid
-pie title Platform Distribution
-    "X": 730
-    "Facebook": 676
-    "YouTube": 146
-    "Instagram": 124
-    "LinkedIn": 114
-    "Flickr": 22
-    "Youtube": 6
-    "x": 2
-    "snapchat": 1
-    "Linkedin": 1
-    "Intagram": 1
-    "Snapchat": 1
-```
-
-# Language Distribution
-
-```mermaid
-pie title Language Distribution
-    "English": 806
-    "Français": 794
-    "Bilingual": 212
-    "Bilingue": 12
 ```
 
 # Department Count (English Only)
 
 ```mermaid
-xychart-beta
-title "Department Count (English Only)"
-x-axis ["Global Affairs Canada", "Parks Canada", "Royal Canadian Mounted Police", "Environment and Climate Change Canada", "National Defence and the Canadian Armed Forces", "Employment and Social Development Canada", "Public Services and Procurement Canada", "Fisheries and Oceans Canada", "Privy Council Office", "Innovation, Science and Economic Development Canada", "Canadian Heritage", "Canada Border Services Agency", "Natural Resources Canada", "Immigration, Refugees and Citizenship Canada", "Canadian Space Agency", "Canadian Human Rights Commission", "Library and Archives Canada", "Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada", "Transport Canada", "Women and Gender Equality Canada", "Public Service Commission of Canada", "Treasury Board of Canada Secretariat", "Financial Consumer Agency of Canada", "Veterans Affairs Canada", "Public Safety Canada", "Competition Bureau of Canada", "Transportation Safety Board of Canada", "Agriculture and Agri-Food Canada", "Atlantic Canada Opportunities Agency", "Canada Revenue Agency", "Polar Knowledge Canada", "Communications Security Establishment Canada", "Canadian Centre for Occupational Health and Safety", "Communications Security Establishment", "Health Canada", "Shared Services Canada", "Service Canada", "Statistics Canada", "The National Battlefields Commission", "Accessibility Standards Canada", "Science and Engineering Research Canada", "Canadian Grain Commission", "Justice Canada", "Canadian Food Inspection Agency", "Infrastructure Canada", "Office of the Taxpayers' Ombudsperson", "Canada Energy Regulator", "Canada Mortgage and Housing Corporation", "Department of Finance Canada", "Office of the Veterans' Ombudsman", "Canadian Radio­television and Telecommunications Commission", "Canadian Institutes of Health Research", "Impact Assessment Agency of Canada", "Federal Economic Development Agency for Southern Ontario", "Pacific Economic Development Agency of Canada", "Parole Board of Canada", "Canadian Intellectual Property Office", "Social Sciences and Humanities Research Council", "Immigration and Refugee Board of Canada", "Canada School of Public Service", "Correctional Service of Canada", "Public Health Agency of Canada", "Canadian Security Intelligence Service", "Canadian Northern Economic Development Agency", "Government of Canada Workplace Charitable Campaign", "Office of the Federal Ombudsman for Victims of Crime", "Public Prosecution Service of Canada", "Canadian Nuclear Safety Commission", "Financial Transactions and Reports Analysis Centre of Canada", "Office of the Procurement Ombudsman", "Crown-Indigenous Relations and Northern Affairs Canada", "Sustainable Development Goals 2030 Unit", "Canadian Transportation Agency", "Veterans Review and Appeal Board Canada", "Canada Economic Development for Quebec Regions", "Passport Canada", "National Research Council Canada", "Canadian Nuclear Safety Commission", "Military Police Complaints Commission of Canada", "Office of Veterans Ombudsman", "Correctional Service Canada", "Department of Public Safety and Emergency Preparedness", "Canadian Conservation Institute", "Office of the Superintendent of Financial Institutions Canada", "Parks Canada Agency", "Department of Justice Canada", "Copyright Board of Canada", "Social Security Tribunal of Canada", "Prairies Economic Development Canada", "Law Commission of Canada", "Innovation, Science and Economic Development", "Military Police Complaints Commission", "Social Sciences and Humanities Research Council of Canada", "Natural Sciences and Engineering Research Council of Canada"]
-y-axis "Count" 0 --> 263
-bar [258, 112, 57, 26, 25, 15, 14, 14, 14, 13, 12, 10, 9, 7, 6, 6, 6, 6, 5, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+pie showData title Department Count (English Only)
+    "Global Affairs Canada": 258
+    "Parks Canada": 112
+    "Royal Canadian Mounted Police": 57
+    "Environment and Climate Change Canada": 26
+    "National Defence and the Canadian Armed Forces": 25
+    "Employment and Social Development Canada": 15
+    "Public Services and Procurement Canada": 14
+    "Fisheries and Oceans Canada": 14
+    "Privy Council Office": 14
+    "Innovation, Science and Economic Development Canada": 13
+    "Canadian Heritage": 12
+    "Canada Border Services Agency": 10
+    "Natural Resources Canada": 9
+    "Immigration, Refugees and Citizenship Canada": 7
+    "Canadian Space Agency": 6
+    "Canadian Human Rights Commission": 6
+    "Library and Archives Canada": 6
+    "Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada": 6
+    "Transport Canada": 5
+    "Women and Gender Equality Canada": 5
+    "Public Service Commission of Canada": 5
+    "Treasury Board of Canada Secretariat": 5
+    "Financial Consumer Agency of Canada": 5
+    "Veterans Affairs Canada": 5
+    "Public Safety Canada": 5
+    "Competition Bureau of Canada": 4
+    "Transportation Safety Board of Canada": 4
+    "Agriculture and Agri-Food Canada": 4
+    "Atlantic Canada Opportunities Agency": 4
+    "Canada Revenue Agency": 4
+    "Polar Knowledge Canada": 4
+    "Communications Security Establishment Canada": 4
+    "Canadian Centre for Occupational Health and Safety": 4
+    "Communications Security Establishment": 4
+    "Health Canada": 4
+    "Shared Services Canada": 4
+    "Service Canada": 4
+    "Statistics Canada": 4
+    "The National Battlefields Commission": 4
+    "Accessibility Standards Canada": 4
+    "Science and Engineering Research Canada": 4
+    "Canadian Grain Commission": 3
+    "Justice Canada": 3
+    "Canadian Food Inspection Agency": 3
+    "Infrastructure Canada": 3
+    "Office of the Taxpayers' Ombudsperson": 3
+    "Canada Energy Regulator": 3
+    "Canada Mortgage and Housing Corporation": 3
+    "Department of Finance Canada": 3
+    "Office of the Veterans' Ombudsman": 3
+    "Canadian Radio­television and Telecommunications Commission": 3
+    "Canadian Institutes of Health Research": 3
+    "Impact Assessment Agency of Canada": 3
+    "Federal Economic Development Agency for Southern Ontario": 3
+    "Pacific Economic Development Agency of Canada": 2
+    "Parole Board of Canada": 2
+    "Canadian Intellectual Property Office": 2
+    "Social Sciences and Humanities Research Council": 2
+    "Immigration and Refugee Board of Canada": 2
+    "Canada School of Public Service": 2
+    "Correctional Service of Canada": 2
+    "Public Health Agency of Canada": 2
+    "Canadian Security Intelligence Service": 2
+    "Canadian Northern Economic Development Agency": 2
+    "Government of Canada Workplace Charitable Campaign": 2
+    "Office of the Federal Ombudsman for Victims of Crime": 2
+    "Public Prosecution Service of Canada": 2
+    "Canadian Nuclear Safety Commission": 2
+    "Financial Transactions and Reports Analysis Centre of Canada": 2
+    "Office of the Procurement Ombudsman": 2
+    "Crown-Indigenous Relations and Northern Affairs Canada": 2
+    "Sustainable Development Goals 2030 Unit": 2
+    "Canadian Transportation Agency": 1
+    "Veterans Review and Appeal Board Canada": 1
+    "Canada Economic Development for Quebec Regions": 1
+    "Passport Canada": 1
+    "National Research Council Canada": 1
+    "Canadian Nuclear Safety Commission": 1
+    "Military Police Complaints Commission of Canada": 1
+    "Office of Veterans Ombudsman": 1
+    "Correctional Service Canada": 1
+    "Department of Public Safety and Emergency Preparedness": 1
+    "Canadian Conservation Institute": 1
+    "Office of the Superintendent of Financial Institutions Canada": 1
+    "Parks Canada Agency": 1
+    "Department of Justice Canada": 1
+    "Copyright Board of Canada": 1
+    "Social Security Tribunal of Canada": 1
+    "Prairies Economic Development Canada": 1
+    "Law Commission of Canada": 1
+    "Innovation, Science and Economic Development": 1
+    "Military Police Complaints Commission": 1
+    "Social Sciences and Humanities Research Council of Canada": 1
+    "Natural Sciences and Engineering Research Council of Canada": 1
 ```
