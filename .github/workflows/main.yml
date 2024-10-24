@@ -1,0 +1,81 @@
+name: Fetch JSON and Convert to CSV
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  fetch-convert-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pandas
+
+      - name: Fetch JSON and Convert to CSV
+        run: |
+          import requests
+          import pandas as pd
+
+          # Fetch the JSON data (English and French)
+          urls = [
+              'https://www.canada.ca/content/dam/canada/json/sm-en.json',
+              'https://www.canada.ca/content/dam/canada/json/sm-fr.json'
+          ]
+
+          # Combine data from both URLs
+          combined_data = []
+          for url in urls:
+              response = requests.get(url)
+              response.raise_for_status()
+              data = response.json()
+              combined_data.extend(data if isinstance(data, list) else [data])
+
+          # Convert combined JSON to DataFrame and then to CSV
+          df = pd.json_normalize(combined_data)
+          df.to_csv('sm.csv', index=False)
+
+      - name: Commit CSV file
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add sm.csv
+          git commit -m "Update sm.csv from JSON"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create CSV with Git Diff Information
+        run: |
+          git diff > git_diff.txt
+          import pandas as pd
+
+          # Read git diff information
+          with open('git_diff.txt', 'r') as f:
+              diff_data = f.readlines()
+
+          # Convert diff data to DataFrame
+          diff_df = pd.DataFrame({'diff': diff_data})
+          diff_df.to_csv('git_diff.csv', index=False)
+
+      - name: Commit Git Diff CSV file
+        run: |
+          git add git_diff.csv
+          git commit -m "Update git_diff.csv with latest changes"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
