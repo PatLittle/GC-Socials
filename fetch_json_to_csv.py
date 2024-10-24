@@ -33,8 +33,9 @@ for url in urls:
         cleaned_record.append(link_url)
         combined_data.append(cleaned_record)
 
-# Convert combined JSON to DataFrame and then to CSV
+# Convert combined JSON to DataFrame, dedupe by URL, and then to CSV
 df = pd.DataFrame(combined_data, columns=['Account', 'Platform', 'Department', 'Language', 'URL'])
+df = df.drop_duplicates(subset='URL')
 df.to_csv('sm.csv', index=False)
 
 print("CSV file 'sm.csv' has been created successfully.")
