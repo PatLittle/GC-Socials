@@ -28,26 +28,28 @@ jobs:
 
       - name: Fetch JSON and Convert to CSV
         run: |
-          import requests
-          import pandas as pd
+          python -c "
+import requests
+import pandas as pd
 
-          # Fetch the JSON data (English and French)
-          urls = [
-              'https://www.canada.ca/content/dam/canada/json/sm-en.json',
-              'https://www.canada.ca/content/dam/canada/json/sm-fr.json'
-          ]
+# Fetch the JSON data (English and French)
+urls = [
+    'https://www.canada.ca/content/dam/canada/json/sm-en.json',
+    'https://www.canada.ca/content/dam/canada/json/sm-fr.json'
+]
 
-          # Combine data from both URLs
-          combined_data = []
-          for url in urls:
-              response = requests.get(url)
-              response.raise_for_status()
-              data = response.json()
-              combined_data.extend(data if isinstance(data, list) else [data])
+# Combine data from both URLs
+combined_data = []
+for url in urls:
+    response = requests.get(url)
+    response.raise_for_status()
+    data = response.json()
+    combined_data.extend(data if isinstance(data, list) else [data])
 
-          # Convert combined JSON to DataFrame and then to CSV
-          df = pd.json_normalize(combined_data)
-          df.to_csv('sm.csv', index=False)
+# Convert combined JSON to DataFrame and then to CSV
+df = pd.json_normalize(combined_data)
+df.to_csv('sm.csv', index=False)
+"
 
       - name: Commit CSV file
         run: |
@@ -62,15 +64,17 @@ jobs:
       - name: Create CSV with Git Diff Information
         run: |
           git diff > git_diff.txt
-          import pandas as pd
+          python -c "
+import pandas as pd
 
-          # Read git diff information
-          with open('git_diff.txt', 'r') as f:
-              diff_data = f.readlines()
+# Read git diff information
+with open('git_diff.txt', 'r') as f:
+    diff_data = f.readlines()
 
-          # Convert diff data to DataFrame
-          diff_df = pd.DataFrame({'diff': diff_data})
-          diff_df.to_csv('git_diff.csv', index=False)
+# Convert diff data to DataFrame
+diff_df = pd.DataFrame({'diff': diff_data})
+diff_df.to_csv('git_diff.csv', index=False)
+"
 
       - name: Commit Git Diff CSV file
         run: |
