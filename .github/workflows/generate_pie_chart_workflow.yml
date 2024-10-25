@@ -32,7 +32,7 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add README.md
-          git commit -m "Update README with Platform Distribution pie chart"
+          git commit -m "Update README with Platform Distribution pie chart" || echo "No changes to commit" 
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
