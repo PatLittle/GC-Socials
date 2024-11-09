@@ -31,7 +31,7 @@ jobs:
         run: |
           git config --local user.name "github-actions"
           git config --local user.email "github-actions@github.com"
-          git add sankey_diagram.txt
+          git add sankey_diagram.md
           git commit -m "Update Sankey diagram for the most recent day"
           git push
         env:
