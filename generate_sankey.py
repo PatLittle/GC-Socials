@@ -9,6 +9,15 @@ df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
 # Drop rows with NaT or NaN in 'Date' or 'Language' columns
 df_cleaned = df.dropna(subset=['Date', 'Language'])
 
+# Normalize platform names
+df_cleaned['Platform'] = df_cleaned['Platform'].replace({
+    'Linkedin': 'LinkedIn',
+    'Intagram': 'Instagram',
+    'Youtube': 'YouTube',
+    'x': 'X',
+    'snapchat': 'Snapchat'
+})
+
 # Get the most recent date in the cleaned dataset
 most_recent_date = df_cleaned['Date'].max()
 
