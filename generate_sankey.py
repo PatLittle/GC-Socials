@@ -31,12 +31,14 @@ most_recent_df['Language'] = most_recent_df['Language'].replace({'Bilingual': 'B
 grouped_df = most_recent_df.groupby(['Language', 'Platform'])['Count'].sum().reset_index()
 
 # Create the Sankey diagram input based on the grouped data
-sankey_lines = ['sankey-beta']
+sankey_lines = ['```mermaid', 'sankey-beta']
 
 # Add language to platform connections
 for _, row in grouped_df.iterrows():
     sankey_lines.append(f"  {row['Language']},{row['Platform']},{row['Count']}")
 
-# Write the Sankey diagram to a file
-with open('sankey_diagram.txt', 'w') as f:
+sankey_lines.append('```')
+
+# Write the Sankey diagram to a markdown file
+with open('sankey_diagram.md', 'w') as f:
     f.write("\n".join(sankey_lines))
