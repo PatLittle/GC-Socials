@@ -24,8 +24,8 @@ most_recent_date = df_cleaned['Date'].max()
 # Filter the dataframe to only include rows from the most recent date
 most_recent_df = df_cleaned[df_cleaned['Date'] == most_recent_date]
 
-# Normalize Bilingual and Bilingue to a single label
-most_recent_df['Language'] = most_recent_df['Language'].replace({'Bilingual': 'Bilingual + Bilingue', 'Bilingue': 'Bilingual + Bilingue'})
+# Normalize Bilingual, Bilingue, and Français to a single label
+most_recent_df['Language'] = most_recent_df['Language'].replace({'Bilingual': 'Bilingual + Bilingue', 'Bilingue': 'Bilingual + Bilingue', 'Français': 'Francais'})
 
 # Group by Language and Platform, and sum the counts
 grouped_df = most_recent_df.groupby(['Language', 'Platform'])['Count'].sum().reset_index()
