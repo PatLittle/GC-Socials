@@ -20,20 +20,20 @@ View the number of official accounts by department overtime
 sankey-beta
   Bilingual + Bilingue,Facebook,39
   Bilingual + Bilingue,Flickr,13
-  Bilingual + Bilingue,Instagram,22
+  Bilingual + Bilingue,Instagram,21
   Bilingual + Bilingue,LinkedIn,93
   Bilingual + Bilingue,X,29
   Bilingual + Bilingue,YouTube,28
   English,Facebook,323
   English,Flickr,5
-  English,Instagram,52
+  English,Instagram,53
   English,LinkedIn,11
   English,Snapchat,1
   English,X,350
   English,YouTube,64
   Francais,Facebook,314
   Francais,Flickr,4
-  Francais,Instagram,51
+  Francais,Instagram,52
   Francais,LinkedIn,11
   Francais,Snapchat,1
   Francais,X,353
@@ -47,7 +47,7 @@ pie showData title Platform Distribution
     "X": 730
     "Facebook": 676
     "YouTube": 146
-    "Instagram": 124
+    "Instagram": 125
     "LinkedIn": 114
     "Flickr": 22
     "Youtube": 6
@@ -62,9 +62,9 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 806
-    "Français": 794
-    "Bilingual": 212
+    "English": 807
+    "Français": 795
+    "Bilingual": 211
     "Bilingue": 12
 ```
 
@@ -142,6 +142,6 @@ pie showData title Department Count (Bilingual Only - Top 20)
     "Fisheries and Oceans Canada": 3
     "Défense nationale et les Forces armées canadiennes": 3
     "Government of Canada Workplace Charitable Campaign": 3
+    "Treasury Board Secretariat": 2
     "Canada Mortgage and Housing Corporation": 2
-    "Infrastructure Canada": 2
 ```
