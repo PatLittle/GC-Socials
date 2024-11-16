@@ -9,7 +9,7 @@ sankey-beta
   English,Facebook,323
   English,Flickr,5
   English,Instagram,53
-  English,LinkedIn,11
+  English,LinkedIn,12
   English,Snapchat,1
   English,X,350
   English,YouTube,64
