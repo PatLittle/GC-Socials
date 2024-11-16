@@ -27,7 +27,7 @@ sankey-beta
   English,Facebook,323
   English,Flickr,5
   English,Instagram,53
-  English,LinkedIn,11
+  English,LinkedIn,12
   English,Snapchat,1
   English,X,350
   English,YouTube,64
@@ -48,7 +48,7 @@ pie showData title Platform Distribution
     "Facebook": 676
     "YouTube": 146
     "Instagram": 125
-    "LinkedIn": 114
+    "LinkedIn": 115
     "Flickr": 22
     "Youtube": 6
     "x": 2
@@ -62,7 +62,7 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 807
+    "English": 808
     "Français": 795
     "Bilingual": 211
     "Bilingue": 12
@@ -72,7 +72,7 @@ pie showData title Language Distribution
 
 ```mermaid
 pie showData title Department Count (English Only - Top 20)
-    "Global Affairs Canada": 258
+    "Global Affairs Canada": 259
     "Parks Canada": 112
     "Royal Canadian Mounted Police": 57
     "Environment and Climate Change Canada": 26
