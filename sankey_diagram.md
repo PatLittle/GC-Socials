@@ -11,13 +11,13 @@ sankey-beta
   English,Instagram,53
   English,LinkedIn,12
   English,Snapchat,1
-  English,X,350
+  English,X,349
   English,YouTube,64
   Francais,Facebook,314
   Francais,Flickr,4
   Francais,Instagram,52
   Francais,LinkedIn,11
   Francais,Snapchat,1
-  Francais,X,353
+  Francais,X,352
   Francais,YouTube,60
 ```
