@@ -29,14 +29,14 @@ sankey-beta
   English,Instagram,53
   English,LinkedIn,12
   English,Snapchat,1
-  English,X,350
+  English,X,349
   English,YouTube,64
   Francais,Facebook,314
   Francais,Flickr,4
   Francais,Instagram,52
   Francais,LinkedIn,11
   Francais,Snapchat,1
-  Francais,X,353
+  Francais,X,352
   Francais,YouTube,60
 ```
 
@@ -44,7 +44,7 @@ sankey-beta
 
 ```mermaid
 pie showData title Platform Distribution
-    "X": 730
+    "X": 728
     "Facebook": 676
     "YouTube": 146
     "Instagram": 125
@@ -62,8 +62,8 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 808
-    "Français": 795
+    "English": 807
+    "Français": 794
     "Bilingual": 211
     "Bilingue": 12
 ```
@@ -90,8 +90,8 @@ pie showData title Department Count (English Only - Top 20)
     "Canadian Human Rights Commission": 6
     "Library and Archives Canada": 6
     "Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada": 6
-    "Transport Canada": 5
     "Women and Gender Equality Canada": 5
+    "Financial Consumer Agency of Canada": 5
 ```
 
 # Department Count (Français Only - Top 20)
