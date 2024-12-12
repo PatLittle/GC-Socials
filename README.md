@@ -26,18 +26,18 @@ sankey-beta
   Bilingual + Bilingue,YouTube,28
   English,Facebook,323
   English,Flickr,5
-  English,Instagram,53
+  English,Instagram,55
   English,LinkedIn,12
   English,Snapchat,1
   English,X,349
-  English,YouTube,64
+  English,YouTube,65
   Francais,Facebook,314
   Francais,Flickr,4
   Francais,Instagram,52
   Francais,LinkedIn,11
   Francais,Snapchat,1
   Francais,X,352
-  Francais,YouTube,60
+  Francais,YouTube,61
 ```
 
 # Social Media Platform Distribution
@@ -47,10 +47,10 @@ pie showData title Platform Distribution
     "X": 728
     "Facebook": 676
     "YouTube": 146
-    "Instagram": 125
+    "Instagram": 127
     "LinkedIn": 115
     "Flickr": 22
-    "Youtube": 6
+    "Youtube": 8
     "x": 2
     "snapchat": 1
     "Linkedin": 1
@@ -62,8 +62,8 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 807
-    "Français": 794
+    "English": 810
+    "Français": 795
     "Bilingual": 211
     "Bilingue": 12
 ```
@@ -74,7 +74,7 @@ pie showData title Language Distribution
 pie showData title Department Count (English Only - Top 20)
     "Global Affairs Canada": 259
     "Parks Canada": 112
-    "Royal Canadian Mounted Police": 57
+    "Royal Canadian Mounted Police": 58
     "Environment and Climate Change Canada": 26
     "National Defence and the Canadian Armed Forces": 25
     "Employment and Social Development Canada": 15
@@ -86,12 +86,12 @@ pie showData title Department Count (English Only - Top 20)
     "Canada Border Services Agency": 10
     "Natural Resources Canada": 9
     "Immigration, Refugees and Citizenship Canada": 7
-    "Canadian Space Agency": 6
+    "Women and Gender Equality Canada": 6
     "Canadian Human Rights Commission": 6
     "Library and Archives Canada": 6
     "Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada": 6
-    "Women and Gender Equality Canada": 5
-    "Financial Consumer Agency of Canada": 5
+    "Canadian Space Agency": 6
+    "Canada Revenue Agency": 5
 ```
 
 # Department Count (Français Only - Top 20)
@@ -100,24 +100,24 @@ pie showData title Department Count (English Only - Top 20)
 pie showData title Department Count (Français Only - Top 20)
     "Affaires mondiales Canada": 248
     "Parcs Canada": 113
-    "Gendarmerie royale du Canada": 50
+    "Gendarmerie royale du Canada": 51
     "Environnement et Changement climatique Canada": 24
     "Défense nationale et les Forces armées canadiennes": 23
     "Emploi et Développement social Canada": 17
     "Innovation, Sciences et Développement économique Canada": 15
     "Services publics et Approvisionnement Canada": 14
-    "Pêches et Océans Canada": 13
     "Bureau du Conseil privé": 13
+    "Pêches et Océans Canada": 13
     "Agence des services frontaliers du Canada": 10
-    "Ressources naturelles Canada": 9
     "Patrimoine canadien": 9
+    "Ressources naturelles Canada": 9
     "Relations Couronne-Autochtones et Affaires du Nord Canada et Services aux Autochtones Canada": 7
     "Bibliothèque et Archives Canada": 6
     "Commission canadienne des droits de la personne": 6
     "Anciens Combattants Canada": 5
-    "Femmes et Égalité des genres Canada": 5
+    "Commission de la fonction publique du Canada": 5
+    "Sécurité publique Canada": 5
     "Transports Canada": 5
-    "Agence spatiale canadienne": 5
 ```
 
 # Department Count (Bilingual Only - Top 20)
