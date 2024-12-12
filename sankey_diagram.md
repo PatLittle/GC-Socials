@@ -8,16 +8,16 @@ sankey-beta
   Bilingual + Bilingue,YouTube,28
   English,Facebook,323
   English,Flickr,5
-  English,Instagram,53
+  English,Instagram,55
   English,LinkedIn,12
   English,Snapchat,1
   English,X,349
-  English,YouTube,64
+  English,YouTube,65
   Francais,Facebook,314
   Francais,Flickr,4
   Francais,Instagram,52
   Francais,LinkedIn,11
   Francais,Snapchat,1
   Francais,X,352
-  Francais,YouTube,60
+  Francais,YouTube,61
 ```
