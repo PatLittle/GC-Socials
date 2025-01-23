@@ -26,14 +26,14 @@ sankey-beta
   Bilingual + Bilingue,YouTube,28
   English,Facebook,323
   English,Flickr,5
-  English,Instagram,55
+  English,Instagram,54
   English,LinkedIn,12
   English,Snapchat,1
   English,X,349
   English,YouTube,65
   Francais,Facebook,314
   Francais,Flickr,4
-  Francais,Instagram,52
+  Francais,Instagram,51
   Francais,LinkedIn,11
   Francais,Snapchat,1
   Francais,X,352
@@ -47,7 +47,7 @@ pie showData title Platform Distribution
     "X": 728
     "Facebook": 676
     "YouTube": 146
-    "Instagram": 127
+    "Instagram": 125
     "LinkedIn": 115
     "Flickr": 22
     "Youtube": 8
@@ -62,8 +62,8 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 810
-    "Français": 795
+    "English": 809
+    "Français": 794
     "Bilingual": 211
     "Bilingue": 12
 ```
@@ -78,10 +78,10 @@ pie showData title Department Count (English Only - Top 20)
     "Environment and Climate Change Canada": 26
     "National Defence and the Canadian Armed Forces": 25
     "Employment and Social Development Canada": 15
-    "Public Services and Procurement Canada": 14
     "Fisheries and Oceans Canada": 14
-    "Privy Council Office": 14
+    "Public Services and Procurement Canada": 14
     "Innovation, Science and Economic Development Canada": 13
+    "Privy Council Office": 13
     "Canadian Heritage": 12
     "Canada Border Services Agency": 10
     "Natural Resources Canada": 9
@@ -106,8 +106,8 @@ pie showData title Department Count (Français Only - Top 20)
     "Emploi et Développement social Canada": 17
     "Innovation, Sciences et Développement économique Canada": 15
     "Services publics et Approvisionnement Canada": 14
-    "Bureau du Conseil privé": 13
     "Pêches et Océans Canada": 13
+    "Bureau du Conseil privé": 12
     "Agence des services frontaliers du Canada": 10
     "Patrimoine canadien": 9
     "Ressources naturelles Canada": 9
