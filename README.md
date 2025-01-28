@@ -22,6 +22,7 @@ sankey-beta
   Bilingual + Bilingue,Flickr,13
   Bilingual + Bilingue,Instagram,21
   Bilingual + Bilingue,LinkedIn,93
+  Bilingual + Bilingue,Reddit,1
   Bilingual + Bilingue,X,29
   Bilingual + Bilingue,YouTube,28
   English,Facebook,323
@@ -55,6 +56,7 @@ pie showData title Platform Distribution
     "snapchat": 1
     "Linkedin": 1
     "Intagram": 1
+    "Reddit": 1
     "Snapchat": 1
 ```
 
@@ -64,7 +66,7 @@ pie showData title Platform Distribution
 pie showData title Language Distribution
     "English": 809
     "Français": 794
-    "Bilingual": 211
+    "Bilingual": 212
     "Bilingue": 12
 ```
 
@@ -129,19 +131,19 @@ pie showData title Department Count (Bilingual Only - Top 20)
     "Royal Canadian Mounted Police": 10
     "Environment and Climate Change Canada": 8
     "Global Affairs Canada": 6
-    "Social Sciences and Humanities Research Council": 5
     "Canadian Institutes of Health Research": 5
+    "Social Sciences and Humanities Research Council": 5
     "Public Services and Procurement Canada": 5
     "Canadian Heritage": 4
+    "Innovation, Science and Economic Development Canada": 4
     "Canadian Human Rights Commission": 4
     "Privy Council Office": 4
     "Treasury Board of Canada Secretariat": 4
-    "Innovation, Science and Economic Development Canada": 4
-    "Canada Economic Development for Quebec Regions": 3
-    "Natural Resources Canada": 3
-    "Fisheries and Oceans Canada": 3
     "Défense nationale et les Forces armées canadiennes": 3
+    "Fisheries and Oceans Canada": 3
+    "Canada Economic Development for Quebec Regions": 3
     "Government of Canada Workplace Charitable Campaign": 3
+    "Natural Resources Canada": 3
     "Treasury Board Secretariat": 2
     "Canada Mortgage and Housing Corporation": 2
 ```
