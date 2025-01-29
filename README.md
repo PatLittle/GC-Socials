@@ -21,7 +21,7 @@ sankey-beta
   Bilingual + Bilingue,Facebook,39
   Bilingual + Bilingue,Flickr,13
   Bilingual + Bilingue,Instagram,21
-  Bilingual + Bilingue,LinkedIn,93
+  Bilingual + Bilingue,LinkedIn,94
   Bilingual + Bilingue,Reddit,1
   Bilingual + Bilingue,X,29
   Bilingual + Bilingue,YouTube,28
@@ -49,7 +49,7 @@ pie showData title Platform Distribution
     "Facebook": 676
     "YouTube": 146
     "Instagram": 125
-    "LinkedIn": 115
+    "LinkedIn": 116
     "Flickr": 22
     "Youtube": 8
     "x": 2
@@ -66,7 +66,7 @@ pie showData title Platform Distribution
 pie showData title Language Distribution
     "English": 809
     "Français": 794
-    "Bilingual": 212
+    "Bilingual": 213
     "Bilingue": 12
 ```
 
