@@ -21,7 +21,7 @@ sankey-beta
   Bilingual + Bilingue,Facebook,39
   Bilingual + Bilingue,Flickr,13
   Bilingual + Bilingue,Instagram,21
-  Bilingual + Bilingue,LinkedIn,94
+  Bilingual + Bilingue,LinkedIn,95
   Bilingual + Bilingue,Reddit,1
   Bilingual + Bilingue,X,29
   Bilingual + Bilingue,YouTube,28
@@ -49,7 +49,7 @@ pie showData title Platform Distribution
     "Facebook": 676
     "YouTube": 146
     "Instagram": 125
-    "LinkedIn": 116
+    "LinkedIn": 117
     "Flickr": 22
     "Youtube": 8
     "x": 2
@@ -66,7 +66,7 @@ pie showData title Platform Distribution
 pie showData title Language Distribution
     "English": 809
     "Français": 794
-    "Bilingual": 213
+    "Bilingual": 214
     "Bilingue": 12
 ```
 
@@ -133,17 +133,17 @@ pie showData title Department Count (Bilingual Only - Top 20)
     "Global Affairs Canada": 6
     "Canadian Institutes of Health Research": 5
     "Social Sciences and Humanities Research Council": 5
+    "Privy Council Office": 5
     "Public Services and Procurement Canada": 5
     "Canadian Heritage": 4
-    "Innovation, Science and Economic Development Canada": 4
-    "Canadian Human Rights Commission": 4
-    "Privy Council Office": 4
     "Treasury Board of Canada Secretariat": 4
-    "Défense nationale et les Forces armées canadiennes": 3
-    "Fisheries and Oceans Canada": 3
+    "Canadian Human Rights Commission": 4
+    "Innovation, Science and Economic Development Canada": 4
     "Canada Economic Development for Quebec Regions": 3
     "Government of Canada Workplace Charitable Campaign": 3
     "Natural Resources Canada": 3
-    "Treasury Board Secretariat": 2
+    "Fisheries and Oceans Canada": 3
+    "Défense nationale et les Forces armées canadiennes": 3
+    "Federal Economic Development Agency for Southern Ontario": 2
     "Canada Mortgage and Housing Corporation": 2
 ```
