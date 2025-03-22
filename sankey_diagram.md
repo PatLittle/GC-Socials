@@ -2,7 +2,7 @@
 sankey-beta
   Bilingual + Bilingue,Facebook,39
   Bilingual + Bilingue,Flickr,13
-  Bilingual + Bilingue,Instagram,21
+  Bilingual + Bilingue,Instagram,22
   Bilingual + Bilingue,LinkedIn,95
   Bilingual + Bilingue,Reddit,1
   Bilingual + Bilingue,X,29
