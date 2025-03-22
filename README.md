@@ -20,7 +20,7 @@ View the number of official accounts by department overtime
 sankey-beta
   Bilingual + Bilingue,Facebook,39
   Bilingual + Bilingue,Flickr,13
-  Bilingual + Bilingue,Instagram,21
+  Bilingual + Bilingue,Instagram,22
   Bilingual + Bilingue,LinkedIn,95
   Bilingual + Bilingue,Reddit,1
   Bilingual + Bilingue,X,29
@@ -48,7 +48,7 @@ pie showData title Platform Distribution
     "X": 728
     "Facebook": 676
     "YouTube": 146
-    "Instagram": 125
+    "Instagram": 126
     "LinkedIn": 117
     "Flickr": 22
     "Youtube": 8
@@ -67,7 +67,7 @@ pie showData title Language Distribution
     "English": 809
     "Français": 794
     "Bilingual": 214
-    "Bilingue": 12
+    "Bilingue": 13
 ```
 
 # Department Count (English Only - Top 20)
@@ -144,6 +144,6 @@ pie showData title Department Count (Bilingual Only - Top 20)
     "Natural Resources Canada": 3
     "Fisheries and Oceans Canada": 3
     "Défense nationale et les Forces armées canadiennes": 3
+    "Canada Mortgage and Housing Corporation": 3
     "Federal Economic Development Agency for Southern Ontario": 2
-    "Canada Mortgage and Housing Corporation": 2
 ```
