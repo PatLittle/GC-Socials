@@ -26,14 +26,14 @@ sankey-beta
   Bilingual + Bilingue,X,29
   Bilingual + Bilingue,YouTube,28
   English,Facebook,323
-  English,Flickr,5
+  English,Flickr,4
   English,Instagram,54
   English,LinkedIn,12
   English,Snapchat,1
   English,X,349
   English,YouTube,65
   Francais,Facebook,314
-  Francais,Flickr,4
+  Francais,Flickr,3
   Francais,Instagram,51
   Francais,LinkedIn,11
   Francais,Snapchat,1
@@ -50,7 +50,7 @@ pie showData title Platform Distribution
     "YouTube": 146
     "Instagram": 126
     "LinkedIn": 117
-    "Flickr": 22
+    "Flickr": 20
     "Youtube": 8
     "x": 2
     "snapchat": 1
@@ -64,8 +64,8 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 809
-    "Français": 794
+    "English": 808
+    "Français": 793
     "Bilingual": 214
     "Bilingue": 13
 ```
@@ -116,10 +116,10 @@ pie showData title Department Count (Français Only - Top 20)
     "Relations Couronne-Autochtones et Affaires du Nord Canada et Services aux Autochtones Canada": 7
     "Bibliothèque et Archives Canada": 6
     "Commission canadienne des droits de la personne": 6
-    "Anciens Combattants Canada": 5
     "Commission de la fonction publique du Canada": 5
+    "Immigration, Réfugiés et Citoyenneté Canada": 5
     "Sécurité publique Canada": 5
-    "Transports Canada": 5
+    "Anciens Combattants Canada": 5
 ```
 
 # Department Count (Bilingual Only - Top 20)
