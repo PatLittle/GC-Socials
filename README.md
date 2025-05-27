@@ -24,17 +24,17 @@ sankey-beta
   Bilingual + Bilingue,LinkedIn,95
   Bilingual + Bilingue,Reddit,1
   Bilingual + Bilingue,X,29
-  Bilingual + Bilingue,YouTube,28
+  Bilingual + Bilingue,YouTube,29
   English,Facebook,323
   English,Flickr,4
-  English,Instagram,54
+  English,Instagram,55
   English,LinkedIn,12
   English,Snapchat,1
   English,X,349
   English,YouTube,65
   Francais,Facebook,314
   Francais,Flickr,3
-  Francais,Instagram,51
+  Francais,Instagram,52
   Francais,LinkedIn,11
   Francais,Snapchat,1
   Francais,X,352
@@ -48,10 +48,10 @@ pie showData title Platform Distribution
     "X": 728
     "Facebook": 676
     "YouTube": 146
-    "Instagram": 126
+    "Instagram": 128
     "LinkedIn": 117
     "Flickr": 20
-    "Youtube": 8
+    "Youtube": 9
     "x": 2
     "snapchat": 1
     "Linkedin": 1
@@ -64,9 +64,9 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 808
-    "Français": 793
-    "Bilingual": 214
+    "English": 809
+    "Français": 794
+    "Bilingual": 215
     "Bilingue": 13
 ```
 
@@ -82,18 +82,18 @@ pie showData title Department Count (English Only - Top 20)
     "Employment and Social Development Canada": 15
     "Fisheries and Oceans Canada": 14
     "Public Services and Procurement Canada": 14
-    "Innovation, Science and Economic Development Canada": 13
     "Privy Council Office": 13
+    "Innovation, Science and Economic Development Canada": 13
     "Canadian Heritage": 12
     "Canada Border Services Agency": 10
     "Natural Resources Canada": 9
     "Immigration, Refugees and Citizenship Canada": 7
-    "Women and Gender Equality Canada": 6
-    "Canadian Human Rights Commission": 6
-    "Library and Archives Canada": 6
     "Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada": 6
     "Canadian Space Agency": 6
-    "Canada Revenue Agency": 5
+    "Canadian Human Rights Commission": 6
+    "Library and Archives Canada": 6
+    "Women and Gender Equality Canada": 6
+    "Financial Consumer Agency of Canada": 5
 ```
 
 # Department Count (Français Only - Top 20)
@@ -102,7 +102,7 @@ pie showData title Department Count (English Only - Top 20)
 pie showData title Department Count (Français Only - Top 20)
     "Affaires mondiales Canada": 248
     "Parcs Canada": 113
-    "Gendarmerie royale du Canada": 51
+    "Gendarmerie royale du Canada": 52
     "Environnement et Changement climatique Canada": 24
     "Défense nationale et les Forces armées canadiennes": 23
     "Emploi et Développement social Canada": 17
@@ -131,19 +131,19 @@ pie showData title Department Count (Bilingual Only - Top 20)
     "Royal Canadian Mounted Police": 10
     "Environment and Climate Change Canada": 8
     "Global Affairs Canada": 6
+    "Privy Council Office": 5
     "Canadian Institutes of Health Research": 5
     "Social Sciences and Humanities Research Council": 5
-    "Privy Council Office": 5
     "Public Services and Procurement Canada": 5
     "Canadian Heritage": 4
+    "Innovation, Science and Economic Development Canada": 4
     "Treasury Board of Canada Secretariat": 4
     "Canadian Human Rights Commission": 4
-    "Innovation, Science and Economic Development Canada": 4
-    "Canada Economic Development for Quebec Regions": 3
-    "Government of Canada Workplace Charitable Campaign": 3
-    "Natural Resources Canada": 3
     "Fisheries and Oceans Canada": 3
     "Défense nationale et les Forces armées canadiennes": 3
+    "Government of Canada Workplace Charitable Campaign": 3
+    "Canada Economic Development for Quebec Regions": 3
     "Canada Mortgage and Housing Corporation": 3
-    "Federal Economic Development Agency for Southern Ontario": 2
+    "Natural Resources Canada": 3
+    "Treasury Board Secretariat": 2
 ```
