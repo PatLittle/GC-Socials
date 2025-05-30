@@ -21,9 +21,9 @@ sankey-beta
   Bilingual + Bilingue,Facebook,39
   Bilingual + Bilingue,Flickr,13
   Bilingual + Bilingue,Instagram,22
-  Bilingual + Bilingue,LinkedIn,95
+  Bilingual + Bilingue,LinkedIn,97
   Bilingual + Bilingue,Reddit,1
-  Bilingual + Bilingue,X,29
+  Bilingual + Bilingue,X,28
   Bilingual + Bilingue,YouTube,29
   English,Facebook,323
   English,Flickr,4
@@ -45,11 +45,11 @@ sankey-beta
 
 ```mermaid
 pie showData title Platform Distribution
-    "X": 728
+    "X": 727
     "Facebook": 676
     "YouTube": 146
     "Instagram": 128
-    "LinkedIn": 117
+    "LinkedIn": 119
     "Flickr": 20
     "Youtube": 9
     "x": 2
@@ -66,7 +66,7 @@ pie showData title Platform Distribution
 pie showData title Language Distribution
     "English": 809
     "Français": 794
-    "Bilingual": 215
+    "Bilingual": 216
     "Bilingue": 13
 ```
 
@@ -130,20 +130,20 @@ pie showData title Department Count (Bilingual Only - Top 20)
     "Employment and Social Development Canada": 10
     "Royal Canadian Mounted Police": 10
     "Environment and Climate Change Canada": 8
-    "Global Affairs Canada": 6
+    "Global Affairs Canada": 7
     "Privy Council Office": 5
-    "Canadian Institutes of Health Research": 5
     "Social Sciences and Humanities Research Council": 5
+    "Canadian Institutes of Health Research": 5
     "Public Services and Procurement Canada": 5
     "Canadian Heritage": 4
-    "Innovation, Science and Economic Development Canada": 4
     "Treasury Board of Canada Secretariat": 4
+    "Innovation, Science and Economic Development Canada": 4
     "Canadian Human Rights Commission": 4
-    "Fisheries and Oceans Canada": 3
-    "Défense nationale et les Forces armées canadiennes": 3
-    "Government of Canada Workplace Charitable Campaign": 3
     "Canada Economic Development for Quebec Regions": 3
     "Canada Mortgage and Housing Corporation": 3
+    "Défense nationale et les Forces armées canadiennes": 3
+    "Government of Canada Workplace Charitable Campaign": 3
+    "Fisheries and Oceans Canada": 3
     "Natural Resources Canada": 3
-    "Treasury Board Secretariat": 2
+    "Canadian Food Inspection Agency": 2
 ```
