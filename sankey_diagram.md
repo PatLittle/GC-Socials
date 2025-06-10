@@ -3,9 +3,9 @@ sankey-beta
   Bilingual + Bilingue,Facebook,39
   Bilingual + Bilingue,Flickr,13
   Bilingual + Bilingue,Instagram,22
-  Bilingual + Bilingue,LinkedIn,97
+  Bilingual + Bilingue,LinkedIn,98
   Bilingual + Bilingue,Reddit,1
-  Bilingual + Bilingue,X,28
+  Bilingual + Bilingue,X,27
   Bilingual + Bilingue,YouTube,29
   English,Facebook,325
   English,Flickr,4
