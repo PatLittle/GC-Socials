@@ -21,9 +21,9 @@ sankey-beta
   Bilingual + Bilingue,Facebook,39
   Bilingual + Bilingue,Flickr,13
   Bilingual + Bilingue,Instagram,22
-  Bilingual + Bilingue,LinkedIn,97
+  Bilingual + Bilingue,LinkedIn,98
   Bilingual + Bilingue,Reddit,1
-  Bilingual + Bilingue,X,28
+  Bilingual + Bilingue,X,27
   Bilingual + Bilingue,YouTube,29
   English,Facebook,325
   English,Flickr,4
@@ -45,11 +45,11 @@ sankey-beta
 
 ```mermaid
 pie showData title Platform Distribution
-    "X": 730
+    "X": 729
     "Facebook": 679
     "YouTube": 146
     "Instagram": 128
-    "LinkedIn": 119
+    "LinkedIn": 120
     "Flickr": 20
     "Youtube": 9
     "x": 2
@@ -130,7 +130,7 @@ pie showData title Department Count (Bilingual Only - Top 20)
     "Employment and Social Development Canada": 10
     "Royal Canadian Mounted Police": 10
     "Environment and Climate Change Canada": 8
-    "Global Affairs Canada": 7
+    "Global Affairs Canada": 8
     "Privy Council Office": 5
     "Social Sciences and Humanities Research Council": 5
     "Canadian Institutes of Health Research": 5
