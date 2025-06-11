@@ -30,14 +30,14 @@ sankey-beta
   English,Instagram,55
   English,LinkedIn,12
   English,Snapchat,1
-  English,X,351
+  English,X,349
   English,YouTube,65
   Francais,Facebook,315
   Francais,Flickr,3
   Francais,Instagram,52
   Francais,LinkedIn,11
   Francais,Snapchat,1
-  Francais,X,353
+  Francais,X,351
   Francais,YouTube,61
 ```
 
@@ -45,7 +45,7 @@ sankey-beta
 
 ```mermaid
 pie showData title Platform Distribution
-    "X": 729
+    "X": 725
     "Facebook": 679
     "YouTube": 146
     "Instagram": 128
@@ -64,8 +64,8 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 813
-    "Français": 796
+    "English": 811
+    "Français": 794
     "Bilingual": 216
     "Bilingue": 13
 ```
@@ -85,8 +85,8 @@ pie showData title Department Count (English Only - Top 20)
     "Privy Council Office": 13
     "Innovation, Science and Economic Development Canada": 13
     "Canadian Heritage": 12
-    "Canada Border Services Agency": 10
     "Natural Resources Canada": 9
+    "Canada Border Services Agency": 8
     "Immigration, Refugees and Citizenship Canada": 7
     "Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada": 6
     "Canadian Space Agency": 6
@@ -110,9 +110,9 @@ pie showData title Department Count (Français Only - Top 20)
     "Services publics et Approvisionnement Canada": 14
     "Pêches et Océans Canada": 13
     "Bureau du Conseil privé": 12
-    "Agence des services frontaliers du Canada": 10
-    "Patrimoine canadien": 9
     "Ressources naturelles Canada": 9
+    "Patrimoine canadien": 9
+    "Agence des services frontaliers du Canada": 8
     "Relations Couronne-Autochtones et Affaires du Nord Canada et Services aux Autochtones Canada": 7
     "Bibliothèque et Archives Canada": 6
     "Commission canadienne des droits de la personne": 6
