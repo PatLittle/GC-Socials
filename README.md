@@ -25,16 +25,16 @@ sankey-beta
   Bilingual + Bilingue,Reddit,1
   Bilingual + Bilingue,X,27
   Bilingual + Bilingue,YouTube,29
-  English,Facebook,326
+  English,Facebook,327
   English,Flickr,4
-  English,Instagram,55
+  English,Instagram,56
   English,LinkedIn,12
   English,Snapchat,1
   English,X,349
   English,YouTube,65
-  Francais,Facebook,316
+  Francais,Facebook,317
   Francais,Flickr,3
-  Francais,Instagram,52
+  Francais,Instagram,53
   Francais,LinkedIn,11
   Francais,Snapchat,1
   Francais,X,351
@@ -46,9 +46,9 @@ sankey-beta
 ```mermaid
 pie showData title Platform Distribution
     "X": 725
-    "Facebook": 681
+    "Facebook": 683
     "YouTube": 146
-    "Instagram": 129
+    "Instagram": 131
     "LinkedIn": 120
     "Flickr": 20
     "Youtube": 9
@@ -64,8 +64,8 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 812
-    "Français": 795
+    "English": 814
+    "Français": 797
     "Bilingual": 217
     "Bilingue": 13
 ```
@@ -110,16 +110,16 @@ pie showData title Department Count (Français Only - Top 20)
     "Services publics et Approvisionnement Canada": 14
     "Pêches et Océans Canada": 13
     "Bureau du Conseil privé": 12
-    "Ressources naturelles Canada": 9
     "Patrimoine canadien": 9
+    "Ressources naturelles Canada": 9
     "Agence des services frontaliers du Canada": 8
     "Relations Couronne-Autochtones et Affaires du Nord Canada et Services aux Autochtones Canada": 7
     "Bibliothèque et Archives Canada": 6
     "Commission canadienne des droits de la personne": 6
+    "Anciens Combattants Canada": 5
     "Commission de la fonction publique du Canada": 5
     "Agence spatiale canadienne": 5
     "Immigration, Réfugiés et Citoyenneté Canada": 5
-    "Sécurité publique Canada": 5
 ```
 
 # Department Count (Bilingual Only - Top 20)
