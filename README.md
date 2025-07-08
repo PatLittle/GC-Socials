@@ -20,7 +20,7 @@ View the number of official accounts by department overtime
 sankey-beta
   Bilingual + Bilingue,Facebook,39
   Bilingual + Bilingue,Flickr,13
-  Bilingual + Bilingue,Instagram,23
+  Bilingual + Bilingue,Instagram,22
   Bilingual + Bilingue,LinkedIn,99
   Bilingual + Bilingue,Reddit,1
   Bilingual + Bilingue,X,27
@@ -30,14 +30,14 @@ sankey-beta
   English,Instagram,56
   English,LinkedIn,12
   English,Snapchat,1
-  English,X,349
+  English,X,348
   English,YouTube,65
   Francais,Facebook,316
   Francais,Flickr,3
   Francais,Instagram,53
   Francais,LinkedIn,11
   Francais,Snapchat,1
-  Francais,X,351
+  Francais,X,350
   Francais,YouTube,61
 ```
 
@@ -45,10 +45,10 @@ sankey-beta
 
 ```mermaid
 pie showData title Platform Distribution
-    "X": 725
+    "X": 723
     "Facebook": 681
     "YouTube": 146
-    "Instagram": 131
+    "Instagram": 130
     "LinkedIn": 121
     "Flickr": 20
     "Youtube": 9
@@ -64,9 +64,9 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 813
-    "Français": 796
-    "Bilingual": 218
+    "English": 812
+    "Français": 795
+    "Bilingual": 217
     "Bilingue": 13
 ```
 
@@ -136,11 +136,11 @@ pie showData title Department Count (Bilingual Only - Top 20)
     "Social Sciences and Humanities Research Council": 5
     "Public Services and Procurement Canada": 5
     "Innovation, Science and Economic Development Canada": 4
-    "Canadian Human Rights Commission": 4
-    "Treasury Board of Canada Secretariat": 4
     "Canadian Heritage": 4
-    "Government of Canada Workplace Charitable Campaign": 3
+    "Canadian Human Rights Commission": 4
     "Canada Economic Development for Quebec Regions": 3
+    "Treasury Board of Canada Secretariat": 3
+    "Government of Canada Workplace Charitable Campaign": 3
     "Canada Mortgage and Housing Corporation": 3
     "Défense nationale et les Forces armées canadiennes": 3
     "Natural Resources Canada": 3
