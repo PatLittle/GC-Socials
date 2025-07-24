@@ -27,14 +27,14 @@ sankey-beta
   Bilingual + Bilingue,YouTube,29
   English,Facebook,326
   English,Flickr,4
-  English,Instagram,56
+  English,Instagram,57
   English,LinkedIn,12
   English,Snapchat,1
   English,X,348
   English,YouTube,65
   Francais,Facebook,316
   Francais,Flickr,3
-  Francais,Instagram,53
+  Francais,Instagram,54
   Francais,LinkedIn,11
   Francais,Snapchat,1
   Francais,X,350
@@ -48,7 +48,7 @@ pie showData title Platform Distribution
     "X": 723
     "Facebook": 681
     "YouTube": 146
-    "Instagram": 130
+    "Instagram": 132
     "LinkedIn": 121
     "Flickr": 20
     "Youtube": 9
@@ -64,8 +64,8 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 812
-    "Français": 795
+    "English": 813
+    "Français": 796
     "Bilingual": 217
     "Bilingue": 13
 ```
@@ -110,15 +110,15 @@ pie showData title Department Count (Français Only - Top 20)
     "Services publics et Approvisionnement Canada": 14
     "Pêches et Océans Canada": 13
     "Bureau du Conseil privé": 12
-    "Patrimoine canadien": 9
     "Ressources naturelles Canada": 9
+    "Patrimoine canadien": 9
     "Agence des services frontaliers du Canada": 8
     "Relations Couronne-Autochtones et Affaires du Nord Canada et Services aux Autochtones Canada": 7
     "Bibliothèque et Archives Canada": 6
     "Commission canadienne des droits de la personne": 6
     "Anciens Combattants Canada": 5
+    "Sécurité publique Canada": 5
     "Commission de la fonction publique du Canada": 5
-    "Agence spatiale canadienne": 5
     "Immigration, Réfugiés et Citoyenneté Canada": 5
 ```
 
