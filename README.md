@@ -25,14 +25,14 @@ sankey-beta
   Bilingual + Bilingue,Reddit,1
   Bilingual + Bilingue,X,27
   Bilingual + Bilingue,YouTube,29
-  English,Facebook,326
+  English,Facebook,327
   English,Flickr,4
   English,Instagram,57
   English,LinkedIn,12
   English,Snapchat,1
   English,X,348
   English,YouTube,65
-  Francais,Facebook,316
+  Francais,Facebook,317
   Francais,Flickr,3
   Francais,Instagram,54
   Francais,LinkedIn,11
@@ -46,7 +46,7 @@ sankey-beta
 ```mermaid
 pie showData title Platform Distribution
     "X": 723
-    "Facebook": 681
+    "Facebook": 683
     "YouTube": 146
     "Instagram": 132
     "LinkedIn": 121
@@ -64,8 +64,8 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 813
-    "Français": 796
+    "English": 814
+    "Français": 797
     "Bilingual": 217
     "Bilingue": 13
 ```
@@ -82,7 +82,7 @@ pie showData title Department Count (English Only - Top 20)
     "Public Services and Procurement Canada": 14
     "Fisheries and Oceans Canada": 14
     "Employment and Social Development Canada": 14
-    "Privy Council Office": 13
+    "Privy Council Office": 14
     "Innovation, Science and Economic Development Canada": 13
     "Canadian Heritage": 12
     "Natural Resources Canada": 9
@@ -109,7 +109,7 @@ pie showData title Department Count (Français Only - Top 20)
     "Innovation, Sciences et Développement économique Canada": 15
     "Services publics et Approvisionnement Canada": 14
     "Pêches et Océans Canada": 13
-    "Bureau du Conseil privé": 12
+    "Bureau du Conseil privé": 13
     "Ressources naturelles Canada": 9
     "Patrimoine canadien": 9
     "Agence des services frontaliers du Canada": 8
