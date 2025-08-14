@@ -27,14 +27,14 @@ sankey-beta
   Bilingual + Bilingue,YouTube,29
   English,Facebook,326
   English,Flickr,4
-  English,Instagram,57
+  English,Instagram,58
   English,LinkedIn,12
   English,Snapchat,1
   English,X,348
   English,YouTube,65
   Francais,Facebook,316
   Francais,Flickr,3
-  Francais,Instagram,54
+  Francais,Instagram,55
   Francais,LinkedIn,11
   Francais,Snapchat,1
   Francais,X,350
@@ -48,7 +48,7 @@ pie showData title Platform Distribution
     "X": 723
     "Facebook": 681
     "YouTube": 146
-    "Instagram": 132
+    "Instagram": 134
     "LinkedIn": 121
     "Flickr": 20
     "Youtube": 9
@@ -64,8 +64,8 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 813
-    "Français": 796
+    "English": 814
+    "Français": 797
     "Bilingual": 217
     "Bilingue": 13
 ```
@@ -76,7 +76,7 @@ pie showData title Language Distribution
 pie showData title Department Count (English Only - Top 20)
     "Global Affairs Canada": 259
     "Parks Canada": 113
-    "Royal Canadian Mounted Police": 58
+    "Royal Canadian Mounted Police": 59
     "Environment and Climate Change Canada": 26
     "National Defence and the Canadian Armed Forces": 25
     "Public Services and Procurement Canada": 14
@@ -102,7 +102,7 @@ pie showData title Department Count (English Only - Top 20)
 pie showData title Department Count (Français Only - Top 20)
     "Affaires mondiales Canada": 248
     "Parcs Canada": 113
-    "Gendarmerie royale du Canada": 54
+    "Gendarmerie royale du Canada": 55
     "Environnement et Changement climatique Canada": 24
     "Défense nationale et les Forces armées canadiennes": 23
     "Emploi et Développement social Canada": 16
