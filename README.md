@@ -25,14 +25,14 @@ sankey-beta
   Bilingual + Bilingue,Reddit,1
   Bilingual + Bilingue,X,27
   Bilingual + Bilingue,YouTube,29
-  English,Facebook,326
+  English,Facebook,327
   English,Flickr,4
   English,Instagram,58
   English,LinkedIn,12
   English,Snapchat,1
   English,X,348
   English,YouTube,65
-  Francais,Facebook,316
+  Francais,Facebook,317
   Francais,Flickr,3
   Francais,Instagram,55
   Francais,LinkedIn,11
@@ -46,7 +46,7 @@ sankey-beta
 ```mermaid
 pie showData title Platform Distribution
     "X": 723
-    "Facebook": 681
+    "Facebook": 683
     "YouTube": 146
     "Instagram": 134
     "LinkedIn": 121
@@ -64,8 +64,8 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 814
-    "Français": 797
+    "English": 815
+    "Français": 798
     "Bilingual": 217
     "Bilingue": 13
 ```
@@ -88,7 +88,7 @@ pie showData title Department Count (English Only - Top 20)
     "Natural Resources Canada": 9
     "Canada Border Services Agency": 8
     "Immigration, Refugees and Citizenship Canada": 7
-    "Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada": 6
+    "Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada": 7
     "Canadian Space Agency": 6
     "Canadian Human Rights Commission": 6
     "Library and Archives Canada": 6
@@ -112,8 +112,8 @@ pie showData title Department Count (Français Only - Top 20)
     "Bureau du Conseil privé": 13
     "Ressources naturelles Canada": 9
     "Patrimoine canadien": 9
+    "Relations Couronne-Autochtones et Affaires du Nord Canada et Services aux Autochtones Canada": 8
     "Agence des services frontaliers du Canada": 8
-    "Relations Couronne-Autochtones et Affaires du Nord Canada et Services aux Autochtones Canada": 7
     "Bibliothèque et Archives Canada": 6
     "Commission canadienne des droits de la personne": 6
     "Anciens Combattants Canada": 5
