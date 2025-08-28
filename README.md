@@ -20,24 +20,24 @@ View the number of official accounts by department overtime
 sankey-beta
   Bilingual + Bilingue,Facebook,39
   Bilingual + Bilingue,Flickr,13
-  Bilingual + Bilingue,Instagram,22
-  Bilingual + Bilingue,LinkedIn,99
+  Bilingual + Bilingue,Instagram,23
+  Bilingual + Bilingue,LinkedIn,100
   Bilingual + Bilingue,Reddit,1
   Bilingual + Bilingue,X,27
   Bilingual + Bilingue,YouTube,29
   English,Facebook,328
   English,Flickr,4
-  English,Instagram,58
+  English,Instagram,60
   English,LinkedIn,12
   English,Snapchat,1
   English,X,348
   English,YouTube,65
-  Francais,Facebook,318
+  Francais,Facebook,327
   Francais,Flickr,3
-  Francais,Instagram,55
+  Francais,Instagram,59
   Francais,LinkedIn,11
   Francais,Snapchat,1
-  Francais,X,349
+  Francais,X,351
   Francais,YouTube,61
 ```
 
@@ -45,11 +45,11 @@ sankey-beta
 
 ```mermaid
 pie showData title Platform Distribution
-    "X": 722
-    "Facebook": 685
+    "X": 724
+    "Facebook": 694
     "YouTube": 146
-    "Instagram": 134
-    "LinkedIn": 121
+    "Instagram": 141
+    "LinkedIn": 122
     "Flickr": 20
     "Youtube": 9
     "x": 2
@@ -64,10 +64,10 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 816
-    "Français": 798
-    "Bilingual": 217
-    "Bilingue": 13
+    "English": 818
+    "Français": 813
+    "Bilingual": 216
+    "Bilingue": 16
 ```
 
 # Department Count (English Only - Top 20)
@@ -76,9 +76,9 @@ pie showData title Language Distribution
 pie showData title Department Count (English Only - Top 20)
     "Global Affairs Canada": 259
     "Parks Canada": 113
-    "Royal Canadian Mounted Police": 59
+    "Royal Canadian Mounted Police": 60
     "Environment and Climate Change Canada": 26
-    "National Defence and the Canadian Armed Forces": 25
+    "National Defence and the Canadian Armed Forces": 26
     "Public Services and Procurement Canada": 14
     "Fisheries and Oceans Canada": 14
     "Employment and Social Development Canada": 14
@@ -100,11 +100,11 @@ pie showData title Department Count (English Only - Top 20)
 
 ```mermaid
 pie showData title Department Count (Français Only - Top 20)
-    "Affaires mondiales Canada": 248
+    "Affaires mondiales Canada": 259
     "Parcs Canada": 113
-    "Gendarmerie royale du Canada": 55
+    "Gendarmerie royale du Canada": 56
+    "Défense nationale et les Forces armées canadiennes": 26
     "Environnement et Changement climatique Canada": 24
-    "Défense nationale et les Forces armées canadiennes": 23
     "Emploi et Développement social Canada": 16
     "Innovation, Sciences et Développement économique Canada": 15
     "Services publics et Approvisionnement Canada": 14
@@ -126,24 +126,24 @@ pie showData title Department Count (Français Only - Top 20)
 
 ```mermaid
 pie showData title Department Count (Bilingual Only - Top 20)
-    "National Defence and the Canadian Armed Forces": 57
+    "National Defence and the Canadian Armed Forces": 56
     "Employment and Social Development Canada": 10
     "Royal Canadian Mounted Police": 10
     "Global Affairs Canada": 9
     "Environment and Climate Change Canada": 8
     "Canadian Institutes of Health Research": 5
-    "Privy Council Office": 5
     "Social Sciences and Humanities Research Council": 5
+    "Privy Council Office": 5
+    "Défense nationale et les Forces armées canadiennes": 5
     "Public Services and Procurement Canada": 5
-    "Innovation, Science and Economic Development Canada": 4
     "Canadian Heritage": 4
     "Canadian Human Rights Commission": 4
+    "Innovation, Science and Economic Development Canada": 4
     "Canada Economic Development for Quebec Regions": 3
     "Treasury Board of Canada Secretariat": 3
+    "Fisheries and Oceans Canada": 3
     "Government of Canada Workplace Charitable Campaign": 3
     "Canada Mortgage and Housing Corporation": 3
-    "Défense nationale et les Forces armées canadiennes": 3
     "Natural Resources Canada": 3
-    "Fisheries and Oceans Canada": 3
-    "Canadian Food Inspection Agency": 2
+    "Canada School of Public Service": 2
 ```
