@@ -20,19 +20,19 @@ View the number of official accounts by department overtime
 sankey-beta
   Bilingual + Bilingue,Facebook,39
   Bilingual + Bilingue,Flickr,13
-  Bilingual + Bilingue,Instagram,23
+  Bilingual + Bilingue,Instagram,22
   Bilingual + Bilingue,LinkedIn,100
   Bilingual + Bilingue,Reddit,1
   Bilingual + Bilingue,X,27
   Bilingual + Bilingue,YouTube,29
-  English,Facebook,328
+  English,Facebook,330
   English,Flickr,4
-  English,Instagram,60
+  English,Instagram,64
   English,LinkedIn,12
   English,Snapchat,1
-  English,X,348
+  English,X,350
   English,YouTube,65
-  Francais,Facebook,327
+  Francais,Facebook,326
   Francais,Flickr,3
   Francais,Instagram,59
   Francais,LinkedIn,11
@@ -45,10 +45,10 @@ sankey-beta
 
 ```mermaid
 pie showData title Platform Distribution
-    "X": 724
-    "Facebook": 694
+    "X": 726
+    "Facebook": 695
     "YouTube": 146
-    "Instagram": 141
+    "Instagram": 144
     "LinkedIn": 122
     "Flickr": 20
     "Youtube": 9
@@ -64,21 +64,21 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 818
-    "Français": 813
-    "Bilingual": 216
-    "Bilingue": 16
+    "English": 826
+    "Français": 812
+    "Bilingual": 218
+    "Bilingue": 13
 ```
 
 # Department Count (English Only - Top 20)
 
 ```mermaid
 pie showData title Department Count (English Only - Top 20)
-    "Global Affairs Canada": 259
+    "Global Affairs Canada": 263
     "Parks Canada": 113
     "Royal Canadian Mounted Police": 60
+    "National Defence and the Canadian Armed Forces": 30
     "Environment and Climate Change Canada": 26
-    "National Defence and the Canadian Armed Forces": 26
     "Public Services and Procurement Canada": 14
     "Fisheries and Oceans Canada": 14
     "Employment and Social Development Canada": 14
@@ -100,7 +100,7 @@ pie showData title Department Count (English Only - Top 20)
 
 ```mermaid
 pie showData title Department Count (Français Only - Top 20)
-    "Affaires mondiales Canada": 259
+    "Affaires mondiales Canada": 258
     "Parcs Canada": 113
     "Gendarmerie royale du Canada": 56
     "Défense nationale et les Forces armées canadiennes": 26
@@ -126,24 +126,24 @@ pie showData title Department Count (Français Only - Top 20)
 
 ```mermaid
 pie showData title Department Count (Bilingual Only - Top 20)
-    "National Defence and the Canadian Armed Forces": 56
+    "National Defence and the Canadian Armed Forces": 57
     "Employment and Social Development Canada": 10
+    "Global Affairs Canada": 10
     "Royal Canadian Mounted Police": 10
-    "Global Affairs Canada": 9
     "Environment and Climate Change Canada": 8
     "Canadian Institutes of Health Research": 5
-    "Social Sciences and Humanities Research Council": 5
     "Privy Council Office": 5
-    "Défense nationale et les Forces armées canadiennes": 5
+    "Social Sciences and Humanities Research Council": 5
     "Public Services and Procurement Canada": 5
+    "Innovation, Science and Economic Development Canada": 4
     "Canadian Heritage": 4
     "Canadian Human Rights Commission": 4
-    "Innovation, Science and Economic Development Canada": 4
     "Canada Economic Development for Quebec Regions": 3
     "Treasury Board of Canada Secretariat": 3
-    "Fisheries and Oceans Canada": 3
     "Government of Canada Workplace Charitable Campaign": 3
     "Canada Mortgage and Housing Corporation": 3
+    "Défense nationale et les Forces armées canadiennes": 3
     "Natural Resources Canada": 3
-    "Canada School of Public Service": 2
+    "Fisheries and Oceans Canada": 3
+    "Canadian Food Inspection Agency": 2
 ```
