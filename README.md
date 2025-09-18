@@ -21,7 +21,7 @@ sankey-beta
   Bilingual + Bilingue,Facebook,39
   Bilingual + Bilingue,Flickr,13
   Bilingual + Bilingue,Instagram,22
-  Bilingual + Bilingue,LinkedIn,102
+  Bilingual + Bilingue,LinkedIn,103
   Bilingual + Bilingue,Reddit,1
   Bilingual + Bilingue,X,27
   Bilingual + Bilingue,YouTube,29
@@ -30,14 +30,14 @@ sankey-beta
   English,Instagram,64
   English,LinkedIn,12
   English,Snapchat,1
-  English,X,350
+  English,X,351
   English,YouTube,65
   Francais,Facebook,327
   Francais,Flickr,3
   Francais,Instagram,59
   Francais,LinkedIn,11
   Francais,Snapchat,1
-  Francais,X,351
+  Francais,X,352
   Francais,YouTube,61
 ```
 
@@ -45,11 +45,11 @@ sankey-beta
 
 ```mermaid
 pie showData title Platform Distribution
-    "X": 726
+    "X": 728
     "Facebook": 697
     "YouTube": 146
     "Instagram": 144
-    "LinkedIn": 124
+    "LinkedIn": 125
     "Flickr": 20
     "Youtube": 9
     "x": 2
@@ -64,9 +64,9 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 827
-    "Français": 813
-    "Bilingual": 220
+    "English": 828
+    "Français": 814
+    "Bilingual": 221
     "Bilingue": 13
 ```
 
@@ -93,7 +93,7 @@ pie showData title Department Count (English Only - Top 20)
     "Canadian Human Rights Commission": 6
     "Library and Archives Canada": 6
     "Women and Gender Equality Canada": 6
-    "Financial Consumer Agency of Canada": 5
+    "Veterans Affairs Canada": 5
 ```
 
 # Department Count (Français Only - Top 20)
@@ -116,9 +116,9 @@ pie showData title Department Count (Français Only - Top 20)
     "Agence des services frontaliers du Canada": 8
     "Bibliothèque et Archives Canada": 6
     "Commission canadienne des droits de la personne": 6
-    "Anciens Combattants Canada": 5
-    "Sécurité publique Canada": 5
     "Commission de la fonction publique du Canada": 5
+    "Logement, Infrastructures et Collectivités Canada": 5
+    "Anciens Combattants Canada": 5
     "Immigration, Réfugiés et Citoyenneté Canada": 5
 ```
 
