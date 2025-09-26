@@ -4,6 +4,7 @@ import re
 from bs4 import BeautifulSoup
 from datetime import datetime
 from fuzzywuzzy import fuzz
+import logging
 
 # Fetch the JSON data (English and French)
 urls = [
