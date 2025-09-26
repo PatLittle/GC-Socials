@@ -1,5 +1,3 @@
-
-
 import pandas as pd
 import requests
 import time
@@ -33,7 +31,7 @@ CURRENT_CSV = 'gc_orgs_current.csv'
 API_RESOURCE_ID = 'cb5b5566-f599-4d12-abae-8279a0230928'
 
 def fetch_all_orgs_from_api():
-    """Fetch all organizations from the Open Canada API with pagination."""
+    """Fetch all organizations from the API with pagination."""
     base_url = 'https://open.canada.ca/data/en/api/3/action/datastore_search'
     limit = 100
     offset = 0
@@ -93,7 +91,6 @@ def identify_new_orgs(api_df, existing_df):
         logging.info("No existing CSV found. All API organizations are new.")
         return api_df
     
-    # Use gc_orgID as the unique identifier
     existing_ids = set(existing_df['gc_orgID'].astype(str))
     api_ids = set(api_df['gc_orgID'].astype(str))
     
@@ -123,33 +120,31 @@ def get_wikidata_candidates(row, retries=3, delay=2):
     if not names:
         return []
 
+    # Build SPARQL query parts for each name
     query_parts = []
     for name in names:
         cleaned_name = escape_sparql_string(name)
         if cleaned_name:
-            query_parts.append(f """
-                {{
-                    ?item rdfs:label ?itemLabel .
-                    FILTER(LANG(?itemLabel) = "en")
-                    FILTER(CONTAINS(LCASE(?itemLabel), LCASE("{cleaned_name}")))
-                }}
+            query_parts.append(f"""
+                ?item rdfs:label ?itemLabel .
+                FILTER(LANG(?itemLabel) = "en")
+                FILTER(CONTAINS(LCASE(?itemLabel), LCASE("{cleaned_name}")))
                 UNION
-                {{
-                    ?item skos:altLabel ?alias .
-                    FILTER(LANG(?alias) = "en")
-                    FILTER(CONTAINS(LCASE(?alias), LCASE("{cleaned_name}")))
-                }}
+                ?item skos:altLabel ?alias .
+                FILTER(LANG(?alias) = "en")
+                FILTER(CONTAINS(LCASE(?alias), LCASE("{cleaned_name}")))
             """)
 
     if not query_parts:
         return []
 
+    # Construct the full SPARQL query
     query = f"""
     SELECT DISTINCT ?item ?itemLabel ?alias
     WHERE {{
       ?item wdt:P31/wdt:P279* wd:Q327333 . # Instance or subclass of government agency
       ?item wdt:P17 wd:Q16 . # Country: Canada
-      {" UNION ".join(query_parts)}
+      {{ {" UNION } UNION {".join(query_parts)} }}
     }}
     LIMIT 10
     """
@@ -237,12 +232,10 @@ def process_new_orgs(new_orgs_df):
     processed_rows = []
 
     for index, row in new_orgs_df.iterrows():
-        # Add metadata columns
         row_data = row.to_dict()
         row_data['update_date'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         row_data['row_hash'] = generate_row_hash(row_data)
 
-        # Get Wikidata mapping
         wikidata_id, probability, matched_name, matched_field = get_wikidata_mapping(row)
         row_data['wikidata_id'] = wikidata_id
         row_data['match_probability'] = probability
@@ -250,7 +243,7 @@ def process_new_orgs(new_orgs_df):
         row_data['matched_field'] = matched_field
 
         processed_rows.append(row_data)
-        time.sleep(1)  # Rate limiting
+        time.sleep(1)
 
     processed_df = pd.DataFrame(processed_rows)
     logging.info(f"Processed {len(processed_df)} new organizations with Wikidata mappings")
@@ -262,15 +255,12 @@ def update_historical_csv(existing_df, new_orgs_df):
         logging.info("No new organizations to append to historical CSV")
         return existing_df
 
-    # Ensure historical CSV has the new columns if they don't exist
     for col in ['update_date', 'row_hash', 'wikidata_id', 'match_probability', 'matched_name', 'matched_field']:
         if col not in existing_df.columns:
             existing_df[col] = None
 
-    # Append new organizations
     updated_df = pd.concat([existing_df, new_orgs_df], ignore_index=True)
     
-    # Save to CSV
     updated_df.to_csv(HISTORICAL_CSV, index=False)
     logging.info(f"Updated historical CSV with {len(new_orgs_df)} new records. Total: {len(updated_df)}")
     
@@ -278,10 +268,7 @@ def update_historical_csv(existing_df, new_orgs_df):
 
 def update_current_csv(historical_df):
     """Update the current-state CSV with only active organizations."""
-    # Filter for active organizations (status_statut = 'a')
     active_orgs = historical_df[historical_df['status_statut'] == 'a'].copy()
-    
-    # Keep only current state columns (exclude update_date and row_hash for current view)
     current_columns = [col for col in historical_df.columns if col not in ['update_date', 'row_hash']]
     active_orgs = active_orgs[current_columns]
     
@@ -294,38 +281,31 @@ def main():
     """Main execution function."""
     logging.info("=== Starting Wikidata Organizations Update ===")
     
-    # Step 1: Fetch latest organizations from API
     logging.info("Step 1: Fetching organizations from Open Canada API...")
     api_df = fetch_all_orgs_from_api()
     if api_df is None:
         logging.error("Failed to fetch organizations from API. Exiting.")
         return 1
 
-    # Step 2: Load existing CSV
     logging.info("Step 2: Loading existing CSV...")
     existing_df = load_existing_csv(HISTORICAL_CSV)
 
-    # Step 3: Identify new organizations
     logging.info("Step 3: Identifying new organizations...")
     new_orgs_df = identify_new_orgs(api_df, existing_df)
     
     if new_orgs_df.empty:
         logging.info("No new organizations found. Update complete.")
-        # Still update current CSV in case of status changes
         if not existing_df.empty:
             update_current_csv(existing_df)
         logging.info("=== Update Complete: No Changes ===")
         return 0
 
-    # Step 4: Process new organizations with Wikidata mapping
     logging.info("Step 4: Processing new organizations with Wikidata mapping...")
     processed_new_orgs = process_new_orgs(new_orgs_df)
 
-    # Step 5: Update historical CSV
     logging.info("Step 5: Updating historical CSV...")
     updated_historical_df = update_historical_csv(existing_df, processed_new_orgs)
 
-    # Step 6: Update current CSV
     logging.info("Step 6: Updating current-state CSV...")
     update_current_csv(updated_historical_df)
 
