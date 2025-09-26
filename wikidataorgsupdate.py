@@ -1,4 +1,3 @@
-
 import pandas as pd
 import requests
 import time
@@ -64,10 +63,15 @@ def fetch_all_orgs_from_api():
     return df
 
 def load_existing_csv(filename):
-    """Load existing CSV if it exists, return empty DataFrame if not."""
+    """Load existing CSV if it exists, return empty DataFrame if not.
+    Drops the '_id' column if present."""
     if os.path.exists(filename):
         try:
             df = pd.read_csv(filename)
+            # Drop the '_id' column if it exists
+            if '_id' in df.columns:
+                df = df.drop(columns=['_id'])
+                logging.info(f"Dropped '_id' column from {filename}")
             logging.info(f"Loaded {len(df)} existing records from {filename}")
             return df
         except Exception as e:
@@ -91,15 +95,15 @@ def identify_new_orgs(api_df, existing_df):
     if existing_df.empty:
         logging.info("No existing CSV found. All API organizations are new.")
         return api_df
-    
+
     existing_ids = set(existing_df['gc_orgID'].astype(str))
     api_ids = set(api_df['gc_orgID'].astype(str))
-    
+
     new_ids = api_ids - existing_ids
     if not new_ids:
         logging.info("No new organizations found.")
         return pd.DataFrame()
-    
+
     new_orgs = api_df[api_df['gc_orgID'].astype(str).isin(new_ids)].copy()
     logging.info(f"Found {len(new_orgs)} new organizations: {list(new_ids)}")
     return new_orgs
@@ -177,7 +181,7 @@ def get_wikidata_candidates(row, retries=3, delay=2):
             if attempt < retries - 1:
                 time.sleep(delay)
             continue
-    
+
     logging.error(f"All {retries} attempts failed for org {row.get('gc_orgID', 'unknown')}")
     return []
 
@@ -263,10 +267,15 @@ def update_historical_csv(existing_df, new_orgs_df):
             existing_df[col] = None
 
     updated_df = pd.concat([existing_df, new_orgs_df], ignore_index=True)
-    
+
+    # Drop the '_id' column if it exists before saving
+    if '_id' in updated_df.columns:
+        updated_df = updated_df.drop(columns=['_id'])
+        logging.info(f"Dropped '_id' column before saving to {HISTORICAL_CSV}")
+
     updated_df.to_csv(HISTORICAL_CSV, index=False)
     logging.info(f"Updated historical CSV with {len(new_orgs_df)} new records. Total: {len(updated_df)}")
-    
+
     return updated_df
 
 def update_current_csv(historical_df):
@@ -274,16 +283,21 @@ def update_current_csv(historical_df):
     active_orgs = historical_df[historical_df['status_statut'] == 'a'].copy()
     current_columns = [col for col in historical_df.columns if col not in ['update_date', 'row_hash']]
     active_orgs = active_orgs[current_columns]
-    
+
+    # Drop the '_id' column if it exists before saving
+    if '_id' in active_orgs.columns:
+        active_orgs = active_orgs.drop(columns=['_id'])
+        logging.info(f"Dropped '_id' column before saving to {CURRENT_CSV}")
+
     active_orgs.to_csv(CURRENT_CSV, index=False)
     logging.info(f"Updated current CSV with {len(active_orgs)} active organizations")
-    
+
     return active_orgs
 
 def main():
     """Main execution function."""
     logging.info("=== Starting Wikidata Organizations Update ===")
-    
+
     logging.info("Step 1: Fetching organizations from Open Canada API...")
     api_df = fetch_all_orgs_from_api()
     if api_df is None:
@@ -295,7 +309,7 @@ def main():
 
     logging.info("Step 3: Identifying new organizations...")
     new_orgs_df = identify_new_orgs(api_df, existing_df)
-    
+
     if new_orgs_df.empty:
         logging.info("No new organizations found. Update complete.")
         if not existing_df.empty:
