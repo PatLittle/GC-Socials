@@ -3,12 +3,21 @@ import pandas as pd
 import re
 from bs4 import BeautifulSoup
 from datetime import datetime
+from fuzzywuzzy import fuzz
 
 # Fetch the JSON data (English and French)
 urls = [
     'https://www.canada.ca/content/dam/canada/json/sm-en.json',
     'https://www.canada.ca/content/dam/canada/json/sm-fr.json'
 ]
+
+# Load gc_orgs_with_wikidata_ids.csv
+try:
+    orgs_df = pd.read_csv('gc_orgs_with_wikidata_ids.csv')
+    logging.info(f"Loaded {len(orgs_df)} organizations from gc_orgs_with_wikidata_ids.csv")
+except FileNotFoundError:
+    logging.warning("gc_orgs_with_wikidata_ids.csv not found. Proceeding without organization data.")
+    orgs_df = pd.DataFrame(columns=['harmonized_name', 'gc_orgID', 'wikidata_id'])
 
 # Combine data from both URLs
 combined_data = []
@@ -35,10 +44,31 @@ for url in urls:
         link_field = BeautifulSoup(record[-1], 'html.parser')
         link_url = link_field.a['href'] if link_field.a and link_field.a.has_attr('href') else None
         cleaned_record.append(link_url)
+        
+        # Match department to gc_orgs_with_wikidata_ids.csv using fuzzy matching
+        department = cleaned_record[2]  # Department is the third column
+        gc_orgID = None
+        wikidata_id = None
+        if department and not orgs_df.empty:
+            # Find best match for department in harmonized_name
+            best_match = None
+            highest_score = 0
+            for _, org_row in orgs_df.iterrows():
+                harmonized_name = org_row['harmonized_name']
+                if pd.notna(harmonized_name):
+                    score = fuzz.token_sort_ratio(department.lower(), harmonized_name.lower())
+                    if score > highest_score and score >= 70:  # Threshold for matching
+                        highest_score = score
+                        best_match = org_row
+            if best_match is not None:
+                gc_orgID = best_match['gc_orgID']
+                wikidata_id = best_match['wikidata_id']
+        
+        cleaned_record.extend([gc_orgID, wikidata_id])
         combined_data.append(cleaned_record)
 
 # Convert combined JSON to DataFrame, dedupe by URL, and then to CSV
-df = pd.DataFrame(combined_data, columns=['Account', 'Platform', 'Department', 'Language', 'URL'])
+df = pd.DataFrame(combined_data, columns=['Account', 'Platform', 'Department', 'Language', 'URL', 'gc_orgID', 'wikidata_id'])
 df = df.drop_duplicates(subset='URL')
 df.to_csv('sm.csv', index=False)
 
