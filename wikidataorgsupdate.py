@@ -1,3 +1,4 @@
+
 import pandas as pd
 import requests
 import time
@@ -126,13 +127,15 @@ def get_wikidata_candidates(row, retries=3, delay=2):
         cleaned_name = escape_sparql_string(name)
         if cleaned_name:
             query_parts.append(f"""
-                ?item rdfs:label ?itemLabel .
-                FILTER(LANG(?itemLabel) = "en")
-                FILTER(CONTAINS(LCASE(?itemLabel), LCASE("{cleaned_name}")))
+                {{ ?item rdfs:label ?itemLabel .
+                   FILTER(LANG(?itemLabel) = "en")
+                   FILTER(CONTAINS(LCASE(?itemLabel), LCASE("{cleaned_name}")))
+                }}
                 UNION
-                ?item skos:altLabel ?alias .
-                FILTER(LANG(?alias) = "en")
-                FILTER(CONTAINS(LCASE(?alias), LCASE("{cleaned_name}")))
+                {{ ?item skos:altLabel ?alias .
+                   FILTER(LANG(?alias) = "en")
+                   FILTER(CONTAINS(LCASE(?alias), LCASE("{cleaned_name}")))
+                }}
             """)
 
     if not query_parts:
@@ -144,7 +147,7 @@ def get_wikidata_candidates(row, retries=3, delay=2):
     WHERE {{
       ?item wdt:P31/wdt:P279* wd:Q327333 . # Instance or subclass of government agency
       ?item wdt:P17 wd:Q16 . # Country: Canada
-      {{ {" UNION } UNION {".join(query_parts)} }}
+      {" UNION ".join(query_parts)}
     }}
     LIMIT 10
     """
