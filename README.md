@@ -18,27 +18,27 @@ View the number of official accounts by department overtime
 
 ```mermaid
 sankey-beta
-  Bilingual + Bilingue,Facebook,39
-  Bilingual + Bilingue,Flickr,13
-  Bilingual + Bilingue,Instagram,22
-  Bilingual + Bilingue,LinkedIn,103
-  Bilingual + Bilingue,Reddit,1
-  Bilingual + Bilingue,X,27
-  Bilingual + Bilingue,YouTube,29
-  English,Facebook,331
-  English,Flickr,4
-  English,Instagram,64
-  English,LinkedIn,12
-  English,Snapchat,1
-  English,X,351
-  English,YouTube,65
-  Francais,Facebook,327
-  Francais,Flickr,3
-  Francais,Instagram,59
-  Francais,LinkedIn,11
-  Francais,Snapchat,1
-  Francais,X,352
-  Francais,YouTube,61
+  Bilingual + Bilingue,Facebook,78
+  Bilingual + Bilingue,Flickr,26
+  Bilingual + Bilingue,Instagram,44
+  Bilingual + Bilingue,LinkedIn,206
+  Bilingual + Bilingue,Reddit,2
+  Bilingual + Bilingue,X,54
+  Bilingual + Bilingue,YouTube,60
+  English,Facebook,664
+  English,Flickr,8
+  English,Instagram,128
+  English,LinkedIn,24
+  English,Snapchat,2
+  English,X,702
+  English,YouTube,130
+  Francais,Facebook,658
+  Francais,Flickr,6
+  Francais,Instagram,118
+  Francais,LinkedIn,22
+  Francais,Snapchat,2
+  Francais,X,704
+  Francais,YouTube,124
 ```
 
 # Social Media Platform Distribution
@@ -46,12 +46,12 @@ sankey-beta
 ```mermaid
 pie showData title Platform Distribution
     "X": 728
-    "Facebook": 697
-    "YouTube": 146
+    "Facebook": 700
+    "YouTube": 147
     "Instagram": 144
     "LinkedIn": 125
     "Flickr": 20
-    "Youtube": 9
+    "Youtube": 10
     "x": 2
     "snapchat": 1
     "Linkedin": 1
@@ -64,10 +64,10 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 828
-    "Français": 814
+    "English": 829
+    "Français": 817
     "Bilingual": 221
-    "Bilingue": 13
+    "Bilingue": 14
 ```
 
 # Department Count (English Only - Top 20)
@@ -77,15 +77,15 @@ pie showData title Department Count (English Only - Top 20)
     "Global Affairs Canada": 263
     "Parks Canada": 113
     "Royal Canadian Mounted Police": 61
-    "National Defence and the Canadian Armed Forces": 30
+    "National Defence and the Canadian Armed Forces": 36
     "Environment and Climate Change Canada": 26
-    "Public Services and Procurement Canada": 14
-    "Fisheries and Oceans Canada": 14
     "Employment and Social Development Canada": 14
+    "Public Services and Procurement Canada": 14
     "Privy Council Office": 13
     "Innovation, Science and Economic Development Canada": 13
     "Canadian Heritage": 12
     "Natural Resources Canada": 9
+    "Fisheries and Oceans Canada": 9
     "Canada Border Services Agency": 8
     "Immigration, Refugees and Citizenship Canada": 7
     "Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada": 7
@@ -108,18 +108,18 @@ pie showData title Department Count (Français Only - Top 20)
     "Emploi et Développement social Canada": 16
     "Innovation, Sciences et Développement économique Canada": 15
     "Services publics et Approvisionnement Canada": 14
-    "Pêches et Océans Canada": 13
     "Bureau du Conseil privé": 13
+    "Pêches et Océans Canada": 11
     "Ressources naturelles Canada": 9
     "Patrimoine canadien": 9
-    "Relations Couronne-Autochtones et Affaires du Nord Canada et Services aux Autochtones Canada": 8
     "Agence des services frontaliers du Canada": 8
+    "Relations Couronne-Autochtones et Affaires du Nord Canada et Services aux Autochtones Canada": 8
     "Bibliothèque et Archives Canada": 6
     "Commission canadienne des droits de la personne": 6
     "Commission de la fonction publique du Canada": 5
-    "Logement, Infrastructures et Collectivités Canada": 5
     "Anciens Combattants Canada": 5
-    "Immigration, Réfugiés et Citoyenneté Canada": 5
+    "Logement, Infrastructures et Collectivités Canada": 5
+    "Régie de l'énergie du Canada": 5
 ```
 
 # Department Count (Bilingual Only - Top 20)
@@ -132,18 +132,18 @@ pie showData title Department Count (Bilingual Only - Top 20)
     "Royal Canadian Mounted Police": 10
     "Environment and Climate Change Canada": 8
     "Canadian Institutes of Health Research": 5
-    "Privy Council Office": 5
     "Social Sciences and Humanities Research Council": 5
+    "Privy Council Office": 5
     "Public Services and Procurement Canada": 5
-    "Innovation, Science and Economic Development Canada": 4
     "Canadian Heritage": 4
     "Canadian Human Rights Commission": 4
+    "Innovation, Science and Economic Development Canada": 4
     "Canada Economic Development for Quebec Regions": 3
+    "Fisheries and Oceans Canada": 3
     "Treasury Board of Canada Secretariat": 3
-    "Government of Canada Workplace Charitable Campaign": 3
     "Canada Mortgage and Housing Corporation": 3
+    "Government of Canada Workplace Charitable Campaign": 3
     "Défense nationale et les Forces armées canadiennes": 3
     "Natural Resources Canada": 3
-    "Fisheries and Oceans Canada": 3
-    "Canadian Food Inspection Agency": 2
+    "Canada School of Public Service": 2
 ```
