@@ -18,9 +18,9 @@ View the number of official accounts by department overtime
 
 ```mermaid
 sankey-beta
-  Bilingual + Bilingue,Facebook,39
+  Bilingual + Bilingue,Facebook,40
   Bilingual + Bilingue,Flickr,13
-  Bilingual + Bilingue,Instagram,22
+  Bilingual + Bilingue,Instagram,23
   Bilingual + Bilingue,LinkedIn,103
   Bilingual + Bilingue,Reddit,1
   Bilingual + Bilingue,X,27
@@ -46,9 +46,9 @@ sankey-beta
 ```mermaid
 pie showData title Platform Distribution
     "X": 728
-    "Facebook": 700
+    "Facebook": 701
     "YouTube": 147
-    "Instagram": 144
+    "Instagram": 145
     "LinkedIn": 125
     "Flickr": 20
     "Youtube": 10
@@ -66,7 +66,7 @@ pie showData title Platform Distribution
 pie showData title Language Distribution
     "English": 829
     "Français": 817
-    "Bilingual": 221
+    "Bilingual": 223
     "Bilingue": 14
 ```
 
@@ -126,7 +126,7 @@ pie showData title Department Count (Français Only - Top 20)
 
 ```mermaid
 pie showData title Department Count (Bilingual Only - Top 20)
-    "National Defence and the Canadian Armed Forces": 57
+    "National Defence and the Canadian Armed Forces": 59
     "Global Affairs Canada": 12
     "Employment and Social Development Canada": 10
     "Royal Canadian Mounted Police": 10
