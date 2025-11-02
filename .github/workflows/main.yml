@@ -26,12 +26,14 @@ jobs:
       - name: Fetch JSON and Convert to CSV
         run: |
           python fetch_json_to_csv.py
+          ls
 
       - name: Commit CSV file
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add *.csv
+          git status
           git commit -m "Update sm.csv from JSON" || echo "No changes to commit" 
           git push
         env:
