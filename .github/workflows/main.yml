@@ -20,8 +20,9 @@ jobs:
 
       - name: Install dependencies
         run: |
+          pip install python-Levenshtein
           python -m pip install --upgrade pip
-          pip install requests pandas beautifulsoup4 fuzzywuzzy datetime
+          pip install requests pandas beautifulsoup4 fuzzywuzzy datetime 
 
       - name: Fetch JSON and Convert to CSV
         run: |
