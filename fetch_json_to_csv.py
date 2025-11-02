@@ -6,6 +6,9 @@ from datetime import datetime
 from rapidfuzz import fuzz, process
 import logging
 from typing import List, Optional
+import subprocess
+import io
+import os
 
 # Configure logging early so messages are visible
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
@@ -218,11 +221,126 @@ def write_outputs(combined_data):
     logging.info("Wrote department_counts.csv (%d rows)", len(department_counts))
 
 
+def _find_url_column(df: pd.DataFrame) -> Optional[str]:
+    """Return the column name matching URL (case-insensitive) or None."""
+    for col in df.columns:
+        if str(col).strip().lower() == 'url':
+            return col
+    return None
+
+
+def get_deleted_rows_from_git_history(sm_path='sm.csv', output_path='deleted_rows.csv'):
+    """
+    Walk the git history for sm.csv (all refs), find rows that were deleted between sequential file versions,
+    and write a deduplicated CSV of deleted rows keyed by URL.
+
+    This function requires that the script is run inside a git repository with the sm.csv file tracked.
+    """
+    if not os.path.isdir('.git'):
+        logging.warning("Not a git repository (no .git directory found). Skipping git history analysis.")
+        return
+
+    try:
+        rev_list = subprocess.run(['git', 'rev-list', '--reverse', '--all', '--', sm_path],
+                                  capture_output=True, text=True, check=True)
+    except subprocess.CalledProcessError as e:
+        logging.warning("Failed to list git revisions for %s: %s", sm_path, e)
+        return
+
+    commits = [c.strip() for c in rev_list.stdout.splitlines() if c.strip()]
+    if not commits:
+        logging.info("No commits found for %s; nothing to do.", sm_path)
+        return
+
+    logging.info("Found %d commits touching %s", len(commits), sm_path)
+
+    previous_df = None
+    deleted_rows_accum = []
+
+    for commit in commits:
+        try:
+            show = subprocess.run(['git', 'show', f'{commit}:{sm_path}'], capture_output=True, text=True)
+            if show.returncode != 0:
+                # file not present at this commit
+                logging.debug("sm.csv not present at commit %s", commit)
+                continue
+            content = show.stdout
+            # Read CSV content into DataFrame
+            try:
+                curr_df = pd.read_csv(io.StringIO(content), encoding='utf-8')
+            except Exception as e:
+                logging.debug("Failed to parse sm.csv at commit %s: %s", commit, e)
+                continue
+
+            url_col = _find_url_column(curr_df)
+            if url_col is None:
+                logging.debug("No URL column in sm.csv at commit %s; skipping.", commit)
+                previous_df = curr_df
+                continue
+
+            # Normalize URL column for comparisons
+            curr_df[url_col] = curr_df[url_col].astype(str).str.strip().replace({'nan': ''})
+            curr_urls = set(curr_df[url_col].dropna().astype(str).str.strip())
+            curr_urls = {u for u in curr_urls if u}
+
+            if previous_df is not None:
+                prev_url_col = _find_url_column(previous_df)
+                if prev_url_col is None:
+                    previous_df = curr_df
+                    continue
+
+                previous_df[prev_url_col] = previous_df[prev_url_col].astype(str).str.strip().replace({'nan': ''})
+                prev_urls = set(previous_df[prev_url_col].dropna().astype(str).str.strip())
+                prev_urls = {u for u in prev_urls if u}
+
+                # URLs present in previous but not in current are deletions
+                deleted_urls = prev_urls - curr_urls
+                if deleted_urls:
+                    logging.info("At commit %s found %d deleted URLs", commit, len(deleted_urls))
+                    deleted_rows = previous_df[previous_df[prev_url_col].isin(deleted_urls)].copy()
+                    deleted_rows_accum.append(deleted_rows)
+
+            previous_df = curr_df
+
+        except Exception as e:
+            logging.exception("Error while processing commit %s: %s", commit, e)
+
+    if not deleted_rows_accum:
+        logging.info("No deleted rows found in git history for %s", sm_path)
+        return
+
+    try:
+        all_deleted = pd.concat(deleted_rows_accum, ignore_index=True)
+    except Exception as e:
+        logging.exception("Failed to concat deleted rows: %s", e)
+        return
+
+    # Find URL column name in the combined frame
+    url_col = _find_url_column(all_deleted)
+    if url_col is None:
+        logging.warning("Deleted rows have no URL column; writing raw deleted rows to %s", output_path)
+        all_deleted.to_csv(output_path, index=False, encoding='utf-8')
+        logging.info("Wrote %s (%d rows)", output_path, len(all_deleted))
+        return
+
+    # Dedupe by URL and write
+    deduped = all_deleted.drop_duplicates(subset=[url_col])
+    deduped.to_csv(output_path, index=False, encoding='utf-8')
+    logging.info("Wrote %s (%d rows) - deduplicated by %s", output_path, len(deduped), url_col)
+
+
 def main():
     orgs_df = load_orgs()
     combined_data = fetch_and_process(URLS, orgs_df=orgs_df)
     write_outputs(combined_data)
-    logging.info("CSV files 'sm.csv', 'platform_counts.csv', and 'department_counts.csv' have been created successfully.")
+
+    # New feature: analyze git history of sm.csv and write deleted_rows.csv
+    try:
+        get_deleted_rows_from_git_history(sm_path='sm.csv', output_path='deleted_rows.csv')
+    except Exception as e:
+        logging.exception("Failed to compute deleted rows from git history: %s", e)
+
+    logging.info("CSV files 'sm.csv', 'platform_counts.csv', 'department_counts.csv', and 'deleted_rows.csv' (if any deletions) have been created successfully.")
 
 
 if __name__ == '__main__':
