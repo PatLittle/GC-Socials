@@ -1,24 +1,24 @@
 ```mermaid
 sankey-beta
-  Bilingual + Bilingue,Facebook,40
-  Bilingual + Bilingue,Flickr,13
-  Bilingual + Bilingue,Instagram,23
-  Bilingual + Bilingue,LinkedIn,103
-  Bilingual + Bilingue,Reddit,1
-  Bilingual + Bilingue,X,27
-  Bilingual + Bilingue,YouTube,30
-  English,Facebook,334
-  English,Flickr,4
-  English,Instagram,64
-  English,LinkedIn,12
-  English,Snapchat,1
-  English,X,351
-  English,YouTube,65
-  Francais,Facebook,330
-  Francais,Flickr,3
-  Francais,Instagram,59
-  Francais,LinkedIn,11
-  Francais,Snapchat,1
-  Francais,X,352
-  Francais,YouTube,62
+  Bilingual + Bilingue,Facebook,160
+  Bilingual + Bilingue,Flickr,52
+  Bilingual + Bilingue,Instagram,92
+  Bilingual + Bilingue,LinkedIn,412
+  Bilingual + Bilingue,Reddit,4
+  Bilingual + Bilingue,X,108
+  Bilingual + Bilingue,YouTube,120
+  English,Facebook,1336
+  English,Flickr,16
+  English,Instagram,256
+  English,LinkedIn,48
+  English,Snapchat,4
+  English,X,1404
+  English,YouTube,260
+  Francais,Facebook,1320
+  Francais,Flickr,12
+  Francais,Instagram,236
+  Francais,LinkedIn,44
+  Francais,Snapchat,4
+  Francais,X,1408
+  Francais,YouTube,248
 ```
