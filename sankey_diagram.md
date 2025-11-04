@@ -9,14 +9,14 @@ sankey-beta
   Bilingual + Bilingue,YouTube,30
   English,Facebook,334
   English,Flickr,4
-  English,Instagram,64
+  English,Instagram,63
   English,LinkedIn,12
   English,Snapchat,1
   English,X,351
   English,YouTube,65
   Francais,Facebook,330
   Francais,Flickr,3
-  Francais,Instagram,59
+  Francais,Instagram,58
   Francais,LinkedIn,11
   Francais,Snapchat,1
   Francais,X,352
