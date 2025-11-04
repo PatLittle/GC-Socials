@@ -27,14 +27,14 @@ sankey-beta
   Bilingual + Bilingue,YouTube,30
   English,Facebook,334
   English,Flickr,4
-  English,Instagram,64
+  English,Instagram,63
   English,LinkedIn,12
   English,Snapchat,1
   English,X,351
   English,YouTube,65
   Francais,Facebook,330
   Francais,Flickr,3
-  Francais,Instagram,59
+  Francais,Instagram,58
   Francais,LinkedIn,11
   Francais,Snapchat,1
   Francais,X,352
@@ -48,7 +48,7 @@ pie showData title Platform Distribution
     "X": 728
     "Facebook": 704
     "YouTube": 147
-    "Instagram": 145
+    "Instagram": 143
     "LinkedIn": 125
     "Flickr": 20
     "Youtube": 10
@@ -64,8 +64,8 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 831
-    "Français": 818
+    "English": 830
+    "Français": 817
     "Bilingual": 223
     "Bilingue": 14
 ```
@@ -84,8 +84,8 @@ pie showData title Department Count (English Only - Top 20)
     "Privy Council Office": 13
     "Innovation, Science and Economic Development Canada": 13
     "Canadian Heritage": 12
-    "Natural Resources Canada": 9
     "Fisheries and Oceans Canada": 9
+    "Natural Resources Canada": 8
     "Canada Border Services Agency": 8
     "Immigration, Refugees and Citizenship Canada": 7
     "Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada": 7
@@ -117,9 +117,9 @@ pie showData title Department Count (Français Only - Top 20)
     "Bibliothèque et Archives Canada": 6
     "Commission canadienne des droits de la personne": 6
     "Commission de la fonction publique du Canada": 5
-    "Anciens Combattants Canada": 5
     "Logement, Infrastructures et Collectivités Canada": 5
-    "Régie de l'énergie du Canada": 5
+    "Anciens Combattants Canada": 5
+    "Agence spatiale canadienne": 5
 ```
 
 # Department Count (Bilingual Only - Top 20)
