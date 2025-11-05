@@ -1,7 +1,7 @@
 Account,Platform,Department,Language,URL,gc_orgID,wikidata_id
-Prime Minister of Canada,Facebook,Privy Council Office,English,https://www.facebook.com/CanadianPM,2284.0,Q24168
-CanadianPM,X,Privy Council Office,English,https://twitter.com/CanadianPM,2284.0,Q24168
-Privy Council Office,LinkedIn,Privy Council Office,Bilingual,https://www.linkedin.com/company/privy-council-office/about/,2284.0,Q24168
+Prime Minister of Canada,Facebook,Privy Council Office,English,https://www.facebook.com/CanadianPM,2284.0,
+CanadianPM,X,Privy Council Office,English,https://twitter.com/CanadianPM,2284.0,
+Privy Council Office,LinkedIn,Privy Council Office,Bilingual,https://www.linkedin.com/company/privy-council-office/about/,2284.0,
 GCReconciliation,Facebook,Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada,English,https://www.facebook.com/GCReconciliation,2230.0,Q86685295
 @GCIndigenous,X,Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada,English,https://twitter.com/GCIndigenous,2230.0,Q86685295
 @GovCanNorth,X,Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada,English,https://twitter.com/GovCanNorth,2230.0,Q86685295
@@ -12,17 +12,17 @@ cdn_agriculture,Instagram,Agriculture and Agri-Food Canada,English,https://www.i
 AgricultureCanadaEng,YouTube,Agriculture and Agri-Food Canada,English,https://www.youtube.com/user/AgricultureCanadaEng,2222.0,Q1046164
 @ACOACanada,X,Atlantic Canada Opportunities Agency,English,https://twitter.com/ACOACanada,2244.0,Q2826616
 ACOACanada,YouTube,Atlantic Canada Opportunities Agency,English,https://www.youtube.com/ACOACanada,2244.0,Q2826616
-@CanBorder,X,Canada Border Services Agency,English,https://twitter.com/CanBorder,2300.0,Q532090
-Canada Border Services Agency,Facebook,Canada Border Services Agency,English,https://facebook.com/CanBorder,2300.0,Q532090
-CBSA ASPC,YouTube,Canada Border Services Agency,English,https://youtube.com/CanBorder,2300.0,Q532090
-@CanRevAgency,X,Canada Revenue Agency,English,https://twitter.com/CanRevAgency,2303.0,Q1032002
-Canada Revenue Agency,YouTube,Canada Revenue Agency,English,https://youtube.com/user/CanRevAgency,2303.0,Q1032002
+@CanBorder,X,Canada Border Services Agency,English,https://twitter.com/CanBorder,2300.0,
+Canada Border Services Agency,Facebook,Canada Border Services Agency,English,https://facebook.com/CanBorder,2300.0,
+CBSA ASPC,YouTube,Canada Border Services Agency,English,https://youtube.com/CanBorder,2300.0,
+@CanRevAgency,X,Canada Revenue Agency,English,https://twitter.com/CanRevAgency,2303.0,
+Canada Revenue Agency,YouTube,Canada Revenue Agency,English,https://youtube.com/user/CanRevAgency,2303.0,
 @CdnHeritage,X,Canadian Heritage,English,https://twitter.com/CdnHeritage,2223.0,Q1056951
 Canadian Heritage – Patrimoine canadien,LinkedIn,Canadian Heritage,Bilingual,https://www.linkedin.com/company/canadian-heritage-patrimoine-canadien/,2223.0,Q1056951
 @SportCanada_EN,X,Canadian Heritage,English,https://twitter.com/SportCanada_EN,2223.0,Q1056951
 Canadian Heritage,YouTube,Canadian Heritage,English,https://www.youtube.com/user/CdnHeritage,2223.0,Q1056951
 Canadian Heritage,Facebook,Canadian Heritage,English,https://www.facebook.com/CdnHeritage,2223.0,Q1056951
-@CTA_gc,X,Canadian Transportation Agency,English,https://twitter.com/CTA_gc,2252.0,Q5030630
+@CTA_gc,X,Canadian Transportation Agency,English,https://twitter.com/CTA_gc,2252.0,
 @CitImmCanada,X,"Immigration, Refugees and Citizenship Canada",English,https://twitter.com/CitImmCanada,2224.0,Q1056074
 Canadian Immigration and Citizenship,Facebook,"Immigration, Refugees and Citizenship Canada",English,https://facebook.com/CitCanada,2224.0,Q1056074
 Citizenship and Immigration Canada / Citoyenneté et Immigration Canada,YouTube,"Immigration, Refugees and Citizenship Canada",Bilingual,https://youtube.com/user/CitImmCanada,2224.0,Q1056074
@@ -118,21 +118,21 @@ Library and Archives Canada,YouTube,Library and Archives Canada,English,https://
 Library and Archives Canada,Facebook,Library and Archives Canada,English,https://www.facebook.com/LibraryArchives,2262.0,Q913250
 @NRCan,X,Natural Resources Canada,English,https://twitter.com/NRCan,2234.0,Q349770
 Natural Resources Canada,YouTube,Natural Resources Canada,English,https://youtube.com/user/NaturalResourcesCa,2234.0,Q349770
-@ParksCanada,X,Parks Canada,English,https://twitter.com/ParksCanada,2315.0,Q349487
-"Parks Canada, Manitoba",X,Parks Canada,English,https://twitter.com/ParksCanadaMB,2315.0,Q349487
-"Parks Canada, Vancouver",Facebook,Parks Canada,English,https://facebook.com/ParksCanadaVan,2315.0,Q349487
-Batoche National Historic Site,Facebook,Parks Canada,English,https://www.facebook.com/BatocheNationalHistoricSite,2315.0,Q349487
-Saguenay-St. Lawrence Marine Park,Facebook,Parks Canada,English,https://facebook.com/SaguenayStLawrenceMP,2315.0,Q349487
-Green Gables Heritage Place,Facebook,Parks Canada,English,https://www.facebook.com/greengablesheritageplace,2315.0,Q349487
-Parks Life,X,Parks Canada,English,https://twitter.com/pcparkslife,2315.0,Q349487
-Parks Canada,snapchat,Parks Canada,English,https://www.snapchat.com/add/parks.canada,2315.0,Q349487
-Parks Canada,YouTube,Parks Canada,English,https://youtube.com/parkscanada,2315.0,Q349487
-"Wood Buffalo National Park, Parks Canada",Facebook,Parks Canada,English,https://www.facebook.com/WoodBuffaloNP,2315.0,Q349487
+@ParksCanada,X,Parks Canada,English,https://twitter.com/ParksCanada,2315.0,
+"Parks Canada, Manitoba",X,Parks Canada,English,https://twitter.com/ParksCanadaMB,2315.0,
+"Parks Canada, Vancouver",Facebook,Parks Canada,English,https://facebook.com/ParksCanadaVan,2315.0,
+Batoche National Historic Site,Facebook,Parks Canada,English,https://www.facebook.com/BatocheNationalHistoricSite,2315.0,
+Saguenay-St. Lawrence Marine Park,Facebook,Parks Canada,English,https://facebook.com/SaguenayStLawrenceMP,2315.0,
+Green Gables Heritage Place,Facebook,Parks Canada,English,https://www.facebook.com/greengablesheritageplace,2315.0,
+Parks Life,X,Parks Canada,English,https://twitter.com/pcparkslife,2315.0,
+Parks Canada,snapchat,Parks Canada,English,https://www.snapchat.com/add/parks.canada,2315.0,
+Parks Canada,YouTube,Parks Canada,English,https://youtube.com/parkscanada,2315.0,
+"Wood Buffalo National Park, Parks Canada",Facebook,Parks Canada,English,https://www.facebook.com/WoodBuffaloNP,2315.0,
 Parole Board of Canada,YouTube,Parole Board of Canada,English,http://www.youtube.com/user/PBCclcc,2267.0,Q7139405
-@jobs_gc,X,Public Service Commission of Canada,English,https://twitter.com/jobs_gc,2286.0,Q3644969
+@jobs_gc,X,Public Service Commission of Canada,English,https://twitter.com/jobs_gc,2286.0,
 @PSPC_SPAC,X,Public Services and Procurement Canada,English,https://twitter.com/pspc_spac,2236.0,Q7257673
 @PSPC_DMA,X,Public Services and Procurement Canada,English,https://twitter.com/PSPC_DMA,2236.0,Q7257673
-@SSC_CA,X,Shared Services Canada,English,https://twitter.com/ssc_ca,2292.0,Q28162755
+@SSC_CA,X,Shared Services Canada,English,https://twitter.com/ssc_ca,2292.0,
 @WAGE_FEGC,X,Women and Gender Equality Canada,English,https://twitter.com/WAGE_FEGC,2241.0,Q85269208
 Women and Gender Equality Canada,YouTube,Women and Gender Equality Canada,English,https://www.youtube.com/c/WAGE_FEGC,2241.0,Q85269208
 @OTO_Canada,X,Office of the Taxpayers' Ombudsperson,English,https://twitter.com/OTO_Canada,3594.0,
@@ -140,21 +140,21 @@ Office of the Taxpayers' Ombudsperson,Facebook,Office of the Taxpayers' Ombudspe
 Transport Canada,X,Transport Canada,English,https://twitter.com/Transport_gc,2238.0,Q2035496
 TransportCanada,YouTube,Transport Canada,English,https://youtube.com/transportcanada,2238.0,Q2035496
 Transport Canada,Facebook,Transport Canada,English,https://www.facebook.com/TransportandInfrastructureinCanada/,2238.0,Q2035496
-@TSBCanada,X,Transportation Safety Board of Canada,English,https://twitter.com/TSBCanada,2309.0,Q2928368
-TSBCanada,YouTube,Transportation Safety Board of Canada,English,https://www.youtube.com/user/TSBCanada,2309.0,Q2928368
+@TSBCanada,X,Transportation Safety Board of Canada,English,https://twitter.com/TSBCanada,2309.0,
+TSBCanada,YouTube,Transportation Safety Board of Canada,English,https://www.youtube.com/user/TSBCanada,2309.0,
 @TBS_Canada,X,Treasury Board of Canada Secretariat,English,https://twitter.com/TBS_Canada,2242.0,Q17133814
 @VeteransENG_CA,X,Veterans Affairs Canada,English,https://twitter.com/VeteransENG_CA,2239.0,Q429575
 Canada Remembers,Facebook,Veterans Affairs Canada,English,https://facebook.com/CanadaRemembers,2239.0,Q429575
 VeteransAffairsCa,YouTube,Veterans Affairs Canada,English,https://youtube.com/user/VeteransAffairsCa,2239.0,Q429575
-@IRB_Canada,X,Immigration and Refugee Board of Canada,English,https://twitter.com/IRB_Canada,2261.0,Q2986473
+@IRB_Canada,X,Immigration and Refugee Board of Canada,English,https://twitter.com/IRB_Canada,2261.0,
 @Canada,X,Global Affairs Canada,English,https://twitter.com/canada,2227.0,Q3315371
 @FedDevOntario,X,Federal Economic Development Agency for Southern Ontario,English,https://twitter.com/FedDevOntario,2258.0,
 @IAAC_AEIC,X,Impact Assessment Agency of Canada,English,https://twitter.com/IAAc_aeic,2245.0,Q349602
-@CIHR_IRSC,X,Canadian Institutes of Health Research,English,https://twitter.com/CIHR_IRSC,2307.0,Q5030193
-Canadian Institutes of Health Research | Instituts de recherche en santé du Canada,LinkedIn,Canadian Institutes of Health Research,Bilingual,https://www.linkedin.com/company/canadian-institutes-of-health-research,2307.0,Q5030193
-CIHR IRSC,YouTube,Canadian Institutes of Health Research,Bilingual,https://www.youtube.com/@CIHRIRSC_canada,2307.0,Q5030193
-Canadian Institutes of Health Research,Facebook,Canadian Institutes of Health Research,English,https://www.facebook.com/HealthResearchInCanada,2307.0,Q5030193
-Show me the Evidence,Facebook,Canadian Institutes of Health Research,English,https://www.facebook.com/ShowmetheEvidence,2307.0,Q5030193
+@CIHR_IRSC,X,Canadian Institutes of Health Research,English,https://twitter.com/CIHR_IRSC,2307.0,
+Canadian Institutes of Health Research | Instituts de recherche en santé du Canada,LinkedIn,Canadian Institutes of Health Research,Bilingual,https://www.linkedin.com/company/canadian-institutes-of-health-research,2307.0,
+CIHR IRSC,YouTube,Canadian Institutes of Health Research,Bilingual,https://www.youtube.com/@CIHRIRSC_canada,2307.0,
+Canadian Institutes of Health Research,Facebook,Canadian Institutes of Health Research,English,https://www.facebook.com/HealthResearchInCanada,2307.0,
+Show me the Evidence,Facebook,Canadian Institutes of Health Research,English,https://www.facebook.com/ShowmetheEvidence,2307.0,
 @CanEconDev,X,Canada Economic Development for Quebec Regions,English,https://twitter.com/CanEconDev,2257.0,Q2826593
 CED Canada,Facebook,Canada Economic Development for Quebec Regions,English,https://www.facebook.com/CanadaCED/,2257.0,Q2826593
 Canadian Food Inspection Agency,Facebook,Canadian Food Inspection Agency,English,https://www.facebook.com/CFIACanada,2306.0,Q2826578
@@ -176,24 +176,24 @@ Seniors in Canada,Facebook,Employment and Social Development Canada,English,http
 Finance Canada / Finances Canada,LinkedIn,Department of Finance Canada,Bilingual,https://www.linkedin.com/company/finance-canada,2225.0,Q1191438
 @FinanceCanada,X,Department of Finance Canada,English,https://twitter.com/FinanceCanada,2225.0,Q1191438
 Finance Canada,YouTube,Department of Finance Canada,English,https://www.youtube.com/user/financecanada,2225.0,Q1191438
-Public Health Agency of Canada,Facebook,Public Health Agency of Canada,English,https://www.facebook.com/pages/Public-Health-Agency-of-Canada/10860597051?fref=ts,2285.0,Q2826604
-@CPHO_Canada,X,Public Health Agency of Canada,English,https://twitter.com/CPHO_Canada,2285.0,Q2826604
-Public Health Agency of Canada | Agence de la santé publique du Canada,LinkedIn,Public Health Agency of Canada,Bilingual,http://www.linkedin.com/company/public-health-agency-of-canada,2285.0,Q2826604
+Public Health Agency of Canada,Facebook,Public Health Agency of Canada,English,https://www.facebook.com/pages/Public-Health-Agency-of-Canada/10860597051?fref=ts,2285.0,
+@CPHO_Canada,X,Public Health Agency of Canada,English,https://twitter.com/CPHO_Canada,2285.0,
+Public Health Agency of Canada | Agence de la santé publique du Canada,LinkedIn,Public Health Agency of Canada,Bilingual,http://www.linkedin.com/company/public-health-agency-of-canada,2285.0,
 Health Canada | Santé Canada,LinkedIn,Health Canada,Bilingual,http://www.linkedin.com/company/health-canada,2228.0,Q1057591
 GC Newsroom,X,Service Canada,English,https://twitter.com/@NewsroomGC,3591.0,Q3480058
-"National Historic Sites in Saskatchewan, Parks Canada",Facebook,Parks Canada,English,https://www.facebook.com/saskNHS,2315.0,Q349487
-Parks Canada,Facebook,Parks Canada,English,https://www.facebook.com/ParksCanada,2315.0,Q349487
-"La Mauricie National Park, Parks Canada",Facebook,Parks Canada,English,https://www.facebook.com/pg/MauricieNP/,2315.0,Q349487
-"Rocky Mountain House National Historic Site, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/RockyMountainHouseNHS,2315.0,Q349487
-@PCArchaeology,X,Parks Canada,English,https://www.twitter.com/PCArchaeology,2315.0,Q349487
-@RichmondRCMP,X,Royal Canadian Mounted Police,English,https://twitter.com/RichmondRCMP,2288.0,Q335175
-Yukon RCMP,X,Royal Canadian Mounted Police,English,https://twitter.com/YukonRCMP,2288.0,Q335175
-RCMP PEI Traffic,X,Royal Canadian Mounted Police,English,https://twitter.com/rcmppeitraffic?lang=en,2288.0,Q335175
-RCMP-NL GRC-TN,YouTube,Royal Canadian Mounted Police,Bilingual,https://www.youtube.com/user/rcmpnlsocial/featured?disable_polymer=1,2288.0,Q335175
+"National Historic Sites in Saskatchewan, Parks Canada",Facebook,Parks Canada,English,https://www.facebook.com/saskNHS,2315.0,
+Parks Canada,Facebook,Parks Canada,English,https://www.facebook.com/ParksCanada,2315.0,
+"La Mauricie National Park, Parks Canada",Facebook,Parks Canada,English,https://www.facebook.com/pg/MauricieNP/,2315.0,
+"Rocky Mountain House National Historic Site, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/RockyMountainHouseNHS,2315.0,
+@PCArchaeology,X,Parks Canada,English,https://www.twitter.com/PCArchaeology,2315.0,
+@RichmondRCMP,X,Royal Canadian Mounted Police,English,https://twitter.com/RichmondRCMP,2288.0,
+Yukon RCMP,X,Royal Canadian Mounted Police,English,https://twitter.com/YukonRCMP,2288.0,
+RCMP PEI Traffic,X,Royal Canadian Mounted Police,English,https://twitter.com/rcmppeitraffic?lang=en,2288.0,
+RCMP-NL GRC-TN,YouTube,Royal Canadian Mounted Police,Bilingual,https://www.youtube.com/user/rcmpnlsocial/featured?disable_polymer=1,2288.0,
 @ServiceCanada_E,X,Service Canada,English,https://twitter.com/ServiceCanada_E,3591.0,Q3480058
-@StatCan_eng,X,Statistics Canada,English,https://twitter.com/statcan_eng,2293.0,Q1155740
-Statistics Canada,Facebook,Statistics Canada,English,https://www.facebook.com/statisticsCanada,2293.0,Q1155740
-Statistics Canada,YouTube,Statistics Canada,English,https://www.youtube.com/statisticscanada,2293.0,Q1155740
+@StatCan_eng,X,Statistics Canada,English,https://twitter.com/statcan_eng,2293.0,
+Statistics Canada,Facebook,Statistics Canada,English,https://www.facebook.com/statisticsCanada,2293.0,
+Statistics Canada,YouTube,Statistics Canada,English,https://www.youtube.com/statisticscanada,2293.0,
 Veterans Affairs Canada,Facebook,Veterans Affairs Canada,English,https://www.facebook.com/VeteransAffairsCanada,2239.0,Q429575
 Healthy Canadians,Facebook,Health Canada,English,https://www.facebook.com/HealthyCdns,2228.0,Q1057591
 Healthy Canadians,YouTube,Health Canada,English,https://www.youtube.com/user/HealthyCdns,2228.0,Q1057591
@@ -204,14 +204,14 @@ Canada School of PS / École de la FP du Canada,YouTube,Canada School of Public 
 @SocDevSoc,X,Employment and Social Development Canada,Bilingual,https://twitter.com/SocDevSoc,2229.0,Q27929061
 Public Services and Procurement Canada,YouTube,Public Services and Procurement Canada,English,https://www.youtube.com/user/PWGSCanada,2236.0,Q7257673
 National Research Council Canada / Conseil national de recherches Canada,LinkedIn,National Research Council Canada,Bilingual,https://www.linkedin.com/company/national-research-council/,2313.0,Q1437507
-@PSCofCanada,X,Public Service Commission of Canada,English,https://twitter.com/PSCofCanada,2286.0,Q3644969
-@POLARCanada,X,Polar Knowledge Canada,English,https://twitter.com/POLARCanada,2318.0,Q5030480
-Polar Knowledge Canada,Facebook,Polar Knowledge Canada,English,https://www.facebook.com/PolarKnowledge,2318.0,Q5030480
+@PSCofCanada,X,Public Service Commission of Canada,English,https://twitter.com/PSCofCanada,2286.0,
+@POLARCanada,X,Polar Knowledge Canada,English,https://twitter.com/POLARCanada,2318.0,
+Polar Knowledge Canada,Facebook,Polar Knowledge Canada,English,https://www.facebook.com/PolarKnowledge,2318.0,
 Canadian Nuclear Safety Commission - CNSC,YouTube,Canadian Nuclear Safety Commission,English,https://www.youtube.com/user/cnscccsn,,
 @NRC_CNRC,X,National Research Council Canada,English,https://twitter.com/NRC_CNRC,2313.0,Q1437507
 Transport Canada – Transports Canada,LinkedIn,Transport Canada,Bilingual,https://ca.linkedin.com/company/transport-canada,2238.0,Q2035496
-SSHRC-CRSH,YouTube,Social Sciences and Humanities Research Council,Bilingual,https://www.youtube.com/user/SSHRC1,2316.0,Q2993802
-CERCprogram,YouTube,Social Sciences and Humanities Research Council,Bilingual,https://www.youtube.com/user/CERCprogram/,2316.0,Q2993802
+SSHRC-CRSH,YouTube,Social Sciences and Humanities Research Council,Bilingual,https://www.youtube.com/user/SSHRC1,2316.0,
+CERCprogram,YouTube,Social Sciences and Humanities Research Council,Bilingual,https://www.youtube.com/user/CERCprogram/,2316.0,
 @VetsOmbudsman,X,Office of the Veterans' Ombudsman,English,https://twitter.com/VetsOmbudsman,3595.0,
 Canada's Veterans Ombudsman,Facebook,Office of the Veterans' Ombudsman,English,https://www.facebook.com/VeteransOmbudsman,3595.0,
 Royal Canadian Air Force,Facebook,National Defence and the Canadian Armed Forces,English,https://www.facebook.com/RCAF.ARC/?ref=br_rs,,
@@ -219,8 +219,8 @@ NSCM HMCS Montcalm,Facebook,National Defence and the Canadian Armed Forces,Bilin
 RCAF,X,National Defence and the Canadian Armed Forces,English,https://www.twitter.com/RCAF_ARC,,
 RCAF VIDEO de l'ARC,YouTube,National Defence and the Canadian Armed Forces,Bilingual,https://www.youtube.com/user/RCAFIMAGERY,,
 @Safety_Canada,X,Public Safety Canada,English,https://twitter.com/safety_canada,2235.0,Q2602726
-@GetCyberSafe,X,Communications Security Establishment,English,https://twitter.com/getcybersafe,2253.0,Q597935
-Get Cyber Safe,Facebook,Communications Security Establishment Canada,English,https://www.facebook.com/GetCyberSafe,2253.0,Q597935
+@GetCyberSafe,X,Communications Security Establishment,English,https://twitter.com/getcybersafe,2253.0,
+Get Cyber Safe,Facebook,Communications Security Establishment Canada,English,https://www.facebook.com/GetCyberSafe,2253.0,
 Canadian Food Inspection Agency -Agence canadienne d'inspection des aliments,LinkedIn,Canadian Food Inspection Agency,Bilingual,https://www.linkedin.com/company/canadian-food-inspection-agency,2306.0,Q2826578
 @MgercCeegm,X,Military Grievances External Review Committee,Bilingual,https://twitter.com/MgercCeegm,2263.0,
 "Innovation, Science and Economic Development Canada",LinkedIn,"Innovation, Science and Economic Development Canada",Bilingual,https://www.linkedin.com/company/industry-canada,2231.0,Q1057600
@@ -229,171 +229,171 @@ Canadian Intellectual Property Office,Facebook,Canadian Intellectual Property Of
 "Innovation, Science and Economic Development Canada",Flickr,"Innovation, Science and Economic Development Canada",English,https://www.flickr.com/photos/industrycanada/,2231.0,Q1057600
 Safety in Canada,YouTube,Public Safety Canada,English,https://www.youtube.com/user/SafetyinCanada/SafetyinCanada,2235.0,Q2602726
 Canada Economic Development for Quebec Regions,LinkedIn,Canada Economic Development for Quebec Regions,Bilingual,https://www.linkedin.com/company/dec-ced,2257.0,Q2826593
-Banff National Park,Facebook,Parks Canada,English,https://www.facebook.com/BanffNP,2315.0,Q349487
-Kouchibouguac National Park,Facebook,Parks Canada,English,https://www.facebook.com/KouchibouguacNP,2315.0,Q349487
-Bruce Peninsula National Park and Fathom Five National Marine Park,Facebook,Parks Canada,English,https://www.facebook.com/BrucePeninsulaNP?_rdr=p,2315.0,Q349487
-Fundy National Park,Facebook,Parks Canada,English,https://www.facebook.com/FundyNP,2315.0,Q349487
-Gwaii Haanas - Islands of Beauty,Facebook,Parks Canada,English,https://www.facebook.com/GwaiiHaanas,2315.0,Q349487
-Jasper National Park,Facebook,Parks Canada,English,https://www.facebook.com/JasperNP/,2315.0,Q349487
-Kootenay National Park,Facebook,Parks Canada,English,https://www.facebook.com/KootenayNP/,2315.0,Q349487
-Mount Revelstoke and Glacier national parks,Facebook,Parks Canada,English,https://www.facebook.com/MRGnationalparks,2315.0,Q349487
-Thousand Islands National Park,Facebook,Parks Canada,English,https://www.facebook.com/TINationalPark?_rdr=p,2315.0,Q349487
-"Waterton Lakes National Park, Parks Canada",Facebook,Parks Canada,English,https://www.facebook.com/WatertonLakesNP,2315.0,Q349487
-Yoho National Park,Facebook,Parks Canada,English,https://www.facebook.com/YohoNP,2315.0,Q349487
-"Mountain Safety, Parks Canada",Facebook,Parks Canada,English,https://www.facebook.com/parksmountainsafety,2315.0,Q349487
-"Banff National Park, Parks Canada",X,Parks Canada,English,https://twitter.com/BanffNP,2315.0,Q349487
-"Bar U Ranch NHS, Parks Canada",X,Parks Canada,English,https://twitter.com/BarURanchNHS,2315.0,Q349487
-"Fundy National Park, Parks Canada",X,Parks Canada,English,https://twitter.com/FundyNP,2315.0,Q349487
-"Georgian Bay Islands NP, Parks Canada",X,Parks Canada,English,https://twitter.com/GBINP,2315.0,Q349487
-"Jasper National Park, Parks Canada",X,Parks Canada,English,https://twitter.com/JasperNP,2315.0,Q349487
-Kootenay Nat. Park,X,Parks Canada,English,https://twitter.com/KootenayNP,2315.0,Q349487
-"Kouchibouguac National Park, Parks Canada",X,Parks Canada,English,https://twitter.com/KouchibouguacNP,2315.0,Q349487
-"Parks Canada NHS, New Brunswick",X,Parks Canada,English,https://twitter.com/NHSNB,2315.0,Q349487
-"Parks Canada, Nova Scotia",X,Parks Canada,English,https://twitter.com/ParksCanada_NS,2315.0,Q349487
-ParksMountainSafety,X,Parks Canada,English,https://twitter.com/ParksMtnSafety,2315.0,Q349487
-Yoho National Park,X,Parks Canada,English,https://twitter.com/YohoNP,2315.0,Q349487
-"Bruce Peninsula National Park, Parks Canada",X,Parks Canada,English,https://twitter.com/BrucePNP,2315.0,Q349487
-"Elk Island National Park, Parks Canada",X,Parks Canada,English,https://twitter.com/ElkIslandNP,2315.0,Q349487
-@ForillonNP,X,Parks Canada,English,https://twitter.com/forillonnp,2315.0,Q349487
-"Fort George NHS, Parks Canada",X,Parks Canada,English,https://twitter.com/FortGeorgeNHS,2315.0,Q349487
-"Fort St. James NHS, Parks Canada",X,Parks Canada,English,https://twitter.com/FortStJamesNHS,2315.0,Q349487
-"Fort Langley NHS, Parks Canada",X,Parks Canada,English,https://twitter.com/FortLangleyNHS,2315.0,Q349487
-@FortRoddFisgard,X,Parks Canada,English,https://twitter.com/FortRoddFisgard,2315.0,Q349487
-"Gulf Islands National Park Reserve, Parks Canada",X,Parks Canada,English,https://twitter.com/GulfIslandsNPR,2315.0,Q349487
-@PacificRimNPR,X,Parks Canada,English,https://twitter.com/PacificRimNPR,2315.0,Q349487
-Parks Canada PEI,X,Parks Canada,English,https://twitter.com/ParksCanadaPEI,2315.0,Q349487
-"Parks Canada, Yukon",X,Parks Canada,English,https://twitter.com/ParksCanYukon,2315.0,Q349487
-"Parks Canada, Newfoundland and Labrador",X,Parks Canada,English,https://twitter.com/ParksCanadaNL,2315.0,Q349487
-ParksCanadaVancouver,X,Parks Canada,English,https://twitter.com/ParksCanadaVan,2315.0,Q349487
-"Parks Canada, Nunavut",X,Parks Canada,English,https://twitter.com/ParksCanNunavut,2315.0,Q349487
-"Parks Canada, Saskatchewan",X,Parks Canada,English,https://twitter.com/ParksCanada_SK,2315.0,Q349487
-"Point Pelee National Park, Parks Canada",X,Parks Canada,English,https://twitter.com/PointPeleeNP,2315.0,Q349487
-"Rideau Canal NHS, Parks Canada",X,Parks Canada,English,https://twitter.com/RideauCanalNHS,2315.0,Q349487
-"Riding Mountain National Park, Parks Canada",X,Parks Canada,English,https://twitter.com/RidingNP,2315.0,Q349487
-"Thousand Islands National Park, Parks Canada",X,Parks Canada,English,https://twitter.com/TINationalPark,2315.0,Q349487
-"Trent-Severn Waterway NHS, Parks Canada",X,Parks Canada,English,https://twitter.com/TrentSevernNHS,2315.0,Q349487
-"Waterton Lakes National Park, Parks Canada",X,Parks Canada,English,https://twitter.com/WatertonLakesNP,2315.0,Q349487
-Grains Canada,YouTube,Canadian Grain Commission,English,https://www.youtube.com/user/GrainCommission,2246.0,Q558436
-@Grain_Canada,X,Canadian Grain Commission,English,https://twitter.com/Grain_Canada,2246.0,Q558436
+Banff National Park,Facebook,Parks Canada,English,https://www.facebook.com/BanffNP,2315.0,
+Kouchibouguac National Park,Facebook,Parks Canada,English,https://www.facebook.com/KouchibouguacNP,2315.0,
+Bruce Peninsula National Park and Fathom Five National Marine Park,Facebook,Parks Canada,English,https://www.facebook.com/BrucePeninsulaNP?_rdr=p,2315.0,
+Fundy National Park,Facebook,Parks Canada,English,https://www.facebook.com/FundyNP,2315.0,
+Gwaii Haanas - Islands of Beauty,Facebook,Parks Canada,English,https://www.facebook.com/GwaiiHaanas,2315.0,
+Jasper National Park,Facebook,Parks Canada,English,https://www.facebook.com/JasperNP/,2315.0,
+Kootenay National Park,Facebook,Parks Canada,English,https://www.facebook.com/KootenayNP/,2315.0,
+Mount Revelstoke and Glacier national parks,Facebook,Parks Canada,English,https://www.facebook.com/MRGnationalparks,2315.0,
+Thousand Islands National Park,Facebook,Parks Canada,English,https://www.facebook.com/TINationalPark?_rdr=p,2315.0,
+"Waterton Lakes National Park, Parks Canada",Facebook,Parks Canada,English,https://www.facebook.com/WatertonLakesNP,2315.0,
+Yoho National Park,Facebook,Parks Canada,English,https://www.facebook.com/YohoNP,2315.0,
+"Mountain Safety, Parks Canada",Facebook,Parks Canada,English,https://www.facebook.com/parksmountainsafety,2315.0,
+"Banff National Park, Parks Canada",X,Parks Canada,English,https://twitter.com/BanffNP,2315.0,
+"Bar U Ranch NHS, Parks Canada",X,Parks Canada,English,https://twitter.com/BarURanchNHS,2315.0,
+"Fundy National Park, Parks Canada",X,Parks Canada,English,https://twitter.com/FundyNP,2315.0,
+"Georgian Bay Islands NP, Parks Canada",X,Parks Canada,English,https://twitter.com/GBINP,2315.0,
+"Jasper National Park, Parks Canada",X,Parks Canada,English,https://twitter.com/JasperNP,2315.0,
+Kootenay Nat. Park,X,Parks Canada,English,https://twitter.com/KootenayNP,2315.0,
+"Kouchibouguac National Park, Parks Canada",X,Parks Canada,English,https://twitter.com/KouchibouguacNP,2315.0,
+"Parks Canada NHS, New Brunswick",X,Parks Canada,English,https://twitter.com/NHSNB,2315.0,
+"Parks Canada, Nova Scotia",X,Parks Canada,English,https://twitter.com/ParksCanada_NS,2315.0,
+ParksMountainSafety,X,Parks Canada,English,https://twitter.com/ParksMtnSafety,2315.0,
+Yoho National Park,X,Parks Canada,English,https://twitter.com/YohoNP,2315.0,
+"Bruce Peninsula National Park, Parks Canada",X,Parks Canada,English,https://twitter.com/BrucePNP,2315.0,
+"Elk Island National Park, Parks Canada",X,Parks Canada,English,https://twitter.com/ElkIslandNP,2315.0,
+@ForillonNP,X,Parks Canada,English,https://twitter.com/forillonnp,2315.0,
+"Fort George NHS, Parks Canada",X,Parks Canada,English,https://twitter.com/FortGeorgeNHS,2315.0,
+"Fort St. James NHS, Parks Canada",X,Parks Canada,English,https://twitter.com/FortStJamesNHS,2315.0,
+"Fort Langley NHS, Parks Canada",X,Parks Canada,English,https://twitter.com/FortLangleyNHS,2315.0,
+@FortRoddFisgard,X,Parks Canada,English,https://twitter.com/FortRoddFisgard,2315.0,
+"Gulf Islands National Park Reserve, Parks Canada",X,Parks Canada,English,https://twitter.com/GulfIslandsNPR,2315.0,
+@PacificRimNPR,X,Parks Canada,English,https://twitter.com/PacificRimNPR,2315.0,
+Parks Canada PEI,X,Parks Canada,English,https://twitter.com/ParksCanadaPEI,2315.0,
+"Parks Canada, Yukon",X,Parks Canada,English,https://twitter.com/ParksCanYukon,2315.0,
+"Parks Canada, Newfoundland and Labrador",X,Parks Canada,English,https://twitter.com/ParksCanadaNL,2315.0,
+ParksCanadaVancouver,X,Parks Canada,English,https://twitter.com/ParksCanadaVan,2315.0,
+"Parks Canada, Nunavut",X,Parks Canada,English,https://twitter.com/ParksCanNunavut,2315.0,
+"Parks Canada, Saskatchewan",X,Parks Canada,English,https://twitter.com/ParksCanada_SK,2315.0,
+"Point Pelee National Park, Parks Canada",X,Parks Canada,English,https://twitter.com/PointPeleeNP,2315.0,
+"Rideau Canal NHS, Parks Canada",X,Parks Canada,English,https://twitter.com/RideauCanalNHS,2315.0,
+"Riding Mountain National Park, Parks Canada",X,Parks Canada,English,https://twitter.com/RidingNP,2315.0,
+"Thousand Islands National Park, Parks Canada",X,Parks Canada,English,https://twitter.com/TINationalPark,2315.0,
+"Trent-Severn Waterway NHS, Parks Canada",X,Parks Canada,English,https://twitter.com/TrentSevernNHS,2315.0,
+"Waterton Lakes National Park, Parks Canada",X,Parks Canada,English,https://twitter.com/WatertonLakesNP,2315.0,
+Grains Canada,YouTube,Canadian Grain Commission,English,https://www.youtube.com/user/GrainCommission,2246.0,
+@Grain_Canada,X,Canadian Grain Commission,English,https://twitter.com/Grain_Canada,2246.0,
 Canadian Human Rights Commission,Facebook,Canadian Human Rights Commission,English,https://www.facebook.com/CanadianHumanRightsCommission,2247.0,Q2986411
 Canadian Human Rights Commission - CHRC,YouTube,Canadian Human Rights Commission,English,https://www.youtube.com/channel/UCBlUe4PtxTH_ZBOvClwvmHA,2247.0,Q2986411
 @CdnHumanRights,X,Canadian Human Rights Commission,English,https://twitter.com/CdnHumanRights,2247.0,Q2986411
-Canadian Nuclear Safety Commission (CNSC),Facebook,Canadian Nuclear Safety Commission,English,https://www.facebook.com/CanadianNuclearSafetyCommission,2308.0,Q654536
-@CNSC_CCSN,X,Canadian Nuclear Safety Commission,English,https://twitter.com/CNSC_CCSN,2308.0,Q654536
-Canadian Nuclear Safety Commission – Commission canadienne de sûreté nucléaire,LinkedIn,Canadian Nuclear Safety Commission,Bilingual,https://www.linkedin.com/company/cnsc-ccsn/,2308.0,Q654536
+Canadian Nuclear Safety Commission (CNSC),Facebook,Canadian Nuclear Safety Commission,English,https://www.facebook.com/CanadianNuclearSafetyCommission,2308.0,
+@CNSC_CCSN,X,Canadian Nuclear Safety Commission,English,https://twitter.com/CNSC_CCSN,2308.0,
+Canadian Nuclear Safety Commission – Commission canadienne de sûreté nucléaire,LinkedIn,Canadian Nuclear Safety Commission,Bilingual,https://www.linkedin.com/company/cnsc-ccsn/,2308.0,
 Canadian Forces CF18 Demo Team,Facebook,National Defence and the Canadian Armed Forces,English,https://www.facebook.com/CF18Demo,,
 Environment Canada,Flickr,Environment and Climate Change Canada,English,https://www.flickr.com/photos/environmentcan/,2237.0,Q348789
 Sports Canada,Facebook,Canadian Heritage,English,https://www.facebook.com/SportCanadaEN,2223.0,Q1056951
 The Crown in Canada,Facebook,Canadian Heritage,English,https://www.facebook.com/TheCrownCa,2223.0,Q1056951
 @TheCrownCa,X,Canadian Heritage,English,https://twitter.com/TheCrownCa,2223.0,Q1056951
-Privy Council Office,X,Privy Council Office,English,https://twitter.com/PrivyCouncilCA,2284.0,Q24168
+Privy Council Office,X,Privy Council Office,English,https://twitter.com/PrivyCouncilCA,2284.0,
 @PassportCan,X,Service Canada,English,https://twitter.com/PassportCan,3591.0,Q3480058
 Service Canada EN,Facebook,Service Canada,English,https://www.facebook.com/servicecanadaen,3591.0,Q3480058
 passportcan,YouTube,Passport Canada,English,https://youtube.com/user/passportcan,3547.0,
-Swan River RCMP,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/SwanRiverRCMP/,2288.0,Q335175
-Dauphin RCMP,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/DauphinRCMP,2288.0,Q335175
-BC RCMP,Facebook,Royal Canadian Mounted Police,English,https://facebook.com/bcrcmpnews,2288.0,Q335175
-Royal Canadian Mounted Police in Yukon,Facebook,Royal Canadian Mounted Police,English,https://facebook.com/yukonrcmp,2288.0,Q335175
-Royal Canadian Mounted Police in Prince Edward Island,Facebook,Royal Canadian Mounted Police,English,https://facebook.com/rcmpgrcpei,2288.0,Q335175
-RCMP Depot Division,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/RCMPDepot,2288.0,Q335175
-Royal Canadian Mounted Police,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/rcmpgrc,2288.0,Q335175
-Royal Canadian Mounted Police in Manitoba,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/rcmpmb,2288.0,Q335175
-Royal Canadian Mounted Police in Newfoundland and Labrador,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/rcmpnl,2288.0,Q335175
-Royal Canadian Mounted Police in Nova Scotia,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/rcmpns,2288.0,Q335175
-Royal Canadian Mounted Police in Ontario,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/rcmp.ontario,2288.0,Q335175
-Saskatchewan RCMP,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/SaskatchewanRCMP,2288.0,Q335175
-Surrey RCMP,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/SurreyRCMP,2288.0,Q335175
-@NorthRCMP,X,Royal Canadian Mounted Police,English,https://twitter.com/NorthRCMP,2288.0,Q335175
-@SoutheastRCMP,X,Royal Canadian Mounted Police,English,https://twitter.com/SoutheastRCMP,2288.0,Q335175
-@RCMPDepot,X,Royal Canadian Mounted Police,English,https://twitter.com/RCMPDepot,2288.0,Q335175
-Royal Canadian Mounted Police,YouTube,Royal Canadian Mounted Police,English,https://www.youtube.com/user/rcmpgrcpolice/featured,2288.0,Q335175
-Royal Canadian Mounted Police in New Brunswick,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/rcmpnb,2288.0,Q335175
-Royal Canadian Mounted Police in Quebec,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/rcmpquebec,2288.0,Q335175
-@RCMP_Nat_Div,X,Royal Canadian Mounted Police,English,https://twitter.com/RCMP_Nat_Div,2288.0,Q335175
-@LMDRCMP,X,Royal Canadian Mounted Police,English,https://twitter.com/LMDRCMP,2288.0,Q335175
-@KamloopsRCMP,X,Royal Canadian Mounted Police,English,https://twitter.com/KamloopsRCMP,2288.0,Q335175
-@RCMPPEI,X,Royal Canadian Mounted Police,English,https://twitter.com/rcmppei,2288.0,Q335175
-@RCMPNB,X,Royal Canadian Mounted Police,English,https://twitter.com/rcmpnb,2288.0,Q335175
-@RCMPSK,X,Royal Canadian Mounted Police,English,https://twitter.com/rcmpsk,2288.0,Q335175
-@RCMPNS,X,Royal Canadian Mounted Police,English,https://twitter.com/rcmpns,2288.0,Q335175
-@BCRCMP,X,Royal Canadian Mounted Police,English,https://twitter.com/BCRCMP,2288.0,Q335175
-@RCMPGravelbourg,X,Royal Canadian Mounted Police,English,https://twitter.com/RCMPGravelbourg,2288.0,Q335175
-@VanIslandRCMP,X,Royal Canadian Mounted Police,English,https://twitter.com/VanIslandRCMP,2288.0,Q335175
-@BCRCMPMedia,X,Royal Canadian Mounted Police,English,https://twitter.com/BCRCMPMedia,2288.0,Q335175
-Social Sciences and Humanities Research Council of Canada (SSHRC),Facebook,Social Sciences and Humanities Research Council,English,https://www.facebook.com/pages/Social-Sciences-and-Humanities-Research-Council-of-Canada-SSHRC/108668929196739,2316.0,Q2993802
-@SSHRC_CRSH,X,Social Sciences and Humanities Research Council,English,https://twitter.com/sshrc_crsh,2316.0,Q2993802
-@VRAB_Canada,X,Veterans Review and Appeal Board Canada,English,https://twitter.com/vrab_canada,2294.0,Q7923667
+Swan River RCMP,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/SwanRiverRCMP/,2288.0,
+Dauphin RCMP,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/DauphinRCMP,2288.0,
+BC RCMP,Facebook,Royal Canadian Mounted Police,English,https://facebook.com/bcrcmpnews,2288.0,
+Royal Canadian Mounted Police in Yukon,Facebook,Royal Canadian Mounted Police,English,https://facebook.com/yukonrcmp,2288.0,
+Royal Canadian Mounted Police in Prince Edward Island,Facebook,Royal Canadian Mounted Police,English,https://facebook.com/rcmpgrcpei,2288.0,
+RCMP Depot Division,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/RCMPDepot,2288.0,
+Royal Canadian Mounted Police,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/rcmpgrc,2288.0,
+Royal Canadian Mounted Police in Manitoba,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/rcmpmb,2288.0,
+Royal Canadian Mounted Police in Newfoundland and Labrador,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/rcmpnl,2288.0,
+Royal Canadian Mounted Police in Nova Scotia,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/rcmpns,2288.0,
+Royal Canadian Mounted Police in Ontario,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/rcmp.ontario,2288.0,
+Saskatchewan RCMP,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/SaskatchewanRCMP,2288.0,
+Surrey RCMP,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/SurreyRCMP,2288.0,
+@NorthRCMP,X,Royal Canadian Mounted Police,English,https://twitter.com/NorthRCMP,2288.0,
+@SoutheastRCMP,X,Royal Canadian Mounted Police,English,https://twitter.com/SoutheastRCMP,2288.0,
+@RCMPDepot,X,Royal Canadian Mounted Police,English,https://twitter.com/RCMPDepot,2288.0,
+Royal Canadian Mounted Police,YouTube,Royal Canadian Mounted Police,English,https://www.youtube.com/user/rcmpgrcpolice/featured,2288.0,
+Royal Canadian Mounted Police in New Brunswick,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/rcmpnb,2288.0,
+Royal Canadian Mounted Police in Quebec,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/rcmpquebec,2288.0,
+@RCMP_Nat_Div,X,Royal Canadian Mounted Police,English,https://twitter.com/RCMP_Nat_Div,2288.0,
+@LMDRCMP,X,Royal Canadian Mounted Police,English,https://twitter.com/LMDRCMP,2288.0,
+@KamloopsRCMP,X,Royal Canadian Mounted Police,English,https://twitter.com/KamloopsRCMP,2288.0,
+@RCMPPEI,X,Royal Canadian Mounted Police,English,https://twitter.com/rcmppei,2288.0,
+@RCMPNB,X,Royal Canadian Mounted Police,English,https://twitter.com/rcmpnb,2288.0,
+@RCMPSK,X,Royal Canadian Mounted Police,English,https://twitter.com/rcmpsk,2288.0,
+@RCMPNS,X,Royal Canadian Mounted Police,English,https://twitter.com/rcmpns,2288.0,
+@BCRCMP,X,Royal Canadian Mounted Police,English,https://twitter.com/BCRCMP,2288.0,
+@RCMPGravelbourg,X,Royal Canadian Mounted Police,English,https://twitter.com/RCMPGravelbourg,2288.0,
+@VanIslandRCMP,X,Royal Canadian Mounted Police,English,https://twitter.com/VanIslandRCMP,2288.0,
+@BCRCMPMedia,X,Royal Canadian Mounted Police,English,https://twitter.com/BCRCMPMedia,2288.0,
+Social Sciences and Humanities Research Council of Canada (SSHRC),Facebook,Social Sciences and Humanities Research Council,English,https://www.facebook.com/pages/Social-Sciences-and-Humanities-Research-Council-of-Canada-SSHRC/108668929196739,2316.0,
+@SSHRC_CRSH,X,Social Sciences and Humanities Research Council,English,https://twitter.com/sshrc_crsh,2316.0,
+@VRAB_Canada,X,Veterans Review and Appeal Board Canada,English,https://twitter.com/vrab_canada,2294.0,
 Canadian Coast Guard,YouTube,National Defence and the Canadian Armed Forces,English,https://youtube.com/@CanadianCoastGuard,,
 @DRDC_RDDC,X,National Defence and the Canadian Armed Forces,Bilingual,https://twitter.com/DRDC_RDDC,,
 Canadian Forces Snowbirds,Facebook,National Defence and the Canadian Armed Forces,English,https://www.facebook.com/pages/The-Canadian-Forces-Snowbirds/196833853688656?fref=ts,,
 Royal Canadian Air Force - Aviation royale canadienne,Flickr,National Defence and the Canadian Armed Forces,Bilingual,https://www.flickr.com/photos/rcafimagery,,
 Canadian Heritage - Patrimoine canadien,Flickr,Canadian Heritage,Bilingual,https://www.flickr.com/photos/canadianheritage-patrimoinecanadien,2223.0,Q1056951
 sport.canada,Flickr,Canadian Heritage,Bilingual,https://www.flickr.com/photos/sportcanada,2223.0,Q1056951
-@CERC_CERC,X,Social Sciences and Humanities Research Council,Bilingual,https://twitter.com/cerc_cerc,2316.0,Q2993802
-@CRC_CRC,X,Social Sciences and Humanities Research Council,Bilingual,https://twitter.com/crc_crc,2316.0,Q2993802
-SSHRC-CRSH,LinkedIn,Social Sciences and Humanities Research Council,Bilingual,https://ca.linkedin.com/company/social-sciences-and-humanities-research-council,2316.0,Q2993802
-Immigration and Refugee Board of Canada |Commission de l'immigration et du statut de réfugié,LinkedIn,Immigration and Refugee Board of Canada,Bilingual,https://www.linkedin.com/company/immigration-and-refugee-board,2261.0,Q2986473
-@CSE_CST,X,Communications Security Establishment,English,https://twitter.com/CSE_CST,2253.0,Q597935
+@CERC_CERC,X,Social Sciences and Humanities Research Council,Bilingual,https://twitter.com/cerc_cerc,2316.0,
+@CRC_CRC,X,Social Sciences and Humanities Research Council,Bilingual,https://twitter.com/crc_crc,2316.0,
+SSHRC-CRSH,LinkedIn,Social Sciences and Humanities Research Council,Bilingual,https://ca.linkedin.com/company/social-sciences-and-humanities-research-council,2316.0,
+Immigration and Refugee Board of Canada |Commission de l'immigration et du statut de réfugié,LinkedIn,Immigration and Refugee Board of Canada,Bilingual,https://www.linkedin.com/company/immigration-and-refugee-board,2261.0,
+@CSE_CST,X,Communications Security Establishment,English,https://twitter.com/CSE_CST,2253.0,
 Competition Bureau Canada,LinkedIn,Competition Bureau of Canada,English,https://www.linkedin.com/company/canadian-competition-bureau,3563.0,
 @AccessibleGC,X,Employment and Social Development Canada,English,https://twitter.com/AccessibleGC,2229.0,Q27929061
 Accessible Canada,Facebook,Employment and Social Development Canada,English,https://facebook.com/AccessibleGC/,2229.0,Q27929061
-The Canadian Centre for Occupational Health and Safety,Facebook,Canadian Centre for Occupational Health and Safety,English,https://facebook.com/CCOHS,2305.0,Q5029820
-Canadian Centre for Occupational Health and Safety,LinkedIn,Canadian Centre for Occupational Health and Safety,English,https://linkedin.com/company/canadian-centre-for-occupational-health-and-safety,2305.0,Q5029820
-@CCOHS,X,Canadian Centre for Occupational Health and Safety,English,https://twitter.com/CCOHS,2305.0,Q5029820
-Canadian Centre for Occupational Health and Safety (CCOHS),YouTube,Canadian Centre for Occupational Health and Safety,English,https://youtube.com/user/ccohs,2305.0,Q5029820
-Canadian Space Agency,Facebook,Canadian Space Agency,English,https://facebook.com/CanadianSpaceAgency,2251.0,Q212227
-Canadian Space Agency,YouTube,Canadian Space Agency,English,https://youtube.com/user/Canadianspaceagency,2251.0,Q212227
-@csa_asc,X,Canadian Space Agency,English,https://twitter.com/csa_asc,2251.0,Q212227
+The Canadian Centre for Occupational Health and Safety,Facebook,Canadian Centre for Occupational Health and Safety,English,https://facebook.com/CCOHS,2305.0,
+Canadian Centre for Occupational Health and Safety,LinkedIn,Canadian Centre for Occupational Health and Safety,English,https://linkedin.com/company/canadian-centre-for-occupational-health-and-safety,2305.0,
+@CCOHS,X,Canadian Centre for Occupational Health and Safety,English,https://twitter.com/CCOHS,2305.0,
+Canadian Centre for Occupational Health and Safety (CCOHS),YouTube,Canadian Centre for Occupational Health and Safety,English,https://youtube.com/user/ccohs,2305.0,
+Canadian Space Agency,Facebook,Canadian Space Agency,English,https://facebook.com/CanadianSpaceAgency,2251.0,
+Canadian Space Agency,YouTube,Canadian Space Agency,English,https://youtube.com/user/Canadianspaceagency,2251.0,
+@csa_asc,X,Canadian Space Agency,English,https://twitter.com/csa_asc,2251.0,
 Agriculture and Agri-Food Canada,Facebook,Agriculture and Agri-Food Canada,English,https://www.facebook.com/CanadianAgriculture,2222.0,Q1046164
 Department of Justice Canada |Ministère de la Justice du Canada,LinkedIn,Department of Justice Canada,Bilingual,https://www.linkedin.com/company/justicecanada/,2232.0,Q1058376
-Transportation Safety Board of Canada,Flickr,Transportation Safety Board of Canada,English,https://flickr.com/people/tsbcanada/,2309.0,Q2928368
-Transportation Safety Board of Canada,Facebook,Transportation Safety Board of Canada,English,https://www.facebook.com/TSBCanada,2309.0,Q2928368
-Transportation Safety Board of Canada - Bureau de la sécurité des transports du Canada,LinkedIn,Transportation Safety Board of Canada,Bilingual,https://www.linkedin.com/company/transportation-safety-board-of-canada,2309.0,Q2928368
+Transportation Safety Board of Canada,Flickr,Transportation Safety Board of Canada,English,https://flickr.com/people/tsbcanada/,2309.0,
+Transportation Safety Board of Canada,Facebook,Transportation Safety Board of Canada,English,https://www.facebook.com/TSBCanada,2309.0,
+Transportation Safety Board of Canada - Bureau de la sécurité des transports du Canada,LinkedIn,Transportation Safety Board of Canada,Bilingual,https://www.linkedin.com/company/transportation-safety-board-of-canada,2309.0,
 @Get_Prepared,X,Department of Public Safety and Emergency Preparedness,English,https://twitter.com/get_prepared,,
-@OSFICanada,X,Office of the Superintendent of Financial Institutions Canada,English,https://twitter.com/OSFICanada,2280.0,Q7079419
+@OSFICanada,X,Office of the Superintendent of Financial Institutions Canada,English,https://twitter.com/OSFICanada,2280.0,
 @PMPRB_CEPMB,X,Patented Medicine Prices Review Board Canada,Bilingual,https://twitter.com/pmprb_cepmb,2283.0,
 Canadian Conservation Institute,Facebook,Canadian Conservation Institute,English,https://facebook.com/cci.conservation,3534.0,
 Environment and Natural Resources in Canada,Facebook,Environment and Climate Change Canada,English,https://facebook.com/EnvironmentandNaturalResourcesinCanada,2237.0,Q348789
 International Experience Canada,Facebook,"Immigration, Refugees and Citizenship Canada",English,https://facebook.com/International-Experience-Canada-362400293941960,2224.0,Q1056074
 @IEC_EIC,X,"Immigration, Refugees and Citizenship Canada",English,https://twitter.com/IEC_EIC,2224.0,Q1056074
-CCI/ICC CHIN/RCIP,YouTube,Canadian Heritage Information Network,Bilingual,https://youtube.com/RCIPCHIN,3536.0,Q3456610
+CCI/ICC CHIN/RCIP,YouTube,Canadian Heritage Information Network,Bilingual,https://youtube.com/RCIPCHIN,3536.0,
 Veterans Affairs Canada / Anciens Combattants Canada,LinkedIn,Veterans Affairs Canada,Bilingual,https://linkedin.com/company/veterans-affairs-canada,2239.0,Q429575
-Signal Hill National Historic Site,Facebook,Parks Canada,English,https://facebook.com/SignalHillNHS,2315.0,Q349487
-Terra Nova National Park,Facebook,Parks Canada,English,https://facebook.com/TerraNovaNP,2315.0,Q349487
-Alexander Graham Bell National Historic Site,Facebook,Parks Canada,English,https://facebook.com/AGBNHS,2315.0,Q349487
-Canso Island National Historic Site,Facebook,Parks Canada,English,https://facebook.com/cansoislands,2315.0,Q349487
-Cape Breton Highlands National Park,Facebook,Parks Canada,English,https://facebook.com/CBHNP,2315.0,Q349487
-Fortress of Louisbourg National Historic Site,Facebook,Parks Canada,English,https://facebook.com/FortressOfLouisbourgNHS,2315.0,Q349487
-Grand-Pré National Historic Site,Facebook,Parks Canada,English,https://facebook.com/GrandPreNHS,2315.0,Q349487
-Marconi National historic Site,Facebook,Parks Canada,English,https://facebook.com/MarconiNHS,2315.0,Q349487
-St. Peters Canal National Historic Site,Facebook,Parks Canada,English,https://facebook.com/StPetersCanal,2315.0,Q349487
-"Fort George National Historic Site, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/FortGeorgeNHS,2315.0,Q349487
-"Fort Malden National Historic Site, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/FortMaldenNHS,2315.0,Q349487
-Fort St. Joseph National Historic Site,Facebook,Parks Canada,English,https://facebook.com/FortStJosephNHS,2315.0,Q349487
-"HMCS Haida National Historic Site, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/HaidaNHS,2315.0,Q349487
-"Lake Superior National Marine Conservation Area, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/LakeSuperiorNMCA,2315.0,Q349487
-Point Pelee National Park,Facebook,Parks Canada,English,https://facebook.com/PointPeleeNP,2315.0,Q349487
-Pukaskwa National Park,Facebook,Parks Canada,English,https://facebook.com/PukaskwaNP,2315.0,Q349487
-"Rideau Canal National Historic Site, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/RideauCanalNHS,2315.0,Q349487
-"Sault Ste. Marie Canal National Historic Site, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/SaultCanalNHS,2315.0,Q349487
-"Trent-Severn Waterway National Historic Site, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/TrentSevernNHS,2315.0,Q349487
-Riding Mountain National Park,Facebook,Parks Canada,English,https://facebook.com/RidingNP,2315.0,Q349487
-"Fort Langley National Historic Site, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/FortLangleyNHS,2315.0,Q349487
-"Fort Rodd Hill and Fisgard Lighthouse National Historic Sites, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/FortRoddFisgardNHS,2315.0,Q349487
-"Gulf Islands National Park Reserve, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/GulfIslandsNPR,2315.0,Q349487
-"Pacific Rim National Park Reserve, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/PacificRimNPR,2315.0,Q349487
-Parks Canada Nunavut,Facebook,Parks Canada,English,https://facebook.com/ParksCanadaNunavut,2315.0,Q349487
-Parks Canada Yukon,Facebook,Parks Canada,English,https://facebook.com/ParksCanadaYukon,2315.0,Q349487
-"Parks Canada, Northwest Territories",Facebook,Parks Canada,English,https://facebook.com/ParksCanadaNWT,2315.0,Q349487
-"Woodside National Historic Site, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/WoodsideNHS,2315.0,Q349487
-"Forillon National Park, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/ForillonNP,2315.0,Q349487
+Signal Hill National Historic Site,Facebook,Parks Canada,English,https://facebook.com/SignalHillNHS,2315.0,
+Terra Nova National Park,Facebook,Parks Canada,English,https://facebook.com/TerraNovaNP,2315.0,
+Alexander Graham Bell National Historic Site,Facebook,Parks Canada,English,https://facebook.com/AGBNHS,2315.0,
+Canso Island National Historic Site,Facebook,Parks Canada,English,https://facebook.com/cansoislands,2315.0,
+Cape Breton Highlands National Park,Facebook,Parks Canada,English,https://facebook.com/CBHNP,2315.0,
+Fortress of Louisbourg National Historic Site,Facebook,Parks Canada,English,https://facebook.com/FortressOfLouisbourgNHS,2315.0,
+Grand-Pré National Historic Site,Facebook,Parks Canada,English,https://facebook.com/GrandPreNHS,2315.0,
+Marconi National historic Site,Facebook,Parks Canada,English,https://facebook.com/MarconiNHS,2315.0,
+St. Peters Canal National Historic Site,Facebook,Parks Canada,English,https://facebook.com/StPetersCanal,2315.0,
+"Fort George National Historic Site, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/FortGeorgeNHS,2315.0,
+"Fort Malden National Historic Site, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/FortMaldenNHS,2315.0,
+Fort St. Joseph National Historic Site,Facebook,Parks Canada,English,https://facebook.com/FortStJosephNHS,2315.0,
+"HMCS Haida National Historic Site, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/HaidaNHS,2315.0,
+"Lake Superior National Marine Conservation Area, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/LakeSuperiorNMCA,2315.0,
+Point Pelee National Park,Facebook,Parks Canada,English,https://facebook.com/PointPeleeNP,2315.0,
+Pukaskwa National Park,Facebook,Parks Canada,English,https://facebook.com/PukaskwaNP,2315.0,
+"Rideau Canal National Historic Site, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/RideauCanalNHS,2315.0,
+"Sault Ste. Marie Canal National Historic Site, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/SaultCanalNHS,2315.0,
+"Trent-Severn Waterway National Historic Site, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/TrentSevernNHS,2315.0,
+Riding Mountain National Park,Facebook,Parks Canada,English,https://facebook.com/RidingNP,2315.0,
+"Fort Langley National Historic Site, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/FortLangleyNHS,2315.0,
+"Fort Rodd Hill and Fisgard Lighthouse National Historic Sites, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/FortRoddFisgardNHS,2315.0,
+"Gulf Islands National Park Reserve, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/GulfIslandsNPR,2315.0,
+"Pacific Rim National Park Reserve, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/PacificRimNPR,2315.0,
+Parks Canada Nunavut,Facebook,Parks Canada,English,https://facebook.com/ParksCanadaNunavut,2315.0,
+Parks Canada Yukon,Facebook,Parks Canada,English,https://facebook.com/ParksCanadaYukon,2315.0,
+"Parks Canada, Northwest Territories",Facebook,Parks Canada,English,https://facebook.com/ParksCanadaNWT,2315.0,
+"Woodside National Historic Site, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/WoodsideNHS,2315.0,
+"Forillon National Park, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/ForillonNP,2315.0,
 Canadian Joint Operations Command / Commandement des opérations interarmées du Canada,Flickr,National Defence and the Canadian Armed Forces,Bilingual,https://flickr.com/photos/cfoperations,,
 @CFOperations,X,National Defence and the Canadian Armed Forces,English,https://twitter.com/CFOperations,,
 @NationalDefence,X,National Defence and the Canadian Armed Forces,English,https://twitter.com/NationalDefence,,
-Prince Edward Island National Park,Facebook,Parks Canada,English,https://facebook.com/PEInationalpark,2315.0,Q349487
-"Grasslands National Park, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/grasslandsNP,2315.0,Q349487
-"Grosse Îleand the Irish Memorial NHS, Parks Canada",Facebook,Parks Canada,English,https://www.facebook.com/Grosseileandtheirishmemorial/,2315.0,Q349487
-Kejimkujik National Park and National Historic Site,Facebook,Parks Canada,English,https://www.facebook.com/Kejimkujik,2315.0,Q349487
+Prince Edward Island National Park,Facebook,Parks Canada,English,https://facebook.com/PEInationalpark,2315.0,
+"Grasslands National Park, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/grasslandsNP,2315.0,
+"Grosse Îleand the Irish Memorial NHS, Parks Canada",Facebook,Parks Canada,English,https://www.facebook.com/Grosseileandtheirishmemorial/,2315.0,
+Kejimkujik National Park and National Historic Site,Facebook,Parks Canada,English,https://www.facebook.com/Kejimkujik,2315.0,
 @CanHCAustralia,X,Global Affairs Canada,English,https://twitter.com/CanHCAustralia,2227.0,Q3315371
 Consulate General of Canada in Denver,Facebook,Global Affairs Canada,English,https://www.facebook.com/CanadaInDenver/,2227.0,Q3315371
 @CanEmbFinland,X,Global Affairs Canada,English,https://twitter.com/CanEmbFinland,2227.0,Q3315371
@@ -416,16 +416,16 @@ Consulate General of Canada in Denver,Facebook,Global Affairs Canada,English,htt
 @CanHCBarbados,X,Global Affairs Canada,English,https://twitter.com/canhcbarbados,2227.0,Q3315371
 @CanHCNigeria,X,Global Affairs Canada,English,https://twitter.com/canhcnigeria,2227.0,Q3315371
 @PrairiesTCS,X,Global Affairs Canada,English,https://twitter.com/prairiestcs,2227.0,Q3315371
-Privy Council Office,Facebook,Privy Council Office,English,https://www.facebook.com/PrivyCouncilCA/,2284.0,Q24168
-Canadian Democracy,X,Privy Council Office,English,https://twitter.com/CDNdemocracy,2284.0,Q24168
+Privy Council Office,Facebook,Privy Council Office,English,https://www.facebook.com/PrivyCouncilCA/,2284.0,
+Canadian Democracy,X,Privy Council Office,English,https://twitter.com/CDNdemocracy,2284.0,
 Public Services and Procurement Canada | Services publics et Approvisionnement Canada,LinkedIn,Public Services and Procurement Canada,Bilingual,https://linkedin.com/company/pwgsc,2236.0,Q7257673
 Employment and Social Development Canada,YouTube,Employment and Social Development Canada,English,https://youtube.com/user/HRSDCanada,2229.0,Q27929061
 Emploi et Développement social Canada (EDSC) / Employment and Social Development Canada (ESDC),LinkedIn,Employment and Social Development Canada,Bilingual,https://linkedin.com/company/hrsdc,2229.0,Q27929061
 Service Canada,LinkedIn,Employment and Social Development Canada,Bilingual,https://linkedin.com/company/service-canada,2229.0,Q27929061
 Women and Gender Equality Canada,Facebook,Women and Gender Equality Canada,English,https://www.facebook.com/wage.fegc,2241.0,Q85269208
-Canadian Science,Facebook,Science and Engineering Research Canada,English,https://www.facebook.com/CDNScience/,2314.0,Q2993807
-@NSERC_CRSNG,X,Science and Engineering Research Canada,English,https://twitter.com/NSERC_CRSNG,2314.0,Q2993807
-NSERCTube,YouTube,Science and Engineering Research Canada,English,https://youtube.com/user/NSERCTube,2314.0,Q2993807
+Canadian Science,Facebook,Science and Engineering Research Canada,English,https://www.facebook.com/CDNScience/,2314.0,
+@NSERC_CRSNG,X,Science and Engineering Research Canada,English,https://twitter.com/NSERC_CRSNG,2314.0,
+NSERCTube,YouTube,Science and Engineering Research Canada,English,https://youtube.com/user/NSERCTube,2314.0,
 ACOA -APECA,LinkedIn,Atlantic Canada Opportunities Agency,Bilingual,https://linkedin.com/company/acoa-apeca,2244.0,Q2826616
 @CER_REC,X,Canada Energy Regulator,English,https://twitter.com/CER_REC,2312.0,
 @AskISED,X,"Innovation, Science and Economic Development Canada",English,https://twitter.com/askised,2231.0,Q1057600
@@ -461,10 +461,10 @@ Canada Energy Regulator | Régie de l’énergie du Canada,YouTube,Canada Energy
 Federal Economic Development Agency for Southern Ontario | Agence fédérale de développement économique pour le Sud de l'Ontario,Linkedin,Federal Economic Development Agency for Southern Ontario,Bilingual,https://www.linkedin.com/company/federal-economic-development-agency-for-southern-ontario,2258.0,
 ServiceCanadaE,YouTube,Employment and Social Development Canada,English,https://youtube.com/user/ServiceCanadaE,2229.0,Q27929061
 @Comd_NAVRES,X,National Defence and the Canadian Armed Forces,Bilingual,https://twitter.com/Comd_NAVRES,,
-Polar Knowledge Canada,YouTube,Polar Knowledge Canada,English,https://youtube.com/channel/UCXarqg19vnRLHVmWX77jenQ,2318.0,Q5030480
-@CanBorderPRA,X,Canada Border Services Agency,English,https://twitter.com/canborderpra,2300.0,Q532090
-@CanBorderATL,X,Canada Border Services Agency,English,https://twitter.com/canborderatl,2300.0,Q532090
-@csiscanada,X,Canadian Security Intelligence Service,English,https://twitter.com/csiscanada,2250.0,Q1032405
+Polar Knowledge Canada,YouTube,Polar Knowledge Canada,English,https://youtube.com/channel/UCXarqg19vnRLHVmWX77jenQ,2318.0,
+@CanBorderPRA,X,Canada Border Services Agency,English,https://twitter.com/canborderpra,2300.0,
+@CanBorderATL,X,Canada Border Services Agency,English,https://twitter.com/canborderatl,2300.0,
+@csiscanada,X,Canadian Security Intelligence Service,English,https://twitter.com/csiscanada,2250.0,
 GCIndigenous,YouTube,Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada,English,https://youtube.com/user/AANDCanada,2230.0,Q86685295
 Canada and Iran,Facebook,Global Affairs Canada,English,https://facebook.com/CanadaandIran,2227.0,Q3315371
 Canada in Brazil,Facebook,Global Affairs Canada,English,https://facebook.com/CanadainBrazil,2227.0,Q3315371
@@ -652,92 +652,92 @@ Forces Jobs / Forces Emplois,Facebook,National Defence and the Canadian Armed Fo
 @ECCCWeatherQC,X,Environment and Climate Change Canada,English,https://twitter.com/ECCCWeatherQC,2237.0,Q348789
 ECCC Weather Saskatchewan,X,Environment and Climate Change Canada,English,https://twitter.com/ECCCWeatherSK,2237.0,Q348789
 @ECCCWeatherYT,X,Environment and Climate Change Canada,English,https://twitter.com/ECCCWeatherYT,2237.0,Q348789
-@CRTCeng,X,Canadian Radio­television and Telecommunications Commission,English,https://twitter.com/crtceng,2396.0,Q2993801
-@CRTCHearings,X,Canadian Radio­television and Telecommunications Commission,English,https://twitter.com/crtchearings,2396.0,Q2993801
-CRTC - Canadian Radio-television and Telecommunications Commission,Facebook,Canadian Radio­television and Telecommunications Commission,English,https://facebook.com/crtceng,2396.0,Q2993801
-CRTC,Youtube,Canadian Radio­television and Telecommunications Commission,Bilingual,https://youtube.com/user/CRTCgcca,2396.0,Q2993801
-Shared Services Canada | Services partagés Canada,LinkedIn,Shared Services Canada,Bilingual,https://linkedin.com/company/shared-services-canada,2292.0,Q28162755
+@CRTCeng,X,Canadian Radio­television and Telecommunications Commission,English,https://twitter.com/crtceng,2396.0,
+@CRTCHearings,X,Canadian Radio­television and Telecommunications Commission,English,https://twitter.com/crtchearings,2396.0,
+CRTC - Canadian Radio-television and Telecommunications Commission,Facebook,Canadian Radio­television and Telecommunications Commission,English,https://facebook.com/crtceng,2396.0,
+CRTC,Youtube,Canadian Radio­television and Telecommunications Commission,Bilingual,https://youtube.com/user/CRTCgcca,2396.0,
+Shared Services Canada | Services partagés Canada,LinkedIn,Shared Services Canada,Bilingual,https://linkedin.com/company/shared-services-canada,2292.0,
 @OntarioTCS,X,Global Affairs Canada,English,https://twitter.com/OntarioTCS,2227.0,Q3315371
 Trade Commissioner Service | Service des délégués commerciaux,LinkedIn,Global Affairs Canada,Bilingual,https://www.linkedin.com/company/the-canadian-trade-commissioner-service,2227.0,Q3315371
 @Project_Naming,X,Library and Archives Canada,English,https://twitter.com/project_naming,2262.0,Q913250
 Project Naming,Facebook,Library and Archives Canada,English,https://facebook.com/project.naming/,2262.0,Q913250
 Public Services and Procurement Canada,Facebook,Public Services and Procurement Canada,English,https://facebook.com/pspc.spac,2236.0,Q7257673
-Canadian Grain Commission,Facebook,Canadian Grain Commission,English,https://facebook.com/Canadian-Grain-Commission-271718786296104/,2246.0,Q558436
-Canadian Grain Commission / Commission canadienne des grains,LinkedIn,Canadian Grain Commission,Bilingual,https://www.linkedin.com/company/cgc-ccg/mycompany/,2246.0,Q558436
+Canadian Grain Commission,Facebook,Canadian Grain Commission,English,https://facebook.com/Canadian-Grain-Commission-271718786296104/,2246.0,
+Canadian Grain Commission / Commission canadienne des grains,LinkedIn,Canadian Grain Commission,Bilingual,https://www.linkedin.com/company/cgc-ccg/mycompany/,2246.0,
 Free to be me,X,Women and Gender Equality Canada,English,https://twitter.com/freetobeme_ca,2241.0,Q85269208
-"Trent-Severn Waterway Boat Info, Parks Canada",X,Parks Canada,English,https://twitter.com/tswboaterinfo,2315.0,Q349487
-"Rideau Canal Boat Info, Parks Canada",X,Parks Canada,English,https://twitter.com/rideauboatinfo,2315.0,Q349487
+"Trent-Severn Waterway Boat Info, Parks Canada",X,Parks Canada,English,https://twitter.com/tswboaterinfo,2315.0,
+"Rideau Canal Boat Info, Parks Canada",X,Parks Canada,English,https://twitter.com/rideauboatinfo,2315.0,
 Correctional Service of Canada,Facebook,Correctional Service Canada,English,https://facebook.com/CorrectionalServices,2255.0,Q3480093
-Gros Morne National Park,Facebook,Parks Canada,English,https://facebook.com/GrosMorneNP,2315.0,Q349487
-"Historic Canals in Quebec, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/QCCanals,2315.0,Q349487
+Gros Morne National Park,Facebook,Parks Canada,English,https://facebook.com/GrosMorneNP,2315.0,
+"Historic Canals in Quebec, Parks Canada",Facebook,Parks Canada,English,https://facebook.com/QCCanals,2315.0,
 Canada Energy Regulator,Facebook,Canada Energy Regulator,English,https://www.facebook.com/Cer.rec/,2312.0,
-Beyond2020,X,Privy Council Office,English,https://twitter.com/BeyondGC2020,2284.0,Q24168
+Beyond2020,X,Privy Council Office,English,https://twitter.com/BeyondGC2020,2284.0,
 Canadian Armed Forces Operations,Facebook,National Defence and the Canadian Armed Forces,English,https://facebook.com/CAFOperations,,
 Canadians Abroad - IEC,Facebook,"Immigration, Refugees and Citizenship Canada",English,https://facebook.com/CanadiansAbroadIEC,2224.0,Q1056074
-GC Jobs,Facebook,Public Service Commission of Canada,English,https://facebook.com/GovernmentofCanadaJobs/,2286.0,Q3644969
-@CanBorderSOR,X,Canada Border Services Agency,English,https://twitter.com/CanBorderSOR,2300.0,Q532090
+GC Jobs,Facebook,Public Service Commission of Canada,English,https://facebook.com/GovernmentofCanadaJobs/,2286.0,
+@CanBorderSOR,X,Canada Border Services Agency,English,https://twitter.com/CanBorderSOR,2300.0,
 Canadian Armed Forces,YouTube,National Defence and the Canadian Armed Forces,English,https://youtube.com/user/CanadianForcesVideos,,
 @ISED_CA,X,"Innovation, Science and Economic Development Canada",English,https://twitter.com/ised_ca,2231.0,Q1057600
-Canada Revenue Agency - Agence du revenu du Canada,LinkedIn,Canada Revenue Agency,Bilingual,https://linkedin.com/company/cra-arc/,2303.0,Q1032002
-CRTC,LinkedIn,Canadian Radio-television and Telecommunications Commission,Bilingual,https://linkedin.com/company/crtc,2396.0,Q2993801
+Canada Revenue Agency - Agence du revenu du Canada,LinkedIn,Canada Revenue Agency,Bilingual,https://linkedin.com/company/cra-arc/,2303.0,
+CRTC,LinkedIn,Canadian Radio-television and Telecommunications Commission,Bilingual,https://linkedin.com/company/crtc,2396.0,
 Canadian Intellectual Property Office,YouTube,Canadian Intellectual Property Office,English,https://youtube.com/channel/UCnKfEaiFrs9rKG4h2Wf14yA,3537.0,Q641436
 Environment and Climate Change,Facebook,Environment and Climate Change Canada,English,https://facebook.com/EnvironmentandClimateChange,2237.0,Q348789
 @GovCanHealth,X,Health Canada,English,https://twitter.com/GovCanHealth,2228.0,Q1057591
-polar.knowledge,Instagram,Polar Knowledge Canada,English,https://instagram.com/polar.knowledge/,2318.0,Q5030480
+polar.knowledge,Instagram,Polar Knowledge Canada,English,https://instagram.com/polar.knowledge/,2318.0,
 FedDev Ontario,Instagram,Federal Economic Development Agency for Southern Ontario,English,https://instagram.com/FedDevOntario/,2258.0,
 citimmcanada,Instagram,"Immigration, Refugees and Citizenship Canada",English,https://instagram.com/citimmcanada,2224.0,Q1056074
-jobs_gc,Instagram,Public Service Commission of Canada,English,https://instagram.com/jobs_gc,2286.0,Q3644969
-Get Cyber Safe,Instagram,Communications Security Establishment Canada,English,https://instagram.com/getcybersafe,2253.0,Q597935
+jobs_gc,Instagram,Public Service Commission of Canada,English,https://instagram.com/jobs_gc,2286.0,
+Get Cyber Safe,Instagram,Communications Security Establishment Canada,English,https://instagram.com/getcybersafe,2253.0,
 iec_abroad,Instagram,"Immigration, Refugees and Citizenship Canada",English,https://instagram.com/IEC_Abroad,2224.0,Q1056074
 veteransombudsmancanada,Instagram,Office of Veterans Ombudsman,English,https://instagram.com/veteransombudsmancanada,3595.0,
-rcmpnwt,Instagram,Royal Canadian Mounted Police,English,https://www.instagram.com/rcmpnwt,2288.0,Q335175
-bcrcmp,Instagram,Royal Canadian Mounted Police,English,https://www.instagram.com/bcrcmp,2288.0,Q335175
-rcmpgrcpolice,Instagram,Royal Canadian Mounted Police,English,https://instagram.com/rcmpgrcpolice,2288.0,Q335175
-@CanBorderPAC,X,Canada Border Services Agency,English,https://twitter.com/CanBorderPAC,2300.0,Q532090
+rcmpnwt,Instagram,Royal Canadian Mounted Police,English,https://www.instagram.com/rcmpnwt,2288.0,
+bcrcmp,Instagram,Royal Canadian Mounted Police,English,https://www.instagram.com/bcrcmp,2288.0,
+rcmpgrcpolice,Instagram,Royal Canadian Mounted Police,English,https://instagram.com/rcmpgrcpolice,2288.0,
+@CanBorderPAC,X,Canada Border Services Agency,English,https://twitter.com/CanBorderPAC,2300.0,
 Royal Canadian Navy,Facebook,National Defence and the Canadian Armed Forces,English,https://www.facebook.com/RoyalCanadianNavy,,
-RCMP,X,Royal Canadian Mounted Police,English,https://twitter.com/rcmpgrcpolice,2288.0,Q335175
+RCMP,X,Royal Canadian Mounted Police,English,https://twitter.com/rcmpgrcpolice,2288.0,
 JTF North / FOI Nord,X,National Defence and the Canadian Armed Forces,Bilingual,https://twitter.com/JTFN_FOIN,,
 @DMDND_SMMDN,X,National Defence and the Canadian Armed Forces,Bilingual,https://twitter.com/DMDND_SMMDN,,
 Treasury Board of Canada Secretariat | Secrétariat du Conseil du Trésor du Canada,LinkedIn,Treasury Board of Canada Secretariat,Bilingual,https://linkedin.com/company/tbs-sct,2242.0,Q17133814
-Communications Security Establishment Canada | Centre de la sécurité des télécommunications Canada,LinkedIn,Communications Security Establishment Canada,Bilingual,https://linkedin.com/company/cse_cst/,2253.0,Q597935
-Communications Security Establishment,YouTube,Communications Security Establishment Canada,English,https://www.youtube.com/channel/UCJ4AXt7ecSBp2QSsxm9UBdg,2253.0,Q597935
-Get Cyber Safe,LinkedIn,Communications Security Establishment Canada,English,https://www.linkedin.com/showcase/get-cyber-safe/,2253.0,Q597935
+Communications Security Establishment Canada | Centre de la sécurité des télécommunications Canada,LinkedIn,Communications Security Establishment Canada,Bilingual,https://linkedin.com/company/cse_cst/,2253.0,
+Communications Security Establishment,YouTube,Communications Security Establishment Canada,English,https://www.youtube.com/channel/UCJ4AXt7ecSBp2QSsxm9UBdg,2253.0,
+Get Cyber Safe,LinkedIn,Communications Security Establishment Canada,English,https://www.linkedin.com/showcase/get-cyber-safe/,2253.0,
 @FINTRAC_Canada,X,Financial Transactions and Reports Analysis Centre of Canada,English,https://twitter.com/FINTRAC_Canada,2260.0,Q5449682
 FINTRAC Canada,YouTube,Financial Transactions and Reports Analysis Centre of Canada,English,https://www.youtube.com/channel/UCxZzHo0HADR6G-C1fHi0QgA/featured,2260.0,Q5449682
 FINTRAC Canada | CANAFE Canada,LinkedIn,Financial Transactions and Reports Analysis Centre of Canada,Bilingual,https://www.linkedin.com/company/fintrac-canafe/about/,2260.0,Q5449682
 @Our_languages,X,Public Services and Procurement Canada,English,https://twitter.com/Our_languages,2236.0,Q7257673
 Language Portal of Canada,Facebook,Public Services and Procurement Canada,English,https://facebook.com/Ourlanguages.ca,2236.0,Q7257673
-Canada Revenue Agency,Facebook,Canada Revenue Agency,English,https://facebook.com/canrevagency,2303.0,Q1032002
-@CDNScience,X,Science and Engineering Research Canada,English,https://twitter.com/CDNScience,2314.0,Q2993807
-@rcmpqc,X,Royal Canadian Mounted Police,English,https://twitter.com/rcmpqc,2288.0,Q335175
-@rcmpmb,X,Royal Canadian Mounted Police,English,https://twitter.com/rcmpmb,2288.0,Q335175
-@RCMPNL,X,Royal Canadian Mounted Police,English,https://twitter.com/rcmpnl,2288.0,Q335175
+Canada Revenue Agency,Facebook,Canada Revenue Agency,English,https://facebook.com/canrevagency,2303.0,
+@CDNScience,X,Science and Engineering Research Canada,English,https://twitter.com/CDNScience,2314.0,
+@rcmpqc,X,Royal Canadian Mounted Police,English,https://twitter.com/rcmpqc,2288.0,
+@rcmpmb,X,Royal Canadian Mounted Police,English,https://twitter.com/rcmpmb,2288.0,
+@RCMPNL,X,Royal Canadian Mounted Police,English,https://twitter.com/rcmpnl,2288.0,
 @OPO_Canada,X,Office of the Procurement Ombudsman,English,https://twitter.com/OPO_Canada,3585.0,
 @CanAmbClimate,X,Environment and Climate Change Canada,English,https://twitter.com/CanAmbClimate,2237.0,Q348789
-The Immigration and Refugee Board of Canada - IRB,Facebook,Immigration and Refugee Board of Canada,English,https://facebook.com/IRBCanada/,2261.0,Q2986473
+The Immigration and Refugee Board of Canada - IRB,Facebook,Immigration and Refugee Board of Canada,English,https://facebook.com/IRBCanada/,2261.0,
 "Housing, Infrastructure and Communities Canada",YouTube,"Housing, Infrastructure and Communities Canada",English,https://www.youtube.com/channel/UC7aLqBZwN558DuW3eAgh8mQ?reload=9,2269.0,
-National Historic Sites of New Brunswick,Facebook,Parks Canada,English,https://www.facebook.com/ParksCanadaNB,2315.0,Q349487
+National Historic Sites of New Brunswick,Facebook,Parks Canada,English,https://www.facebook.com/ParksCanadaNB,2315.0,
 Plains of Abraham,Facebook,The National Battlefields Commission,English,https://www.facebook.com/plainsabraham/,2311.0,
 Edwin-Belanger Bandstand,Facebook,The National Battlefields Commission,English,https://www.facebook.com/edwinbelangerbandstand,2311.0,
 @plainsabraham,X,The National Battlefields Commission,English,https://twitter.com/plainsabraham,2311.0,
 Plaines,YouTube,The National Battlefields Commission,Bilingual,https://www.youtube.com/user/1908abrahamca,2311.0,
 @ECCC_CHC,X,Environment and Climate Change Canada,Bilingual,https://twitter.com/@ECCC_CHC,2237.0,Q348789
 @ECCC_CIS,X,Environment and Climate Change Canada,English,https://twitter.com/@ECCC_CIS,2237.0,Q348789
-@CommrRCMPGRC,X,Royal Canadian Mounted Police,Bilingual,https://twitter.com/CommrRCMPGRC,2288.0,Q335175
-"Parks Life, Parks Canada",Facebook,Parks Canada,English,https://www.facebook.com/pcparkslife,2315.0,Q349487
-"Bellevue House National Historic Site, Parks Canada",Facebook,Parks Canada,English,https://www.facebook.com/BellevueHouseNHS,2315.0,Q349487
+@CommrRCMPGRC,X,Royal Canadian Mounted Police,Bilingual,https://twitter.com/CommrRCMPGRC,2288.0,
+"Parks Life, Parks Canada",Facebook,Parks Canada,English,https://www.facebook.com/pcparkslife,2315.0,
+"Bellevue House National Historic Site, Parks Canada",Facebook,Parks Canada,English,https://www.facebook.com/BellevueHouseNHS,2315.0,
 @cdntourism,X,"Innovation, Science and Economic Development Canada",English,https://twitter.com/cdntourism,2231.0,Q1057600
 Canada Tourism,Instagram,"Innovation, Science and Economic Development Canada",English,https://www.instagram.com/cdntourism/?hl=en,2231.0,Q1057600
 Agriculture and Agri-Food Canada,LinkedIn,Agriculture and Agri-Food Canada,Bilingual,https://www.linkedin.com/company/aafc-aac/,2222.0,Q1046164
 pspc_spac,Instagram,Public Services and Procurement Canada,Bilingual,https://www.instagram.com/PSPC_SPAC/,2236.0,Q7257673
-rcmpontario,Instagram,Royal Canadian Mounted Police,English,https://www.instagram.com/RCMPOntario/,2288.0,Q335175
+rcmpontario,Instagram,Royal Canadian Mounted Police,English,https://www.instagram.com/RCMPOntario/,2288.0,
 Canadian Coast Guard College,Facebook,Fisheries and Oceans Canada,English,https://www.facebook.com/pg/CanadianCoastGuardCollege,2226.0,Q349666
 @CCGCollege,X,National Defence and the Canadian Armed Forces,English,https://twitter.com/CCGCollege,,
 "Housing, Infrastructure and Communities Canada",Facebook,"Housing, Infrastructure and Communities Canada",English,https://www.facebook.com/HousingInfrastructureCommunities/,2269.0,
 housinginfracommunities,Instagram,"Housing, Infrastructure and Communities Canada",English,https://www.instagram.com/housinginfracommunities,2269.0,
 GCIndigenous,Instagram,Crown-Indigenous Relations and Northern Affairs Canada,English,https://www.instagram.com/gcindigenous/,2230.0,Q86685295
-@CanBorderQUE,X,Canada Border Services Agency,English,https://twitter.com/CanBorderQUE,2300.0,Q532090
-Sable Island National Park Reserve,Facebook,Parks Canada,English,https://www.facebook.com/SableIslandNPR,2315.0,Q349487
+@CanBorderQUE,X,Canada Border Services Agency,English,https://twitter.com/CanBorderQUE,2300.0,
+Sable Island National Park Reserve,Facebook,Parks Canada,English,https://www.facebook.com/SableIslandNPR,2315.0,
 fcac_can,Instagram,Financial Consumer Agency of Canada,English,https://instagram.com/FCAC_Can,2259.0,Q2826603
 @MPCC_Canada,X,Military Police Complaints Commission of Canada,English,https://twitter.com/mpcc_canada,2264.0,
 fisheriesoceancan,Instagram,Fisheries and Oceans Canada,English,https://www.instagram.com/fisheriesoceanscan/?hl=en,2226.0,Q349666
@@ -745,9 +745,9 @@ Environment and Climate Change Canada - Weather,Facebook,Environment and Climate
 ECCC Jobs | Emplois ECCC,LinkedIn,Environment and Climate Change Canada,Bilingual,https://www.linkedin.com/showcase/eccc-jobs-emplois-eccc,2237.0,Q348789
 Inside ECCC | Ici à ECCC,LinkedIn,Environment and Climate Change Canada,Bilingual,https://www.linkedin.com/showcase/news-eccc-nouvelles-eccc,2237.0,Q348789
 Environment and Climate Change Canada,LinkedIn,Environment and Climate Change Canada,Bilingual,https://www.linkedin.com/company/environment-canada,2237.0,Q348789
-"Georgian Bay Islands National Park, Parks Canada",Facebook,Parks Canada,English,https://www.facebook.com/GBINP,2315.0,Q349487
+"Georgian Bay Islands National Park, Parks Canada",Facebook,Parks Canada,English,https://www.facebook.com/GBINP,2315.0,
 Fisheries and Oceans Canada,LinkedIn,Department of Fisheries and Oceans,Bilingual,https://www.linkedin.com/company/fisheries-and-oceans-canada/,2226.0,Q349666
-@DeputyClerk_GC,X,Privy Council Office,English,https://twitter.com/DeputyClerk_GC,2284.0,Q24168
+@DeputyClerk_GC,X,Privy Council Office,English,https://twitter.com/DeputyClerk_GC,2284.0,
 libraryarchives,Instagram,Library and Archives Canada,English,https://www.instagram.com/libraryarchives/,2262.0,Q913250
 Défi propulsion DEC / CED Fast Forward Challenge,Facebook,Canada Economic Development for Quebec Regions,Bilingual,https://facebook.com/DefiPropulsionFastForwardChallenge/,2257.0,Q2826593
 Canada Mortgage and Housing Corporation (CMHC),Facebook,Canada Mortgage and Housing Corporation,English,https://www.facebook.com/cmhc.schl/,3631.0,
@@ -755,16 +755,16 @@ Canada Mortgage and Housing Corporation (CMHC),Facebook,Canada Mortgage and Hous
 Canada Mortgage and Housing Corporation (CMHC) Société canadienne d'hypothèques et de logement (SCHL),LinkedIn,Canada Mortgage and Housing Corporation,Bilingual,https://www.linkedin.com/company/canada-mortgage-and-housing-corporation/,3631.0,
 cmhc_schl,Instagram,Canada Mortgage and Housing Corporation,Bilingual,https://www.instagram.com/cmhc_schl/,3631.0,
 CMHCca,YouTube,Canada Mortgage and Housing Corporation,English,https://www.youtube.com/user/CMHCca,3631.0,
-@PPSC_SPPC,X,Public Prosecution Service of Canada,English,https://twitter.com/PPSC_SPPC,2277.0,Q7257506
-Public Prosecution Service of Canada | Service des poursuites pénales du Canada,LinkedIn,Public Prosecution Service of Canada,Bilingual,https://www.linkedin.com/company/ppsc-sppc/,2277.0,Q7257506
-Bourses Vanier Scholarships,Facebook,Canadian Institutes of Health Research,Bilingual,https://www.facebook.com/vanier.canada/,2307.0,Q5030193
-Bourses Banting Fellowships,Facebook,Canadian Institutes of Health Research,Bilingual,https://www.facebook.com/banting.canada/,2307.0,Q5030193
-Parks Canada Halifax,Facebook,Parks Canada,English,https://www.facebook.com/ParksCanadaHalifax/,2315.0,Q349487
-Canada Border Services Agency |Agence des services frontaliers du Canada,LinkedIn,Canada Border Services Agency,Bilingual,https://www.linkedin.com/company/cbsa-asfc/,2300.0,Q532090
+@PPSC_SPPC,X,Public Prosecution Service of Canada,English,https://twitter.com/PPSC_SPPC,2277.0,
+Public Prosecution Service of Canada | Service des poursuites pénales du Canada,LinkedIn,Public Prosecution Service of Canada,Bilingual,https://www.linkedin.com/company/ppsc-sppc/,2277.0,
+Bourses Vanier Scholarships,Facebook,Canadian Institutes of Health Research,Bilingual,https://www.facebook.com/vanier.canada/,2307.0,
+Bourses Banting Fellowships,Facebook,Canadian Institutes of Health Research,Bilingual,https://www.facebook.com/banting.canada/,2307.0,
+Parks Canada Halifax,Facebook,Parks Canada,English,https://www.facebook.com/ParksCanadaHalifax/,2315.0,
+Canada Border Services Agency |Agence des services frontaliers du Canada,LinkedIn,Canada Border Services Agency,Bilingual,https://www.linkedin.com/company/cbsa-asfc/,2300.0,
 transportcanada,Instagram,Transport Canada,English,https://www.instagram.com/transportcanada/,2238.0,Q2035496
 healthycdns,Instagram,Health Canada,English,https://www.instagram.com/HealthyCdns/,2228.0,Q1057591
-"Rouge National Urban Park, Parks Canada",Facebook,Parks Canada,English,https://www.facebook.com/RougeNUP/,2315.0,Q349487
-"Rouge National Urban Park, Parks Canada",X,Parks Canada,English,https://twitter.com/RougePark,2315.0,Q349487
+"Rouge National Urban Park, Parks Canada",Facebook,Parks Canada,English,https://www.facebook.com/RougeNUP/,2315.0,
+"Rouge National Urban Park, Parks Canada",X,Parks Canada,English,https://twitter.com/RougePark,2315.0,
 @DM_PSPC,X,Public Services and Procurement Canada,English,https://twitter.com/DM_PSPC?lang=en,2236.0,Q7257673
 @Can2030Agenda,X,Sustainable Development Goals 2030 Unit,English,https://twitter.com/Can2030Agenda,,
 Canada 2030 Agenda,Facebook,Sustainable Development Goals 2030 Unit,English,https://www.facebook.com/Can2030Agenda,,
@@ -778,44 +778,44 @@ dontdrivehigh,Instagram,Public Safety Canada,English,https://www.instagram.com/d
 Don't Drive High,Facebook,Public Safety Canada,English,https://www.facebook.com/dontdrivehigh/,2235.0,Q2602726
 Communications Community Office - Bureau de la Collectivité des Communications,LinkedIn,Treasury Board Secretariat,Bilingual,https://www.linkedin.com/in/communications-community-office-cco-bureau-de-la-collectivit%C3%A9-des-communications-bcc-a81b44161/,2242.0,Q17133814
 cfia_canada,Instagram,Canadian Food Inspection Agency,English,https://www.instagram.com/cfia_canada/,2306.0,Q2826578
-cihr_irsc,Instagram,Canadian Institutes of Health Research,Bilingual,https://www.instagram.com/cihr_irsc/,2307.0,Q5030193
+cihr_irsc,Instagram,Canadian Institutes of Health Research,Bilingual,https://www.instagram.com/cihr_irsc/,2307.0,
 nrc_cnrc,Instagram,National Research Council,Bilingual,https://www.instagram.com/nrc_cnrc/?hl=en,2313.0,Q1437507
 GCWCC - CCMTGC,YouTube,Government of Canada Workplace Charitable Campaign,Bilingual,https://www.youtube.com/channel/UCKySzCfjd7Hey2KVErnPGJQ/featured,,
 @GCWCC_CCMTGC,X,Government of Canada Workplace Charitable Campaign,Bilingual,https://twitter.com/GCWCC_CCMTGC,,
 GCWCC - CCMTGC,Facebook,Government of Canada Workplace Charitable Campaign,Bilingual,https://www.facebook.com/GCWCC.CCMTGC/,,
 gcwcc,Instagram,Government of Canada Workplace Charitable Campaign,English,https://www.instagram.com/gcwcc/,,
-sshrc_crsh,Instagram,The Social Sciences and Humanities Research Council,Bilingual,https://www.instagram.com/SSHRC_CRSH/,2316.0,Q2993802
-Communication Security Establishment Canada,Instagram,Communications Security Establishment,English,https://www.instagram.com/cse_cst/?hl=en,2253.0,Q597935
+sshrc_crsh,Instagram,The Social Sciences and Humanities Research Council,Bilingual,https://www.instagram.com/SSHRC_CRSH/,2316.0,
+Communication Security Establishment Canada,Instagram,Communications Security Establishment,English,https://www.instagram.com/cse_cst/?hl=en,2253.0,
 Maritime Forces Pacific / Forces maritimes du Pacifique,Facebook,National Defence and the Canadian Armed Forces,Bilingual,https://www.facebook.com/Maritime.Forces.Pacific/,,
 @MARPAC_FMARP,X,National Defence and the Canadian Armed Forces,Bilingual,https://twitter.com/MARPAC_FMARP,,
 @VicJRCC_CCCOS,X,National Defence and the Canadian Armed Forces,Bilingual,https://twitter.com/vicjrcc_cccos/,,
-@COP_eng,X,Copyright Board of Canada,English,https://twitter.com/COP_eng,2254.0,Q2986597
+@COP_eng,X,Copyright Board of Canada,English,https://twitter.com/COP_eng,2254.0,
 Impact Assessment Agency of Canada,YouTube,Impact Assessment Agency of Canada,English,https://www.youtube.com/channel/UCVV-3MzanVGOa6wDgOdkphQ,2245.0,Q349602
-canadianspaceagency,Intagram,Canadian Space Agency,English,https://www.instagram.com/canadianspaceagency/,2251.0,Q212227
-Canadian Space Agency | Agence spatiale canadienne,LinkedIn,Canadian Space Agency,Bilingual,https://www.linkedin.com/company/agence-spatiale-canadienne,2251.0,Q212227
-Canadian Space Agency,Youtube,Canadian Space Agency,English,https://www.youtube.com/user/Canadianspaceagency,2251.0,Q212227
-"National Historic Sites in Quebec, Parks Canada",Facebook,Parks Canada,English,https://www.facebook.com/NHSinQC/,2315.0,Q349487
-Deputy Prime Minister of Canada,X,Privy Council Office,English,https://twitter.com/DeputyPM_Canada,2284.0,Q24168
-Impact Canada,X,Privy Council Office,English,https://twitter.com/impact_innoven,2284.0,Q24168
-Impact Canada,LinkedIn,Privy Council Office,Bilingual,https://www.linkedin.com/company/equ ipe-impact-canada-team/,2284.0,Q24168
-Impact Canada,YouTube,Privy Council Office,Bilingual,https://www.youtube.com/channel/UC4MzmxSuuBj6XLckOpBvdBQ,2284.0,Q24168
-Impact Canada,Facebook,Privy Council Office,English,https://www.facebook.com/impactcanadaen/,2284.0,Q24168
-Impact Canada,Instagram,Privy Council Office,Bilingual,https://www.instagram.com/impact.canada/,2284.0,Q24168
+canadianspaceagency,Intagram,Canadian Space Agency,English,https://www.instagram.com/canadianspaceagency/,2251.0,
+Canadian Space Agency | Agence spatiale canadienne,LinkedIn,Canadian Space Agency,Bilingual,https://www.linkedin.com/company/agence-spatiale-canadienne,2251.0,
+Canadian Space Agency,Youtube,Canadian Space Agency,English,https://www.youtube.com/user/Canadianspaceagency,2251.0,
+"National Historic Sites in Quebec, Parks Canada",Facebook,Parks Canada,English,https://www.facebook.com/NHSinQC/,2315.0,
+Deputy Prime Minister of Canada,X,Privy Council Office,English,https://twitter.com/DeputyPM_Canada,2284.0,
+Impact Canada,X,Privy Council Office,English,https://twitter.com/impact_innoven,2284.0,
+Impact Canada,LinkedIn,Privy Council Office,Bilingual,https://www.linkedin.com/company/equ ipe-impact-canada-team/,2284.0,
+Impact Canada,YouTube,Privy Council Office,Bilingual,https://www.youtube.com/channel/UC4MzmxSuuBj6XLckOpBvdBQ,2284.0,
+Impact Canada,Facebook,Privy Council Office,English,https://www.facebook.com/impactcanadaen/,2284.0,
+Impact Canada,Instagram,Privy Council Office,Bilingual,https://www.instagram.com/impact.canada/,2284.0,
 CCOBCC,YouTube,Treasury Board Canada Secretariat (TBS),Bilingual,https://youtube.com/channel/UC97UQsjarJIKA4cjKON08lQ?view_as=subscriber,2242.0,Q17133814
 Canadian Armed Forces / Forces armées canadiennes,LinkedIn,National Defence and the Canadian Armed Forces,Bilingual,https://www.linkedin.com/company/canadian-forces/,,
 Defence Research and Development Canada / Recherche et développement pour la défense Canada,LinkedIn,National Defence and the Canadian Armed Forces,Bilingual,https://www.linkedin.com/company/drdc/,,
-Natural Sciences and Engineering Research Council of Canada (NSERC),LinkedIn,Science and Engineering Research Canada,Bilingual,https://www.linkedin.com/company/natural-sciences-and-engineering-research-council-of-canada/,2314.0,Q2993807
-Statistics Canada,LinkedIn,Statistics Canada,Bilingual,https://www.linkedin.com/company/statcan/,2293.0,Q1155740
+Natural Sciences and Engineering Research Council of Canada (NSERC),LinkedIn,Science and Engineering Research Canada,Bilingual,https://www.linkedin.com/company/natural-sciences-and-engineering-research-council-of-canada/,2314.0,
+Statistics Canada,LinkedIn,Statistics Canada,Bilingual,https://www.linkedin.com/company/statcan/,2293.0,
 Canada Energy Regulator,LinkedIn,Canada Energy Regulator,English,https://www.linkedin.com/company/cer-rec/,2312.0,
 Policy Horizons Canada - Horizons de politiques Canada,LinkedIn,Employment and Social Development Canada,Bilingual,https://www.linkedin.com/company/policy-horizons-canada/,2229.0,Q27929061
-Commission de la fonction publique du Canada / Public Service Commission of Canada,LinkedIn,Public Service Commission of Canada,Bilingual,https://www.linkedin.com/company/public-service-commission-of-canada/,2286.0,Q3644969
+Commission de la fonction publique du Canada / Public Service Commission of Canada,LinkedIn,Public Service Commission of Canada,Bilingual,https://www.linkedin.com/company/public-service-commission-of-canada/,2286.0,
 WAGE / FEGC,LinkedIn,Women and Gender Equality Canada,Bilingual,https://www.linkedin.com/company/wage-fegc,2241.0,Q85269208
 Invest in Canada / Investir au Canada,LinkedIn,Invest in Canada,Bilingual,https://www.linkedin.com/company/invest-in-canada-investir-au-canada/,2317.0,
 Environment and Climate Change Canada,LinkedIn,Environment and Climate Change Canada,Bilingual,https://www.linkedin.com/company/environment-canada/,2237.0,Q348789
 ECCC Jobs / Emplois ECCC,LinkedIn,Environment and Climate Change Canada,Bilingual,https://www.linkedin.com/showcase/eccc-jobs-emplois-eccc/,2237.0,Q348789
 Inside ECCC / Ici à ECCC,LinkedIn,Environment and Climate Change Canada,Bilingual,https://www.linkedin.com/showcase/news-eccc-nouvelles-eccc/,2237.0,Q348789
 Public Safety Canada / Sécurité publique Canada,LinkedIn,Public Safety Canada,Bilingual,https://www.linkedin.com/company/safety-canada-securite-canada/,2235.0,Q2602726
-Government of Canada,LinkedIn,Privy Council Office,Bilingual,https://www.linkedin.com/company/government-of-canada/about/,2284.0,Q24168
+Government of Canada,LinkedIn,Privy Council Office,Bilingual,https://www.linkedin.com/company/government-of-canada/about/,2284.0,
 Healthy First Nations and Inuit,Facebook,Crown-Indigenous Relations and Northern Affairs Canada,English,https://www.facebook.com/GCIndigenousHealth/,2230.0,Q86685295
 CAF CWO,Instagram,National Defence and the Canadian Armed Forces,English,https://www.instagram.com/CAFCWO_adjucfac/,,
 @DoingBusinessGC,X,Public Services and Procurement Canada,English,https://twitter.com/DoingBusinessGC,2236.0,Q7257673
@@ -834,21 +834,21 @@ Canadian Northern Economic Development Agency,Facebook,Canadian Northern Economi
 @GCCanNor,X,Canadian Northern Economic Development Agency,English,https://twitter.com/GCCanNor,2249.0,
 @ESDC_GC,X,Employment and Social Development Canada,English,https://twitter.com/ESDC_GC,2229.0,Q27929061
 Employment and Social Development Canada,Facebook,Employment and Social Development Canada,English,https://www.facebook.com/ESDC.GC,2229.0,Q27929061
-Parks Canada Manitoba,Facebook,Parks Canada,English,https://www.facebook.com/parkscanadamb/,2315.0,Q349487
-parks.canada,Instagram,Parks Canada,English,https://www.instagram.com/parks.canada/,2315.0,Q349487
-Fort St. James National Historic Site,Facebook,Parks Canada,English,https://www.facebook.com/FortStJamesNHS/,2315.0,Q349487
-"Fortifications of Québec National Historic Site, Parks Canada",Facebook,Parks Canada,English,https://www.facebook.com/qcfortifications,2315.0,Q349487
+Parks Canada Manitoba,Facebook,Parks Canada,English,https://www.facebook.com/parkscanadamb/,2315.0,
+parks.canada,Instagram,Parks Canada,English,https://www.instagram.com/parks.canada/,2315.0,
+Fort St. James National Historic Site,Facebook,Parks Canada,English,https://www.facebook.com/FortStJamesNHS/,2315.0,
+"Fortifications of Québec National Historic Site, Parks Canada",Facebook,Parks Canada,English,https://www.facebook.com/qcfortifications,2315.0,
 @SkyHawksCanada,X,National Defence and the Canadian Armed Forces,Bilingual,https://twitter.com/SkyHawksCanada/,,
 skyhawkscanada,Instagram,National Defence and the Canadian Armed Forces,Bilingual,https://www.instagram.com/SkyHawksCanada/,,
 SkyHawks Canada,Facebook,National Defence and the Canadian Armed Forces,Bilingual,https://www.facebook.com/SkyHawksCanada/,,
 coastguardcan,Instagram,National Defence and the Canadian Armed Forces,English,https://www.instagram.com/coastguardcan/,,
 Library and Archives Canada,LinkedIn,Library and Archives Canada,Bilingual,https://www.linkedin.com/company/lac-bac/,2262.0,Q913250
-Royal Canadian Mounted Police in the Northwest Territories,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/rcmpnt,2288.0,Q335175
-RCMP Northwest Territories,X,Royal Canadian Mounted Police,English,https://twitter.com/rcmpnt,2288.0,Q335175
+Royal Canadian Mounted Police in the Northwest Territories,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/rcmpnt,2288.0,
+RCMP Northwest Territories,X,Royal Canadian Mounted Police,English,https://twitter.com/rcmpnt,2288.0,
 @CanadainRwanda,X,Global Affairs Canada,English,https://twitter.com/CanadainRwanda,2227.0,Q3315371
 Canadian Northern Economic Development Agency / Agence canadienne de développement économique dans le Nord,LinkedIn,Canadian Northern Economic Development Agency,Bilingual,https://www.linkedin.com/company/rda-cannor,2249.0,
 acoacanada,Instagram,Atlantic Canada Opportunities Agency,English,https://www.instagram.com/acoacanada/,2244.0,Q2826616
-rcmpdepot,Instagram,Royal Canadian Mounted Police,English,https://www.instagram.com/rcmpdepot/,2288.0,Q335175
+rcmpdepot,Instagram,Royal Canadian Mounted Police,English,https://www.instagram.com/rcmpdepot/,2288.0,
 Government of Canada – Finance Community,LinkedIn,Treasury Board of Canada Secretariat,Bilingual,https://www.linkedin.com/company/fmcd-dcgf/,2242.0,Q17133814
 @SSTribunal_EN,X,Social Security Tribunal of Canada,English,https://twitter.com/SSTribunal_EN,3632.0,
 Social Security Tribunal of Canada | Tribunal de la sécurité sociale du Canada,LinkedIn,Social Security Tribunal of Canada,Bilingual,https://www.linkedin.com/company/sstc-tssc/,3632.0,
@@ -857,11 +857,11 @@ plains_abraham,Instagram,The National Battlefields Commission,English,https://ww
 Department of Finance Canada,Facebook,Department of Finance Canada,English,https://www.facebook.com/FinanceCanada,2225.0,Q1191438
 cdnscience,Instagram,"Innovation, Science and Economic Development Canada",English,https://www.instagram.com/cdnscience/,2231.0,Q1057600
 cdninnovation,Instagram,"Innovation, Science and Economic Development Canada",English,https://www.instagram.com/cdninnovation/,2231.0,Q1057600
-statcan_eng,Instagram,Statistics Canada,English,https://www.instagram.com/statcan_eng/,2293.0,Q1155740
+statcan_eng,Instagram,Statistics Canada,English,https://www.instagram.com/statcan_eng/,2293.0,
 FedDev Ontario,Facebook,Federal Economic Development Agency for Southern Ontario,Bilingual,https://www.facebook.com/FedDevOntario/,2258.0,
-"Prince Albert National Park, Parks Canada",Facebook,Parks Canada,English,https://www.facebook.com/PrinceAlbertNationalPark/,2315.0,Q349487
-Elk Island National Park,Facebook,Parks Canada,English,https://facebook.com/ElkIslandNationalPark/,2315.0,Q349487
-Public Prosecution Service of Canada,Facebook,Public Prosecution Service of Canada,English,https://facebook.com/Public-Prosecution-Service-of-Canada-108566911464403/,2277.0,Q7257506
+"Prince Albert National Park, Parks Canada",Facebook,Parks Canada,English,https://www.facebook.com/PrinceAlbertNationalPark/,2315.0,
+Elk Island National Park,Facebook,Parks Canada,English,https://facebook.com/ElkIslandNationalPark/,2315.0,
+Public Prosecution Service of Canada,Facebook,Public Prosecution Service of Canada,English,https://facebook.com/Public-Prosecution-Service-of-Canada-108566911464403/,2277.0,
 Office of the Taxpayers' Ombudsperson,YouTube,Office of the Taxpayers' Ombudsperson,English,https://www.youtube.com/channel/UCrHTtYjnLisDJOyG7lwkBAg,3594.0,
 Pacific Economic Development Canada | Développement économique Canada pour le Pacifique,LinkedIn,Pacific Economic Development Agency of Canada,Bilingual,https://www.linkedin.com/company/pacifican/,2298.0,
 Pacific Economic Development Agency of Canada,X,Pacific Economic Development Agency of Canada,English,https://twitter.com/PacifiCanEN,2298.0,
@@ -870,16 +870,16 @@ Pacific Economic Development Agency of Canada,YouTube,Pacific Economic Developme
 Prairies Economic Development Canada I Développement économique Canada pour les Prairies,LinkedIn,Prairies Economic Development Canada,Bilingual, https://www.linkedin.com/company/prairieseconomicedevelopmentcanada/,2240.0,
 Embassy of Canada to Peru,Instagram,Global Affairs Canada,English,https://www.instagram.com/canada_pe/,2227.0,Q3315371
 esdc.gc,Instagram,Employment and Social Development Canada,English,https://www.instagram.com/esdc.gc/,2229.0,Q27929061
-canrevagency,Instagram,Canada Revenue Agency,English,https://www.instagram.com/CanRevAgency,2303.0,Q1032002
+canrevagency,Instagram,Canada Revenue Agency,English,https://www.instagram.com/CanRevAgency,2303.0,
 Indigenous Services Canada | Services aux Autochtones Canada,LinkedIn,Crown-Indigenous Relations and Northern Affairs Canada,Bilingual,https://www.linkedin.com/company/isc-sac/,2230.0,Q86685295
 RCAANC-CIRNAC,LinkedIn,Crown-Indigenous Relations and Northern Affairs Canada,Bilingual,https://www.linkedin.com/company/rcaanc-cirnac/,2230.0,Q86685295
-rcmp_mb_grc,Instagram,Royal Canadian Mounted Police,English,https://www.instagram.com/rcmp_mb_grc/,2288.0,Q335175
-Royal Canadian Mounted Police | Gendarmerie royale du Canada,LinkedIn,Royal Canadian Mounted Police,Bilingual,https://www.linkedin.com/company/rcmp-grc/,2288.0,Q335175
-@RCMPNunavut,X,Royal Canadian Mounted Police,English,https://twitter.com/rcmpnunavut,2288.0,Q335175
-RCMP - Royal Canadian Mounted Police in Nunavut,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/rcmpnunavut/,2288.0,Q335175
-@BCHwyPatrol,X,Royal Canadian Mounted Police,English,https://twitter.com/BCHwyPatrol,2288.0,Q335175
-rcmpalbertagrc,Instagram,Royal Canadian Mounted Police,Bilingual,https://www.instagram.com/rcmpalbertagrc/,2288.0,Q335175
-rcmp_natdivnat_grc,Instagram,Royal Canadian Mounted Police,Bilingual,https://www.instagram.com/rcmp_natdivnat_grc/,2288.0,Q335175
+rcmp_mb_grc,Instagram,Royal Canadian Mounted Police,English,https://www.instagram.com/rcmp_mb_grc/,2288.0,
+Royal Canadian Mounted Police | Gendarmerie royale du Canada,LinkedIn,Royal Canadian Mounted Police,Bilingual,https://www.linkedin.com/company/rcmp-grc/,2288.0,
+@RCMPNunavut,X,Royal Canadian Mounted Police,English,https://twitter.com/rcmpnunavut,2288.0,
+RCMP - Royal Canadian Mounted Police in Nunavut,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/rcmpnunavut/,2288.0,
+@BCHwyPatrol,X,Royal Canadian Mounted Police,English,https://twitter.com/BCHwyPatrol,2288.0,
+rcmpalbertagrc,Instagram,Royal Canadian Mounted Police,Bilingual,https://www.instagram.com/rcmpalbertagrc/,2288.0,
+rcmp_natdivnat_grc,Instagram,Royal Canadian Mounted Police,Bilingual,https://www.instagram.com/rcmp_natdivnat_grc/,2288.0,
 IP Village / Village de la PI,LinkedIn,"Innovation, Science and Economic Development Canada",Bilingual,https://www.linkedin.com/company/ip-village/,2231.0,Q1057600
 @NRCanScience,X,Natural Resources Canada,English,https://twitter.com/NRCanScience,2234.0,Q349770
 Simply Science,Facebook,Natural Resources Canada,English,https://www.facebook.com/SimplyScienceNRCan,2234.0,Q349770
@@ -898,7 +898,7 @@ canadacapitalregion,Instagram,Canadian Heritage,English,https://www.instagram.co
 sportcanada.en,Instagram,Canadian Heritage,English,https://www.instagram.com/sportcanada.en/,2223.0,Q1056951
 Atlantic Canada Opportunities Agency,Facebook,Atlantic Canada Opportunities Agency,English,https://www.facebook.com/ACOACanada/,2244.0,Q2826616
 wage_fegc,Instagram,Women and Gender Equality Canada,English,https://www.instagram.com/wage_fegc/,2241.0,Q85269208
-@cybercentre_ca,X,Communications Security Establishment,English,https://twitter.com/cybercentre_ca,2253.0,Q597935
+@cybercentre_ca,X,Communications Security Establishment,English,https://twitter.com/cybercentre_ca,2253.0,
 GCWCC CCMTGC,LinkedIn,Government of Canada Workplace Charitable Campaign,English,https://www.linkedin.com/company/ccmtgc-gcwcc/,,
 The Office of the Procurement Ombudsman,Facebook,Office of the Procurement Ombudsman,English,https://www.facebook.com/The-Office-of-the-Procurement-Ombudsman-103427645856961,3585.0,
 @LawCommCan,X,Law Commission of Canada,English,https://twitter.com/LawCommCan,2310.0,
@@ -912,36 +912,36 @@ Impact Assessment Agency of Canada / Agence d'évaluation d'impact du Canada,Lin
 @CDN_consumers,X,"Innovation, Science and Economic Development",English,https://twitter.com/cdn_consumers,2231.0,Q1057600
 NRCan Science,LinkedIn,Natural Resources Canada,Bilingual,https://www.linkedin.com/showcase/34749469/admin/feed/posts/?feedType=following,2234.0,Q349770
 Our NRCan / Notre RNCan,LinkedIn,Natural Resources Canada,Bilingual,https://linkedin.com/showcase/our-nrcan-notre-rncan,2234.0,Q349770
-Prime Minister of Canada,YouTube,Privy Council Office,English,https://youtube.com/pmcanada,2284.0,Q24168
-Deputy Prime Minister,YouTube,Privy Council Office,English,https://youtube.com/channel/UC8ncaYsMuN_smxVIErpKb1w,2284.0,Q24168
-"Parks Canada, Western Artic",Facebook,Parks Canada,English,https://www.facebook.com/ParksCanadaWesternArctic/,2315.0,Q349487
-@President_SSC,X,Shared Services Canada,English,https://twitter.com/President_SSC,2292.0,Q28162755
-Shared Services Canada,YouTube,Shared Services Canada,English,https://www.youtube.com/channel/UCg6yeXJtNiudgNsIrCBRJyg,2292.0,Q28162755
-@EVP_SSC,X,Shared Services Canada,English,https://twitter.com/EVP_SSC,2292.0,Q28162755
+Prime Minister of Canada,YouTube,Privy Council Office,English,https://youtube.com/pmcanada,2284.0,
+Deputy Prime Minister,YouTube,Privy Council Office,English,https://youtube.com/channel/UC8ncaYsMuN_smxVIErpKb1w,2284.0,
+"Parks Canada, Western Artic",Facebook,Parks Canada,English,https://www.facebook.com/ParksCanadaWesternArctic/,2315.0,
+@President_SSC,X,Shared Services Canada,English,https://twitter.com/President_SSC,2292.0,
+Shared Services Canada,YouTube,Shared Services Canada,English,https://www.youtube.com/channel/UCg6yeXJtNiudgNsIrCBRJyg,2292.0,
+@EVP_SSC,X,Shared Services Canada,English,https://twitter.com/EVP_SSC,2292.0,
 Office of the Taxpayers' Ombudsperson | Bureau de l'ombudsman des contribuables,LinkedIn,Office of the Taxpayers' Ombudsperson,Bilingual,https://www.linkedin.com/company/taxpayers-ombudsperson-ombudsman-contribuables/,3594.0,
 @PolicyHorizons,X,Employment and Social Development Canada,English,https://twitter.com/policyhorizons,2229.0,Q27929061
 horizonscanada,Instagram,Employment and Social Development Canada,Bilingual,https://www.instagram.com/horizonscanada/,2229.0,Q27929061
 Horizons Canada,YouTube,Employment and Social Development Canada,Bilingual,https://www.youtube.com/channel/UCm0MTl6DjLDv3hp0u-bcSzg,2229.0,Q27929061
 Correctional Service Canada │ Service correctionnel Canada,LinkedIn,Correctional Service of Canada,Bilingual,https://www.linkedin.com/company/csc_scc/,2255.0,Q3480093
-Public Service Commission of Canada,YouTube,Public Service Commission of Canada,English,https://www.youtube.com/channel/UC4M95w_t_BhWwwW78f07iPw,2286.0,Q3644969
+Public Service Commission of Canada,YouTube,Public Service Commission of Canada,English,https://www.youtube.com/channel/UC4M95w_t_BhWwwW78f07iPw,2286.0,
 Military Police Complaints Commission,Facebook,Military Police Complaints Commission,English,https://www.facebook.com/MPCCCanada,2264.0,
 MPCC of Canada / CPPM du Canada,LinkedIn,Military Police Complaints Commission,Bilingual,https://www.linkedin.com/company/mpcc-canada/about/,2264.0,
 Sport Canada,YouTube,Canadian Heritage,Bilingual,https://www.youtube.com/@Sport_Canada/featured,2223.0,Q1056951
 Veterans Ombudsman,YouTube,Office of the Veterans' Ombudsman,English,https://www.youtube.com/user/ovoview,3595.0,
 Office of the Veterans Ombud/Bureau de l’ombud des vétérans,LinkedIn,Office of the Veterans' Ombudsman,Bilingual,https://www.linkedin.com/company/office-of-the-veterans-ombud/?originalSubdomain=ca,3595.0,
-OTC-CTA Canada,Youtube,Canadian Transportation Agency,Bilingual,https://www.youtube.com/@otccta/featured,2252.0,Q5030630
+OTC-CTA Canada,Youtube,Canadian Transportation Agency,Bilingual,https://www.youtube.com/@otccta/featured,2252.0,
 Labour Program,LinkedIn,Employment and Social Development Canada,English,https://www.linkedin.com/showcase/34904528/admin/,2229.0,Q27929061
 Canada 2030 Agenda,LinkedIn,Employment and Social Development Canada,English,https://www.linkedin.com/showcase/87164005/admin/,2229.0,Q27929061
 Treasury Board of Canada Secretariat,Facebook,Treasury Board of Canada Secretariat,English,https://www.facebook.com/TBSCanada,2242.0,Q17133814
-TIPS_SPIIE,X,Social Sciences and Humanities Research Council of Canada,English,https://twitter.com/TIPS_SPIIE,2316.0,Q2993802
-TIPS-SPIIE,LinkedIn,Social Sciences and Humanities Research Council of Canada,Bilingual,https://www.linkedin.com/company/tips-spiie/,2316.0,Q2993802
-TIPS-SPIIE,YouTube,Social Sciences and Humanities Research Council of Canada,Bilingual,https://www.youtube.com/@TIPS-SPIIE,2316.0,Q2993802
-CSIS Canada,Facebook,Canadian Security Intelligence Service,English,https://facebook.com/csiscanada,2250.0,Q1032405
-CSIS Canada - SCRS Canada,YouTube,Canadian Security Intelligence Service,Bilingual,https://youtube.com/user/csisscrs,2250.0,Q1032405
-Canadian Security Intelligence Service (CSIS) | Service canadien du renseignement de sécurité (SCRS),LinkedIn,Canadian Security Intelligence Service,Bilingual,https://www.linkedin.com/company/12599001/admin/feed/posts/,2250.0,Q1032405
+TIPS_SPIIE,X,Social Sciences and Humanities Research Council of Canada,English,https://twitter.com/TIPS_SPIIE,2316.0,
+TIPS-SPIIE,LinkedIn,Social Sciences and Humanities Research Council of Canada,Bilingual,https://www.linkedin.com/company/tips-spiie/,2316.0,
+TIPS-SPIIE,YouTube,Social Sciences and Humanities Research Council of Canada,Bilingual,https://www.youtube.com/@TIPS-SPIIE,2316.0,
+CSIS Canada,Facebook,Canadian Security Intelligence Service,English,https://facebook.com/csiscanada,2250.0,
+CSIS Canada - SCRS Canada,YouTube,Canadian Security Intelligence Service,Bilingual,https://youtube.com/user/csisscrs,2250.0,
+Canadian Security Intelligence Service (CSIS) | Service canadien du renseignement de sécurité (SCRS),LinkedIn,Canadian Security Intelligence Service,Bilingual,https://www.linkedin.com/company/12599001/admin/feed/posts/,2250.0,
 PrairiesCan,Flickr,Prairies Economic Development Canada,Bilingual,https://flickr.com/photos/prairiescan/,2240.0,
-Natural Sciences and Engineering Research Council of Canada,Facebook,Natural Sciences and Engineering Research Council of Canada,English,www.facebook.com/nserccanada,2314.0,Q2993807
-Natural Sciences and Engineering Research Council of Canada (NSERC),Instagram,Natural Sciences and Engineering Research Council of Canada (NSERC),Bilingual,www.instagram.com/nserc_crsng,2314.0,Q2993807
+Natural Sciences and Engineering Research Council of Canada,Facebook,Natural Sciences and Engineering Research Council of Canada,English,www.facebook.com/nserccanada,2314.0,
+Natural Sciences and Engineering Research Council of Canada (NSERC),Instagram,Natural Sciences and Engineering Research Council of Canada (NSERC),Bilingual,www.instagram.com/nserc_crsng,2314.0,
 Canadian Human Rights Commission,LinkedIn,Canadian Human Rights Commission,Bilingual,https://ca.linkedin.com/company/canadian-human-rights-commission,2247.0,Q2986411
 Office of the Federal Housing Advocate,LinkedIn,Canadian Human Rights Commission,Bilingual,https://www.linkedin.com/showcase/office-of-the-federal-housing-advocate/?trk=affiliated-pages,2247.0,Q2986411
 Office of the Federal Housing Advocate,X,Canadian Human Rights Commission,English,https://twitter.com/HousingLogement,2247.0,Q2986411
@@ -949,10 +949,10 @@ Pay Equity Unit,X,Canadian Human Rights Commission,English,https://twitter.com/F
 Pay Equity Unit,LinkedIn,Canadian Human Rights Commission,Bilingual,"https://www.linkedin.com/showcase/pay-equity-ca/#:~:text=The%20Pay%20Equity%20Unit%20resolves,of%20the%20Pay%20Equity%20Ac",2247.0,Q2986411
 Accessibility Commissioner,X,Canadian Human Rights Commission,English,https://twitter.com/AccCommCA,2247.0,Q2986411
 The CHRC,Instagram,Canadian Human Rights Commission,Bilingual,https://www.instagram.com/chrc_ccdp,2247.0,Q2986411
-Polar Knowledge Canada,LinkedIn,Polar Knowledge Canada,Bilingual,https://www.linkedin.com/company/polar-knowledge-canada/,2318.0,Q5030480
-CSA_ASC,Flickr,Canadian Space Agency,English,https://flickr.com/photos/asc_photos,2251.0,Q212227
+Polar Knowledge Canada,LinkedIn,Polar Knowledge Canada,Bilingual,https://www.linkedin.com/company/polar-knowledge-canada/,2318.0,
+CSA_ASC,Flickr,Canadian Space Agency,English,https://flickr.com/photos/asc_photos,2251.0,
 Canada Economic Development,YouTube,Canada Economic Development for Quebec Regions,Bilingual,https://www.youtube.com/channel/UCuGx3HuidfI7gTHobNrctJA,2257.0,Q2826593
-CCOHS-CCHST,Instagram,Canadian Centre for Occupational Health and Safety,Bilingual,https://www.instagram.com/ccohs.cchst/,2305.0,Q5029820
+CCOHS-CCHST,Instagram,Canadian Centre for Occupational Health and Safety,Bilingual,https://www.instagram.com/ccohs.cchst/,2305.0,
 Canada Digital Adoption Program | Programme canadien d'adoption du numérique,LinkedIn,"Innovation, Science and Economic Development Canada",Bilingual,https://linkedin.com/showcase/cdap-pcan,2231.0,Q1057600
 tbs_sct,Instagram,Treasury Board of Canada Secretariat,Bilingual,https://www.instagram.com/tbs_sct/,2242.0,Q17133814
 canenvironment,Instagram,Environment and Climate Change Canada,English,https://instagram.com/canenvironment,2237.0,Q348789
@@ -960,24 +960,24 @@ Great Lakes Canada,X,Environment and Climate Change Canada,English,https://twitt
 GC Employee Pay and Benefits,Facebook,Public Services and Procurement Canada,English,https://facebook.com/GCEmployeePayBenefits,2236.0,Q7257673
 FedNor,LinkedIn,Federal Economic Development Agency for Northern Ontario (FedNor),Bilingual,https://www.linkedin.com/company/fednor/,2299.0,
 Canadian Hurricane Centre,X,Environment and Climate Change Canada,English,https://twitter.com/ECCC_CHC,2237.0,Q348789
-@GovernmentofCanada,Instagram,Privy Council Office,English,https://www.instagram.com/governmentofcanada/,2284.0,Q24168
-RCMP Alberta,X,Royal Canadian Mounted Police,English,https://twitter.com/RCMPAlberta,2288.0,Q335175
-Royal Canadian Mounted Police - National Division,Facebook,Royal Canadian Mounted Police,English,https://facebook.com/rcmpnationaldivision/,2288.0,Q335175
-Royal Canadian Mounted Police in Alberta,Facebook,Royal Canadian Mounted Police,English,https://facebook.com/RCMPinAlberta/,2288.0,Q335175
-"RCMP, Ontario",X,Royal Canadian Mounted Police,English,https://twitter.com/RCMPONT,2288.0,Q335175
-grc_rcmp_qc,Instagram,Royal Canadian Mounted Police,Bilingual,https://instagram.com/grc_rcmp_qc/,2288.0,Q335175
-RCMP K Division Headquarters - GRC Quartier general de la Division K,Facebook,Royal Canadian Mounted Police,Bilingual,https://facebook.com/RCMP-K-Division-Headquarters-GRC-Quartier-général-de-la-Division-K-115780148508216,2288.0,Q335175
-AMBER Alert Nova Scotia / Alerte AMBER Nouvelle-Ecosse,Facebook,Royal Canadian Mounted Police,Bilingual,https://facebook.com/AmberAlertNSAlerteAmberNE/?ref=br_rs,2288.0,Q335175
-Onion Lake RCMP,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/OnionLakeRCMP,2288.0,Q335175
-RCMP 'H' Division Highland,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/RcmpHighlandDancers,2288.0,Q335175
-RCMP Heritage Centre,YouTube,Royal Canadian Mounted Police,English,https://youtube.com/user/RCMPHeritageCenter,2288.0,Q335175
-RCMP PEI Commercial Crime,YouTube,Royal Canadian Mounted Police,English,https://youtube.com/user/rcmpccpei,2288.0,Q335175
-rcmptv,YouTube,Royal Canadian Mounted Police,English,https://youtube.com/user/rcmptv?ob=0,2288.0,Q335175
-Yorkton Municipal RCMP,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/YorktonRCMP/,2288.0,Q335175
-NBGRCRCMP,YouTube,Royal Canadian Mounted Police,Bilingual,https://youtube.com/user/NBGRCRCMP/,2288.0,Q335175
-Big River RCMP,Facebook,Royal Canadian Mounted Police,English,https://facebook.com/BigRiverRCMP/,2288.0,Q335175
-Gravelbourg RCMP,Facebook,Royal Canadian Mounted Police,English,https://facebook.com/GravelbourgRCMP/,2288.0,Q335175
-rcmp_pei_grc_ipe,Instagram,Royal Canadian Mounted Police,Bilingual,https://instagram.com/rcmp_pei_grc_ipe,2288.0,Q335175
+@GovernmentofCanada,Instagram,Privy Council Office,English,https://www.instagram.com/governmentofcanada/,2284.0,
+RCMP Alberta,X,Royal Canadian Mounted Police,English,https://twitter.com/RCMPAlberta,2288.0,
+Royal Canadian Mounted Police - National Division,Facebook,Royal Canadian Mounted Police,English,https://facebook.com/rcmpnationaldivision/,2288.0,
+Royal Canadian Mounted Police in Alberta,Facebook,Royal Canadian Mounted Police,English,https://facebook.com/RCMPinAlberta/,2288.0,
+"RCMP, Ontario",X,Royal Canadian Mounted Police,English,https://twitter.com/RCMPONT,2288.0,
+grc_rcmp_qc,Instagram,Royal Canadian Mounted Police,Bilingual,https://instagram.com/grc_rcmp_qc/,2288.0,
+RCMP K Division Headquarters - GRC Quartier general de la Division K,Facebook,Royal Canadian Mounted Police,Bilingual,https://facebook.com/RCMP-K-Division-Headquarters-GRC-Quartier-général-de-la-Division-K-115780148508216,2288.0,
+AMBER Alert Nova Scotia / Alerte AMBER Nouvelle-Ecosse,Facebook,Royal Canadian Mounted Police,Bilingual,https://facebook.com/AmberAlertNSAlerteAmberNE/?ref=br_rs,2288.0,
+Onion Lake RCMP,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/OnionLakeRCMP,2288.0,
+RCMP 'H' Division Highland,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/RcmpHighlandDancers,2288.0,
+RCMP Heritage Centre,YouTube,Royal Canadian Mounted Police,English,https://youtube.com/user/RCMPHeritageCenter,2288.0,
+RCMP PEI Commercial Crime,YouTube,Royal Canadian Mounted Police,English,https://youtube.com/user/rcmpccpei,2288.0,
+rcmptv,YouTube,Royal Canadian Mounted Police,English,https://youtube.com/user/rcmptv?ob=0,2288.0,
+Yorkton Municipal RCMP,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/YorktonRCMP/,2288.0,
+NBGRCRCMP,YouTube,Royal Canadian Mounted Police,Bilingual,https://youtube.com/user/NBGRCRCMP/,2288.0,
+Big River RCMP,Facebook,Royal Canadian Mounted Police,English,https://facebook.com/BigRiverRCMP/,2288.0,
+Gravelbourg RCMP,Facebook,Royal Canadian Mounted Police,English,https://facebook.com/GravelbourgRCMP/,2288.0,
+rcmp_pei_grc_ipe,Instagram,Royal Canadian Mounted Police,Bilingual,https://instagram.com/rcmp_pei_grc_ipe,2288.0,
 Consulate General of Canada in Los Angeles,X,Global Affairs Canada,English,https://www.facebook.com/CanadainLosAngeles,2227.0,Q3315371
 CanadainNepal,Facebook,Global Affairs Canada,English,https://www.facebook.com/CanadainNepal/,2227.0,Q3315371
 High Commission of Canada in New Zealand,Facebook,Global Affairs Canada,English,https://www.facebook.com/CanHCNZ,2227.0,Q3315371
@@ -1014,28 +1014,28 @@ Embassy of Canada to Austria | Ambassade du Canada en Autriche,LinkedIn,Global A
 @G7CanadaSherpa,X,Global Affairs Canada,English,https://x.com/G7CanadaSherpa,2227.0,Q3315371
 G7 Canada Sherpa,LinkedIn,Global Affairs Canada,English,https://www.linkedin.com/showcase/g7-canada-sherpa/about/?viewAsMember=true,2227.0,Q3315371
 Embassy of Canada in Ireland | Ambassade du Canada en Irlande,LinkedIn,Global Affairs Canada,English,https://www.linkedin.com/showcase/embassy-of-canada-in-ireland-ambassade-du-canada-en-irlande/about/?viewAsMember=true,2227.0,Q3315371
-@RCMP_New_Brunswick,Instagram,Royal Canadian Mounted Police,English,https://www.instagram.com/rcmp_new_brunswick,2288.0,Q335175
+@RCMP_New_Brunswick,Instagram,Royal Canadian Mounted Police,English,https://www.instagram.com/rcmp_new_brunswick,2288.0,
 fegc_wage,Instagram,Women and Gender Equality Canada,English,https://www.instagram.com/fegc_wage/,2241.0,Q85269208
-CanRevAgency,Youtube,Canada Revenue Agency,English,https://www.youtube.com/@CanRevAgency,2303.0,Q1032002
+CanRevAgency,Youtube,Canada Revenue Agency,English,https://www.youtube.com/@CanRevAgency,2303.0,
 GCEmployeePay_PayeEmployésGC,Reddit,Public Service and Procurement Canada,Bilingual,https://www.reddit.com/user/GCPay_PayeGC/,2236.0,Q7257673
 Translation Bureau | Bureau de la traduction,LinkedIn,Public Service and Procurement Canada,Bilingual,https://www.linkedin.com/showcase/translation-bureau-bureau-de-la-traduction/,2236.0,Q7257673
-Upper Fraser Valley RCMP,X,Royal Canada Mounted Police,English,https://x.com/UFVRD_RCMP,2288.0,Q335175
-Coquitlam RCMP,X,Royal Canada Mounted Police,English,https://x.com/cqrcmp,2288.0,Q335175
-Chilliwack RCMP,Facebook,Royal Canada Mounted Police,English,https://www.facebook.com/ChilliwackRCMP,2288.0,Q335175
-Coquitlam RCMP,Facebook,Royal Canada Mounted Police,English,https://www.facebook.com/cqrcmp,2288.0,Q335175
-Saskatchewan RCMP,Instagram,Royal Canada Mounted Police,English,https://www.instagram.com/rcmpsk,2288.0,Q335175
-@rcmpgrcsk,Youtube,Royal Canada Mounted Police,Bilingual,https://www.youtube.com/@rcmpgrcsk,2288.0,Q335175
-Veterans Review and Appeal Board | Tribunal des anciens combattants (révision et appel),LinkedIn,Veteran Review and Appeal Board,Bilingual,https://www.linkedin.com/company/vrab-tacra/,2294.0,Q7923667
+Upper Fraser Valley RCMP,X,Royal Canada Mounted Police,English,https://x.com/UFVRD_RCMP,2288.0,
+Coquitlam RCMP,X,Royal Canada Mounted Police,English,https://x.com/cqrcmp,2288.0,
+Chilliwack RCMP,Facebook,Royal Canada Mounted Police,English,https://www.facebook.com/ChilliwackRCMP,2288.0,
+Coquitlam RCMP,Facebook,Royal Canada Mounted Police,English,https://www.facebook.com/cqrcmp,2288.0,
+Saskatchewan RCMP,Instagram,Royal Canada Mounted Police,English,https://www.instagram.com/rcmpsk,2288.0,
+@rcmpgrcsk,Youtube,Royal Canada Mounted Police,Bilingual,https://www.youtube.com/@rcmpgrcsk,2288.0,
+Veterans Review and Appeal Board | Tribunal des anciens combattants (révision et appel),LinkedIn,Veteran Review and Appeal Board,Bilingual,https://www.linkedin.com/company/vrab-tacra/,2294.0,
 High Commission of Canada in Australia | Haut-commissariat du Canada en Australie,LinkedIn,Global Affairs Canada,Bilingual,https://www.linkedin.com/showcase/can-emb-australia-australie/about/,2227.0,Q3315371
 Embassy of Canada to Japan | Ambassade du Canada au Japon,LinkedIn,Global Affairs Canada,Bilingual,https://www.linkedin.com/showcase/canembjp/about/,2227.0,Q3315371
-"Cape Spear Lighthouse, National Historic Site",Facebook,Parks Canada,English,https://www.facebook.com/CapeSpearNHS,2315.0,Q349487
+"Cape Spear Lighthouse, National Historic Site",Facebook,Parks Canada,English,https://www.facebook.com/CapeSpearNHS,2315.0,
 Canada San Francisco,Instagram,Global Affairs Canada,Bilingual,https://www.instagram.com/canada.sf/,2227.0,Q3315371
 Prairies Economic Development Canada,Facebook,Prairies Economic Development Canada,English,https://www.facebook.com/profile.php?id=61576807395001,2240.0,
 Prairies Economic Development Canada,Instagram,Prairies Economic Development Canada,English,https://www.instagram.com/prairiescan_en/,2240.0,
 Our people of Justice | Nos collègues du ministère de la Justice,LinkedIn,Department of Justice,Bilingual,https://www.linkedin.com/showcase/our-people-nos-collègues,2232.0,Q1058376
 youthincanada,Instagram,Employment and Social Development Canada,English,https://www.instagram.com/youthincanada/,2229.0,Q27929061
 Correctional Service Canada,Instagram,Correctional Service Canada,English,https://www.instagram.com/correctionalservicecanada/,2255.0,Q3480093
-@Yukonrcmp,Instagram,Royal Canadian Mounted Police,English,https://www.instagram.com/yukonrcmp/,2288.0,Q335175
+@Yukonrcmp,Instagram,Royal Canadian Mounted Police,English,https://www.instagram.com/yukonrcmp/,2288.0,
 Royal Canadian Navy,Instagram,National Defence and the Canadian Armed Forces,English,https://www.instagram.com/royalcannavy/,,
 CANSOFCOM Recruiting,Instagram,National Defence and the Canadian Armed Forces,English,https://instagram.com/CANSOFRecruiting/,,
 Sexual Misconduct Support and Response Centre,Facebook,National Defence and the Canadian Armed Forces,English,https://www.facebook.com/DNDCAF.SMSRC,,
@@ -1046,7 +1046,7 @@ Canada in Türkiye,X,Global Affairs Canada,English,https://twitter.com/CanEmbTur
 Canada in the Arctic,Instagram,Global Affairs Canada,English,https://www.instagram.com/canadaarctic/?hl=en,2227.0,Q3315371
 Global Affairs | Aff mondiales,Instagram,Global Affairs Canada,Bilingual,https://www.instagram.com/global.affairs.canada/,2227.0,Q3315371
 Embassy of Canada to Djibouti,Facebook,Global Affairs Canada,English,https://www.facebook.com/CanadaDjibouti,2227.0,Q3315371
-Iqaluit RCMP,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/RCMPIqaluit/,2288.0,Q335175
+Iqaluit RCMP,Facebook,Royal Canadian Mounted Police,English,https://www.facebook.com/RCMPIqaluit/,2288.0,
 @BuildCanHomes,X,"Housing, Infrastructure and Communities Canada",English,https://x.com/BuildCanHomes,2269.0,
 Build Canada Homes | Maisons Canada,LinkedIn,"Housing, Infrastructure and Communities Canada",Bilingual,https://www.linkedin.com/company/build-canada-homes-maisons-canada,2269.0,
 Canadian Coast Guard Academy,Facebook,National Defence and the Canadian Armed Forces,English,https://www.facebook.com/CanadianCoastGuardAcademy,,
@@ -1067,8 +1067,8 @@ APECACanada,YouTube,Agence de promotion économique du Canada atlantique,França
 @Frontierecan,X,Agence des services frontaliers du Canada,Français,https://twitter.com/Frontierecan?lang=fr,,
 Agence des services frontaliers du Canada,Facebook,Agence des services frontaliers du Canada,Français,https://facebook.com/Frontierecan,,
 Frontierecan,YouTube,Agence des services frontaliers du Canada,Français,https://youtube.com/Frontierecan,,
-@AgenceRevCan,X,Agence du Revenu du Canada,Français,https://twitter.com/AgenceRevCan?lang=fr,2303.0,Q1032002
-Agence Revenu Canada,YouTube,Agence du Revenu du Canada,Français,https://youtube.com/user/AgenceRevCan,2303.0,Q1032002
+@AgenceRevCan,X,Agence du Revenu du Canada,Français,https://twitter.com/AgenceRevCan?lang=fr,2303.0,
+Agence Revenu Canada,YouTube,Agence du Revenu du Canada,Français,https://youtube.com/user/AgenceRevCan,2303.0,
 @SportCanada_Fr,X,Patrimoine canadien,Français,https://twitter.com/SportCanada_FR?lang=fr,,
 Patrimoine canadien,YouTube,Patrimoine canadien,Français,https://www.youtube.com/Patrimoinecdn,,
 Patrimoine canadien,Facebook,Patrimoine canadien,Français,https://www.facebook.com/Patrimoinecdn,,
@@ -1156,21 +1156,21 @@ Bibliothèque et Archives Canada,Facebook,Bibliothèque et Archives Canada,Fran�
 Bibliothèque et Archives Canada,YouTube,Bibliothèque et Archives Canada,Français,https://www.youtube.com/user/BiblioArchivesCanada,,
 @RNCan,X,Ressources naturelles Canada,Français,https://twitter.com/RNCan?lang=fr,,
 Ressourcesnaturelles,YouTube,Ressources naturelles Canada,Français,https://youtube.com/user/Ressourcesnaturelles,,
-@ParcsCanada,X,Parcs Canada,Français,https://twitter.com/ParcsCanada?lang=fr,2315.0,Q349487
-"Parcs Canada, Manitoba",X,Parcs Canada,Français,https://twitter.com/ParcsCanadaMB,2315.0,Q349487
-Parcs À Vie,X,Parcs Canada,Français,https://twitter.com/pcparcsavie,2315.0,Q349487
-Parcs Canada,Snapchat,Parcs Canada,Français,http://snapchat.com/add/parcs.canada,2315.0,Q349487
-Site patrimonial Green Gables,Facebook,Parcs Canada,Français,https://www.facebook.com/sitepatrimonialgreengables/,2315.0,Q349487
-"Parcs Canada, Vancouver",Facebook,Parcs Canada,Français,https://facebook.com/ParcsCanadaVan,2315.0,Q349487
-"Lieu historique national de Batoche, Parcs Canada",Facebook,Parcs Canada,Français,https://www.facebook.com/LieuhistoriquenationaldeBatoche/,2315.0,Q349487
-Parc marin du Saguenay-Saint-Laurent,Facebook,Parcs Canada,Français,https://facebook.com/parcmarinSSL,2315.0,Q349487
-Parcs Canada,YouTube,Parcs Canada,Français,https://youtube.com/parcscanada,2315.0,Q349487
-Parc national Wood Buffalo,Facebook,Parcs Canada,Français,https://www.facebook.com/pnWoodBuffalo/,2315.0,Q349487
+@ParcsCanada,X,Parcs Canada,Français,https://twitter.com/ParcsCanada?lang=fr,2315.0,
+"Parcs Canada, Manitoba",X,Parcs Canada,Français,https://twitter.com/ParcsCanadaMB,2315.0,
+Parcs À Vie,X,Parcs Canada,Français,https://twitter.com/pcparcsavie,2315.0,
+Parcs Canada,Snapchat,Parcs Canada,Français,http://snapchat.com/add/parcs.canada,2315.0,
+Site patrimonial Green Gables,Facebook,Parcs Canada,Français,https://www.facebook.com/sitepatrimonialgreengables/,2315.0,
+"Parcs Canada, Vancouver",Facebook,Parcs Canada,Français,https://facebook.com/ParcsCanadaVan,2315.0,
+"Lieu historique national de Batoche, Parcs Canada",Facebook,Parcs Canada,Français,https://www.facebook.com/LieuhistoriquenationaldeBatoche/,2315.0,
+Parc marin du Saguenay-Saint-Laurent,Facebook,Parcs Canada,Français,https://facebook.com/parcmarinSSL,2315.0,
+Parcs Canada,YouTube,Parcs Canada,Français,https://youtube.com/parcscanada,2315.0,
+Parc national Wood Buffalo,Facebook,Parcs Canada,Français,https://www.facebook.com/pnWoodBuffalo/,2315.0,
 Commission des libérations conditionnelles du Canada,YouTube,Commission des libérations conditionnelles du Canada,Français,https://www.youtube.com/user/CLCCpbc,,
 @emplois_gc,X,Commission de la fonction publique du Canada,Français,https://twitter.com/emplois_gc?lang=fr,,
 @SPAC_PSPC,X,Services publics et Approvisionnement Canada,Français,https://twitter.com/SPAC_PSPC,,
 @SPAC_SMD,X,Services publics et Approvisionnement Canada,Français,https://twitter.com/SPAC_SMD,,
-@SPC_CA,X,Services partagés Canada,Français,https://twitter.com/SPC_CA?lang=fr,2292.0,Q28162755
+@SPC_CA,X,Services partagés Canada,Français,https://twitter.com/SPC_CA?lang=fr,2292.0,
 @FEGC_WAGE,X,Femmes et Égalité des genres Canada,Français,https://twitter.com/FEGC_WAGE,,
 Femmes et Égalité des genres Canada,YouTube,Femmes et Égalité des genres Canada,Français,https://www.youtube.com/c/FEGC_WAGE,,
 @BOC_Canada,X,Bureau de l'ombudsman des contribuables,Français,https://twitter.com/BOC_Canada?lang=fr,,
@@ -1207,17 +1207,17 @@ Finances Canada,YouTube,Ministère des Finances Canada,Français,https://www.you
 Public Health Agency of Canada | Agence de la santé publique du Canada,Facebook,Agence de la santé publique du Canada,Français,https://www.facebook.com/pages/Agence-de-la-sant%C3%A9-publique-du-Canada/14498271095,,
 @ACSP_Canada,X,Agence de la santé publique du Canada,Français,https://twitter.com/ACSP_Canada,,
 GC Salle de Presse,X,Service Canada,Français,http://twitter.com/@SalledePresseGC,3591.0,Q3480058
-Parcs Canada,Facebook,Parcs Canada,Français,https://www.facebook.com/ParcsCanada,2315.0,Q349487
-"Lieux historiques nationaux en Saskatchewan, Parcs Canada",Facebook,Parcs Canada,Français,https://www.facebook.com/LHNsask/about/,2315.0,Q349487
-"Parc national de la Mauricie, Parcs Canada",Facebook,Parcs Canada,Français,https://www.facebook.com/pg/pnMauricie/,2315.0,Q349487
-"Lieu historique national Rocky Mountain House, Parcs Canada",Facebook,Parcs Canada,Français,https://facebook.com/lieuhistoriquenationalRockyMountainHouse/,2315.0,Q349487
-@PCArcheologie,X,Parcs Canada,Français,https://www.twitter.com/PCArcheologie,2315.0,Q349487
+Parcs Canada,Facebook,Parcs Canada,Français,https://www.facebook.com/ParcsCanada,2315.0,
+"Lieux historiques nationaux en Saskatchewan, Parcs Canada",Facebook,Parcs Canada,Français,https://www.facebook.com/LHNsask/about/,2315.0,
+"Parc national de la Mauricie, Parcs Canada",Facebook,Parcs Canada,Français,https://www.facebook.com/pg/pnMauricie/,2315.0,
+"Lieu historique national Rocky Mountain House, Parcs Canada",Facebook,Parcs Canada,Français,https://facebook.com/lieuhistoriquenationalRockyMountainHouse/,2315.0,
+@PCArcheologie,X,Parcs Canada,Français,https://www.twitter.com/PCArcheologie,2315.0,
 @GRCdeRichmond,X,Gendarmerie royale du Canada,Français,https://twitter.com/grcderichmond,,
 RCMP-NL GRC-TN,YouTube,Gendarmerie royale du Canada,Bilingue,https://www.youtube.com/user/rcmpnlsocial,,
 @ServiceCanada_F,X,Service Canada,Français,https://twitter.com/ServiceCanada_F,3591.0,Q3480058
-@StatCan_fra,X,Statistique Canada,Français,https://twitter.com/statcan_fra,2293.0,Q1155740
-Statistique Canada,Facebook,Statistique Canada,Français,https://www.facebook.com/statistiqueCanada,2293.0,Q1155740
-Statistique Canada,YouTube,Statistique Canada,Français,https://www.youtube.com/statistiquecanada,2293.0,Q1155740
+@StatCan_fra,X,Statistique Canada,Français,https://twitter.com/statcan_fra,2293.0,
+Statistique Canada,Facebook,Statistique Canada,Français,https://www.facebook.com/statistiqueCanada,2293.0,
+Statistique Canada,YouTube,Statistique Canada,Français,https://www.youtube.com/statistiquecanada,2293.0,
 Anciens Combattants Canada,Facebook,Anciens Combattants Canada,Français,https://www.facebook.com/AnciensCombattanttsCanada,,
 Canadiens en Santé,Facebook,Santé Canada,Français,https://www.facebook.com/CANenSante,2228.0,Q1057591
 Canadiens en Santé,YouTube,Santé Canada,Français,http://www.youtube.com/user/CANenSante,2228.0,Q1057591
@@ -1242,51 +1242,51 @@ Pensez cybersécurité,Facebook,Centre de la sécurité des télécommunications
 "Innovation, Science and Economic Development Canada",LinkedIn,"Innovation, Sciences et Développement économique Canada",Bilingue,https://www.linkedin.com/company/ised-isde,2231.0,Q1057600
 Office de la propriété intellectuelle du Canada,Facebook,Office de la propriété intellectuelle du Canada,Français,https://www.facebook.com/OfficePICanada,,
 La Sécurité au Canada,YouTube,Sécurité publique Canada,Français,https://www.youtube.com/channel/UCJbPEsZButMyyA2DM90fgzw,,
-Parc national Banff,Facebook,Parcs Canada,Français,https://www.facebook.com/pnBanff,2315.0,Q349487
-Parc national Banff,X,Parcs Canada,Français,https://twitter.com/pnBanff,2315.0,Q349487
-"LHN Ranch-Bar U, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/LHNRanchBarU,2315.0,Q349487
-"Parc national Fundy, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/PNFundy,2315.0,Q349487
-"PN Îles-de-la-Baie-Georgienne, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/PNIBG,2315.0,Q349487
-"Parc national Jasper, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/pnJasper,2315.0,Q349487
-Parc nat. Kootenay,X,Parcs Canada,Français,https://twitter.com/pnKootenay,2315.0,Q349487
-Parc national Kouchibouguac,Facebook,Parcs Canada,Français,https://www.facebook.com/PNKouchibouguac,2315.0,Q349487
-"Parc national Kouchibouguac, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/PNKouchibouguac,2315.0,Q349487
-"LHN Parcs Canada, Nouveau-Brunswick",X,Parcs Canada,Français,https://twitter.com/LHNNB,2315.0,Q349487
-"Parcs Canada, Nouvelle-Écosse",X,Parcs Canada,Français,https://twitter.com/ParcsCanada_NE,2315.0,Q349487
-@Parcssecuritemt,X,Parcs Canada,Français,https://twitter.com/parcssecuritemt,2315.0,Q349487
-Parc national Yoho,X,Parcs Canada,Français,https://twitter.com/pnYoho,2315.0,Q349487
-Parc national de la Péninsule-Bruce et Parc marin national Fathom Five,Facebook,Parcs Canada,Français,https://www.facebook.com/PNPeninsuleBruce,2315.0,Q349487
-"Parc national de la Péninsule-Bruce, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/PNPBruce,2315.0,Q349487
-"Parc National Elk Island, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/PNElkIsland,2315.0,Q349487
-@PNForillon,X,Parcs Canada,Français,https://twitter.com/PNForillon,2315.0,Q349487
-"LHN Fort-George, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/LHNFortGeorge,2315.0,Q349487
-"LHN Fort-St. James, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/LHNFortStJames,2315.0,Q349487
-"LHN Fort-Langley, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/LHNFortLangley,2315.0,Q349487
-@FisgardFortRodd,X,Parcs Canada,Français,https://twitter.com/FisgardFortRodd,2315.0,Q349487
-Parc national Fundy,Facebook,Parcs Canada,Français,https://www.facebook.com/PNFundy,2315.0,Q349487
-"RPN Îles-Gulf, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/RPNIlesGulf,2315.0,Q349487
-Gwaii Haanas - îles de beauté,Facebook,Parcs Canada,Français,https://www.facebook.com/GwaiiHaanasFR,2315.0,Q349487
-Parc national Jasper,Facebook,Parcs Canada,Français,https://www.facebook.com/PNJasper/?__tn__=%2Cd%2CP-R&eid=ARBRCwcrn2ppHQQdONmKZp8-Rlg-Iwn_BKCSe8tOPC-MLpF7iqRsJH4dbCVMX3jcQJ34Jlf4--4x8hor,2315.0,Q349487
-Parc national Kootenay,Facebook,Parcs Canada,Français,https://www.facebook.com/pnKootenay/,2315.0,Q349487
-"Parcs nationaux du Mont-Revelstoke et des Glaciers, Parcs Canada",Facebook,Parcs Canada,Français,https://www.facebook.com/parcsnationauxMRG,2315.0,Q349487
-@RPNPacificRim,X,Parcs Canada,Français,https://twitter.com/RPNPacificRim,2315.0,Q349487
-@ParcsCanadaIPE,X,Parcs Canada,Français,https://twitter.com/ParcsCanadaIPE,2315.0,Q349487
-"Parcs Canada,Yukon",X,Parcs Canada,Français,https://twitter.com/ParcsCanYukon,2315.0,Q349487
-"Parcs Canada, Terre-Neuve-et-Labrador",X,Parcs Canada,Français,https://twitter.com/ParcsCanadaTNL,2315.0,Q349487
-ParcsCanadaVancouver,X,Parcs Canada,Français,https://twitter.com/ParcsCanadaVan,2315.0,Q349487
-"Parcs Canada, Nunavut",X,Parcs Canada,Français,https://twitter.com/ParcsCanNunavut,2315.0,Q349487
-"Parcs Canada, Saskatchewan",X,Parcs Canada,Français,https://twitter.com/parcscanada_sk,2315.0,Q349487
-"Parc national de la Pointe-Pelée, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/PNPointePelee,2315.0,Q349487
-@CanauxQuebec,X,Parcs Canada,Français,https://twitter.com/CanauxQuebec,2315.0,Q349487
-"LHN Canal-Rideau, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/LHNCanalRideau,2315.0,Q349487
-"Parc national du Mont-Riding, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/PNRiding,2315.0,Q349487
-"Parc national des Mille-Îles, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/ParcNationalMI,2315.0,Q349487
-"Parc national du Canada des Mille-Îles, Parcs Canada",Facebook,Parcs Canada,Français,https://www.facebook.com/ParcNationalMI,2315.0,Q349487
-"LHN Voie-Navigable-Trent-Severn, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/LHNTrentSevern,2315.0,Q349487
-Parc national des Lacs-Waterton,Facebook,Parcs Canada,Français,https://www.facebook.com/PNLacsWaterton,2315.0,Q349487
-"Parc national des Lacs-Waterton, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/PNLacsWaterton,2315.0,Q349487
-Parc national Yoho,Facebook,Parcs Canada,Français,https://www.facebook.com/pnYoho/,2315.0,Q349487
-"Parcs sécurité montagne, Parcs Canada",Facebook,Parcs Canada,Français,https://www.facebook.com/parcssecuritemontagne,2315.0,Q349487
+Parc national Banff,Facebook,Parcs Canada,Français,https://www.facebook.com/pnBanff,2315.0,
+Parc national Banff,X,Parcs Canada,Français,https://twitter.com/pnBanff,2315.0,
+"LHN Ranch-Bar U, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/LHNRanchBarU,2315.0,
+"Parc national Fundy, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/PNFundy,2315.0,
+"PN Îles-de-la-Baie-Georgienne, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/PNIBG,2315.0,
+"Parc national Jasper, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/pnJasper,2315.0,
+Parc nat. Kootenay,X,Parcs Canada,Français,https://twitter.com/pnKootenay,2315.0,
+Parc national Kouchibouguac,Facebook,Parcs Canada,Français,https://www.facebook.com/PNKouchibouguac,2315.0,
+"Parc national Kouchibouguac, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/PNKouchibouguac,2315.0,
+"LHN Parcs Canada, Nouveau-Brunswick",X,Parcs Canada,Français,https://twitter.com/LHNNB,2315.0,
+"Parcs Canada, Nouvelle-Écosse",X,Parcs Canada,Français,https://twitter.com/ParcsCanada_NE,2315.0,
+@Parcssecuritemt,X,Parcs Canada,Français,https://twitter.com/parcssecuritemt,2315.0,
+Parc national Yoho,X,Parcs Canada,Français,https://twitter.com/pnYoho,2315.0,
+Parc national de la Péninsule-Bruce et Parc marin national Fathom Five,Facebook,Parcs Canada,Français,https://www.facebook.com/PNPeninsuleBruce,2315.0,
+"Parc national de la Péninsule-Bruce, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/PNPBruce,2315.0,
+"Parc National Elk Island, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/PNElkIsland,2315.0,
+@PNForillon,X,Parcs Canada,Français,https://twitter.com/PNForillon,2315.0,
+"LHN Fort-George, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/LHNFortGeorge,2315.0,
+"LHN Fort-St. James, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/LHNFortStJames,2315.0,
+"LHN Fort-Langley, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/LHNFortLangley,2315.0,
+@FisgardFortRodd,X,Parcs Canada,Français,https://twitter.com/FisgardFortRodd,2315.0,
+Parc national Fundy,Facebook,Parcs Canada,Français,https://www.facebook.com/PNFundy,2315.0,
+"RPN Îles-Gulf, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/RPNIlesGulf,2315.0,
+Gwaii Haanas - îles de beauté,Facebook,Parcs Canada,Français,https://www.facebook.com/GwaiiHaanasFR,2315.0,
+Parc national Jasper,Facebook,Parcs Canada,Français,https://www.facebook.com/PNJasper/?__tn__=%2Cd%2CP-R&eid=ARBRCwcrn2ppHQQdONmKZp8-Rlg-Iwn_BKCSe8tOPC-MLpF7iqRsJH4dbCVMX3jcQJ34Jlf4--4x8hor,2315.0,
+Parc national Kootenay,Facebook,Parcs Canada,Français,https://www.facebook.com/pnKootenay/,2315.0,
+"Parcs nationaux du Mont-Revelstoke et des Glaciers, Parcs Canada",Facebook,Parcs Canada,Français,https://www.facebook.com/parcsnationauxMRG,2315.0,
+@RPNPacificRim,X,Parcs Canada,Français,https://twitter.com/RPNPacificRim,2315.0,
+@ParcsCanadaIPE,X,Parcs Canada,Français,https://twitter.com/ParcsCanadaIPE,2315.0,
+"Parcs Canada,Yukon",X,Parcs Canada,Français,https://twitter.com/ParcsCanYukon,2315.0,
+"Parcs Canada, Terre-Neuve-et-Labrador",X,Parcs Canada,Français,https://twitter.com/ParcsCanadaTNL,2315.0,
+ParcsCanadaVancouver,X,Parcs Canada,Français,https://twitter.com/ParcsCanadaVan,2315.0,
+"Parcs Canada, Nunavut",X,Parcs Canada,Français,https://twitter.com/ParcsCanNunavut,2315.0,
+"Parcs Canada, Saskatchewan",X,Parcs Canada,Français,https://twitter.com/parcscanada_sk,2315.0,
+"Parc national de la Pointe-Pelée, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/PNPointePelee,2315.0,
+@CanauxQuebec,X,Parcs Canada,Français,https://twitter.com/CanauxQuebec,2315.0,
+"LHN Canal-Rideau, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/LHNCanalRideau,2315.0,
+"Parc national du Mont-Riding, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/PNRiding,2315.0,
+"Parc national des Mille-Îles, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/ParcNationalMI,2315.0,
+"Parc national du Canada des Mille-Îles, Parcs Canada",Facebook,Parcs Canada,Français,https://www.facebook.com/ParcNationalMI,2315.0,
+"LHN Voie-Navigable-Trent-Severn, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/LHNTrentSevern,2315.0,
+Parc national des Lacs-Waterton,Facebook,Parcs Canada,Français,https://www.facebook.com/PNLacsWaterton,2315.0,
+"Parc national des Lacs-Waterton, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/PNLacsWaterton,2315.0,
+Parc national Yoho,Facebook,Parcs Canada,Français,https://www.facebook.com/pnYoho/,2315.0,
+"Parcs sécurité montagne, Parcs Canada",Facebook,Parcs Canada,Français,https://www.facebook.com/parcssecuritemontagne,2315.0,
 Commission canadienne des grains,YouTube,Commission canadienne des grains,Français,https://www.youtube.com/user/Commissiondesgrains,,
 @Grains_Canada,X,Commission canadienne des grains,Français,https://twitter.com/Grains_Canada,,
 Commission canadienne des droits de la personne,Facebook,Commission canadienne des droits de la personne,Français,https://www.facebook.com/LaCommissionCanadienneDesDroitsDeLaPersonne,,
@@ -1357,40 +1357,40 @@ Institut canadien de conservation,Facebook,Institut canadien de conservation,Fra
 Environnement et ressources naturelles au Canada,Facebook,Environnement et Changement climatique Canada,Français,https://facebook.com/EnvironnementetressourcesnaturellesauCanada,2237.0,Q348789
 Expérience internationale Canada,Facebook,"Immigration, Réfugiés et Citoyenneté Canada",Français,https://facebook.com/Experience-internationale-Canada-769857139754987,2224.0,Q1056074
 @EIC_IEC,X,"Immigration, Réfugiés et Citoyenneté Canada",Français,https://twitter.com/EIC_IEC,2224.0,Q1056074
-Lieu historique national de Signal Hill,Facebook,Parcs Canada,Français,https://facebook.com/LHNSignalHill,2315.0,Q349487
-Parc national Terra-Nova,Facebook,Parcs Canada,Français,https://facebook.com/PNTerraNova,2315.0,Q349487
-Lieu historique national Alexander-Graham-Bell,Facebook,Parcs Canada,Français,https://facebook.com/LHNAlexanderGrahamBell,2315.0,Q349487
-Lieu historique national des Îles-Canso,Facebook,Parcs Canada,Français,https://facebook.com/ilescanso,2315.0,Q349487
-Lieu historique national Marconi,Facebook,Parcs Canada,Français,https://facebook.com/LHNMarconi,2315.0,Q349487
-Lieu historique national de la Forteresse-de-Louisbourg,Facebook,Parcs Canada,Français,https://facebook.com/forteressedelouisbourg,2315.0,Q349487
-Lieu historique national de Grand-Pré,Facebook,Parcs Canada,Français,https://facebook.com/LHNGrandPre,2315.0,Q349487
-Lieu historique national du Canal-de-St. Peters,Facebook,Parcs Canada,Français,https://facebook.com/canaldestpeters,2315.0,Q349487
-Parc national des Hautes-Terres-du-Cap-Breton,Facebook,Parcs Canada,Français,https://facebook.com/PNHTCB,2315.0,Q349487
-"Lieu historique national du Fort-George, Parcs Canada",Facebook,Parcs Canada,Français,https://facebook.com/LHNFortGeorge,2315.0,Q349487
-"Lieu historique national du Fort-Malden, Parcs Canada",Facebook,Parcs Canada,Français,https://facebook.com/LHNFortMalden,2315.0,Q349487
-Lieu historique national du Fort-St. Joseph,Facebook,Parcs Canada,Français,https://facebook.com/LHNFortStJoseph,2315.0,Q349487
-"Lieu historique national du NCSM Haida, Parcs Canada",Facebook,Parcs Canada,Français,https://facebook.com/NCSMHaida,2315.0,Q349487
-"Aire marine nationale de conservation du Lac-Supérieur, Parcs Canada",Facebook,Parcs Canada,Français,https://facebook.com/AMNCLacSuperieur,2315.0,Q349487
-Parc national de la Pointe-Pelée,Facebook,Parcs Canada,Français,https://facebook.com/PNPointePelee,2315.0,Q349487
-Parc national Pukaskwa,Facebook,Parcs Canada,Français,https://facebook.com/PNPukaskwa,2315.0,Q349487
-Parc national du Mont-Riding,Facebook,Parcs Canada,Français,https://facebook.com/PNriding,2315.0,Q349487
-"Lieu historique national Woodside, Parcs Canada",Facebook,Parcs Canada,Français,https://www.facebook.com/LHNWoodside,2315.0,Q349487
-"Parcs Canada, Territoires du Nord-Ouest",Facebook,Parcs Canada,Français,https://facebook.com/ParcsCanadaTNO,2315.0,Q349487
-"Lieu historique national du Canal-Rideau, Parcs Canada",Facebook,Parcs Canada,Français,https://facebook.com/LHNCanalRideau,2315.0,Q349487
-Lieux historiques nationaux Fort Rodd Hill et du Phare de Fisgard,Facebook,Parcs Canada,Français,https://facebook.com/LHNduFortRoddFisgard,2315.0,Q349487
-"Lieu historique national du Fort-Langley, Parcs Canada",Facebook,Parcs Canada,Français,https://www.facebook.com/LHNFortLangley/?__tn__=%2Cd%2CP-R&eid=ARBBBNWg1IMQT6yYYQRk1QkjZ2d-AYDEPWho7_vPH4N6jqPhAoLgTGgQJ-jn8Ja6Ir77PkYWXlFYc0we,2315.0,Q349487
-"Réserve de parc national Pacific Rim, Parcs Canada",Facebook,Parcs Canada,Français,https://facebook.com/RPNPacificRim,2315.0,Q349487
-"Parc national Forillon, Parcs Canada",Facebook,Parcs Canada,Français,https://facebook.com/PNForillon,2315.0,Q349487
-Parcs Canada Nunavut,Facebook,Parcs Canada,Français,https://facebook.com/ParcsCanNunavut,2315.0,Q349487
-"Lieu historique national du Canal-de-Sault Ste. Marie, Parcs Canada",Facebook,Parcs Canada,Français,https://facebook.com/LHNCanalSault/,2315.0,Q349487
-"Réserve de parc national des Îles-Gulf, Parcs Canada",Facebook,Parcs Canada,Français,https://facebook.com/RPNIlesGulf,2315.0,Q349487
-Voie-Navigable-Trent-Severn,Facebook,Parcs Canada,Français,https://facebook.com/LHNTrentSevern,2315.0,Q349487
+Lieu historique national de Signal Hill,Facebook,Parcs Canada,Français,https://facebook.com/LHNSignalHill,2315.0,
+Parc national Terra-Nova,Facebook,Parcs Canada,Français,https://facebook.com/PNTerraNova,2315.0,
+Lieu historique national Alexander-Graham-Bell,Facebook,Parcs Canada,Français,https://facebook.com/LHNAlexanderGrahamBell,2315.0,
+Lieu historique national des Îles-Canso,Facebook,Parcs Canada,Français,https://facebook.com/ilescanso,2315.0,
+Lieu historique national Marconi,Facebook,Parcs Canada,Français,https://facebook.com/LHNMarconi,2315.0,
+Lieu historique national de la Forteresse-de-Louisbourg,Facebook,Parcs Canada,Français,https://facebook.com/forteressedelouisbourg,2315.0,
+Lieu historique national de Grand-Pré,Facebook,Parcs Canada,Français,https://facebook.com/LHNGrandPre,2315.0,
+Lieu historique national du Canal-de-St. Peters,Facebook,Parcs Canada,Français,https://facebook.com/canaldestpeters,2315.0,
+Parc national des Hautes-Terres-du-Cap-Breton,Facebook,Parcs Canada,Français,https://facebook.com/PNHTCB,2315.0,
+"Lieu historique national du Fort-George, Parcs Canada",Facebook,Parcs Canada,Français,https://facebook.com/LHNFortGeorge,2315.0,
+"Lieu historique national du Fort-Malden, Parcs Canada",Facebook,Parcs Canada,Français,https://facebook.com/LHNFortMalden,2315.0,
+Lieu historique national du Fort-St. Joseph,Facebook,Parcs Canada,Français,https://facebook.com/LHNFortStJoseph,2315.0,
+"Lieu historique national du NCSM Haida, Parcs Canada",Facebook,Parcs Canada,Français,https://facebook.com/NCSMHaida,2315.0,
+"Aire marine nationale de conservation du Lac-Supérieur, Parcs Canada",Facebook,Parcs Canada,Français,https://facebook.com/AMNCLacSuperieur,2315.0,
+Parc national de la Pointe-Pelée,Facebook,Parcs Canada,Français,https://facebook.com/PNPointePelee,2315.0,
+Parc national Pukaskwa,Facebook,Parcs Canada,Français,https://facebook.com/PNPukaskwa,2315.0,
+Parc national du Mont-Riding,Facebook,Parcs Canada,Français,https://facebook.com/PNriding,2315.0,
+"Lieu historique national Woodside, Parcs Canada",Facebook,Parcs Canada,Français,https://www.facebook.com/LHNWoodside,2315.0,
+"Parcs Canada, Territoires du Nord-Ouest",Facebook,Parcs Canada,Français,https://facebook.com/ParcsCanadaTNO,2315.0,
+"Lieu historique national du Canal-Rideau, Parcs Canada",Facebook,Parcs Canada,Français,https://facebook.com/LHNCanalRideau,2315.0,
+Lieux historiques nationaux Fort Rodd Hill et du Phare de Fisgard,Facebook,Parcs Canada,Français,https://facebook.com/LHNduFortRoddFisgard,2315.0,
+"Lieu historique national du Fort-Langley, Parcs Canada",Facebook,Parcs Canada,Français,https://www.facebook.com/LHNFortLangley/?__tn__=%2Cd%2CP-R&eid=ARBBBNWg1IMQT6yYYQRk1QkjZ2d-AYDEPWho7_vPH4N6jqPhAoLgTGgQJ-jn8Ja6Ir77PkYWXlFYc0we,2315.0,
+"Réserve de parc national Pacific Rim, Parcs Canada",Facebook,Parcs Canada,Français,https://facebook.com/RPNPacificRim,2315.0,
+"Parc national Forillon, Parcs Canada",Facebook,Parcs Canada,Français,https://facebook.com/PNForillon,2315.0,
+Parcs Canada Nunavut,Facebook,Parcs Canada,Français,https://facebook.com/ParcsCanNunavut,2315.0,
+"Lieu historique national du Canal-de-Sault Ste. Marie, Parcs Canada",Facebook,Parcs Canada,Français,https://facebook.com/LHNCanalSault/,2315.0,
+"Réserve de parc national des Îles-Gulf, Parcs Canada",Facebook,Parcs Canada,Français,https://facebook.com/RPNIlesGulf,2315.0,
+Voie-Navigable-Trent-Severn,Facebook,Parcs Canada,Français,https://facebook.com/LHNTrentSevern,2315.0,
 @operationsFC,X,Défense nationale et les Forces armées canadiennes,Français,https://twitter.com/operationsfc,,
 @DefenseCanada,X,Défense nationale et les Forces armées canadiennes,Français,https://twitter.com/DefenseCanada,,
-Parc national de l'Île-du-Prince-Édouard,Facebook,Parcs Canada,Français,https://www.facebook.com/parcnationalIPE,2315.0,Q349487
-"Parc national des Prairies, Parcs Canada",Facebook,Parcs Canada,Français,https://www.facebook.com/pnprairies/,2315.0,Q349487
-Lieu historique national de la Grosse-Île et le Mémorial des Irlandais,Facebook,Parcs Canada,Français,https://www.facebook.com/grosseileetlememorialdesirlandais,2315.0,Q349487
-Parc national et lieu historique national Kejimkujik,Facebook,Parcs Canada,Français,https://www.facebook.com/KejimkujikF/?fref=tag,2315.0,Q349487
+Parc national de l'Île-du-Prince-Édouard,Facebook,Parcs Canada,Français,https://www.facebook.com/parcnationalIPE,2315.0,
+"Parc national des Prairies, Parcs Canada",Facebook,Parcs Canada,Français,https://www.facebook.com/pnprairies/,2315.0,
+Lieu historique national de la Grosse-Île et le Mémorial des Irlandais,Facebook,Parcs Canada,Français,https://www.facebook.com/grosseileetlememorialdesirlandais,2315.0,
+Parc national et lieu historique national Kejimkujik,Facebook,Parcs Canada,Français,https://www.facebook.com/KejimkujikF/?fref=tag,2315.0,
 Bureau du Conseil privé,Facebook,Bureau du Conseil privé,Français,https://www.facebook.com/ConseilPriveCA/,,
 La démocratie Cdn,X,Bureau du Conseil privé,Français,https://twitter.com/democratieCDN,,
 Emploi et Développement social Canada,YouTube,Emploi et Développement social Canada,Français,https://youtube.com/user/RHDCCanada,2229.0,Q27929061
@@ -1621,13 +1621,13 @@ Canada en Guinée,Facebook,Affaires mondiales Canada,Français,https://www.faceb
 "Un visage, un nom",Facebook,Bibliothèque et Archives Canada,Français,https://facebook.com/visage.nom/,,
 Services publics et Approvisionnement Canada,Facebook,Services publics et Approvisionnement Canada,Français,https://facebook.com/spac.pspc,,
 Commissiondesgrains,Facebook,Commission canadienne des grains,Français,https://facebook.com/Commission-canadienne-des-grains-355217541255113/,,
-Parcs Canada Yukon,Facebook,Parcs Canada,Français,https://facebook.com/pg/ParcsCanadaYukon,2315.0,Q349487
+Parcs Canada Yukon,Facebook,Parcs Canada,Français,https://facebook.com/pg/ParcsCanadaYukon,2315.0,
 @soistoimeme_ca,X,Femmes et Égalité des genres Canada,Français,https://twitter.com/soistoimeme_ca,,
-"Voie-Navigable-Trent-Severn Info Nav, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/VNTSInfoNav,2315.0,Q349487
-"Canal-Rideau Info Nav, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/RideauInfoNav,2315.0,Q349487
+"Voie-Navigable-Trent-Severn Info Nav, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/VNTSInfoNav,2315.0,
+"Canal-Rideau Info Nav, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/RideauInfoNav,2315.0,
 Service correctionnel du Canada,Facebook,Service correctionnel Canada,Français,https://facebook.com/ServiceCorrectionnel,,
-Parc national du Gros-Morne,Facebook,Parcs Canada,Français,https://facebook.com/Parc-national-du-Gros-Morne-739209316119706/,2315.0,Q349487
-"Canaux historiques au Québec, Parcs Canada",Facebook,Parcs Canada,Français,https://facebook.com/CanauxQC,2315.0,Q349487
+Parc national du Gros-Morne,Facebook,Parcs Canada,Français,https://facebook.com/Parc-national-du-Gros-Morne-739209316119706/,2315.0,
+"Canaux historiques au Québec, Parcs Canada",Facebook,Parcs Canada,Français,https://facebook.com/CanauxQC,2315.0,
 Régie canadienne de l'énergie,Facebook,Régie de l'énergie du Canada,Français,https://www.facebook.com/REC.CER/,,
 Au-dela de 2020,X,Bureau du Conseil privé,Français,https://twitter.com/AuDelaGC2020,,
 Opérations des Forces armées canadiennes,Facebook,Défense nationale et les Forces armées canadiennes,Français,https://facebook.com/OperationsFAC,,
@@ -1658,7 +1658,7 @@ GRC,X,Gendarmerie royale du Canada,Français,https://twitter.com/grcrcmppolice,,
 CANAFE Canada,YouTube,Centre d'analyse des opérations et déclarations financières du Canada,Français,https://www.youtube.com/channel/UCTz3W5F0Orkfv9yzxLHuf3A/featured,,
 @Nos_langues,X,Services publics et Approvisionnement Canada,Français,https://twitter.com/Nos_langues,,
 Portail linguistique du Canada,Facebook,Services publics et Approvisionnement Canada,Français,https://facebook.com/Noslangues.ca,,
-Agence du revenu du Canada,Facebook,Agence du Revenu du Canada,Français,https://facebook.com/AgenceRevCan,2303.0,Q1032002
+Agence du revenu du Canada,Facebook,Agence du Revenu du Canada,Français,https://facebook.com/AgenceRevCan,2303.0,
 @ScienceCdn,X,Recherches en sciences et en génie Canada,Français,https://twitter.com/ScienceCdn,,
 @grcqc,X,Gendarmerie royale du Canada,Français,https://twitter.com/grcqc,,
 @GRCManitoba,X,Gendarmerie royale du Canada,Français,https://twitter.com/GRCManitoba,,
@@ -1667,12 +1667,12 @@ Agence du revenu du Canada,Facebook,Agence du Revenu du Canada,Français,https:/
 @AmbCanClimat,X,Environnement et Changement climatique Canada,Français,https://twitter.com/AmbCanClimat,2237.0,Q348789
 La Commission de l'immigration et du statut de réfugié du Canada - CISR,Facebook,Commission de l'immigration et du statut de réfugié du Canada,Français,https://facebook.com/CISRCanada/,,
 "Logement, Infrastructures et Collectivités Canada",YouTube,"Logement, Infrastructures et Collectivités Canada",Français,https://www.youtube.com/channel/UCeCsV8C3xnsHeuuGr8N1f5Q,,
-Lieux historiques nationaux du Nouveau-Brunswick,Facebook,Parcs Canada,Français,https://www.facebook.com/ParcsCanadaNB,2315.0,Q349487
+Lieux historiques nationaux du Nouveau-Brunswick,Facebook,Parcs Canada,Français,https://www.facebook.com/ParcsCanadaNB,2315.0,
 @plainesdabraham,Facebook,Commission des champs de bataille nationaux,Français,https://www.facebook.com/plainesdabraham,,
 Kiosque Edwin-Bélanger,Facebook,Commission des champs de bataille nationaux,Français,https://www.facebook.com/kiosqueedwinbelanger,,
 Plaines d'Abraham,X,Commission des champs de bataille nationaux,Français,https://twitter.com/plainesdabraham,,
-Parcs à vie,Facebook,Parcs Canada,Français,https://www.facebook.com/pcparcsavie,2315.0,Q349487
-"Lieu historique national de la Villa-Bellevue, Parcs Canada",Facebook,Parcs Canada,Français,https://www.facebook.com/LHNVillaBellevue,2315.0,Q349487
+Parcs à vie,Facebook,Parcs Canada,Français,https://www.facebook.com/pcparcsavie,2315.0,
+"Lieu historique national de la Villa-Bellevue, Parcs Canada",Facebook,Parcs Canada,Français,https://www.facebook.com/LHNVillaBellevue,2315.0,
 @TourismeCDN,X,"Innovation, Sciences et Développement économique Canada",Français,https://twitter.com/TourismeCDN,2231.0,Q1057600
 Tourisme canadien,Instagram,"Innovation, Sciences et Développement économique Canada",Français,https://www.instagram.com/tourismecdn/?hl=en,2231.0,Q1057600
 grcontario,Instagram,Gendarmerie royale du Canada,Français,https://www.instagram.com/GRCOntario/,,
@@ -1682,12 +1682,12 @@ Collège de la Garde côtière canadienne,Facebook,Pêches et Océans Canada,Fra
 logementinfracollectivites,Instagram,"Logement, Infrastructures et Collectivités Canada",Français,https://www.instagram.com/logementinfracollectivites/,,
 GCAutochtones,Instagram,Relations Couronne-Autochtones et Affaires du Nord Canada et Services aux Autochtones Canada,Français,https://www.instagram.com/gcautochtones/,,
 @FrontiereCanQUE,X,Agence des services frontaliers du Canada,Français,https://twitter.com/FrontiereCanQUE,,
-Réserve de parc national de l'Île-de-Sable,Facebook,Parcs Canada,Français,https://www.facebook.com/RPNIledeSable,2315.0,Q349487
+Réserve de parc national de l'Île-de-Sable,Facebook,Parcs Canada,Français,https://www.facebook.com/RPNIledeSable,2315.0,
 acfc_can,Instagram,Agence de la consommation en matière financière,Français,https://instagram.com/ACFC_Can,,
 @CPPM_Canada,X,Commission d'examen des plaintes concernant la police militaire du Canada,Français,https://twitter.com/cppm_canada,,
 pechesoceanscan,Instagram,Pêches et Océans Canada,Français,https://www.instagram.com/pechesoceanscan/?hl=fr,,
 Environnement et Changement climatique Canada - Météo,Facebook,Environnement et Changement climatique Canada,Français,https://www.facebook.com/ECCC-Météo-1814972211931588,2237.0,Q348789
-"Parc national des Îles de la Baie Georgienne, Parcs Canada",Facebook,Parcs Canada,Français,https://www.facebook.com/PNIBG,2315.0,Q349487
+"Parc national des Îles de la Baie Georgienne, Parcs Canada",Facebook,Parcs Canada,Français,https://www.facebook.com/PNIBG,2315.0,
 SousGreff_GC,X,Bureau du Conseil privé,Français,https://twitter.com/SousGreff_GC,,
 biblioarchives,Instagram,Bibliothèque et Archives Canada,Français,https://www.instagram.com/biblioarchives/,,
 Défi propulsion DEC / CED Fast Forward Challenge,Facebook,Développement économique Canada pour les régions du Québec,Bilingue,https://www.facebook.com/DefiPropulsionFastForwardChallenge/,,
@@ -1695,11 +1695,11 @@ Société canadienne d'hypothèques et de logement (SCHL),Facebook,Société can
 @SCHL_ca,X,Société canadienne d'hypothèques et de logement,Français,https://twitter.com/SCHL_ca/,,
 SCHLca,YouTube,Société canadienne d'hypothèques et de logement,Français,https://www.youtube.com/user/SCHLca/,,
 @SPPC_PPSC,X,Service des poursuites pénales du Canada,Français,https://twitter.com/SPPC_PPSC,,
-Parcs Canada Halifax,Facebook,Parcs Canada,Français,https://www.facebook.com/ParcsCanadaHalifax/,2315.0,Q349487
+Parcs Canada Halifax,Facebook,Parcs Canada,Français,https://www.facebook.com/ParcsCanadaHalifax/,2315.0,
 transportscanada,Instagram,Transports Canada,Français,https://www.instagram.com/transportscanada/,2238.0,Q2035496
 @canensante,Instagram,Santé Canada,Français,https://www.instagram.com/CANensante/,2228.0,Q1057591
-"Parc urbain national de la Rouge, Parcs Canada",Facebook,Parcs Canada,Français,https://www.facebook.com/punRouge/,2315.0,Q349487
-"Parc urbain national de la Rouge, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/ParcRouge,2315.0,Q349487
+"Parc urbain national de la Rouge, Parcs Canada",Facebook,Parcs Canada,Français,https://www.facebook.com/punRouge/,2315.0,
+"Parc urbain national de la Rouge, Parcs Canada",X,Parcs Canada,Français,https://twitter.com/ParcRouge,2315.0,
 @SM_SPAC,X,Services publics et Approvisionnement Canada,Français,https://twitter.com/SM_SPAC,,
 @Prog2030Can,X,Unité des Objectifs de développement durable 2030,Français,https://twitter.com/Prog2030Can,,
 Programme 2030 Canada,Facebook,Unité des Objectifs de développement durable 2030,Français,https://www.facebook.com/Programme-2030-Canada-603877080063868/,,
@@ -1718,7 +1718,7 @@ Pensez cybersécurité,LinkedIn,Centre de la sécurité des télécommunications
 Agence d'évaluation d'impact du Canada,YouTube,Agence d'évaluation d'impact du Canada,Français,https://www.youtube.com/channel/UCXbmdG8tjpEZ_mkDAeIP9Nw,,
 agencespatialecanadienne,Instagram,Agence spatiale canadienne,Français,https://www.instagram.com/agencespatialecanadienne/,,
 Agence spatiale canadienne,Youtube,Agence spatiale canadienne,Français,https://www.youtube.com/user/agencespatialecan,,
-"Lieux historique nationaux au Québec, Parcs Canada",Facebook,Parcs Canada,Français,https://www.facebook.com/LHNauQC/,2315.0,Q349487
+"Lieux historique nationaux au Québec, Parcs Canada",Facebook,Parcs Canada,Français,https://www.facebook.com/LHNauQC/,2315.0,
 Vice-première minister du Canada,X,Bureau du Conseil privé,Français,https://twitter.com/VicePMduCanada,,
 Impact Canada,X,Bureau du Conseil privé,Français,https://twitter.com/impact_innovfr,,
 Impact Canada,LinkedIn,Bureau du Conseil privé,Français,https://www.linkedin.com/company/equipe-impact-canada-team,,
@@ -1740,10 +1740,10 @@ Agence canadienne de développement économique du Nord,Facebook,Agence canadien
 @GdCCanNor,X,Agence canadienne de développement économique du Nord,Français,https://twitter.com/GdCCanNor,,
 @EDSC_GC,X,Emploi et Développement social Canada,Français,https://twitter.com/EDSC_GC,2229.0,Q27929061
 Emploi et Développement social Canada,Facebook,Emploi et Développement social Canada,Français,https://www.facebook.com/EDSC.GC,2229.0,Q27929061
-"Parcs Canada, Manitoba",Facebook,Parcs Canada,Français,https://www.facebook.com/parcscanadamb/,2315.0,Q349487
-parcs.canada,Instagram,Parcs Canada,Français,https://www.instagram.com/parcs.canada/,2315.0,Q349487
-Lieu historique national du Fort-St. James,Facebook,Parcs Canada,Français,https://www.facebook.com/LHNFSJ/,2315.0,Q349487
-"Lieu historique national des Fortifications-de-Québec, Parcs Canada",Facebook,Parcs Canada,Français,https://www.facebook.com/fortificationsqc,2315.0,Q349487
+"Parcs Canada, Manitoba",Facebook,Parcs Canada,Français,https://www.facebook.com/parcscanadamb/,2315.0,
+parcs.canada,Instagram,Parcs Canada,Français,https://www.instagram.com/parcs.canada/,2315.0,
+Lieu historique national du Fort-St. James,Facebook,Parcs Canada,Français,https://www.facebook.com/LHNFSJ/,2315.0,
+"Lieu historique national des Fortifications-de-Québec, Parcs Canada",Facebook,Parcs Canada,Français,https://www.facebook.com/fortificationsqc,2315.0,
 gardecotierecan,Instagram,Pêches et Océans Canada,Français,https://www.instagram.com/gardecotierecan/,,
 Gendarmerie royale du Canada dans les Territoires du Nord-Ouest,Facebook,Gendarmerie royale du Canada,Français,https://www.facebook.com/grctno,,
 GRC Territoires du Nord-Ouest,X,Gendarmerie royale du Canada,Français,https://twitter.com/GRC_TNO,,
@@ -1755,9 +1755,9 @@ plaines_dabraham,Instagram,Commission des champs de bataille nationaux,Français
 Ministère des Finances Canada,Facebook,Ministère des Finances Canada,Français,https://www.facebook.com/FinancesCanada,,
 sciencecdn,Instagram,"Innovation, Sciences et Développement économique Canada",Français,https://www.instagram.com/ScienceCdn/,2231.0,Q1057600
 innovationcdn,Instagram,"Innovation, Sciences et Développement économique Canada",Français,https://www.instagram.com/innovationcdn/,2231.0,Q1057600
-statcan_fra,Instagram,Statistique Canada,Français,https://www.instagram.com/statcan_fra/,2293.0,Q1155740
-Parc national de Prince Albert,Facebook,Parcs Canada,Français,https://www.facebook.com/ParcnationaldePrinceAlbert,2315.0,Q349487
-Parc national Elk Island,Facebook,Parcs Canada,Français,https://facebook.com/Parc-national-Elk-Island-102511268848648,2315.0,Q349487
+statcan_fra,Instagram,Statistique Canada,Français,https://www.instagram.com/statcan_fra/,2293.0,
+Parc national de Prince Albert,Facebook,Parcs Canada,Français,https://www.facebook.com/ParcnationaldePrinceAlbert,2315.0,
+Parc national Elk Island,Facebook,Parcs Canada,Français,https://facebook.com/Parc-national-Elk-Island-102511268848648,2315.0,
 Service des poursuites penales du Canada,Facebook,Service des poursuites penales du Canada,Français,https://www.facebook.com/servicedespoursuitespenalesduCanada/,,
 Bureau de l'ombudsman des contribuables,YouTube,Bureau de l'ombudsman des contribuables,Français,https://www.youtube.com/channel/UCAFvGTpHg81OMX1EYoUKw4Q,,
 Agence de développement économique du Pacifique Canada,X,Agence de développement économique du Pacifique Canada,Français,https://twitter.com/PacifiCanFR,,
@@ -1765,7 +1765,7 @@ Développement économique Canada pour le Pacifique,YouTube,Agence de développe
 @PrairiesCanFR,X,Développement économique Canada pour les Prairies,Français,https://twitter.com/PrairiesCanFR,,
 Développement économique Canada pour les Prairies | Prairies Economic Development Canada,LinkedIn,Développement économique Canada pour les Prairies,Bilingue,https://www.linkedin.com/company/prairieseconomicedevelopmentcanada/,,
 edsc.gc,Instagram,Emploi et Développement social Canada,Français,https://www.instagram.com/edsc.gc/,2229.0,Q27929061
-agencerevcan,Instagram,Agence du Revenu du Canada,Français,https://www.instagram.com/agencerevcan/,2303.0,Q1032002
+agencerevcan,Instagram,Agence du Revenu du Canada,Français,https://www.instagram.com/agencerevcan/,2303.0,
 manitobagrc,Instagram,Gendarmerie royale du Canada,Français,https://www.instagram.com/manitobagrc/,,
 @GRCNunavut,X,Gendarmerie royale du Canada,Français,https://twitter.com/GRCNunavut,,
 GRC - Gendarmerie royale du Canada au Nunavut,Facebook,Gendarmerie royale du Canada,Français,https://www.facebook.com/grcnunavut,,
@@ -1788,7 +1788,7 @@ sportcanada.fr,Instagram,Patrimoine canadien,Français,https://www.instagram.com
 Agence de promotion économique du Canada atlantique,Facebook,Agence de promotion économique du Canada atlantique,Français,https://www.facebook.com/APECACanada/,,
 @centrecyber_ca,X,Centre de la sécurité des télécommunications,Français,https://twitter.com/CentreCyber_ca,,
 Le Bureau de l'ombudsman de l'approvisionnement,Facebook,Bureau de l'ombudsman de l'approvisionnement,Français,https://www.facebook.com/Le-Bureau-de-lombudsman-de-lapprovisionnement-103652619167683,,
-@CommDroitCan,X,Commission du droit du Canada,Français,https://twitter.com/CommDroitCan,2246.0,Q558436
+@CommDroitCan,X,Commission du droit du Canada,Français,https://twitter.com/CommDroitCan,2246.0,
 Bureau de la dirigeante principale de l'accessibilité du Canada,Facebook,Emploi et Développement social Canada,Français,https://www.facebook.com/BDPACanada?_rdr,2229.0,Q27929061
 Ombudsman de la Défense nationale et des Forces canadiennes,Facebook,Défense nationale et les Forces armées canadiennes,Français,https://www.facebook.com/mdnfcombudsman,,
 @MDNFC_Ombudsman,X,Défense nationale et les Forces armées canadiennes,Français,https://twitter.com/MDNFC_Ombudsman,,
@@ -1796,10 +1796,10 @@ mdnfcombudsman,Instagram,Défense nationale et les Forces armées canadiennes,Fr
 @consommateurCDN,X,"Innovation, Sciences et Développement économique Canada",Français,https://twitter.com/ConsommateurCDN,2231.0,Q1057600
 Premier ministre du Canada,YouTube,Bureau du Conseil privé,Français,https://youtube.com/user/pmducanada,,
 Vice-première ministre,YouTube,Bureau du Conseil privé,Français,https://youtube.com/channel/UCaqJQnLSDagarkLyd98IIWg,,
-"Parcs Canada, l'Arctique de l'Ouest",Facebook,Parcs Canada,Français,https://www.facebook.com/ParcsCanadaArctiqueOuest/,2315.0,Q349487
-@President_SPC,X,Services partagés Canada,Français,https://twitter.com/President_SPC,2292.0,Q28162755
-Services partagés Canada,YouTube,Services partagés Canada,Français,https://www.youtube.com/channel/UCnYt8QBA0o3lIPgMrtLlVuA,2292.0,Q28162755
-@PVP_SPC,X,Services partagés Canada,Français,https://twitter.com/PVP_SPC,2292.0,Q28162755
+"Parcs Canada, l'Arctique de l'Ouest",Facebook,Parcs Canada,Français,https://www.facebook.com/ParcsCanadaArctiqueOuest/,2315.0,
+@President_SPC,X,Services partagés Canada,Français,https://twitter.com/President_SPC,2292.0,
+Services partagés Canada,YouTube,Services partagés Canada,Français,https://www.youtube.com/channel/UCnYt8QBA0o3lIPgMrtLlVuA,2292.0,
+@PVP_SPC,X,Services partagés Canada,Français,https://twitter.com/PVP_SPC,2292.0,
 @HorizonsCanada,X,Emploi et Développement social Canada,Français,https://twitter.com/HorizonsCanada,2229.0,Q27929061
 Service correctionnel du Canada,Facebook,Service correctionel Canada,Français,https://www.facebook.com/ServiceCorrectionnel,,
 Commission de la fonction publique du Canada,YouTube,Commission de la fonction publique du Canada,Français,https://www.youtube.com/channel/UCbpWOX6cQhxyv6f6SOUoF1g,,
@@ -1854,10 +1854,10 @@ Consulat général du Canada à Los Angeles,Facebook,Affaires mondiales Canada,F
 @GRC_Nouveau_Brunswick,Instagram,Gendarmerie royale du Canada,Français,https://www.instagram.com/grc_nouveau_brunswick,,
 GRC de la vallée du Haut-Fraser,X,Gendarmerie royale du Canada,Français,https://x.com/GRCdeDRVH,,
 GRC de Chilliwack,Facebook,Gendarmerie royale du Canada,Français,https://www.facebook.com/GRCdeChilliwack/,,
-AgenceRevCan,Youtube,Agence du revenu du Canada,Français,https://www.youtube.com/@AgenceRevCan,2303.0,Q1032002
+AgenceRevCan,Youtube,Agence du revenu du Canada,Français,https://www.youtube.com/@AgenceRevCan,2303.0,
 Société canadienne d'hypothèques et de logement,Instagram,Canada Mortgage and Housing Corporation,Bilingue,https://www.instagram.com/schl_cmhc/,3631.0,
 GRC en Saskatchewan,Instagram,Gendarmerie royale du Canada,Français,https://www.instagram.com/grcensask,,
-Lieu historique national du Phare-de-Cap-Spear,Facebook,Parks Canada,Français,https://www.facebook.com/LHNCapSpear,2315.0,Q349487
+Lieu historique national du Phare-de-Cap-Spear,Facebook,Parks Canada,Français,https://www.facebook.com/LHNCapSpear,2315.0,
 Développement économique Canada pour les Prairies,Facebook,Développement économique Canada pour les Prairies,Français,https://www.facebook.com/people/D%C3%A9veloppement-%C3%A9conomique-Canada-pour-les-Prairies/61576901265741/,,
 Développement économique Canada pour les Prairies,Instagram,Développement économique Canada pour les Prairies,Français,https://www.instagram.com/prairiescan_fr/,,
 jeunesaucanada,Instagram,Emploi et Développement social Canada,Français,https://www.instagram.com/jeunesaucanada/,2229.0,Q27929061
