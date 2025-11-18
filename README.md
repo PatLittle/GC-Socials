@@ -25,19 +25,19 @@ sankey-beta
   Bilingual + Bilingue,Reddit,1
   Bilingual + Bilingue,X,27
   Bilingual + Bilingue,YouTube,30
-  English,Facebook,334
+  English,Facebook,335
   English,Flickr,4
-  English,Instagram,63
+  English,Instagram,64
   English,LinkedIn,12
   English,Snapchat,1
-  English,X,351
+  English,X,350
   English,YouTube,65
-  Francais,Facebook,330
+  Francais,Facebook,331
   Francais,Flickr,3
-  Francais,Instagram,58
+  Francais,Instagram,59
   Francais,LinkedIn,11
   Francais,Snapchat,1
-  Francais,X,352
+  Francais,X,351
   Francais,YouTube,62
 ```
 
@@ -45,10 +45,10 @@ sankey-beta
 
 ```mermaid
 pie showData title Platform Distribution
-    "X": 728
-    "Facebook": 704
+    "X": 726
+    "Facebook": 706
     "YouTube": 147
-    "Instagram": 143
+    "Instagram": 145
     "LinkedIn": 125
     "Flickr": 20
     "Youtube": 10
@@ -64,8 +64,8 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 830
-    "Français": 817
+    "English": 831
+    "Français": 818
     "Bilingual": 223
     "Bilingue": 14
 ```
@@ -79,9 +79,9 @@ pie showData title Department Count (English Only - Top 20)
     "Royal Canadian Mounted Police": 63
     "National Defence and the Canadian Armed Forces": 36
     "Environment and Climate Change Canada": 26
-    "Employment and Social Development Canada": 14
     "Public Services and Procurement Canada": 14
-    "Privy Council Office": 13
+    "Privy Council Office": 14
+    "Employment and Social Development Canada": 14
     "Innovation, Science and Economic Development Canada": 13
     "Canadian Heritage": 12
     "Fisheries and Oceans Canada": 9
@@ -108,7 +108,7 @@ pie showData title Department Count (Français Only - Top 20)
     "Emploi et Développement social Canada": 16
     "Innovation, Sciences et Développement économique Canada": 15
     "Services publics et Approvisionnement Canada": 14
-    "Bureau du Conseil privé": 13
+    "Bureau du Conseil privé": 14
     "Pêches et Océans Canada": 11
     "Ressources naturelles Canada": 9
     "Patrimoine canadien": 9
