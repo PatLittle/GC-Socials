@@ -51774,3 +51774,846 @@
 2025-11-28 03:35:11,767 - INFO - Step 6: Updating current-state CSV...
 2025-11-28 03:35:11,912 - INFO - Updated current CSV with 21116 active organizations
 2025-11-28 03:35:11,913 - INFO - === Update Complete: Added 391 new organizations ===
+2025-11-29 03:09:52,481 - INFO - === Starting Wikidata Organizations Update ===
+2025-11-29 03:09:52,481 - INFO - Step 1: Fetching organizations from Open Canada API...
+2025-11-29 03:09:53,048 - INFO - Fetched 100 records, total so far: 100/391
+2025-11-29 03:09:54,097 - INFO - Fetched 100 records, total so far: 200/391
+2025-11-29 03:09:55,104 - INFO - Fetched 100 records, total so far: 300/391
+2025-11-29 03:09:56,124 - INFO - Fetched 91 records, total so far: 391/391
+2025-11-29 03:09:56,126 - INFO - Successfully fetched 391 organizations from API
+2025-11-29 03:09:56,127 - INFO - Step 2: Loading existing CSV...
+2025-11-29 03:09:56,220 - INFO - Loaded 24581 existing records from gc_orgs_with_wikidata_ids.csv
+2025-11-29 03:09:56,220 - INFO - Step 3: Identifying new organizations...
+2025-11-29 03:09:56,235 - INFO - Found 391 new organizations: ['2302', '3578', '3606', '3476', '3513', '3626', '3662', '3446', '2292', '3646', '3514', '3447', '3652', '3611', '2251', '2254', '3421', '3552', '3470', '2258', '2262', '2243', '3582', '3688', '2289', '3703', '3671', '3423', '3619', '3510', '3639', '2238', '3472', '2273', '3640', '2315', '2271', '3706', '3540', '3538', '3641', '3625', '3412', '2305', '2307', '3520', '2312', '2227', '3403', '3491', '3676', '2279', '3512', '3548', '2265', '3622', '3493', '2275', '2300', '3425', '2231', '3649', '3602', '3681', '2235', '3516', '3682', '2303', '2246', '3572', '3633', '3401', '3459', '3583', '3554', '3504', '2272', '3469', '3556', '3561', '2230', '2304', '3589', '3468', '3565', '3474', '3547', '2261', '3612', '3588', '3442', '3618', '3596', '3629', '3537', '3429', '3490', '3675', '3499', '3451', '3667', '3486', '3542', '2295', '3454', '3424', '2224', '3418', '3433', '3439', '3630', '3689', '3480', '3691', '3406', '2297', '3464', '3402', '3674', '2225', '3467', '2240', '3427', '3654', '2244', '3434', '3477', '3601', '3407', '3545', '3494', '3532', '3570', '3613', '2283', '3634', '3673', '2260', '3631', '3665', '3502', '2249', '3523', '3599', '3501', '2293', '3635', '3603', '3568', '2277', '2274', '3440', 'NaN', '2301', '3707', '2276', '3462', '3544', '3575', '3457', '3475', '3445', '3604', '3557', '3563', '3543', '3704', '3581', '3443', '3495', '3562', '2310', '3541', '3701', '2226', '2298', '3497', '3444', '3549', '3533', '3518', '3620', '2280', '3668', '2233', '3432', '2269', '3660', '2270', '3694', '3664', '3506', '3683', '3566', '3609', '2228', '3560', '3585', '2237', '3415', '3492', '3600', '3455', '3692', '3519', '2291', '3527', '3399', '3534', '3647', '3450', '3526', '3483', '3509', '3573', '2266', '3488', '3461', '2278', '2255', '3558', '2264', '3574', '2308', '3636', '3528', '3411', '3621', '3684', '3594', '3559', '3679', '3521', '3466', '3438', '3525', '3536', '3687', '2306', '3616', '3496', '2250', '2263', '3484', '3416', '2222', '2247', '2239', '3456', '2229', '3426', '3593', '2248', '2294', '3535', '2299', '3624', '3417', '2234', '3515', '3607', '2287', '3452', '3685', '2285', '3419', '3500', '3517', '3653', '3663', '3697', '3420', '2245', '3522', '3698', '3670', '3657', '2396', '3404', '3705', '2241', '3539', '3700', '3569', '3586', '3448', '3465', '2319', '3431', '3615', '3413', '3485', '2296', '2318', '2316', '3580', '3644', '3595', '3471', '2267', '3590', '3555', '2242', '2311', '3591', '3428', '3669', '3511', '2252', '2288', '3638', '3608', '3410', '3503', '3686', '3643', '3507', '3449', '2290', '3498', '3481', '3435', '3579', '3693', '3458', '3661', '3659', '2284', '2259', '3414', '3479', '2281', '3650', '3587', '3489', '3655', '2317', '2256', '3680', '3656', '3430', '3422', '3564', '2232', '3508', '3623', '2314', '3690', '3409', '3642', '2313', '2286', '3524', '3463', '3584', '3645', '3437', '3546', '3473', '3436', '3651', '3531', '3553', '3632', '3400', '3637', '2253', '3577', '3672', '2223', '3482', '3696', '3666', '2268', '2257', '3702', '2309', '3405', '3695', '2282', '3478', '3453', '3571', '3648', '3441', '3605', '3658', '3614', '2236', '3627', '3408']
+2025-11-29 03:09:56,235 - INFO - Step 4: Processing new organizations with Wikidata mapping...
+2025-11-29 03:09:56,236 - INFO - Processing 391 new organizations...
+2025-11-29 03:10:04,749 - INFO - Retrieved 2 candidates for org 2222
+2025-11-29 03:10:04,749 - INFO - ✓ Matched 2222: Q1046164 (100%) via harmonized_name
+2025-11-29 03:10:05,985 - ERROR - Attempt 1/3 failed for org 2223: HTTP Error 403: Forbidden
+2025-11-29 03:10:08,108 - ERROR - Attempt 2/3 failed for org 2223: HTTP Error 403: Forbidden
+2025-11-29 03:10:10,313 - ERROR - Attempt 3/3 failed for org 2223: HTTP Error 403: Forbidden
+2025-11-29 03:10:10,314 - ERROR - All 3 attempts failed for org 2223
+2025-11-29 03:10:10,314 - WARNING - ✗ No match for 2223 above 70%
+2025-11-29 03:10:17,877 - INFO - Retrieved 1 candidates for org 2224
+2025-11-29 03:10:17,878 - INFO - ✓ Matched 2224: Q1056074 (100%) via harmonized_name
+2025-11-29 03:10:22,692 - INFO - Retrieved 2 candidates for org 2225
+2025-11-29 03:10:22,692 - INFO - ✓ Matched 2225: Q1191438 (100%) via harmonized_name
+2025-11-29 03:10:34,428 - INFO - Retrieved 4 candidates for org 2226
+2025-11-29 03:10:34,428 - INFO - ✓ Matched 2226: Q349666 (100%) via harmonized_name
+2025-11-29 03:10:40,273 - INFO - Retrieved 2 candidates for org 2227
+2025-11-29 03:10:40,273 - INFO - ✓ Matched 2227: Q3315371 (100%) via harmonized_name
+2025-11-29 03:10:46,332 - INFO - Retrieved 3 candidates for org 2228
+2025-11-29 03:10:46,332 - INFO - ✓ Matched 2228: Q1057591 (100%) via harmonized_name
+2025-11-29 03:10:51,707 - INFO - Retrieved 2 candidates for org 2229
+2025-11-29 03:10:51,707 - INFO - ✓ Matched 2229: Q27929061 (100%) via harmonized_name
+2025-11-29 03:10:59,127 - INFO - Retrieved 1 candidates for org 2230
+2025-11-29 03:10:59,127 - INFO - ✓ Matched 2230: Q86685295 (100%) via harmonized_name
+2025-11-29 03:11:04,095 - INFO - Retrieved 2 candidates for org 2231
+2025-11-29 03:11:04,095 - INFO - ✓ Matched 2231: Q1057600 (100%) via harmonized_name
+2025-11-29 03:11:11,935 - INFO - Retrieved 3 candidates for org 2232
+2025-11-29 03:11:11,935 - INFO - ✓ Matched 2232: Q136885008 (100%) via legal_title
+2025-11-29 03:11:18,093 - INFO - Retrieved 1 candidates for org 2233
+2025-11-29 03:11:18,093 - INFO - ✓ Matched 2233: Q1191463 (100%) via legal_title
+2025-11-29 03:11:21,749 - INFO - Retrieved 5 candidates for org 2234
+2025-11-29 03:11:21,749 - INFO - ✓ Matched 2234: Q349770 (100%) via harmonized_name
+2025-11-29 03:11:29,712 - INFO - Retrieved 1 candidates for org 2235
+2025-11-29 03:11:29,713 - INFO - ✓ Matched 2235: Q2602726 (100%) via harmonized_name
+2025-11-29 03:11:35,407 - INFO - Retrieved 2 candidates for org 2236
+2025-11-29 03:11:35,407 - INFO - ✓ Matched 2236: Q7257673 (100%) via harmonized_name
+2025-11-29 03:11:40,179 - INFO - Retrieved 2 candidates for org 2237
+2025-11-29 03:11:40,179 - INFO - ✓ Matched 2237: Q348789 (100%) via harmonized_name
+2025-11-29 03:11:44,357 - INFO - Retrieved 9 candidates for org 2238
+2025-11-29 03:11:44,357 - INFO - ✓ Matched 2238: Q2035496 (100%) via harmonized_name
+2025-11-29 03:11:48,953 - INFO - Retrieved 1 candidates for org 2239
+2025-11-29 03:11:48,953 - INFO - ✓ Matched 2239: Q429575 (100%) via harmonized_name
+2025-11-29 03:11:53,567 - WARNING - No candidates found for org 2240
+2025-11-29 03:11:53,567 - WARNING - ✗ No match for 2240 above 70%
+2025-11-29 03:11:54,773 - ERROR - Attempt 1/3 failed for org 2241: HTTP Error 403: Forbidden
+2025-11-29 03:11:56,979 - ERROR - Attempt 2/3 failed for org 2241: HTTP Error 403: Forbidden
+2025-11-29 03:12:04,877 - INFO - Retrieved 2 candidates for org 2241
+2025-11-29 03:12:04,877 - INFO - ✓ Matched 2241: Q85269208 (100%) via harmonized_name
+2025-11-29 03:12:09,363 - INFO - Retrieved 2 candidates for org 2242
+2025-11-29 03:12:09,363 - INFO - ✓ Matched 2242: Q17133814 (100%) via legal_title
+2025-11-29 03:12:17,644 - INFO - Retrieved 1 candidates for org 2243
+2025-11-29 03:12:17,644 - INFO - ✓ Matched 2243: Q85846156 (100%) via harmonized_name
+2025-11-29 03:12:21,526 - INFO - Retrieved 1 candidates for org 2244
+2025-11-29 03:12:21,526 - INFO - ✓ Matched 2244: Q2826616 (100%) via harmonized_name
+2025-11-29 03:12:26,213 - INFO - Retrieved 1 candidates for org 2245
+2025-11-29 03:12:26,213 - INFO - ✓ Matched 2245: Q349602 (100%) via harmonized_name
+2025-11-29 03:12:31,044 - INFO - Retrieved 1 candidates for org 2246
+2025-11-29 03:12:31,044 - INFO - ✓ Matched 2246: Q558436 (100%) via harmonized_name
+2025-11-29 03:12:35,739 - INFO - Retrieved 1 candidates for org 2247
+2025-11-29 03:12:35,739 - INFO - ✓ Matched 2247: Q2986411 (100%) via harmonized_name
+2025-11-29 03:12:51,339 - INFO - Retrieved 1 candidates for org 2248
+2025-11-29 03:12:51,339 - INFO - ✓ Matched 2248: Q5030190 (100%) via harmonized_name
+2025-11-29 03:12:54,587 - WARNING - No candidates found for org 2249
+2025-11-29 03:12:54,587 - WARNING - ✗ No match for 2249 above 70%
+2025-11-29 03:12:55,710 - ERROR - Attempt 1/3 failed for org 2250: HTTP Error 403: Forbidden
+2025-11-29 03:13:01,826 - INFO - Retrieved 1 candidates for org 2250
+2025-11-29 03:13:01,826 - INFO - ✓ Matched 2250: Q1032405 (100%) via harmonized_name
+2025-11-29 03:13:08,364 - INFO - Retrieved 1 candidates for org 2251
+2025-11-29 03:13:08,365 - INFO - ✓ Matched 2251: Q212227 (100%) via harmonized_name
+2025-11-29 03:13:12,609 - INFO - Retrieved 1 candidates for org 2252
+2025-11-29 03:13:12,609 - INFO - ✓ Matched 2252: Q5030630 (100%) via harmonized_name
+2025-11-29 03:13:22,423 - INFO - Retrieved 2 candidates for org 2253
+2025-11-29 03:13:22,424 - INFO - ✓ Matched 2253: Q597935 (100%) via harmonized_name
+2025-11-29 03:13:23,545 - ERROR - Attempt 1/3 failed for org 2254: HTTP Error 403: Forbidden
+2025-11-29 03:13:28,447 - INFO - Retrieved 1 candidates for org 2254
+2025-11-29 03:13:28,447 - INFO - ✓ Matched 2254: Q2986597 (94%) via harmonized_name
+2025-11-29 03:13:32,792 - INFO - Retrieved 1 candidates for org 2255
+2025-11-29 03:13:32,792 - INFO - ✓ Matched 2255: Q3480093 (100%) via legal_title
+2025-11-29 03:13:43,282 - WARNING - No candidates found for org 2256
+2025-11-29 03:13:43,282 - WARNING - ✗ No match for 2256 above 70%
+2025-11-29 03:13:51,535 - INFO - Retrieved 1 candidates for org 2257
+2025-11-29 03:13:51,535 - INFO - ✓ Matched 2257: Q2826593 (100%) via legal_title
+2025-11-29 03:13:59,048 - WARNING - No candidates found for org 2258
+2025-11-29 03:13:59,048 - WARNING - ✗ No match for 2258 above 70%
+2025-11-29 03:14:04,828 - INFO - Retrieved 1 candidates for org 2259
+2025-11-29 03:14:04,828 - INFO - ✓ Matched 2259: Q2826603 (100%) via harmonized_name
+2025-11-29 03:14:08,839 - INFO - Retrieved 1 candidates for org 2260
+2025-11-29 03:14:08,839 - INFO - ✓ Matched 2260: Q5449682 (100%) via harmonized_name
+2025-11-29 03:14:15,398 - INFO - Retrieved 1 candidates for org 2261
+2025-11-29 03:14:15,398 - INFO - ✓ Matched 2261: Q2986473 (100%) via harmonized_name
+2025-11-29 03:14:23,341 - INFO - Retrieved 1 candidates for org 2262
+2025-11-29 03:14:23,342 - INFO - ✓ Matched 2262: Q913250 (100%) via harmonized_name
+2025-11-29 03:14:32,296 - WARNING - No candidates found for org 2263
+2025-11-29 03:14:32,296 - WARNING - ✗ No match for 2263 above 70%
+2025-11-29 03:14:37,446 - WARNING - No candidates found for org 2264
+2025-11-29 03:14:37,446 - WARNING - ✗ No match for 2264 above 70%
+2025-11-29 03:14:41,523 - WARNING - No candidates found for org 2265
+2025-11-29 03:14:41,524 - WARNING - ✗ No match for 2265 above 70%
+2025-11-29 03:14:46,529 - INFO - Retrieved 2 candidates for org 2266
+2025-11-29 03:14:46,529 - INFO - ✓ Matched 2266: Q1530721 (100%) via harmonized_name
+2025-11-29 03:14:52,286 - INFO - Retrieved 1 candidates for org 2267
+2025-11-29 03:14:52,286 - INFO - ✓ Matched 2267: Q7139405 (100%) via harmonized_name
+2025-11-29 03:15:00,852 - WARNING - No candidates found for org 2268
+2025-11-29 03:15:00,852 - WARNING - ✗ No match for 2268 above 70%
+2025-11-29 03:15:06,520 - WARNING - No candidates found for org 2269
+2025-11-29 03:15:06,520 - WARNING - ✗ No match for 2269 above 70%
+2025-11-29 03:15:11,035 - WARNING - No candidates found for org 2270
+2025-11-29 03:15:11,035 - WARNING - ✗ No match for 2270 above 70%
+2025-11-29 03:15:16,260 - INFO - Retrieved 2 candidates for org 2271
+2025-11-29 03:15:16,260 - INFO - ✓ Matched 2271: Q3586687 (100%) via harmonized_name
+2025-11-29 03:15:22,891 - WARNING - No candidates found for org 2272
+2025-11-29 03:15:22,891 - WARNING - ✗ No match for 2272 above 70%
+2025-11-29 03:15:27,250 - WARNING - No candidates found for org 2273
+2025-11-29 03:15:27,250 - WARNING - ✗ No match for 2273 above 70%
+2025-11-29 03:15:32,476 - INFO - Retrieved 1 candidates for org 2274
+2025-11-29 03:15:32,476 - INFO - ✓ Matched 2274: Q481371 (100%) via harmonized_name
+2025-11-29 03:15:38,473 - WARNING - No candidates found for org 2275
+2025-11-29 03:15:38,473 - WARNING - ✗ No match for 2275 above 70%
+2025-11-29 03:15:45,216 - WARNING - No candidates found for org 2276
+2025-11-29 03:15:45,216 - WARNING - ✗ No match for 2276 above 70%
+2025-11-29 03:15:50,625 - INFO - Retrieved 1 candidates for org 2277
+2025-11-29 03:15:50,625 - INFO - ✓ Matched 2277: Q7257506 (100%) via harmonized_name
+2025-11-29 03:15:55,609 - WARNING - No candidates found for org 2278
+2025-11-29 03:15:55,609 - WARNING - ✗ No match for 2278 above 70%
+2025-11-29 03:16:00,556 - WARNING - No candidates found for org 2279
+2025-11-29 03:16:00,557 - WARNING - ✗ No match for 2279 above 70%
+2025-11-29 03:16:06,348 - INFO - Retrieved 1 candidates for org 2280
+2025-11-29 03:16:06,348 - INFO - ✓ Matched 2280: Q7079419 (100%) via legal_title
+2025-11-29 03:16:11,657 - WARNING - No candidates found for org 2281
+2025-11-29 03:16:11,657 - WARNING - ✗ No match for 2281 above 70%
+2025-11-29 03:16:16,922 - INFO - Retrieved 1 candidates for org 2282
+2025-11-29 03:16:16,922 - INFO - ✓ Matched 2282: Q90571444 (100%) via harmonized_name
+2025-11-29 03:16:18,128 - ERROR - Attempt 1/3 failed for org 2283: HTTP Error 403: Forbidden
+2025-11-29 03:16:20,333 - ERROR - Attempt 2/3 failed for org 2283: HTTP Error 403: Forbidden
+2025-11-29 03:16:25,309 - WARNING - No candidates found for org 2283
+2025-11-29 03:16:25,309 - WARNING - ✗ No match for 2283 above 70%
+2025-11-29 03:16:31,884 - INFO - Retrieved 1 candidates for org 2284
+2025-11-29 03:16:31,884 - INFO - ✓ Matched 2284: Q24168 (100%) via harmonized_name
+2025-11-29 03:16:38,138 - INFO - Retrieved 1 candidates for org 2285
+2025-11-29 03:16:38,138 - INFO - ✓ Matched 2285: Q2826604 (100%) via harmonized_name
+2025-11-29 03:16:43,879 - INFO - Retrieved 1 candidates for org 2286
+2025-11-29 03:16:43,879 - INFO - ✓ Matched 2286: Q3644969 (100%) via harmonized_name
+2025-11-29 03:16:48,820 - WARNING - No candidates found for org 2287
+2025-11-29 03:16:48,820 - WARNING - ✗ No match for 2287 above 70%
+2025-11-29 03:16:53,515 - INFO - Retrieved 3 candidates for org 2288
+2025-11-29 03:16:53,516 - INFO - ✓ Matched 2288: Q335175 (100%) via harmonized_name
+2025-11-29 03:16:59,567 - WARNING - No candidates found for org 2289
+2025-11-29 03:16:59,567 - WARNING - ✗ No match for 2289 above 70%
+2025-11-29 03:17:00,689 - ERROR - Attempt 1/3 failed for org 2290: HTTP Error 403: Forbidden
+2025-11-29 03:17:07,772 - WARNING - No candidates found for org 2290
+2025-11-29 03:17:07,773 - WARNING - ✗ No match for 2290 above 70%
+2025-11-29 03:17:08,979 - ERROR - Attempt 1/3 failed for org 2291: HTTP Error 403: Forbidden
+2025-11-29 03:17:15,063 - WARNING - No candidates found for org 2291
+2025-11-29 03:17:15,063 - WARNING - ✗ No match for 2291 above 70%
+2025-11-29 03:17:16,185 - ERROR - Attempt 1/3 failed for org 2292: HTTP Error 403: Forbidden
+2025-11-29 03:17:25,827 - INFO - Retrieved 1 candidates for org 2292
+2025-11-29 03:17:25,827 - INFO - ✓ Matched 2292: Q28162755 (100%) via harmonized_name
+2025-11-29 03:17:30,179 - INFO - Retrieved 1 candidates for org 2293
+2025-11-29 03:17:30,180 - INFO - ✓ Matched 2293: Q1155740 (100%) via harmonized_name
+2025-11-29 03:17:33,857 - INFO - Retrieved 1 candidates for org 2294
+2025-11-29 03:17:33,857 - INFO - ✓ Matched 2294: Q7923667 (100%) via harmonized_name
+2025-11-29 03:17:38,743 - WARNING - No candidates found for org 2295
+2025-11-29 03:17:38,743 - WARNING - ✗ No match for 2295 above 70%
+2025-11-29 03:17:44,475 - WARNING - No candidates found for org 2296
+2025-11-29 03:17:44,475 - WARNING - ✗ No match for 2296 above 70%
+2025-11-29 03:17:52,565 - WARNING - No candidates found for org 2297
+2025-11-29 03:17:52,565 - WARNING - ✗ No match for 2297 above 70%
+2025-11-29 03:17:57,375 - WARNING - No candidates found for org 2298
+2025-11-29 03:17:57,375 - WARNING - ✗ No match for 2298 above 70%
+2025-11-29 03:18:07,126 - WARNING - No candidates found for org 2299
+2025-11-29 03:18:07,126 - WARNING - ✗ No match for 2299 above 70%
+2025-11-29 03:18:08,248 - ERROR - Attempt 1/3 failed for org 2300: HTTP Error 403: Forbidden
+2025-11-29 03:18:13,039 - INFO - Retrieved 1 candidates for org 2300
+2025-11-29 03:18:13,040 - INFO - ✓ Matched 2300: Q532090 (100%) via harmonized_name
+2025-11-29 03:18:23,566 - WARNING - No candidates found for org 2301
+2025-11-29 03:18:23,566 - WARNING - ✗ No match for 2301 above 70%
+2025-11-29 03:18:27,736 - WARNING - No candidates found for org 2302
+2025-11-29 03:18:27,736 - WARNING - ✗ No match for 2302 above 70%
+2025-11-29 03:18:40,827 - INFO - Retrieved 1 candidates for org 2303
+2025-11-29 03:18:40,827 - INFO - ✓ Matched 2303: Q1032002 (100%) via harmonized_name
+2025-11-29 03:18:45,617 - WARNING - No candidates found for org 2304
+2025-11-29 03:18:45,617 - WARNING - ✗ No match for 2304 above 70%
+2025-11-29 03:18:52,508 - INFO - Retrieved 1 candidates for org 2305
+2025-11-29 03:18:52,508 - INFO - ✓ Matched 2305: Q5029820 (100%) via harmonized_name
+2025-11-29 03:18:56,227 - INFO - Retrieved 1 candidates for org 2306
+2025-11-29 03:18:56,227 - INFO - ✓ Matched 2306: Q2826578 (100%) via harmonized_name
+2025-11-29 03:19:00,345 - INFO - Retrieved 1 candidates for org 2307
+2025-11-29 03:19:00,345 - INFO - ✓ Matched 2307: Q5030193 (100%) via harmonized_name
+2025-11-29 03:19:01,558 - ERROR - Attempt 1/3 failed for org 2308: HTTP Error 403: Forbidden
+2025-11-29 03:19:08,642 - INFO - Retrieved 1 candidates for org 2308
+2025-11-29 03:19:08,642 - INFO - ✓ Matched 2308: Q654536 (100%) via harmonized_name
+2025-11-29 03:19:15,229 - INFO - Retrieved 1 candidates for org 2309
+2025-11-29 03:19:15,230 - INFO - ✓ Matched 2309: Q2928368 (100%) via harmonized_name
+2025-11-29 03:19:19,372 - WARNING - No candidates found for org 2310
+2025-11-29 03:19:19,372 - WARNING - ✗ No match for 2310 above 70%
+2025-11-29 03:19:32,860 - WARNING - No candidates found for org 2311
+2025-11-29 03:19:32,860 - WARNING - ✗ No match for 2311 above 70%
+2025-11-29 03:19:41,704 - WARNING - No candidates found for org 2312
+2025-11-29 03:19:41,704 - WARNING - ✗ No match for 2312 above 70%
+2025-11-29 03:19:49,667 - INFO - Retrieved 2 candidates for org 2313
+2025-11-29 03:19:49,668 - INFO - ✓ Matched 2313: Q1437507 (100%) via legal_title
+2025-11-29 03:19:53,824 - INFO - Retrieved 2 candidates for org 2314
+2025-11-29 03:19:53,825 - INFO - ✓ Matched 2314: Q2993807 (100%) via harmonized_name
+2025-11-29 03:19:58,877 - INFO - Retrieved 2 candidates for org 2315
+2025-11-29 03:19:58,877 - INFO - ✓ Matched 2315: Q349487 (100%) via harmonized_name
+2025-11-29 03:20:05,596 - INFO - Retrieved 2 candidates for org 2316
+2025-11-29 03:20:05,596 - INFO - ✓ Matched 2316: Q2993802 (100%) via harmonized_name
+2025-11-29 03:20:11,612 - WARNING - No candidates found for org 2317
+2025-11-29 03:20:11,612 - WARNING - ✗ No match for 2317 above 70%
+2025-11-29 03:20:17,125 - INFO - Retrieved 1 candidates for org 2318
+2025-11-29 03:20:17,125 - INFO - ✓ Matched 2318: Q5030480 (100%) via harmonized_name
+2025-11-29 03:20:24,418 - WARNING - No candidates found for org 2319
+2025-11-29 03:20:24,418 - WARNING - ✗ No match for 2319 above 70%
+2025-11-29 03:20:31,575 - INFO - Retrieved 1 candidates for org 2396
+2025-11-29 03:20:31,575 - INFO - ✓ Matched 2396: Q2993801 (100%) via harmonized_name
+2025-11-29 03:20:34,999 - WARNING - No candidates found for org 3399
+2025-11-29 03:20:34,999 - WARNING - ✗ No match for 3399 above 70%
+2025-11-29 03:20:39,346 - WARNING - No candidates found for org 3400
+2025-11-29 03:20:39,346 - WARNING - ✗ No match for 3400 above 70%
+2025-11-29 03:20:43,842 - WARNING - No candidates found for org 3401
+2025-11-29 03:20:43,842 - WARNING - ✗ No match for 3401 above 70%
+2025-11-29 03:20:51,857 - WARNING - No candidates found for org 3402
+2025-11-29 03:20:51,857 - WARNING - ✗ No match for 3402 above 70%
+2025-11-29 03:21:01,480 - WARNING - No candidates found for org 3403
+2025-11-29 03:21:01,480 - WARNING - ✗ No match for 3403 above 70%
+2025-11-29 03:21:08,344 - WARNING - No candidates found for org 3404
+2025-11-29 03:21:08,344 - WARNING - ✗ No match for 3404 above 70%
+2025-11-29 03:21:13,166 - WARNING - No candidates found for org 3405
+2025-11-29 03:21:13,166 - WARNING - ✗ No match for 3405 above 70%
+2025-11-29 03:21:17,834 - WARNING - No candidates found for org 3406
+2025-11-29 03:21:17,834 - WARNING - ✗ No match for 3406 above 70%
+2025-11-29 03:21:21,259 - WARNING - No candidates found for org 3407
+2025-11-29 03:21:21,259 - WARNING - ✗ No match for 3407 above 70%
+2025-11-29 03:21:24,314 - WARNING - No candidates found for org 3408
+2025-11-29 03:21:24,314 - WARNING - ✗ No match for 3408 above 70%
+2025-11-29 03:21:25,436 - ERROR - Attempt 1/3 failed for org 3409: HTTP Error 403: Forbidden
+2025-11-29 03:21:33,686 - WARNING - No candidates found for org 3409
+2025-11-29 03:21:33,686 - WARNING - ✗ No match for 3409 above 70%
+2025-11-29 03:21:39,048 - WARNING - No candidates found for org 3410
+2025-11-29 03:21:39,048 - WARNING - ✗ No match for 3410 above 70%
+2025-11-29 03:21:40,254 - ERROR - Attempt 1/3 failed for org 3411: HTTP Error 403: Forbidden
+2025-11-29 03:21:47,551 - WARNING - No candidates found for org 3411
+2025-11-29 03:21:47,551 - WARNING - ✗ No match for 3411 above 70%
+2025-11-29 03:21:51,895 - WARNING - No candidates found for org 3412
+2025-11-29 03:21:51,896 - WARNING - ✗ No match for 3412 above 70%
+2025-11-29 03:21:56,863 - WARNING - No candidates found for org 3413
+2025-11-29 03:21:56,863 - WARNING - ✗ No match for 3413 above 70%
+2025-11-29 03:22:04,987 - WARNING - No candidates found for org 3414
+2025-11-29 03:22:04,987 - WARNING - ✗ No match for 3414 above 70%
+2025-11-29 03:22:09,768 - WARNING - No candidates found for org 3415
+2025-11-29 03:22:09,768 - WARNING - ✗ No match for 3415 above 70%
+2025-11-29 03:22:12,954 - WARNING - No candidates found for org 3416
+2025-11-29 03:22:12,954 - WARNING - ✗ No match for 3416 above 70%
+2025-11-29 03:22:14,075 - ERROR - Attempt 1/3 failed for org 3417: HTTP Error 403: Forbidden
+2025-11-29 03:22:18,282 - WARNING - No candidates found for org 3417
+2025-11-29 03:22:18,282 - WARNING - ✗ No match for 3417 above 70%
+2025-11-29 03:22:21,697 - WARNING - No candidates found for org 3418
+2025-11-29 03:22:21,698 - WARNING - ✗ No match for 3418 above 70%
+2025-11-29 03:22:22,903 - ERROR - Attempt 1/3 failed for org 3419: HTTP Error 403: Forbidden
+2025-11-29 03:22:27,860 - INFO - Retrieved 1 candidates for org 3419
+2025-11-29 03:22:27,861 - INFO - ✓ Matched 3419: Q17023170 (100%) via harmonized_name
+2025-11-29 03:22:28,981 - ERROR - Attempt 1/3 failed for org 3420: HTTP Error 403: Forbidden
+2025-11-29 03:22:34,679 - WARNING - No candidates found for org 3420
+2025-11-29 03:22:34,679 - WARNING - ✗ No match for 3420 above 70%
+2025-11-29 03:22:39,306 - WARNING - No candidates found for org 3421
+2025-11-29 03:22:39,306 - WARNING - ✗ No match for 3421 above 70%
+2025-11-29 03:22:44,657 - WARNING - No candidates found for org 3422
+2025-11-29 03:22:44,657 - WARNING - ✗ No match for 3422 above 70%
+2025-11-29 03:22:51,233 - WARNING - No candidates found for org 3423
+2025-11-29 03:22:51,234 - WARNING - ✗ No match for 3423 above 70%
+2025-11-29 03:22:56,238 - WARNING - No candidates found for org 3424
+2025-11-29 03:22:56,238 - WARNING - ✗ No match for 3424 above 70%
+2025-11-29 03:23:01,877 - WARNING - No candidates found for org 3425
+2025-11-29 03:23:01,877 - WARNING - ✗ No match for 3425 above 70%
+2025-11-29 03:23:09,865 - WARNING - No candidates found for org 3426
+2025-11-29 03:23:09,865 - WARNING - ✗ No match for 3426 above 70%
+2025-11-29 03:23:13,385 - WARNING - No candidates found for org 3427
+2025-11-29 03:23:13,385 - WARNING - ✗ No match for 3427 above 70%
+2025-11-29 03:23:16,416 - INFO - Retrieved 4 candidates for org 3428
+2025-11-29 03:23:16,416 - INFO - ✓ Matched 3428: Q383590 (100%) via harmonized_name
+2025-11-29 03:23:19,785 - WARNING - No candidates found for org 3429
+2025-11-29 03:23:19,785 - WARNING - ✗ No match for 3429 above 70%
+2025-11-29 03:23:27,569 - WARNING - No candidates found for org 3430
+2025-11-29 03:23:27,569 - WARNING - ✗ No match for 3430 above 70%
+2025-11-29 03:23:28,691 - ERROR - Attempt 1/3 failed for org 3431: HTTP Error 403: Forbidden
+2025-11-29 03:23:35,140 - WARNING - No candidates found for org 3431
+2025-11-29 03:23:35,140 - WARNING - ✗ No match for 3431 above 70%
+2025-11-29 03:23:38,069 - INFO - Retrieved 2 candidates for org 3432
+2025-11-29 03:23:38,069 - WARNING - ✗ No match for 3432 above 70%
+2025-11-29 03:23:39,191 - ERROR - Attempt 1/3 failed for org 3433: HTTP Error 403: Forbidden
+2025-11-29 03:23:44,510 - WARNING - No candidates found for org 3433
+2025-11-29 03:23:44,510 - WARNING - ✗ No match for 3433 above 70%
+2025-11-29 03:23:49,082 - WARNING - No candidates found for org 3434
+2025-11-29 03:23:49,083 - WARNING - ✗ No match for 3434 above 70%
+2025-11-29 03:23:56,136 - WARNING - No candidates found for org 3435
+2025-11-29 03:23:56,136 - WARNING - ✗ No match for 3435 above 70%
+2025-11-29 03:23:59,547 - WARNING - No candidates found for org 3436
+2025-11-29 03:23:59,547 - WARNING - ✗ No match for 3436 above 70%
+2025-11-29 03:24:04,078 - WARNING - No candidates found for org 3437
+2025-11-29 03:24:04,078 - WARNING - ✗ No match for 3437 above 70%
+2025-11-29 03:24:08,521 - WARNING - No candidates found for org 3438
+2025-11-29 03:24:08,521 - WARNING - ✗ No match for 3438 above 70%
+2025-11-29 03:24:09,643 - ERROR - Attempt 1/3 failed for org 3439: HTTP Error 403: Forbidden
+2025-11-29 03:24:11,850 - ERROR - Attempt 2/3 failed for org 3439: HTTP Error 403: Forbidden
+2025-11-29 03:24:14,060 - ERROR - Attempt 3/3 failed for org 3439: HTTP Error 403: Forbidden
+2025-11-29 03:24:14,061 - ERROR - All 3 attempts failed for org 3439
+2025-11-29 03:24:14,061 - WARNING - ✗ No match for 3439 above 70%
+2025-11-29 03:24:19,978 - INFO - Retrieved 1 candidates for org 3440
+2025-11-29 03:24:19,978 - INFO - ✓ Matched 3440: Q4985905 (100%) via harmonized_name
+2025-11-29 03:24:23,423 - WARNING - No candidates found for org 3441
+2025-11-29 03:24:23,424 - WARNING - ✗ No match for 3441 above 70%
+2025-11-29 03:24:26,922 - WARNING - No candidates found for org 3442
+2025-11-29 03:24:26,922 - WARNING - ✗ No match for 3442 above 70%
+2025-11-29 03:24:32,554 - INFO - Retrieved 1 candidates for org 3443
+2025-11-29 03:24:32,554 - INFO - ✓ Matched 3443: Q5029366 (100%) via harmonized_name
+2025-11-29 03:24:35,618 - WARNING - No candidates found for org 3444
+2025-11-29 03:24:35,618 - WARNING - ✗ No match for 3444 above 70%
+2025-11-29 03:24:38,617 - WARNING - No candidates found for org 3445
+2025-11-29 03:24:38,617 - WARNING - ✗ No match for 3445 above 70%
+2025-11-29 03:24:43,223 - WARNING - No candidates found for org 3446
+2025-11-29 03:24:43,223 - WARNING - ✗ No match for 3446 above 70%
+2025-11-29 03:24:52,188 - WARNING - No candidates found for org 3447
+2025-11-29 03:24:52,188 - WARNING - ✗ No match for 3447 above 70%
+2025-11-29 03:24:59,153 - WARNING - No candidates found for org 3448
+2025-11-29 03:24:59,153 - WARNING - ✗ No match for 3448 above 70%
+2025-11-29 03:25:02,497 - WARNING - No candidates found for org 3449
+2025-11-29 03:25:02,497 - WARNING - ✗ No match for 3449 above 70%
+2025-11-29 03:25:16,054 - WARNING - No candidates found for org 3450
+2025-11-29 03:25:16,054 - WARNING - ✗ No match for 3450 above 70%
+2025-11-29 03:25:19,872 - WARNING - No candidates found for org 3451
+2025-11-29 03:25:19,873 - WARNING - ✗ No match for 3451 above 70%
+2025-11-29 03:25:28,340 - WARNING - No candidates found for org 3452
+2025-11-29 03:25:28,341 - WARNING - ✗ No match for 3452 above 70%
+2025-11-29 03:25:31,816 - WARNING - No candidates found for org 3453
+2025-11-29 03:25:31,816 - WARNING - ✗ No match for 3453 above 70%
+2025-11-29 03:25:39,540 - WARNING - No candidates found for org 3454
+2025-11-29 03:25:39,540 - WARNING - ✗ No match for 3454 above 70%
+2025-11-29 03:25:40,746 - ERROR - Attempt 1/3 failed for org 3455: HTTP Error 403: Forbidden
+2025-11-29 03:25:46,118 - WARNING - No candidates found for org 3455
+2025-11-29 03:25:46,118 - WARNING - ✗ No match for 3455 above 70%
+2025-11-29 03:25:49,545 - WARNING - No candidates found for org 3456
+2025-11-29 03:25:49,545 - WARNING - ✗ No match for 3456 above 70%
+2025-11-29 03:25:54,375 - WARNING - No candidates found for org 3457
+2025-11-29 03:25:54,375 - WARNING - ✗ No match for 3457 above 70%
+2025-11-29 03:25:58,350 - WARNING - No candidates found for org 3458
+2025-11-29 03:25:58,350 - WARNING - ✗ No match for 3458 above 70%
+2025-11-29 03:26:01,640 - WARNING - No candidates found for org 3459
+2025-11-29 03:26:01,640 - WARNING - ✗ No match for 3459 above 70%
+2025-11-29 03:26:06,819 - INFO - Retrieved 1 candidates for org 3461
+2025-11-29 03:26:06,819 - INFO - ✓ Matched 3461: Q5339012 (100%) via harmonized_name
+2025-11-29 03:26:10,169 - WARNING - No candidates found for org 3462
+2025-11-29 03:26:10,169 - WARNING - ✗ No match for 3462 above 70%
+2025-11-29 03:26:13,543 - WARNING - No candidates found for org 3463
+2025-11-29 03:26:13,543 - WARNING - ✗ No match for 3463 above 70%
+2025-11-29 03:26:14,750 - ERROR - Attempt 1/3 failed for org 3464: HTTP Error 403: Forbidden
+2025-11-29 03:26:21,413 - WARNING - No candidates found for org 3464
+2025-11-29 03:26:21,413 - WARNING - ✗ No match for 3464 above 70%
+2025-11-29 03:26:26,044 - WARNING - No candidates found for org 3465
+2025-11-29 03:26:26,044 - WARNING - ✗ No match for 3465 above 70%
+2025-11-29 03:26:29,334 - WARNING - No candidates found for org 3466
+2025-11-29 03:26:29,334 - WARNING - ✗ No match for 3466 above 70%
+2025-11-29 03:26:32,615 - WARNING - No candidates found for org 3467
+2025-11-29 03:26:32,615 - WARNING - ✗ No match for 3467 above 70%
+2025-11-29 03:26:35,899 - WARNING - No candidates found for org 3468
+2025-11-29 03:26:35,899 - WARNING - ✗ No match for 3468 above 70%
+2025-11-29 03:26:42,480 - WARNING - No candidates found for org 3469
+2025-11-29 03:26:42,480 - WARNING - ✗ No match for 3469 above 70%
+2025-11-29 03:26:46,119 - WARNING - No candidates found for org 3470
+2025-11-29 03:26:46,119 - WARNING - ✗ No match for 3470 above 70%
+2025-11-29 03:26:49,397 - WARNING - No candidates found for org 3471
+2025-11-29 03:26:49,397 - WARNING - ✗ No match for 3471 above 70%
+2025-11-29 03:26:54,210 - WARNING - No candidates found for org 3472
+2025-11-29 03:26:54,210 - WARNING - ✗ No match for 3472 above 70%
+2025-11-29 03:26:58,887 - WARNING - No candidates found for org 3473
+2025-11-29 03:26:58,887 - WARNING - ✗ No match for 3473 above 70%
+2025-11-29 03:27:04,030 - WARNING - No candidates found for org 3474
+2025-11-29 03:27:04,030 - WARNING - ✗ No match for 3474 above 70%
+2025-11-29 03:27:07,500 - WARNING - No candidates found for org 3475
+2025-11-29 03:27:07,500 - WARNING - ✗ No match for 3475 above 70%
+2025-11-29 03:27:12,050 - WARNING - No candidates found for org 3476
+2025-11-29 03:27:12,050 - WARNING - ✗ No match for 3476 above 70%
+2025-11-29 03:27:16,175 - WARNING - No candidates found for org 3477
+2025-11-29 03:27:16,175 - WARNING - ✗ No match for 3477 above 70%
+2025-11-29 03:27:17,381 - ERROR - Attempt 1/3 failed for org 3478: HTTP Error 403: Forbidden
+2025-11-29 03:27:21,928 - WARNING - No candidates found for org 3478
+2025-11-29 03:27:21,928 - WARNING - ✗ No match for 3478 above 70%
+2025-11-29 03:27:25,764 - WARNING - No candidates found for org 3479
+2025-11-29 03:27:25,764 - WARNING - ✗ No match for 3479 above 70%
+2025-11-29 03:27:29,955 - WARNING - No candidates found for org 3480
+2025-11-29 03:27:29,955 - WARNING - ✗ No match for 3480 above 70%
+2025-11-29 03:27:34,320 - WARNING - No candidates found for org 3481
+2025-11-29 03:27:34,320 - WARNING - ✗ No match for 3481 above 70%
+2025-11-29 03:27:37,634 - WARNING - No candidates found for org 3482
+2025-11-29 03:27:37,634 - WARNING - ✗ No match for 3482 above 70%
+2025-11-29 03:27:41,442 - WARNING - No candidates found for org 3483
+2025-11-29 03:27:41,442 - WARNING - ✗ No match for 3483 above 70%
+2025-11-29 03:27:45,247 - WARNING - No candidates found for org 3484
+2025-11-29 03:27:45,247 - WARNING - ✗ No match for 3484 above 70%
+2025-11-29 03:27:48,864 - WARNING - No candidates found for org 3485
+2025-11-29 03:27:48,864 - WARNING - ✗ No match for 3485 above 70%
+2025-11-29 03:27:52,416 - WARNING - No candidates found for org 3486
+2025-11-29 03:27:52,417 - WARNING - ✗ No match for 3486 above 70%
+2025-11-29 03:27:55,803 - WARNING - No candidates found for org 3488
+2025-11-29 03:27:55,803 - WARNING - ✗ No match for 3488 above 70%
+2025-11-29 03:27:59,381 - WARNING - No candidates found for org 3489
+2025-11-29 03:27:59,381 - WARNING - ✗ No match for 3489 above 70%
+2025-11-29 03:28:02,780 - WARNING - No candidates found for org 3490
+2025-11-29 03:28:02,780 - WARNING - ✗ No match for 3490 above 70%
+2025-11-29 03:28:09,085 - WARNING - No candidates found for org 3491
+2025-11-29 03:28:09,085 - WARNING - ✗ No match for 3491 above 70%
+2025-11-29 03:28:12,745 - WARNING - No candidates found for org 3492
+2025-11-29 03:28:12,745 - WARNING - ✗ No match for 3492 above 70%
+2025-11-29 03:28:16,665 - WARNING - No candidates found for org 3493
+2025-11-29 03:28:16,665 - WARNING - ✗ No match for 3493 above 70%
+2025-11-29 03:28:20,403 - WARNING - No candidates found for org 3494
+2025-11-29 03:28:20,403 - WARNING - ✗ No match for 3494 above 70%
+2025-11-29 03:28:24,487 - WARNING - No candidates found for org 3495
+2025-11-29 03:28:24,488 - WARNING - ✗ No match for 3495 above 70%
+2025-11-29 03:28:28,347 - WARNING - No candidates found for org 3496
+2025-11-29 03:28:28,347 - WARNING - ✗ No match for 3496 above 70%
+2025-11-29 03:28:34,686 - WARNING - No candidates found for org 3497
+2025-11-29 03:28:34,686 - WARNING - ✗ No match for 3497 above 70%
+2025-11-29 03:28:39,532 - WARNING - No candidates found for org 3498
+2025-11-29 03:28:39,532 - WARNING - ✗ No match for 3498 above 70%
+2025-11-29 03:28:42,534 - WARNING - No candidates found for org 3499
+2025-11-29 03:28:42,534 - WARNING - ✗ No match for 3499 above 70%
+2025-11-29 03:28:48,242 - WARNING - No candidates found for org 3500
+2025-11-29 03:28:48,242 - WARNING - ✗ No match for 3500 above 70%
+2025-11-29 03:28:52,032 - INFO - Retrieved 1 candidates for org 3501
+2025-11-29 03:28:52,032 - INFO - ✓ Matched 3501: Q7401635 (100%) via harmonized_name
+2025-11-29 03:28:56,597 - WARNING - No candidates found for org 3502
+2025-11-29 03:28:56,597 - WARNING - ✗ No match for 3502 above 70%
+2025-11-29 03:29:01,053 - WARNING - No candidates found for org 3503
+2025-11-29 03:29:01,053 - WARNING - ✗ No match for 3503 above 70%
+2025-11-29 03:29:05,968 - WARNING - No candidates found for org 3504
+2025-11-29 03:29:05,968 - WARNING - ✗ No match for 3504 above 70%
+2025-11-29 03:29:11,060 - INFO - Retrieved 1 candidates for org 3506
+2025-11-29 03:29:11,060 - INFO - ✓ Matched 3506: Q7826475 (100%) via harmonized_name
+2025-11-29 03:29:16,799 - WARNING - No candidates found for org 3507
+2025-11-29 03:29:16,799 - WARNING - ✗ No match for 3507 above 70%
+2025-11-29 03:29:24,804 - WARNING - No candidates found for org 3508
+2025-11-29 03:29:24,804 - WARNING - ✗ No match for 3508 above 70%
+2025-11-29 03:29:33,948 - INFO - Retrieved 1 candidates for org 3509
+2025-11-29 03:29:33,948 - INFO - ✓ Matched 3509: Q1187234 (100%) via harmonized_name
+2025-11-29 03:29:40,481 - WARNING - No candidates found for org 3510
+2025-11-29 03:29:40,481 - WARNING - ✗ No match for 3510 above 70%
+2025-11-29 03:29:46,665 - WARNING - No candidates found for org 3511
+2025-11-29 03:29:46,665 - WARNING - ✗ No match for 3511 above 70%
+2025-11-29 03:29:50,674 - WARNING - No candidates found for org 3512
+2025-11-29 03:29:50,674 - WARNING - ✗ No match for 3512 above 70%
+2025-11-29 03:29:58,527 - WARNING - No candidates found for org 3513
+2025-11-29 03:29:58,527 - WARNING - ✗ No match for 3513 above 70%
+2025-11-29 03:30:02,808 - WARNING - No candidates found for org 3514
+2025-11-29 03:30:02,808 - WARNING - ✗ No match for 3514 above 70%
+2025-11-29 03:30:05,949 - WARNING - No candidates found for org 3515
+2025-11-29 03:30:05,949 - WARNING - ✗ No match for 3515 above 70%
+2025-11-29 03:30:09,853 - WARNING - No candidates found for org 3516
+2025-11-29 03:30:09,853 - WARNING - ✗ No match for 3516 above 70%
+2025-11-29 03:30:13,677 - WARNING - No candidates found for org 3517
+2025-11-29 03:30:13,677 - WARNING - ✗ No match for 3517 above 70%
+2025-11-29 03:30:21,972 - WARNING - No candidates found for org 3518
+2025-11-29 03:30:21,972 - WARNING - ✗ No match for 3518 above 70%
+2025-11-29 03:30:28,193 - WARNING - No candidates found for org 3519
+2025-11-29 03:30:28,193 - WARNING - ✗ No match for 3519 above 70%
+2025-11-29 03:30:32,126 - WARNING - No candidates found for org 3520
+2025-11-29 03:30:32,126 - WARNING - ✗ No match for 3520 above 70%
+2025-11-29 03:30:38,951 - WARNING - No candidates found for org 3521
+2025-11-29 03:30:38,951 - WARNING - ✗ No match for 3521 above 70%
+2025-11-29 03:30:44,125 - WARNING - No candidates found for org 3522
+2025-11-29 03:30:44,125 - WARNING - ✗ No match for 3522 above 70%
+2025-11-29 03:30:47,764 - WARNING - No candidates found for org 3523
+2025-11-29 03:30:47,764 - WARNING - ✗ No match for 3523 above 70%
+2025-11-29 03:30:50,841 - WARNING - No candidates found for org 3524
+2025-11-29 03:30:50,841 - WARNING - ✗ No match for 3524 above 70%
+2025-11-29 03:30:55,564 - WARNING - No candidates found for org 3525
+2025-11-29 03:30:55,564 - WARNING - ✗ No match for 3525 above 70%
+2025-11-29 03:31:01,355 - WARNING - No candidates found for org 3526
+2025-11-29 03:31:01,355 - WARNING - ✗ No match for 3526 above 70%
+2025-11-29 03:31:12,345 - WARNING - No candidates found for org 3527
+2025-11-29 03:31:12,346 - WARNING - ✗ No match for 3527 above 70%
+2025-11-29 03:31:22,828 - WARNING - No candidates found for org 3528
+2025-11-29 03:31:22,828 - WARNING - ✗ No match for 3528 above 70%
+2025-11-29 03:31:26,382 - WARNING - No candidates found for org 3531
+2025-11-29 03:31:26,382 - WARNING - ✗ No match for 3531 above 70%
+2025-11-29 03:31:29,590 - WARNING - No candidates found for org 3532
+2025-11-29 03:31:29,590 - WARNING - ✗ No match for 3532 above 70%
+2025-11-29 03:31:36,500 - INFO - Retrieved 1 candidates for org 3533
+2025-11-29 03:31:36,500 - INFO - ✓ Matched 3533: Q383520 (100%) via harmonized_name
+2025-11-29 03:31:42,558 - WARNING - No candidates found for org 3534
+2025-11-29 03:31:42,558 - WARNING - ✗ No match for 3534 above 70%
+2025-11-29 03:31:47,248 - WARNING - No candidates found for org 3535
+2025-11-29 03:31:47,248 - WARNING - ✗ No match for 3535 above 70%
+2025-11-29 03:31:51,889 - INFO - Retrieved 1 candidates for org 3536
+2025-11-29 03:31:51,889 - INFO - ✓ Matched 3536: Q3456610 (100%) via harmonized_name
+2025-11-29 03:32:00,455 - INFO - Retrieved 1 candidates for org 3537
+2025-11-29 03:32:00,455 - INFO - ✓ Matched 3537: Q641436 (100%) via harmonized_name
+2025-11-29 03:32:05,406 - INFO - Retrieved 1 candidates for org 3538
+2025-11-29 03:32:05,406 - INFO - ✓ Matched 3538: Q5030443 (100%) via harmonized_name
+2025-11-29 03:32:11,908 - WARNING - No candidates found for org 3539
+2025-11-29 03:32:11,908 - WARNING - ✗ No match for 3539 above 70%
+2025-11-29 03:32:14,883 - INFO - Retrieved 1 candidates for org 3540
+2025-11-29 03:32:14,883 - INFO - ✓ Matched 3540: Q1182587 (100%) via harmonized_name
+2025-11-29 03:32:19,478 - WARNING - No candidates found for org 3541
+2025-11-29 03:32:19,478 - WARNING - ✗ No match for 3541 above 70%
+2025-11-29 03:32:26,730 - INFO - Retrieved 1 candidates for org 3542
+2025-11-29 03:32:26,731 - INFO - ✓ Matched 3542: Q6804199 (100%) via harmonized_name
+2025-11-29 03:32:28,049 - ERROR - Attempt 1/3 failed for org 3543: HTTP Error 403: Forbidden
+2025-11-29 03:32:33,464 - WARNING - No candidates found for org 3543
+2025-11-29 03:32:33,464 - WARNING - ✗ No match for 3543 above 70%
+2025-11-29 03:32:36,629 - INFO - Retrieved 3 candidates for org 3544
+2025-11-29 03:32:36,629 - INFO - ✓ Matched 3544: Q2928363 (100%) via harmonized_name
+2025-11-29 03:32:42,408 - WARNING - No candidates found for org 3545
+2025-11-29 03:32:42,408 - WARNING - ✗ No match for 3545 above 70%
+2025-11-29 03:32:45,616 - WARNING - No candidates found for org 3546
+2025-11-29 03:32:45,616 - WARNING - ✗ No match for 3546 above 70%
+2025-11-29 03:32:53,483 - WARNING - No candidates found for org 3547
+2025-11-29 03:32:53,483 - WARNING - ✗ No match for 3547 above 70%
+2025-11-29 03:32:57,406 - WARNING - No candidates found for org 3548
+2025-11-29 03:32:57,406 - WARNING - ✗ No match for 3548 above 70%
+2025-11-29 03:33:00,838 - WARNING - No candidates found for org 3549
+2025-11-29 03:33:00,838 - WARNING - ✗ No match for 3549 above 70%
+2025-11-29 03:33:02,095 - ERROR - Attempt 1/3 failed for org 3552: HTTP Error 403: Forbidden
+2025-11-29 03:33:07,206 - WARNING - No candidates found for org 3552
+2025-11-29 03:33:07,206 - WARNING - ✗ No match for 3552 above 70%
+2025-11-29 03:33:11,145 - WARNING - No candidates found for org 3553
+2025-11-29 03:33:11,145 - WARNING - ✗ No match for 3553 above 70%
+2025-11-29 03:33:15,095 - WARNING - No candidates found for org 3554
+2025-11-29 03:33:15,095 - WARNING - ✗ No match for 3554 above 70%
+2025-11-29 03:33:18,739 - WARNING - No candidates found for org 3555
+2025-11-29 03:33:18,739 - WARNING - ✗ No match for 3555 above 70%
+2025-11-29 03:33:25,239 - WARNING - No candidates found for org 3556
+2025-11-29 03:33:25,239 - WARNING - ✗ No match for 3556 above 70%
+2025-11-29 03:33:26,446 - ERROR - Attempt 1/3 failed for org 3557: HTTP Error 403: Forbidden
+2025-11-29 03:33:28,652 - ERROR - Attempt 2/3 failed for org 3557: HTTP Error 403: Forbidden
+2025-11-29 03:33:35,270 - WARNING - No candidates found for org 3557
+2025-11-29 03:33:35,270 - WARNING - ✗ No match for 3557 above 70%
+2025-11-29 03:33:46,286 - WARNING - No candidates found for org 3558
+2025-11-29 03:33:46,286 - WARNING - ✗ No match for 3558 above 70%
+2025-11-29 03:33:49,936 - WARNING - No candidates found for org 3559
+2025-11-29 03:33:49,936 - WARNING - ✗ No match for 3559 above 70%
+2025-11-29 03:33:57,646 - WARNING - No candidates found for org 3560
+2025-11-29 03:33:57,646 - WARNING - ✗ No match for 3560 above 70%
+2025-11-29 03:34:00,854 - WARNING - No candidates found for org 3561
+2025-11-29 03:34:00,854 - WARNING - ✗ No match for 3561 above 70%
+2025-11-29 03:34:06,516 - INFO - Retrieved 1 candidates for org 3562
+2025-11-29 03:34:06,516 - INFO - ✓ Matched 3562: Q2945478 (100%) via harmonized_name
+2025-11-29 03:34:17,035 - WARNING - No candidates found for org 3563
+2025-11-29 03:34:17,035 - WARNING - ✗ No match for 3563 above 70%
+2025-11-29 03:34:21,727 - WARNING - No candidates found for org 3564
+2025-11-29 03:34:21,727 - WARNING - ✗ No match for 3564 above 70%
+2025-11-29 03:34:25,391 - INFO - Retrieved 1 candidates for org 3565
+2025-11-29 03:34:25,392 - INFO - ✓ Matched 3565: Q5178256 (100%) via harmonized_name
+2025-11-29 03:34:26,598 - ERROR - Attempt 1/3 failed for org 3566: HTTP Error 403: Forbidden
+2025-11-29 03:34:28,721 - ERROR - Attempt 2/3 failed for org 3566: HTTP Error 403: Forbidden
+2025-11-29 03:34:33,090 - WARNING - No candidates found for org 3566
+2025-11-29 03:34:33,090 - WARNING - ✗ No match for 3566 above 70%
+2025-11-29 03:34:37,175 - WARNING - No candidates found for org 3568
+2025-11-29 03:34:37,175 - WARNING - ✗ No match for 3568 above 70%
+2025-11-29 03:34:41,394 - INFO - Retrieved 2 candidates for org 3569
+2025-11-29 03:34:41,394 - INFO - ✓ Matched 3569: Q3000992 (100%) via harmonized_name
+2025-11-29 03:34:48,207 - INFO - Retrieved 2 candidates for org 3570
+2025-11-29 03:34:48,207 - INFO - ✓ Matched 3570: Q3001081 (100%) via harmonized_name
+2025-11-29 03:34:53,646 - WARNING - No candidates found for org 3571
+2025-11-29 03:34:53,646 - WARNING - ✗ No match for 3571 above 70%
+2025-11-29 03:35:00,825 - WARNING - No candidates found for org 3572
+2025-11-29 03:35:00,825 - WARNING - ✗ No match for 3572 above 70%
+2025-11-29 03:35:05,020 - WARNING - No candidates found for org 3573
+2025-11-29 03:35:05,020 - WARNING - ✗ No match for 3573 above 70%
+2025-11-29 03:35:08,659 - INFO - Retrieved 2 candidates for org 3574
+2025-11-29 03:35:08,660 - INFO - ✓ Matched 3574: Q3477332 (81%) via harmonized_name
+2025-11-29 03:35:12,123 - WARNING - No candidates found for org 3575
+2025-11-29 03:35:12,123 - WARNING - ✗ No match for 3575 above 70%
+2025-11-29 03:35:17,383 - WARNING - No candidates found for org 3577
+2025-11-29 03:35:17,383 - WARNING - ✗ No match for 3577 above 70%
+2025-11-29 03:35:20,829 - WARNING - No candidates found for org 3578
+2025-11-29 03:35:20,829 - WARNING - ✗ No match for 3578 above 70%
+2025-11-29 03:35:24,226 - WARNING - No candidates found for org 3579
+2025-11-29 03:35:24,226 - WARNING - ✗ No match for 3579 above 70%
+2025-11-29 03:35:27,849 - INFO - Retrieved 1 candidates for org 3580
+2025-11-29 03:35:27,849 - INFO - ✓ Matched 3580: Q111511908 (100%) via harmonized_name
+2025-11-29 03:35:31,966 - WARNING - No candidates found for org 3581
+2025-11-29 03:35:31,966 - WARNING - ✗ No match for 3581 above 70%
+2025-11-29 03:35:35,469 - WARNING - No candidates found for org 3582
+2025-11-29 03:35:35,469 - WARNING - ✗ No match for 3582 above 70%
+2025-11-29 03:35:38,584 - WARNING - No candidates found for org 3583
+2025-11-29 03:35:38,585 - WARNING - ✗ No match for 3583 above 70%
+2025-11-29 03:35:41,934 - WARNING - No candidates found for org 3584
+2025-11-29 03:35:41,935 - WARNING - ✗ No match for 3584 above 70%
+2025-11-29 03:35:46,022 - WARNING - No candidates found for org 3585
+2025-11-29 03:35:46,023 - WARNING - ✗ No match for 3585 above 70%
+2025-11-29 03:35:50,309 - INFO - Retrieved 1 candidates for org 3586
+2025-11-29 03:35:50,309 - INFO - ✓ Matched 3586: Q24569 (77%) via harmonized_name
+2025-11-29 03:35:53,431 - WARNING - No candidates found for org 3587
+2025-11-29 03:35:53,431 - WARNING - ✗ No match for 3587 above 70%
+2025-11-29 03:35:57,061 - WARNING - No candidates found for org 3588
+2025-11-29 03:35:57,061 - WARNING - ✗ No match for 3588 above 70%
+2025-11-29 03:36:01,890 - WARNING - No candidates found for org 3589
+2025-11-29 03:36:01,890 - WARNING - ✗ No match for 3589 above 70%
+2025-11-29 03:36:07,209 - WARNING - No candidates found for org 3590
+2025-11-29 03:36:07,209 - WARNING - ✗ No match for 3590 above 70%
+2025-11-29 03:36:10,512 - INFO - Retrieved 2 candidates for org 3591
+2025-11-29 03:36:10,512 - INFO - ✓ Matched 3591: Q3480058 (100%) via harmonized_name
+2025-11-29 03:36:14,036 - INFO - Retrieved 1 candidates for org 3593
+2025-11-29 03:36:14,036 - INFO - ✓ Matched 3593: Q3000932 (100%) via harmonized_name
+2025-11-29 03:36:17,456 - WARNING - No candidates found for org 3594
+2025-11-29 03:36:17,456 - WARNING - ✗ No match for 3594 above 70%
+2025-11-29 03:36:21,251 - WARNING - No candidates found for org 3595
+2025-11-29 03:36:21,251 - WARNING - ✗ No match for 3595 above 70%
+2025-11-29 03:36:25,049 - WARNING - No candidates found for org 3596
+2025-11-29 03:36:25,049 - WARNING - ✗ No match for 3596 above 70%
+2025-11-29 03:36:28,191 - WARNING - No candidates found for org 3599
+2025-11-29 03:36:28,191 - WARNING - ✗ No match for 3599 above 70%
+2025-11-29 03:36:31,829 - WARNING - No candidates found for org 3600
+2025-11-29 03:36:31,829 - WARNING - ✗ No match for 3600 above 70%
+2025-11-29 03:36:35,626 - WARNING - No candidates found for org 3601
+2025-11-29 03:36:35,626 - WARNING - ✗ No match for 3601 above 70%
+2025-11-29 03:36:40,424 - WARNING - No candidates found for org 3602
+2025-11-29 03:36:40,425 - WARNING - ✗ No match for 3602 above 70%
+2025-11-29 03:36:49,632 - WARNING - No candidates found for org 3603
+2025-11-29 03:36:49,632 - WARNING - ✗ No match for 3603 above 70%
+2025-11-29 03:36:54,642 - WARNING - No candidates found for org 3604
+2025-11-29 03:36:54,642 - WARNING - ✗ No match for 3604 above 70%
+2025-11-29 03:36:59,458 - WARNING - No candidates found for org 3605
+2025-11-29 03:36:59,458 - WARNING - ✗ No match for 3605 above 70%
+2025-11-29 03:37:05,417 - WARNING - No candidates found for org 3606
+2025-11-29 03:37:05,417 - WARNING - ✗ No match for 3606 above 70%
+2025-11-29 03:37:11,126 - WARNING - No candidates found for org 3607
+2025-11-29 03:37:11,126 - WARNING - ✗ No match for 3607 above 70%
+2025-11-29 03:37:15,644 - WARNING - No candidates found for org 3608
+2025-11-29 03:37:15,644 - WARNING - ✗ No match for 3608 above 70%
+2025-11-29 03:37:20,972 - WARNING - No candidates found for org 3609
+2025-11-29 03:37:20,972 - WARNING - ✗ No match for 3609 above 70%
+2025-11-29 03:37:25,741 - WARNING - No candidates found for org 3611
+2025-11-29 03:37:25,741 - WARNING - ✗ No match for 3611 above 70%
+2025-11-29 03:37:26,862 - ERROR - Attempt 1/3 failed for org 3612: HTTP Error 403: Forbidden
+2025-11-29 03:37:31,914 - WARNING - No candidates found for org 3612
+2025-11-29 03:37:31,914 - WARNING - ✗ No match for 3612 above 70%
+2025-11-29 03:37:35,336 - WARNING - No candidates found for org 3613
+2025-11-29 03:37:35,337 - WARNING - ✗ No match for 3613 above 70%
+2025-11-29 03:37:39,845 - WARNING - No candidates found for org 3614
+2025-11-29 03:37:39,845 - WARNING - ✗ No match for 3614 above 70%
+2025-11-29 03:37:42,879 - WARNING - No candidates found for org 3615
+2025-11-29 03:37:42,879 - WARNING - ✗ No match for 3615 above 70%
+2025-11-29 03:37:46,681 - WARNING - No candidates found for org 3616
+2025-11-29 03:37:46,681 - WARNING - ✗ No match for 3616 above 70%
+2025-11-29 03:37:51,899 - WARNING - No candidates found for org 3618
+2025-11-29 03:37:51,899 - WARNING - ✗ No match for 3618 above 70%
+2025-11-29 03:37:55,933 - WARNING - No candidates found for org 3619
+2025-11-29 03:37:55,933 - WARNING - ✗ No match for 3619 above 70%
+2025-11-29 03:37:59,578 - WARNING - No candidates found for org 3620
+2025-11-29 03:37:59,578 - WARNING - ✗ No match for 3620 above 70%
+2025-11-29 03:38:03,219 - WARNING - No candidates found for org 3621
+2025-11-29 03:38:03,219 - WARNING - ✗ No match for 3621 above 70%
+2025-11-29 03:38:06,547 - WARNING - No candidates found for org 3622
+2025-11-29 03:38:06,547 - WARNING - ✗ No match for 3622 above 70%
+2025-11-29 03:38:09,571 - WARNING - No candidates found for org 3623
+2025-11-29 03:38:09,571 - WARNING - ✗ No match for 3623 above 70%
+2025-11-29 03:38:10,693 - ERROR - Attempt 1/3 failed for org 3624: HTTP Error 403: Forbidden
+2025-11-29 03:38:14,668 - INFO - Retrieved 1 candidates for org 3624
+2025-11-29 03:38:14,668 - INFO - ✓ Matched 3624: Q5030510 (100%) via harmonized_name
+2025-11-29 03:38:15,874 - ERROR - Attempt 1/3 failed for org 3625: HTTP Error 403: Forbidden
+2025-11-29 03:38:20,492 - WARNING - No candidates found for org 3625
+2025-11-29 03:38:20,492 - WARNING - ✗ No match for 3625 above 70%
+2025-11-29 03:38:26,639 - WARNING - No candidates found for org 3626
+2025-11-29 03:38:26,639 - WARNING - ✗ No match for 3626 above 70%
+2025-11-29 03:38:30,096 - WARNING - No candidates found for org 3627
+2025-11-29 03:38:30,096 - WARNING - ✗ No match for 3627 above 70%
+2025-11-29 03:38:36,477 - WARNING - No candidates found for org 3629
+2025-11-29 03:38:36,477 - WARNING - ✗ No match for 3629 above 70%
+2025-11-29 03:38:39,693 - WARNING - No candidates found for org 3630
+2025-11-29 03:38:39,693 - WARNING - ✗ No match for 3630 above 70%
+2025-11-29 03:38:43,781 - WARNING - No candidates found for org 3631
+2025-11-29 03:38:43,781 - WARNING - ✗ No match for 3631 above 70%
+2025-11-29 03:38:49,418 - WARNING - No candidates found for org 3632
+2025-11-29 03:38:49,418 - WARNING - ✗ No match for 3632 above 70%
+2025-11-29 03:38:52,480 - WARNING - No candidates found for org 3633
+2025-11-29 03:38:52,480 - WARNING - ✗ No match for 3633 above 70%
+2025-11-29 03:38:56,308 - INFO - Retrieved 1 candidates for org 3634
+2025-11-29 03:38:56,308 - INFO - ✓ Matched 3634: Q56312861 (100%) via harmonized_name
+2025-11-29 03:38:59,790 - INFO - Retrieved 1 candidates for org 3635
+2025-11-29 03:38:59,790 - INFO - ✓ Matched 3635: Q5029353 (100%) via harmonized_name
+2025-11-29 03:39:03,449 - WARNING - No candidates found for org 3636
+2025-11-29 03:39:03,449 - WARNING - ✗ No match for 3636 above 70%
+2025-11-29 03:39:07,906 - WARNING - No candidates found for org 3637
+2025-11-29 03:39:07,906 - WARNING - ✗ No match for 3637 above 70%
+2025-11-29 03:39:11,966 - WARNING - No candidates found for org 3638
+2025-11-29 03:39:11,966 - WARNING - ✗ No match for 3638 above 70%
+2025-11-29 03:39:18,945 - WARNING - No candidates found for org 3639
+2025-11-29 03:39:18,945 - WARNING - ✗ No match for 3639 above 70%
+2025-11-29 03:39:24,835 - WARNING - No candidates found for org 3640
+2025-11-29 03:39:24,836 - WARNING - ✗ No match for 3640 above 70%
+2025-11-29 03:39:28,103 - WARNING - No candidates found for org 3641
+2025-11-29 03:39:28,103 - WARNING - ✗ No match for 3641 above 70%
+2025-11-29 03:39:32,282 - WARNING - No candidates found for org 3642
+2025-11-29 03:39:32,282 - WARNING - ✗ No match for 3642 above 70%
+2025-11-29 03:39:36,491 - WARNING - No candidates found for org 3643
+2025-11-29 03:39:36,491 - WARNING - ✗ No match for 3643 above 70%
+2025-11-29 03:39:40,816 - WARNING - No candidates found for org 3644
+2025-11-29 03:39:40,817 - WARNING - ✗ No match for 3644 above 70%
+2025-11-29 03:39:44,967 - WARNING - No candidates found for org 3645
+2025-11-29 03:39:44,967 - WARNING - ✗ No match for 3645 above 70%
+2025-11-29 03:39:52,997 - WARNING - No candidates found for org 3646
+2025-11-29 03:39:52,997 - WARNING - ✗ No match for 3646 above 70%
+2025-11-29 03:39:57,253 - INFO - Retrieved 1 candidates for org 3647
+2025-11-29 03:39:57,253 - INFO - ✓ Matched 3647: Q16851438 (100%) via harmonized_name
+2025-11-29 03:40:01,722 - WARNING - No candidates found for org 3648
+2025-11-29 03:40:01,722 - WARNING - ✗ No match for 3648 above 70%
+2025-11-29 03:40:08,256 - WARNING - No candidates found for org 3649
+2025-11-29 03:40:08,256 - WARNING - ✗ No match for 3649 above 70%
+2025-11-29 03:40:13,087 - WARNING - No candidates found for org 3650
+2025-11-29 03:40:13,087 - WARNING - ✗ No match for 3650 above 70%
+2025-11-29 03:40:17,028 - WARNING - No candidates found for org 3651
+2025-11-29 03:40:17,028 - WARNING - ✗ No match for 3651 above 70%
+2025-11-29 03:40:19,897 - WARNING - No candidates found for org 3652
+2025-11-29 03:40:19,897 - WARNING - ✗ No match for 3652 above 70%
+2025-11-29 03:40:23,796 - INFO - Retrieved 1 candidates for org 3653
+2025-11-29 03:40:23,796 - INFO - ✓ Matched 3653: Q2986483 (84%) via harmonized_name
+2025-11-29 03:40:28,050 - WARNING - No candidates found for org 3654
+2025-11-29 03:40:28,050 - WARNING - ✗ No match for 3654 above 70%
+2025-11-29 03:40:32,023 - INFO - Retrieved 1 candidates for org 3655
+2025-11-29 03:40:32,023 - INFO - ✓ Matched 3655: Q2824583 (100%) via harmonized_name
+2025-11-29 03:40:35,148 - WARNING - No candidates found for org 3656
+2025-11-29 03:40:35,148 - WARNING - ✗ No match for 3656 above 70%
+2025-11-29 03:40:39,718 - WARNING - No candidates found for org 3657
+2025-11-29 03:40:39,718 - WARNING - ✗ No match for 3657 above 70%
+2025-11-29 03:40:44,760 - WARNING - No candidates found for org 3658
+2025-11-29 03:40:44,761 - WARNING - ✗ No match for 3658 above 70%
+2025-11-29 03:40:49,246 - WARNING - No candidates found for org 3659
+2025-11-29 03:40:49,247 - WARNING - ✗ No match for 3659 above 70%
+2025-11-29 03:40:55,226 - WARNING - No candidates found for org 3660
+2025-11-29 03:40:55,226 - WARNING - ✗ No match for 3660 above 70%
+2025-11-29 03:41:00,244 - WARNING - No candidates found for org 3661
+2025-11-29 03:41:00,244 - WARNING - ✗ No match for 3661 above 70%
+2025-11-29 03:41:05,423 - WARNING - No candidates found for org 3662
+2025-11-29 03:41:05,423 - WARNING - ✗ No match for 3662 above 70%
+2025-11-29 03:41:08,727 - WARNING - No candidates found for org 3663
+2025-11-29 03:41:08,727 - WARNING - ✗ No match for 3663 above 70%
+2025-11-29 03:41:11,629 - WARNING - No candidates found for org 3664
+2025-11-29 03:41:11,629 - WARNING - ✗ No match for 3664 above 70%
+2025-11-29 03:41:23,164 - WARNING - No candidates found for org 3665
+2025-11-29 03:41:23,164 - WARNING - ✗ No match for 3665 above 70%
+2025-11-29 03:41:26,373 - INFO - Retrieved 1 candidates for org 3666
+2025-11-29 03:41:26,373 - INFO - ✓ Matched 3666: Q5029362 (100%) via harmonized_name
+2025-11-29 03:41:32,266 - WARNING - No candidates found for org 3667
+2025-11-29 03:41:32,266 - WARNING - ✗ No match for 3667 above 70%
+2025-11-29 03:41:37,698 - WARNING - No candidates found for org 3668
+2025-11-29 03:41:37,698 - WARNING - ✗ No match for 3668 above 70%
+2025-11-29 03:41:40,734 - WARNING - No candidates found for org 3669
+2025-11-29 03:41:40,734 - WARNING - ✗ No match for 3669 above 70%
+2025-11-29 03:41:47,400 - WARNING - No candidates found for org 3670
+2025-11-29 03:41:47,400 - WARNING - ✗ No match for 3670 above 70%
+2025-11-29 03:41:50,560 - WARNING - No candidates found for org 3671
+2025-11-29 03:41:50,560 - WARNING - ✗ No match for 3671 above 70%
+2025-11-29 03:41:56,398 - INFO - Retrieved 1 candidates for org 3672
+2025-11-29 03:41:56,399 - INFO - ✓ Matched 3672: Q6021399 (100%) via harmonized_name
+2025-11-29 03:42:00,937 - WARNING - No candidates found for org 3673
+2025-11-29 03:42:00,937 - WARNING - ✗ No match for 3673 above 70%
+2025-11-29 03:42:04,412 - WARNING - No candidates found for org 3674
+2025-11-29 03:42:04,412 - WARNING - ✗ No match for 3674 above 70%
+2025-11-29 03:42:08,307 - WARNING - No candidates found for org 3675
+2025-11-29 03:42:08,307 - WARNING - ✗ No match for 3675 above 70%
+2025-11-29 03:42:11,399 - WARNING - No candidates found for org 3676
+2025-11-29 03:42:11,399 - WARNING - ✗ No match for 3676 above 70%
+2025-11-29 03:42:14,739 - INFO - Retrieved 1 candidates for org 3679
+2025-11-29 03:42:14,739 - INFO - ✓ Matched 3679: Q16955168 (100%) via harmonized_name
+2025-11-29 03:42:15,947 - ERROR - Attempt 1/3 failed for org 3680: HTTP Error 403: Forbidden
+2025-11-29 03:42:19,877 - WARNING - No candidates found for org 3680
+2025-11-29 03:42:19,877 - WARNING - ✗ No match for 3680 above 70%
+2025-11-29 03:42:26,051 - WARNING - No candidates found for org 3681
+2025-11-29 03:42:26,051 - WARNING - ✗ No match for 3681 above 70%
+2025-11-29 03:42:27,174 - ERROR - Attempt 1/3 failed for org 3682: HTTP Error 403: Forbidden
+2025-11-29 03:42:31,349 - WARNING - No candidates found for org 3682
+2025-11-29 03:42:31,349 - WARNING - ✗ No match for 3682 above 70%
+2025-11-29 03:42:34,789 - INFO - Retrieved 1 candidates for org 3683
+2025-11-29 03:42:34,789 - INFO - ✓ Matched 3683: Q5030145 (100%) via harmonized_name
+2025-11-29 03:42:37,819 - INFO - Retrieved 1 candidates for org 3684
+2025-11-29 03:42:37,820 - INFO - ✓ Matched 3684: Q1051645 (100%) via harmonized_name
+2025-11-29 03:42:43,687 - INFO - Retrieved 1 candidates for org 3685
+2025-11-29 03:42:43,688 - INFO - ✓ Matched 3685: Q3369857 (100%) via harmonized_name
+2025-11-29 03:42:49,042 - WARNING - No candidates found for org 3686
+2025-11-29 03:42:49,042 - WARNING - ✗ No match for 3686 above 70%
+2025-11-29 03:42:55,381 - WARNING - No candidates found for org 3687
+2025-11-29 03:42:55,381 - WARNING - ✗ No match for 3687 above 70%
+2025-11-29 03:43:01,502 - WARNING - No candidates found for org 3688
+2025-11-29 03:43:01,502 - WARNING - ✗ No match for 3688 above 70%
+2025-11-29 03:43:05,631 - WARNING - No candidates found for org 3689
+2025-11-29 03:43:05,631 - WARNING - ✗ No match for 3689 above 70%
+2025-11-29 03:43:11,022 - WARNING - No candidates found for org 3690
+2025-11-29 03:43:11,023 - WARNING - ✗ No match for 3690 above 70%
+2025-11-29 03:43:14,761 - WARNING - No candidates found for org 3691
+2025-11-29 03:43:14,762 - WARNING - ✗ No match for 3691 above 70%
+2025-11-29 03:43:18,961 - WARNING - No candidates found for org 3692
+2025-11-29 03:43:18,961 - WARNING - ✗ No match for 3692 above 70%
+2025-11-29 03:43:22,885 - WARNING - No candidates found for org 3693
+2025-11-29 03:43:22,885 - WARNING - ✗ No match for 3693 above 70%
+2025-11-29 03:43:26,248 - WARNING - No candidates found for org 3694
+2025-11-29 03:43:26,248 - WARNING - ✗ No match for 3694 above 70%
+2025-11-29 03:43:29,855 - WARNING - No candidates found for org 3695
+2025-11-29 03:43:29,855 - WARNING - ✗ No match for 3695 above 70%
+2025-11-29 03:43:33,243 - WARNING - No candidates found for org 3696
+2025-11-29 03:43:33,243 - WARNING - ✗ No match for 3696 above 70%
+2025-11-29 03:43:36,806 - WARNING - No candidates found for org 3697
+2025-11-29 03:43:36,806 - WARNING - ✗ No match for 3697 above 70%
+2025-11-29 03:43:40,409 - WARNING - No candidates found for org 3698
+2025-11-29 03:43:40,409 - WARNING - ✗ No match for 3698 above 70%
+2025-11-29 03:43:44,512 - WARNING - No candidates found for org 3700
+2025-11-29 03:43:44,512 - WARNING - ✗ No match for 3700 above 70%
+2025-11-29 03:43:45,721 - ERROR - Attempt 1/3 failed for org 3701: HTTP Error 403: Forbidden
+2025-11-29 03:43:50,856 - WARNING - No candidates found for org 3701
+2025-11-29 03:43:50,856 - WARNING - ✗ No match for 3701 above 70%
+2025-11-29 03:43:55,579 - WARNING - No candidates found for org 3702
+2025-11-29 03:43:55,579 - WARNING - ✗ No match for 3702 above 70%
+2025-11-29 03:43:59,620 - WARNING - No candidates found for org 3703
+2025-11-29 03:43:59,620 - WARNING - ✗ No match for 3703 above 70%
+2025-11-29 03:44:00,743 - ERROR - Attempt 1/3 failed for org 3704: HTTP Error 403: Forbidden
+2025-11-29 03:44:07,014 - INFO - Retrieved 3 candidates for org 3704
+2025-11-29 03:44:07,014 - INFO - ✓ Matched 3704: Q2993875 (100%) via harmonized_name
+2025-11-29 03:44:10,385 - WARNING - No candidates found for org 3705
+2025-11-29 03:44:10,385 - WARNING - ✗ No match for 3705 above 70%
+2025-11-29 03:44:15,645 - WARNING - No candidates found for org 3706
+2025-11-29 03:44:15,646 - WARNING - ✗ No match for 3706 above 70%
+2025-11-29 03:44:19,650 - WARNING - No candidates found for org 3707
+2025-11-29 03:44:19,651 - WARNING - ✗ No match for 3707 above 70%
+2025-11-29 03:44:20,771 - ERROR - Attempt 1/3 failed for org NaN: HTTP Error 403: Forbidden
+2025-11-29 03:44:24,960 - WARNING - No candidates found for org NaN
+2025-11-29 03:44:24,960 - WARNING - ✗ No match for NaN above 70%
+2025-11-29 03:44:25,962 - INFO - Processed 391 new organizations with Wikidata mappings
+2025-11-29 03:44:25,962 - INFO - Step 5: Updating historical CSV...
+2025-11-29 03:44:25,972 - INFO - Dropped '_id' column before saving to gc_orgs_with_wikidata_ids.csv
+2025-11-29 03:44:26,144 - INFO - Updated historical CSV with 391 new records. Total: 24972
+2025-11-29 03:44:26,144 - INFO - Step 6: Updating current-state CSV...
+2025-11-29 03:44:26,292 - INFO - Updated current CSV with 21452 active organizations
+2025-11-29 03:44:26,292 - INFO - === Update Complete: Added 391 new organizations ===
