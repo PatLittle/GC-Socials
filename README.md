@@ -31,7 +31,7 @@ sankey-beta
   English,LinkedIn,12
   English,Snapchat,1
   English,X,350
-  English,YouTube,65
+  English,YouTube,64
   Francais,Facebook,331
   Francais,Flickr,3
   Francais,Instagram,59
@@ -39,6 +39,7 @@ sankey-beta
   Francais,Snapchat,1
   Francais,X,351
   Francais,YouTube,62
+  bilingual,YouTube,1
 ```
 
 # Social Media Platform Distribution
@@ -64,10 +65,11 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 831
+    "English": 830
     "Français": 818
     "Bilingual": 224
     "Bilingue": 14
+    "bilingual": 1
 ```
 
 # Department Count (English Only - Top 20)
