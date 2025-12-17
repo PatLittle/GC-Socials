@@ -25,19 +25,19 @@ sankey-beta
   Bilingual + Bilingue,Reddit,1
   Bilingual + Bilingue,X,27
   Bilingual + Bilingue,YouTube,30
-  English,Facebook,335
+  English,Facebook,336
   English,Flickr,4
   English,Instagram,64
   English,LinkedIn,12
   English,Snapchat,1
-  English,X,350
+  English,X,351
   English,YouTube,64
-  Francais,Facebook,331
+  Francais,Facebook,332
   Francais,Flickr,3
   Francais,Instagram,59
   Francais,LinkedIn,11
   Francais,Snapchat,1
-  Francais,X,351
+  Francais,X,352
   Francais,YouTube,62
   bilingual,YouTube,1
 ```
@@ -46,8 +46,8 @@ sankey-beta
 
 ```mermaid
 pie showData title Platform Distribution
-    "X": 726
-    "Facebook": 706
+    "X": 728
+    "Facebook": 708
     "YouTube": 147
     "Instagram": 145
     "LinkedIn": 126
@@ -65,8 +65,8 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 830
-    "Français": 818
+    "English": 832
+    "Français": 820
     "Bilingual": 224
     "Bilingue": 14
     "bilingual": 1
@@ -78,7 +78,7 @@ pie showData title Language Distribution
 pie showData title Department Count (English Only - Top 20)
     "Global Affairs Canada": 263
     "Parks Canada": 113
-    "Royal Canadian Mounted Police": 63
+    "Royal Canadian Mounted Police": 65
     "National Defence and the Canadian Armed Forces": 36
     "Environment and Climate Change Canada": 26
     "Public Services and Procurement Canada": 14
@@ -104,7 +104,7 @@ pie showData title Department Count (English Only - Top 20)
 pie showData title Department Count (Français Only - Top 20)
     "Affaires mondiales Canada": 258
     "Parcs Canada": 113
-    "Gendarmerie royale du Canada": 58
+    "Gendarmerie royale du Canada": 60
     "Défense nationale et les Forces armées canadiennes": 26
     "Environnement et Changement climatique Canada": 24
     "Emploi et Développement social Canada": 16
