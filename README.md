@@ -25,19 +25,19 @@ sankey-beta
   Bilingual + Bilingue,Reddit,1
   Bilingual + Bilingue,X,27
   Bilingual + Bilingue,YouTube,30
-  English,Facebook,336
+  English,Facebook,334
   English,Flickr,4
   English,Instagram,64
   English,LinkedIn,12
   English,Snapchat,1
-  English,X,351
+  English,X,337
   English,YouTube,64
-  Francais,Facebook,332
+  Francais,Facebook,331
   Francais,Flickr,3
   Francais,Instagram,59
   Francais,LinkedIn,11
   Francais,Snapchat,1
-  Francais,X,352
+  Francais,X,336
   Francais,YouTube,62
   bilingual,YouTube,1
 ```
@@ -46,8 +46,8 @@ sankey-beta
 
 ```mermaid
 pie showData title Platform Distribution
-    "X": 728
-    "Facebook": 708
+    "Facebook": 705
+    "X": 698
     "YouTube": 147
     "Instagram": 145
     "LinkedIn": 126
@@ -65,8 +65,8 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 832
-    "Français": 820
+    "English": 816
+    "Français": 803
     "Bilingual": 224
     "Bilingue": 14
     "bilingual": 1
@@ -80,12 +80,12 @@ pie showData title Department Count (English Only - Top 20)
     "Parks Canada": 113
     "Royal Canadian Mounted Police": 65
     "National Defence and the Canadian Armed Forces": 36
-    "Environment and Climate Change Canada": 26
     "Public Services and Procurement Canada": 14
-    "Privy Council Office": 14
     "Employment and Social Development Canada": 14
+    "Privy Council Office": 14
     "Innovation, Science and Economic Development Canada": 13
     "Canadian Heritage": 12
+    "Environment and Climate Change Canada": 10
     "Fisheries and Oceans Canada": 9
     "Natural Resources Canada": 8
     "Canada Border Services Agency": 8
@@ -106,16 +106,16 @@ pie showData title Department Count (Français Only - Top 20)
     "Parcs Canada": 113
     "Gendarmerie royale du Canada": 60
     "Défense nationale et les Forces armées canadiennes": 26
-    "Environnement et Changement climatique Canada": 24
     "Emploi et Développement social Canada": 16
     "Innovation, Sciences et Développement économique Canada": 15
-    "Services publics et Approvisionnement Canada": 14
     "Bureau du Conseil privé": 14
+    "Services publics et Approvisionnement Canada": 14
     "Pêches et Océans Canada": 11
-    "Ressources naturelles Canada": 9
     "Patrimoine canadien": 9
+    "Ressources naturelles Canada": 9
     "Agence des services frontaliers du Canada": 8
     "Relations Couronne-Autochtones et Affaires du Nord Canada et Services aux Autochtones Canada": 8
+    "Environnement et Changement climatique Canada": 7
     "Bibliothèque et Archives Canada": 6
     "Commission canadienne des droits de la personne": 6
     "Commission de la fonction publique du Canada": 5
