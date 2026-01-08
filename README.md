@@ -21,7 +21,7 @@ sankey-beta
   Bilingual + Bilingue,Facebook,40
   Bilingual + Bilingue,Flickr,13
   Bilingual + Bilingue,Instagram,23
-  Bilingual + Bilingue,LinkedIn,104
+  Bilingual + Bilingue,LinkedIn,105
   Bilingual + Bilingue,Reddit,1
   Bilingual + Bilingue,X,27
   Bilingual + Bilingue,YouTube,30
@@ -50,7 +50,7 @@ pie showData title Platform Distribution
     "X": 698
     "YouTube": 147
     "Instagram": 145
-    "LinkedIn": 126
+    "LinkedIn": 127
     "Flickr": 20
     "Youtube": 10
     "x": 2
@@ -67,7 +67,7 @@ pie showData title Platform Distribution
 pie showData title Language Distribution
     "English": 816
     "Français": 803
-    "Bilingual": 224
+    "Bilingual": 225
     "Bilingue": 14
     "bilingual": 1
 ```
@@ -133,19 +133,19 @@ pie showData title Department Count (Bilingual Only - Top 20)
     "Royal Canadian Mounted Police": 11
     "Employment and Social Development Canada": 10
     "Environment and Climate Change Canada": 6
+    "Canadian Institutes of Health Research": 5
     "Privy Council Office": 5
     "Public Services and Procurement Canada": 5
     "Social Sciences and Humanities Research Council": 5
-    "Canadian Institutes of Health Research": 5
     "Canadian Heritage": 4
-    "Canadian Human Rights Commission": 4
     "Innovation, Science and Economic Development Canada": 4
-    "Canada Economic Development for Quebec Regions": 3
+    "Canadian Human Rights Commission": 4
     "Fisheries and Oceans Canada": 3
+    "Canada Economic Development for Quebec Regions": 3
+    "Natural Resources Canada": 3
     "Treasury Board of Canada Secretariat": 3
     "Canada Mortgage and Housing Corporation": 3
     "Government of Canada Workplace Charitable Campaign": 3
     "Défense nationale et les Forces armées canadiennes": 3
-    "Natural Resources Canada": 3
-    "Canada School of Public Service": 2
+    "Canadian Food Inspection Agency": 2
 ```
