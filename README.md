@@ -30,14 +30,14 @@ sankey-beta
   English,Instagram,64
   English,LinkedIn,12
   English,Snapchat,1
-  English,X,334
+  English,X,333
   English,YouTube,64
   Francais,Facebook,332
   Francais,Flickr,2
   Francais,Instagram,59
   Francais,LinkedIn,11
   Francais,Snapchat,1
-  Francais,X,334
+  Francais,X,333
   Francais,YouTube,62
   bilingual,YouTube,1
 ```
@@ -47,7 +47,7 @@ sankey-beta
 ```mermaid
 pie showData title Platform Distribution
     "Facebook": 708
-    "X": 691
+    "X": 689
     "YouTube": 147
     "Instagram": 145
     "LinkedIn": 125
@@ -65,8 +65,8 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 814
-    "Français": 801
+    "English": 813
+    "Français": 800
     "Bilingual": 221
     "Bilingue": 14
     "bilingual": 1
