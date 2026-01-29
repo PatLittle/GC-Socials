@@ -3,13 +3,13 @@ sankey-beta
   Bilingual + Bilingue,Facebook,40
   Bilingual + Bilingue,Flickr,11
   Bilingual + Bilingue,Instagram,23
-  Bilingual + Bilingue,LinkedIn,103
+  Bilingual + Bilingue,LinkedIn,104
   Bilingual + Bilingue,Reddit,1
   Bilingual + Bilingue,X,25
   Bilingual + Bilingue,YouTube,30
   English,Facebook,336
   English,Flickr,3
-  English,Instagram,63
+  English,Instagram,64
   English,LinkedIn,12
   English,Snapchat,1
   English,X,332
