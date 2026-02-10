@@ -21,7 +21,7 @@ sankey-beta
   Bilingual + Bilingue,Facebook,40
   Bilingual + Bilingue,Flickr,11
   Bilingual + Bilingue,Instagram,23
-  Bilingual + Bilingue,LinkedIn,104
+  Bilingual + Bilingue,LinkedIn,105
   Bilingual + Bilingue,Reddit,1
   Bilingual + Bilingue,X,25
   Bilingual + Bilingue,YouTube,30
@@ -50,7 +50,7 @@ pie showData title Platform Distribution
     "X": 687
     "YouTube": 146
     "Instagram": 144
-    "LinkedIn": 126
+    "LinkedIn": 127
     "Flickr": 16
     "Youtube": 10
     "x": 2
@@ -67,7 +67,7 @@ pie showData title Platform Distribution
 pie showData title Language Distribution
     "English": 812
     "Français": 799
-    "Bilingual": 220
+    "Bilingual": 221
     "Bilingue": 14
     "bilingual": 1
 ```
@@ -130,7 +130,7 @@ pie showData title Department Count (Français Only - Top 20)
 pie showData title Department Count (Bilingual Only - Top 20)
     "National Defence and the Canadian Armed Forces": 59
     "Global Affairs Canada": 15
-    "Royal Canadian Mounted Police": 11
+    "Royal Canadian Mounted Police": 12
     "Employment and Social Development Canada": 10
     "Privy Council Office": 5
     "Canadian Institutes of Health Research": 5
