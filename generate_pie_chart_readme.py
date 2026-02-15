@@ -48,19 +48,20 @@ for department, count in department_counts_bilingual.items():
     department_pie_chart_bilingual += f"    \"{department}\": {count}\n"
 department_pie_chart_bilingual += "```"
 
-# Read static markdown content from readme_static.md
 with open('readme_static.md', 'r') as static_file:
     static_content = static_file.read()
 
-# Read static markdown content from readme_static.md
 with open('sankey_diagram.md', 'r') as sankey_file:
     sankey = sankey_file.read()
 
-# Append the static content, pie charts, and Department pie charts to the README file
+with open('recent_changes_snippet.md', 'r') as recent_changes_file:
+    recent_changes = recent_changes_file.read()
+
 with open('README.md', 'w') as readme_file:
     readme_file.write(static_content + "\n\n")
     readme_file.write("# Social Media Platform Overview\n\n")
     readme_file.write(sankey + "\n\n")
+    readme_file.write(recent_changes + "\n\n")
     readme_file.write("# Social Media Platform Distribution\n\n")
     readme_file.write(platform_pie_chart + "\n\n")
     readme_file.write("# Language Distribution\n\n")

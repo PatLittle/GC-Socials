@@ -10,6 +10,8 @@ import subprocess
 import io
 import os
 
+RECENT_CHANGES_SNIPPET_PATH = 'recent_changes_snippet.md'
+
 # Configure logging early so messages are visible
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
 
@@ -55,10 +57,6 @@ def load_orgs(path='gc_orgs_with_wikidata_ids.csv') -> pd.DataFrame:
 
 
 def build_harmonized_lookup(orgs_df: pd.DataFrame):
-    """
-    Builds a lookup list and mapping for fuzzy matching.
-    Returns (choices_list, mapping_name_to_meta)
-    """
     choices = []
     mapping = {}
     if orgs_df is None or orgs_df.empty:
@@ -110,7 +108,6 @@ def fetch_and_process(urls=URLS, orgs_df=None):
                     continue
 
                 cleaned_record = []
-                # Everything except the last field: strip HTML and keys like 'Department: '
                 for field in record[:-1]:
                     if isinstance(field, str):
                         soup = BeautifulSoup(field, 'html.parser')
@@ -120,23 +117,18 @@ def fetch_and_process(urls=URLS, orgs_df=None):
                     else:
                         cleaned_record.append(field)
 
-                # Extract href from the last field safely
                 last_field = record[-1] if len(record) > 0 else ''
                 link_url = extract_href_from_html(last_field)
                 cleaned_record.append(link_url)
 
-                # Safe department extraction (3rd column expected but may not exist)
                 department = safe_get(cleaned_record, 2, None)
                 gc_orgID = None
                 wikidata_id = None
 
                 if department and choices:
-                    # Use rapidfuzz.process.extractOne to get the best candidate from the choices
                     try:
                         result = process.extractOne(str(department), choices, scorer=fuzz.token_sort_ratio)
                         if result:
-                            # rapidfuzz.extractOne returns (match, score, index) in many versions
-                            # Unpack defensively
                             if len(result) == 3:
                                 match, score, _ = result
                             elif len(result) == 2:
@@ -153,10 +145,7 @@ def fetch_and_process(urls=URLS, orgs_df=None):
                     except Exception as e:
                         logging.debug("Fuzzy matching failed for department '%s': %s", department, e)
 
-                # Ensure we have exactly the expected number of columns when appending
-                # Expected columns: Account, Platform, Department, Language, URL, gc_orgID, wikidata_id
-                record_row = list(cleaned_record[:5])  # take up to the first 5 cleaned fields
-                # pad if fewer than 5
+                record_row = list(cleaned_record[:5])
                 while len(record_row) < 5:
                     record_row.append(None)
                 record_row.extend([gc_orgID, wikidata_id])
@@ -172,15 +161,32 @@ def write_outputs(combined_data):
     df = pd.DataFrame(combined_data,
                       columns=['Account', 'Platform', 'Department', 'Language', 'URL', 'gc_orgID', 'wikidata_id'])
 
-    # Drop duplicates by URL (safe if URL is None -> will not be deduped)
     df = df.drop_duplicates(subset='URL')
+    current_date = datetime.now().strftime('%Y-%m-%d')
 
-    # Write main CSV
+    existing_dates = {}
+    if os.path.exists('sm.csv'):
+        try:
+            existing_sm = pd.read_csv('sm.csv', encoding='utf-8')
+            if {'URL', 'Date Added'}.issubset(existing_sm.columns):
+                existing_sm['URL'] = existing_sm['URL'].astype(str).str.strip()
+                existing_sm['Date Added'] = existing_sm['Date Added'].astype(str).str.strip()
+                existing_dates = {
+                    row['URL']: row['Date Added']
+                    for _, row in existing_sm[['URL', 'Date Added']].dropna(subset=['URL']).iterrows()
+                    if row['URL']
+                }
+        except Exception as e:
+            logging.warning("Unable to load existing Date Added values from sm.csv: %s", e)
+
+    df['URL'] = df['URL'].astype(str).str.strip()
+    df['Date Added'] = df['URL'].map(existing_dates)
+    df['Date Added'] = df['Date Added'].replace({'': None, 'nan': None})
+    df['Date Added'] = df['Date Added'].fillna(current_date)
+
     df.to_csv('sm.csv', index=False, encoding='utf-8')
     logging.info("Wrote sm.csv (%d rows)", len(df))
 
-    # Metrics by platform and language
-    current_date = datetime.now().strftime('%Y-%m-%d')
     try:
         platform_counts = df.groupby(['Platform', 'Language']).size().reset_index(name='Count')
     except Exception as e:
@@ -189,18 +195,14 @@ def write_outputs(combined_data):
 
     platform_counts['Date'] = current_date
 
-    # Append to existing platform_counts.csv or create it
     try:
         existing_df = pd.read_csv('platform_counts.csv', encoding='utf-8')
         platform_counts = pd.concat([existing_df, platform_counts], ignore_index=True)
-        # Optional: dedupe by (Date, Platform, Language) if you don't want multiple identical rows
-        # platform_counts = platform_counts.drop_duplicates(subset=['Date', 'Platform', 'Language'])
     except FileNotFoundError:
         pass
     platform_counts.to_csv('platform_counts.csv', index=False, encoding='utf-8')
     logging.info("Wrote platform_counts.csv (%d rows)", len(platform_counts))
 
-    # Department counts
     try:
         department_counts = df['Department'].value_counts().reset_index()
         department_counts.columns = ['Department Name', 'Count']
@@ -213,8 +215,6 @@ def write_outputs(combined_data):
     try:
         existing_department_df = pd.read_csv('department_counts.csv', encoding='utf-8')
         department_counts = pd.concat([existing_department_df, department_counts], ignore_index=True)
-        # Optional dedupe:
-        # department_counts = department_counts.drop_duplicates(subset=['Date', 'Department Name'])
     except FileNotFoundError:
         pass
     department_counts.to_csv('department_counts.csv', index=False, encoding='utf-8')
@@ -222,7 +222,6 @@ def write_outputs(combined_data):
 
 
 def _find_url_column(df: pd.DataFrame) -> Optional[str]:
-    """Return the column name matching URL (case-insensitive) or None."""
     for col in df.columns:
         if str(col).strip().lower() == 'url':
             return col
@@ -230,12 +229,6 @@ def _find_url_column(df: pd.DataFrame) -> Optional[str]:
 
 
 def get_deleted_rows_from_git_history(sm_path='sm.csv', output_path='deleted_rows.csv'):
-    """
-    Walk the git history for sm.csv (all refs), find rows that were deleted between sequential file versions,
-    and write a deduplicated CSV of deleted rows keyed by URL.
-
-    This function requires that the script is run inside a git repository with the sm.csv file tracked.
-    """
     if not os.path.isdir('.git'):
         logging.warning("Not a git repository (no .git directory found). Skipping git history analysis.")
         return
@@ -254,6 +247,13 @@ def get_deleted_rows_from_git_history(sm_path='sm.csv', output_path='deleted_row
 
     logging.info("Found %d commits touching %s", len(commits), sm_path)
 
+    existing_deleted_df = pd.DataFrame()
+    if os.path.exists(output_path):
+        try:
+            existing_deleted_df = pd.read_csv(output_path, encoding='utf-8')
+        except Exception as e:
+            logging.warning("Unable to read existing %s for merge: %s", output_path, e)
+
     previous_df = None
     deleted_rows_accum = []
 
@@ -261,27 +261,21 @@ def get_deleted_rows_from_git_history(sm_path='sm.csv', output_path='deleted_row
         try:
             show = subprocess.run(['git', 'show', f'{commit}:{sm_path}'], capture_output=True, text=True)
             if show.returncode != 0:
-                # file not present at this commit
-                logging.debug("sm.csv not present at commit %s", commit)
                 continue
-            content = show.stdout
-            # Read CSV content into DataFrame
+
             try:
-                curr_df = pd.read_csv(io.StringIO(content), encoding='utf-8')
+                curr_df = pd.read_csv(io.StringIO(show.stdout), encoding='utf-8')
             except Exception as e:
                 logging.debug("Failed to parse sm.csv at commit %s: %s", commit, e)
                 continue
 
             url_col = _find_url_column(curr_df)
             if url_col is None:
-                logging.debug("No URL column in sm.csv at commit %s; skipping.", commit)
                 previous_df = curr_df
                 continue
 
-            # Normalize URL column for comparisons
             curr_df[url_col] = curr_df[url_col].astype(str).str.strip().replace({'nan': ''})
-            curr_urls = set(curr_df[url_col].dropna().astype(str).str.strip())
-            curr_urls = {u for u in curr_urls if u}
+            curr_urls = {u for u in set(curr_df[url_col].dropna().astype(str).str.strip()) if u}
 
             if previous_df is not None:
                 prev_url_col = _find_url_column(previous_df)
@@ -290,23 +284,31 @@ def get_deleted_rows_from_git_history(sm_path='sm.csv', output_path='deleted_row
                     continue
 
                 previous_df[prev_url_col] = previous_df[prev_url_col].astype(str).str.strip().replace({'nan': ''})
-                prev_urls = set(previous_df[prev_url_col].dropna().astype(str).str.strip())
-                prev_urls = {u for u in prev_urls if u}
+                prev_urls = {u for u in set(previous_df[prev_url_col].dropna().astype(str).str.strip()) if u}
 
-                # URLs present in previous but not in current are deletions
                 deleted_urls = prev_urls - curr_urls
                 if deleted_urls:
-                    logging.info("At commit %s found %d deleted URLs", commit, len(deleted_urls))
                     deleted_rows = previous_df[previous_df[prev_url_col].isin(deleted_urls)].copy()
+                    try:
+                        deleted_date = subprocess.run(
+                            ['git', 'show', '-s', '--format=%cs', commit],
+                            capture_output=True,
+                            text=True,
+                            check=True
+                        ).stdout.strip()
+                    except subprocess.CalledProcessError:
+                        deleted_date = ''
+                    deleted_rows['Date Deleted'] = deleted_date
                     deleted_rows_accum.append(deleted_rows)
 
             previous_df = curr_df
-
         except Exception as e:
             logging.exception("Error while processing commit %s: %s", commit, e)
 
     if not deleted_rows_accum:
         logging.info("No deleted rows found in git history for %s", sm_path)
+        if not existing_deleted_df.empty:
+            logging.info("Keeping existing %s (%d rows).", output_path, len(existing_deleted_df))
         return
 
     try:
@@ -315,18 +317,82 @@ def get_deleted_rows_from_git_history(sm_path='sm.csv', output_path='deleted_row
         logging.exception("Failed to concat deleted rows: %s", e)
         return
 
-    # Find URL column name in the combined frame
     url_col = _find_url_column(all_deleted)
     if url_col is None:
         logging.warning("Deleted rows have no URL column; writing raw deleted rows to %s", output_path)
         all_deleted.to_csv(output_path, index=False, encoding='utf-8')
-        logging.info("Wrote %s (%d rows)", output_path, len(all_deleted))
         return
 
-    # Dedupe by URL and write
-    deduped = all_deleted.drop_duplicates(subset=[url_col])
+    if 'Date Deleted' in all_deleted.columns:
+        all_deleted['Date Deleted'] = pd.to_datetime(all_deleted['Date Deleted'], errors='coerce')
+        all_deleted = all_deleted.sort_values('Date Deleted')
+    deduped = all_deleted.drop_duplicates(subset=[url_col], keep='last')
+
+    existing_url_col = _find_url_column(existing_deleted_df) if not existing_deleted_df.empty else None
+    if existing_url_col:
+        existing_deleted_df[existing_url_col] = existing_deleted_df[existing_url_col].astype(str).str.strip().replace({'nan': ''})
+        deduped[url_col] = deduped[url_col].astype(str).str.strip().replace({'nan': ''})
+        tracked_urls = set(deduped[url_col])
+        preserved_existing = existing_deleted_df[~existing_deleted_df[existing_url_col].isin(tracked_urls)].copy()
+
+        if not preserved_existing.empty:
+            for col in deduped.columns:
+                if col not in preserved_existing.columns:
+                    preserved_existing[col] = None
+            for col in preserved_existing.columns:
+                if col not in deduped.columns:
+                    deduped[col] = None
+            deduped = pd.concat([deduped, preserved_existing[deduped.columns]], ignore_index=True)
+
+    if 'Date Deleted' in deduped.columns:
+        deduped['Date Deleted'] = pd.to_datetime(deduped['Date Deleted'], errors='coerce').dt.strftime('%Y-%m-%d')
+        deduped['Date Deleted'] = deduped['Date Deleted'].fillna('')
+
     deduped.to_csv(output_path, index=False, encoding='utf-8')
     logging.info("Wrote %s (%d rows) - deduplicated by %s", output_path, len(deduped), url_col)
+
+
+def generate_recent_changes_snippet(sm_path='sm.csv', deleted_path='deleted_rows.csv', output_path=RECENT_CHANGES_SNIPPET_PATH):
+    now = datetime.now()
+    lookback_days = 14
+    cutoff = now - pd.Timedelta(days=lookback_days)
+
+    def _recent_table(df: pd.DataFrame, date_col: str, title: str) -> str:
+        if df.empty or date_col not in df.columns:
+            return f"### {title}\n\n_No accounts in the last {lookback_days} days._\n"
+
+        local_df = df.copy()
+        local_df[date_col] = pd.to_datetime(local_df[date_col], errors='coerce')
+        local_df = local_df[local_df[date_col] >= cutoff].sort_values(date_col, ascending=False)
+
+        columns = [c for c in ['Account', 'Platform', 'Department', 'Language', 'URL', date_col] if c in local_df.columns]
+        if local_df.empty or not columns:
+            return f"### {title}\n\n_No accounts in the last {lookback_days} days._\n"
+
+        local_df = local_df[columns].copy()
+        local_df[date_col] = local_df[date_col].dt.strftime('%Y-%m-%d')
+        return f"### {title}\n\n" + local_df.to_markdown(index=False) + "\n"
+
+    try:
+        sm_df = pd.read_csv(sm_path, encoding='utf-8')
+    except FileNotFoundError:
+        sm_df = pd.DataFrame()
+
+    try:
+        deleted_df = pd.read_csv(deleted_path, encoding='utf-8')
+    except FileNotFoundError:
+        deleted_df = pd.DataFrame()
+
+    snippet = (
+        "## Recent Account Changes (Last 14 Days)\n\n"
+        + _recent_table(sm_df, 'Date Added', 'Accounts Added')
+        + "\n"
+        + _recent_table(deleted_df, 'Date Deleted', 'Accounts Deleted')
+    )
+
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write(snippet)
+    logging.info("Wrote %s", output_path)
 
 
 def main():
@@ -334,13 +400,20 @@ def main():
     combined_data = fetch_and_process(URLS, orgs_df=orgs_df)
     write_outputs(combined_data)
 
-    # New feature: analyze git history of sm.csv and write deleted_rows.csv
     try:
         get_deleted_rows_from_git_history(sm_path='sm.csv', output_path='deleted_rows.csv')
     except Exception as e:
         logging.exception("Failed to compute deleted rows from git history: %s", e)
 
-    logging.info("CSV files 'sm.csv', 'platform_counts.csv', 'department_counts.csv', and 'deleted_rows.csv' (if any deletions) have been created successfully.")
+    try:
+        generate_recent_changes_snippet('sm.csv', 'deleted_rows.csv', RECENT_CHANGES_SNIPPET_PATH)
+    except Exception as e:
+        logging.exception("Failed to generate %s: %s", RECENT_CHANGES_SNIPPET_PATH, e)
+
+    logging.info(
+        "CSV files 'sm.csv', 'platform_counts.csv', 'department_counts.csv', 'deleted_rows.csv', and markdown snippet '%s' have been created successfully.",
+        RECENT_CHANGES_SNIPPET_PATH
+    )
 
 
 if __name__ == '__main__':
