@@ -21,23 +21,23 @@ sankey-beta
   Bilingual + Bilingue,Facebook,40
   Bilingual + Bilingue,Flickr,11
   Bilingual + Bilingue,Instagram,24
-  Bilingual + Bilingue,LinkedIn,105
+  Bilingual + Bilingue,LinkedIn,106
   Bilingual + Bilingue,Reddit,1
   Bilingual + Bilingue,X,21
   Bilingual + Bilingue,YouTube,30
-  English,Facebook,342
+  English,Facebook,343
   English,Flickr,3
   English,Instagram,64
   English,LinkedIn,12
   English,Snapchat,1
-  English,X,330
+  English,X,331
   English,YouTube,62
-  Francais,Facebook,339
+  Francais,Facebook,340
   Francais,Flickr,2
   Francais,Instagram,58
   Francais,LinkedIn,11
   Francais,Snapchat,1
-  Francais,X,329
+  Francais,X,330
   Francais,YouTube,61
   bilingual,YouTube,1
 ```
@@ -73,11 +73,11 @@ _No accounts in the last 14 days._
 
 ```mermaid
 pie showData title Platform Distribution
-    "Facebook": 721
-    "X": 678
+    "Facebook": 723
+    "X": 680
     "Instagram": 145
     "YouTube": 144
-    "LinkedIn": 127
+    "LinkedIn": 128
     "Flickr": 16
     "Youtube": 10
     "x": 2
@@ -92,9 +92,9 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 814
-    "Français": 801
-    "Bilingual": 219
+    "English": 816
+    "Français": 803
+    "Bilingual": 220
     "Bilingue": 13
     "bilingual": 1
 ```
@@ -107,8 +107,8 @@ pie showData title Department Count (English Only - Top 20)
     "Parks Canada": 113
     "Royal Canadian Mounted Police": 67
     "National Defence and the Canadian Armed Forces": 36
+    "Public Services and Procurement Canada": 16
     "Privy Council Office": 14
-    "Public Services and Procurement Canada": 14
     "Innovation, Science and Economic Development Canada": 13
     "Employment and Social Development Canada": 13
     "Canadian Heritage": 11
@@ -133,9 +133,9 @@ pie showData title Department Count (Français Only - Top 20)
     "Parcs Canada": 113
     "Gendarmerie royale du Canada": 63
     "Défense nationale et les Forces armées canadiennes": 26
+    "Services publics et Approvisionnement Canada": 16
     "Innovation, Sciences et Développement économique Canada": 15
     "Bureau du Conseil privé": 14
-    "Services publics et Approvisionnement Canada": 14
     "Emploi et Développement social Canada": 14
     "Pêches et Océans Canada": 11
     "Ressources naturelles Canada": 9
@@ -159,10 +159,10 @@ pie showData title Department Count (Bilingual Only - Top 20)
     "Global Affairs Canada": 16
     "Royal Canadian Mounted Police": 12
     "Employment and Social Development Canada": 7
+    "Public Services and Procurement Canada": 6
     "Privy Council Office": 5
     "Canadian Institutes of Health Research": 5
     "Social Sciences and Humanities Research Council": 5
-    "Public Services and Procurement Canada": 5
     "Innovation, Science and Economic Development Canada": 4
     "Canadian Human Rights Commission": 4
     "Fisheries and Oceans Canada": 3
