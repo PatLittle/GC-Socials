@@ -30,14 +30,14 @@ sankey-beta
   English,Instagram,64
   English,LinkedIn,12
   English,Snapchat,1
-  English,X,331
+  English,X,329
   English,YouTube,62
   Francais,Facebook,340
   Francais,Flickr,2
   Francais,Instagram,58
   Francais,LinkedIn,11
   Francais,Snapchat,1
-  Francais,X,330
+  Francais,X,328
   Francais,YouTube,61
   bilingual,YouTube,1
 ```
@@ -74,7 +74,7 @@ _No accounts in the last 14 days._
 ```mermaid
 pie showData title Platform Distribution
     "Facebook": 723
-    "X": 680
+    "X": 676
     "Instagram": 145
     "YouTube": 144
     "LinkedIn": 128
@@ -92,8 +92,8 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 816
-    "Français": 803
+    "English": 814
+    "Français": 801
     "Bilingual": 220
     "Bilingue": 13
     "bilingual": 1
