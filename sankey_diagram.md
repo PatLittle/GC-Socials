@@ -12,14 +12,14 @@ sankey-beta
   English,Instagram,64
   English,LinkedIn,12
   English,Snapchat,1
-  English,X,331
+  English,X,329
   English,YouTube,62
   Francais,Facebook,340
   Francais,Flickr,2
   Francais,Instagram,58
   Francais,LinkedIn,11
   Francais,Snapchat,1
-  Francais,X,330
+  Francais,X,328
   Francais,YouTube,61
   bilingual,YouTube,1
 ```
