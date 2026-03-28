@@ -18,28 +18,28 @@ View the number of official accounts by department overtime
 
 ```mermaid
 sankey-beta
-  Bilingual + Bilingue,Facebook,40
-  Bilingual + Bilingue,Flickr,11
-  Bilingual + Bilingue,Instagram,24
-  Bilingual + Bilingue,LinkedIn,106
-  Bilingual + Bilingue,Reddit,1
-  Bilingual + Bilingue,X,21
-  Bilingual + Bilingue,YouTube,30
-  English,Facebook,343
-  English,Flickr,3
-  English,Instagram,64
-  English,LinkedIn,12
-  English,Snapchat,1
-  English,X,329
-  English,YouTube,62
-  Francais,Facebook,340
-  Francais,Flickr,2
-  Francais,Instagram,58
-  Francais,LinkedIn,11
-  Francais,Snapchat,1
-  Francais,X,328
-  Francais,YouTube,61
-  bilingual,YouTube,1
+  Bilingual + Bilingue,Facebook,80
+  Bilingual + Bilingue,Flickr,22
+  Bilingual + Bilingue,Instagram,48
+  Bilingual + Bilingue,LinkedIn,212
+  Bilingual + Bilingue,Reddit,2
+  Bilingual + Bilingue,X,42
+  Bilingual + Bilingue,YouTube,60
+  English,Facebook,686
+  English,Flickr,6
+  English,Instagram,128
+  English,LinkedIn,24
+  English,Snapchat,2
+  English,X,658
+  English,YouTube,124
+  Francais,Facebook,680
+  Francais,Flickr,4
+  Francais,Instagram,116
+  Francais,LinkedIn,22
+  Francais,Snapchat,2
+  Francais,X,656
+  Francais,YouTube,122
+  bilingual,YouTube,2
 ```
 
 ## Recent Account Changes (Last 14 Days)
