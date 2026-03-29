@@ -2,11 +2,11 @@ Account,Platform,Department,Language,URL,gc_orgID,wikidata_id,Date Added
 Prime Minister of Canada,Facebook,Privy Council Office,English,https://www.facebook.com/CanadianPM,2284.0,Q24168,2026-01-16
 CanadianPM,X,Privy Council Office,English,https://twitter.com/CanadianPM,2284.0,Q24168,2026-01-16
 Privy Council Office,LinkedIn,Privy Council Office,Bilingual,https://www.linkedin.com/company/privy-council-office/about/,2284.0,Q24168,2026-01-16
-GCReconciliation,Facebook,Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada,English,https://www.facebook.com/GCReconciliation,2230.0,,2026-01-16
-@GCIndigenous,X,Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada,English,https://twitter.com/GCIndigenous,2230.0,,2026-01-16
-@GovCanNorth,X,Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada,English,https://twitter.com/GovCanNorth,2230.0,,2026-01-16
-GCIndigenous,Facebook,Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada,English,https://www.facebook.com/GCIndigenous/,2230.0,,2026-01-16
-GovCan - North,Facebook,Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada,English,https://www.facebook.com/GovCanNorth/,2230.0,,2026-01-16
+GCReconciliation,Facebook,Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada,English,https://www.facebook.com/GCReconciliation,2230.0,Q86685295,2026-01-16
+@GCIndigenous,X,Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada,English,https://twitter.com/GCIndigenous,2230.0,Q86685295,2026-01-16
+@GovCanNorth,X,Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada,English,https://twitter.com/GovCanNorth,2230.0,Q86685295,2026-01-16
+GCIndigenous,Facebook,Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada,English,https://www.facebook.com/GCIndigenous/,2230.0,Q86685295,2026-01-16
+GovCan - North,Facebook,Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada,English,https://www.facebook.com/GovCanNorth/,2230.0,Q86685295,2026-01-16
 @AAFC_Canada,X,Agriculture and Agri-Food Canada,English,https://twitter.com/AAFC_Canada,2222.0,Q1046164,2026-01-16
 cdn_agriculture,Instagram,Agriculture and Agri-Food Canada,English,https://www.instagram.com/cdn_agriculture/,2222.0,Q1046164,2026-01-16
 AgricultureCanadaEng,YouTube,Agriculture and Agri-Food Canada,English,https://www.youtube.com/user/AgricultureCanadaEng,2222.0,Q1046164,2026-01-16
@@ -160,7 +160,7 @@ Canadian Food Inspection Agency,Facebook,Canadian Food Inspection Agency,English
 @CSC_SCC_en,X,Correctional Service of Canada,English,https://twitter.com/CSC_SCC_en,2255.0,Q3480093,2026-01-16
 Correctional Service of Canada,YouTube,Correctional Service of Canada,bilingual,https://www.youtube.com/@CSC-SCC,2255.0,Q3480093,2026-01-16
 Natural Resources Canada,LinkedIn,Natural Resources Canada,Bilingual,https://www.linkedin.com/company/natural-resources-canada,2234.0,Q349770,2026-01-16
-@GiantMine,X,Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada,English,https://twitter.com/GiantMine,2230.0,,2026-01-16
+@GiantMine,X,Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada,English,https://twitter.com/GiantMine,2230.0,Q86685295,2026-01-16
 @DFO_MAR,X,Fisheries and Oceans Canada,English,https://twitter.com/DFO_MAR,2226.0,Q349666,2026-01-16
 Canadian Coast Guard,Facebook,National Defence and the Canadian Armed Forces,English,https://facebook.com/CanadianCoastGuard,,,2026-01-16
 Fisheries and Oceans Canada,Facebook,Fisheries and Oceans Canada,English,https://facebook.com/FisheriesOceansCanada,2226.0,Q349666,2026-01-16
@@ -461,7 +461,7 @@ Polar Knowledge Canada,YouTube,Polar Knowledge Canada,English,https://youtube.co
 @CanBorderPRA,X,Canada Border Services Agency,English,https://twitter.com/canborderpra,2300.0,Q532090,2026-01-16
 @CanBorderATL,X,Canada Border Services Agency,English,https://twitter.com/canborderatl,2300.0,Q532090,2026-01-16
 @csiscanada,X,Canadian Security Intelligence Service,English,https://twitter.com/csiscanada,2250.0,Q1032405,2026-01-16
-GCIndigenous,YouTube,Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada,English,https://youtube.com/user/AANDCanada,2230.0,,2026-01-16
+GCIndigenous,YouTube,Crown-Indigenous Relations and Northern Affairs Canada and Indigenous Services Canada,English,https://youtube.com/user/AANDCanada,2230.0,Q86685295,2026-01-16
 Canada and Iran,Facebook,Global Affairs Canada,English,https://facebook.com/CanadaandIran,2227.0,Q3315371,2026-01-16
 Canada in Brazil,Facebook,Global Affairs Canada,English,https://facebook.com/CanadainBrazil,2227.0,Q3315371,2026-01-16
 Canada in Singapore,Facebook,Global Affairs Canada,English,https://facebook.com/canadainsingapore,2227.0,Q3315371,2026-01-16
@@ -716,7 +716,7 @@ Canadian Coast Guard College,Facebook,Fisheries and Oceans Canada,English,https:
 @CCGCollege,X,National Defence and the Canadian Armed Forces,English,https://twitter.com/CCGCollege,,,2026-01-16
 "Housing, Infrastructure and Communities Canada",Facebook,"Housing, Infrastructure and Communities Canada",English,https://www.facebook.com/HousingInfrastructureCommunities/,2269.0,,2026-01-16
 housinginfracommunities,Instagram,"Housing, Infrastructure and Communities Canada",English,https://www.instagram.com/housinginfracommunities,2269.0,,2026-01-16
-GCIndigenous,Instagram,Crown-Indigenous Relations and Northern Affairs Canada,English,https://www.instagram.com/gcindigenous/,2230.0,,2026-01-16
+GCIndigenous,Instagram,Crown-Indigenous Relations and Northern Affairs Canada,English,https://www.instagram.com/gcindigenous/,2230.0,Q86685295,2026-01-16
 @CanBorderQUE,X,Canada Border Services Agency,English,https://twitter.com/CanBorderQUE,2300.0,Q532090,2026-01-16
 Sable Island National Park Reserve,Facebook,Parks Canada,English,https://www.facebook.com/SableIslandNPR,2315.0,Q349487,2026-01-16
 fcac_can,Instagram,Financial Consumer Agency of Canada,English,https://instagram.com/FCAC_Can,2259.0,Q2826603,2026-01-16
@@ -794,7 +794,7 @@ Invest in Canada / Investir au Canada,LinkedIn,Invest in Canada,Bilingual,https:
 Environment and Climate Change Canada,LinkedIn,Environment and Climate Change Canada,Bilingual,https://www.linkedin.com/company/environment-canada/,2237.0,Q348789,2026-01-16
 Public Safety Canada / Sécurité publique Canada,LinkedIn,Public Safety Canada,Bilingual,https://www.linkedin.com/company/safety-canada-securite-canada/,2235.0,Q2602726,2026-01-16
 Government of Canada,LinkedIn,Privy Council Office,Bilingual,https://www.linkedin.com/company/government-of-canada/about/,2284.0,Q24168,2026-01-16
-Healthy First Nations and Inuit,Facebook,Crown-Indigenous Relations and Northern Affairs Canada,English,https://www.facebook.com/GCIndigenousHealth/,2230.0,,2026-01-16
+Healthy First Nations and Inuit,Facebook,Crown-Indigenous Relations and Northern Affairs Canada,English,https://www.facebook.com/GCIndigenousHealth/,2230.0,Q86685295,2026-01-16
 CAF CWO,Instagram,National Defence and the Canadian Armed Forces,English,https://www.instagram.com/CAFCWO_adjucfac/,,,2026-01-16
 @DoingBusinessGC,X,Public Services and Procurement Canada,English,https://twitter.com/DoingBusinessGC,2236.0,Q7257673,2026-01-16
 @DMA_PSPC,X,Public Services and Procurement Canada,English,https://twitter.com/DMA_PSPC,2236.0,Q7257673,2026-01-16
@@ -849,8 +849,8 @@ Prairies Economic Development Canada I Développement économique Canada pour le
 Embassy of Canada to Peru,Instagram,Global Affairs Canada,English,https://www.instagram.com/canada_pe/,2227.0,Q3315371,2026-01-16
 esdc.gc,Instagram,Employment and Social Development Canada,English,https://www.instagram.com/esdc.gc/,2229.0,Q4294814,2026-01-16
 canrevagency,Instagram,Canada Revenue Agency,English,https://www.instagram.com/CanRevAgency,2303.0,Q1032002,2026-01-16
-Indigenous Services Canada | Services aux Autochtones Canada,LinkedIn,Crown-Indigenous Relations and Northern Affairs Canada,Bilingual,https://www.linkedin.com/company/isc-sac/,2230.0,,2026-01-16
-RCAANC-CIRNAC,LinkedIn,Crown-Indigenous Relations and Northern Affairs Canada,Bilingual,https://www.linkedin.com/company/rcaanc-cirnac/,2230.0,,2026-01-16
+Indigenous Services Canada | Services aux Autochtones Canada,LinkedIn,Crown-Indigenous Relations and Northern Affairs Canada,Bilingual,https://www.linkedin.com/company/isc-sac/,2230.0,Q86685295,2026-01-16
+RCAANC-CIRNAC,LinkedIn,Crown-Indigenous Relations and Northern Affairs Canada,Bilingual,https://www.linkedin.com/company/rcaanc-cirnac/,2230.0,Q86685295,2026-01-16
 rcmp_mb_grc,Instagram,Royal Canadian Mounted Police,English,https://www.instagram.com/rcmp_mb_grc/,2288.0,Q335175,2026-01-16
 Royal Canadian Mounted Police | Gendarmerie royale du Canada,LinkedIn,Royal Canadian Mounted Police,Bilingual,https://www.linkedin.com/company/rcmp-grc/,2288.0,Q335175,2026-01-16
 @RCMPNunavut,X,Royal Canadian Mounted Police,English,https://twitter.com/rcmpnunavut,2288.0,Q335175,2026-01-16
@@ -1686,7 +1686,7 @@ Impact Canada,X,Bureau du Conseil privé,Français,https://twitter.com/impact_in
 Impact Canada,LinkedIn,Bureau du Conseil privé,Français,https://www.linkedin.com/company/equipe-impact-canada-team,,,2026-01-16
 Impact Canada,Facebook,Bureau du Conseil privé,Français,https://www.facebook.com/impactcanadafr,,,2026-01-16
 Régie de l'énergie du Canada,LinkedIn,Régie de l'énergie du Canada,Français,https://www.linkedin.com/company/rec-cer/,,,2026-01-16
-Premières nations et Inuits en santé,Facebook,Relations Couronne-Autochtones et Affaires du Nord Canada,Français,https://www.facebook.com/GCAutochtonesEnSante/,2230.0,,2026-01-16
+Premières nations et Inuits en santé,Facebook,Relations Couronne-Autochtones et Affaires du Nord Canada,Français,https://www.facebook.com/GCAutochtonesEnSante/,2230.0,Q86685295,2026-01-16
 cafcwo_adjucfac,Instagram,Défense nationale et les Forces armées canadiennes,Bilingue,https://www.flickr.com/photos/66821901@N06/,,,2026-01-16
 @FaireAffaireGC,X,Services publics et Approvisionnement Canada,Français,https://twitter.com/FaireAffaireGC,,,2026-01-16
 @SMD_SPAC,X,Services publics et Approvisionnement Canada,Français,https://twitter.com/SMD_SPAC,,,2026-01-16
