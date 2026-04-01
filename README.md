@@ -21,7 +21,7 @@ sankey-beta
   Bilingual + Bilingue,Facebook,40
   Bilingual + Bilingue,Flickr,11
   Bilingual + Bilingue,Instagram,24
-  Bilingual + Bilingue,LinkedIn,106
+  Bilingual + Bilingue,LinkedIn,107
   Bilingual + Bilingue,Reddit,1
   Bilingual + Bilingue,X,21
   Bilingual + Bilingue,YouTube,30
@@ -46,16 +46,13 @@ sankey-beta
 
 ### Accounts Added
 
-_No accounts in the last 14 days._
+| Account                                                       | Platform   | Department            | Language   | URL                                         | Date Added   |
+|:--------------------------------------------------------------|:-----------|:----------------------|:-----------|:--------------------------------------------|:-------------|
+| Embassy of Canada to Armenia | Ambassade du Canada en Arménie | LinkedIn   | Global Affairs Canada | Bilingual  | https://www.linkedin.com/showcase/canembam/ | 2026-04-01   |
 
 ### Accounts Deleted
 
-| Account        | Platform   | Department               | Language   | URL                               | Date Deleted   |
-|:---------------|:-----------|:-------------------------|:-----------|:----------------------------------|:---------------|
-| @President_SPC | X          | Services partagés Canada | Français   | https://twitter.com/President_SPC | 2026-03-18     |
-| @President_SSC | X          | Shared Services Canada   | English    | https://twitter.com/President_SSC | 2026-03-18     |
-| @EVP_SSC       | X          | Shared Services Canada   | English    | https://twitter.com/EVP_SSC       | 2026-03-18     |
-| @PVP_SPC       | X          | Services partagés Canada | Français   | https://twitter.com/PVP_SPC       | 2026-03-18     |
+_No accounts in the last 14 days._
 
 
 # Social Media Platform Distribution
@@ -66,7 +63,7 @@ pie showData title Platform Distribution
     "X": 676
     "Instagram": 145
     "YouTube": 144
-    "LinkedIn": 128
+    "LinkedIn": 129
     "Flickr": 16
     "Youtube": 10
     "x": 2
@@ -83,7 +80,7 @@ pie showData title Platform Distribution
 pie showData title Language Distribution
     "English": 814
     "Français": 801
-    "Bilingual": 220
+    "Bilingual": 221
     "Bilingue": 13
     "bilingual": 1
 ```
@@ -145,7 +142,7 @@ pie showData title Department Count (Français Only - Top 20)
 ```mermaid
 pie showData title Department Count (Bilingual Only - Top 20)
     "National Defence and the Canadian Armed Forces": 59
-    "Global Affairs Canada": 16
+    "Global Affairs Canada": 17
     "Royal Canadian Mounted Police": 12
     "Employment and Social Development Canada": 7
     "Public Services and Procurement Canada": 6
