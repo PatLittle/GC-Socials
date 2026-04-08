@@ -7,14 +7,14 @@ sankey-beta
   Bilingual + Bilingue,Reddit,1
   Bilingual + Bilingue,X,21
   Bilingual + Bilingue,YouTube,30
-  English,Facebook,343
+  English,Facebook,344
   English,Flickr,3
   English,Instagram,64
   English,LinkedIn,12
   English,Snapchat,1
   English,X,329
   English,YouTube,62
-  Francais,Facebook,340
+  Francais,Facebook,341
   Francais,Flickr,2
   Francais,Instagram,58
   Francais,LinkedIn,11
