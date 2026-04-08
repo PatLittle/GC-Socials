@@ -25,14 +25,14 @@ sankey-beta
   Bilingual + Bilingue,Reddit,1
   Bilingual + Bilingue,X,21
   Bilingual + Bilingue,YouTube,30
-  English,Facebook,343
+  English,Facebook,344
   English,Flickr,3
   English,Instagram,64
   English,LinkedIn,12
   English,Snapchat,1
   English,X,329
   English,YouTube,62
-  Francais,Facebook,340
+  Francais,Facebook,341
   Francais,Flickr,2
   Francais,Instagram,58
   Francais,LinkedIn,11
@@ -46,9 +46,11 @@ sankey-beta
 
 ### Accounts Added
 
-| Account                                                       | Platform   | Department            | Language   | URL                                         | Date Added   |
-|:--------------------------------------------------------------|:-----------|:----------------------|:-----------|:--------------------------------------------|:-------------|
-| Embassy of Canada to Armenia | Ambassade du Canada en Arménie | LinkedIn   | Global Affairs Canada | Bilingual  | https://www.linkedin.com/showcase/canembam/ | 2026-04-01   |
+| Account                                                       | Platform   | Department                    | Language   | URL                                         | Date Added   |
+|:--------------------------------------------------------------|:-----------|:------------------------------|:-----------|:--------------------------------------------|:-------------|
+| The Pas RCMP                                                  | Facebook   | Royal Canadian Mounted Police | English    | https://www.facebook.com/ThePasRCMP/        | 2026-04-08   |
+| La GRC de The Pas                                             | Facebook   | Gendarmerie royale du Canada  | Français   | https://www.facebook.com/LaGRCdeThePas      | 2026-04-08   |
+| Embassy of Canada to Armenia | Ambassade du Canada en Arménie | LinkedIn   | Global Affairs Canada         | Bilingual  | https://www.linkedin.com/showcase/canembam/ | 2026-04-01   |
 
 ### Accounts Deleted
 
@@ -59,7 +61,7 @@ _No accounts in the last 14 days._
 
 ```mermaid
 pie showData title Platform Distribution
-    "Facebook": 723
+    "Facebook": 725
     "X": 676
     "Instagram": 145
     "YouTube": 144
@@ -78,8 +80,8 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 814
-    "Français": 801
+    "English": 815
+    "Français": 802
     "Bilingual": 221
     "Bilingue": 13
     "bilingual": 1
@@ -91,7 +93,7 @@ pie showData title Language Distribution
 pie showData title Department Count (English Only - Top 20)
     "Global Affairs Canada": 264
     "Parks Canada": 113
-    "Royal Canadian Mounted Police": 67
+    "Royal Canadian Mounted Police": 68
     "National Defence and the Canadian Armed Forces": 36
     "Public Services and Procurement Canada": 16
     "Privy Council Office": 14
@@ -117,7 +119,7 @@ pie showData title Department Count (English Only - Top 20)
 pie showData title Department Count (Français Only - Top 20)
     "Affaires mondiales Canada": 258
     "Parcs Canada": 113
-    "Gendarmerie royale du Canada": 63
+    "Gendarmerie royale du Canada": 64
     "Défense nationale et les Forces armées canadiennes": 26
     "Services publics et Approvisionnement Canada": 16
     "Innovation, Sciences et Développement économique Canada": 15
