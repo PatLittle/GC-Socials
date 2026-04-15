@@ -20,8 +20,8 @@ View the number of official accounts by department overtime
 sankey-beta
   Bilingual + Bilingue,Facebook,40
   Bilingual + Bilingue,Flickr,11
-  Bilingual + Bilingue,Instagram,24
-  Bilingual + Bilingue,LinkedIn,107
+  Bilingual + Bilingue,Instagram,26
+  Bilingual + Bilingue,LinkedIn,108
   Bilingual + Bilingue,Reddit,1
   Bilingual + Bilingue,X,21
   Bilingual + Bilingue,YouTube,30
@@ -46,11 +46,13 @@ sankey-beta
 
 ### Accounts Added
 
-| Account                                                       | Platform   | Department                    | Language   | URL                                         | Date Added   |
-|:--------------------------------------------------------------|:-----------|:------------------------------|:-----------|:--------------------------------------------|:-------------|
-| The Pas RCMP                                                  | Facebook   | Royal Canadian Mounted Police | English    | https://www.facebook.com/ThePasRCMP/        | 2026-04-08   |
-| La GRC de The Pas                                             | Facebook   | Gendarmerie royale du Canada  | Français   | https://www.facebook.com/LaGRCdeThePas      | 2026-04-08   |
-| Embassy of Canada to Armenia | Ambassade du Canada en Arménie | LinkedIn   | Global Affairs Canada         | Bilingual  | https://www.linkedin.com/showcase/canembam/ | 2026-04-01   |
+| Account                                                 | Platform   | Department                    | Language   | URL                                                   | Date Added   |
+|:--------------------------------------------------------|:-----------|:------------------------------|:-----------|:------------------------------------------------------|:-------------|
+| canadacrhnni                                            | Instagram  | Global Affairs Canada         | Bilingual  | https://www.instagram.com/canadacrhnni/               | 2026-04-15   |
+| Embassy of Canada to Costa Rica, Honduras and Nicaragua | LinkedIn   | Global Affairs Canada         | Bilingual  | https://www.linkedin.com/showcase/canembcrhnni/about/ | 2026-04-15   |
+| canadaemblb                                             | Instagram  | Global Affairs Canada         | Bilingual  | https://www.instagram.com/canadaemblb/                | 2026-04-15   |
+| The Pas RCMP                                            | Facebook   | Royal Canadian Mounted Police | English    | https://www.facebook.com/ThePasRCMP/                  | 2026-04-08   |
+| La GRC de The Pas                                       | Facebook   | Gendarmerie royale du Canada  | Français   | https://www.facebook.com/LaGRCdeThePas                | 2026-04-08   |
 
 ### Accounts Deleted
 
@@ -63,9 +65,9 @@ _No accounts in the last 14 days._
 pie showData title Platform Distribution
     "Facebook": 725
     "X": 676
-    "Instagram": 145
+    "Instagram": 147
     "YouTube": 144
-    "LinkedIn": 129
+    "LinkedIn": 130
     "Flickr": 16
     "Youtube": 10
     "x": 2
@@ -82,7 +84,7 @@ pie showData title Platform Distribution
 pie showData title Language Distribution
     "English": 815
     "Français": 802
-    "Bilingual": 221
+    "Bilingual": 224
     "Bilingue": 13
     "bilingual": 1
 ```
@@ -144,7 +146,7 @@ pie showData title Department Count (Français Only - Top 20)
 ```mermaid
 pie showData title Department Count (Bilingual Only - Top 20)
     "National Defence and the Canadian Armed Forces": 59
-    "Global Affairs Canada": 17
+    "Global Affairs Canada": 20
     "Royal Canadian Mounted Police": 12
     "Employment and Social Development Canada": 7
     "Public Services and Procurement Canada": 6
