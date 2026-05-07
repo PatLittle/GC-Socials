@@ -25,14 +25,14 @@ sankey-beta
   Bilingual + Bilingue,Reddit,1
   Bilingual + Bilingue,X,21
   Bilingual + Bilingue,YouTube,30
-  English,Facebook,344
+  English,Facebook,347
   English,Flickr,3
   English,Instagram,64
   English,LinkedIn,12
   English,Snapchat,1
   English,X,329
   English,YouTube,62
-  Francais,Facebook,341
+  Francais,Facebook,344
   Francais,Flickr,2
   Francais,Instagram,58
   Francais,LinkedIn,11
@@ -46,7 +46,14 @@ sankey-beta
 
 ### Accounts Added
 
-_No accounts in the last 14 days._
+| Account                        | Platform   | Department                    | Language   | URL                                             | Date Added   |
+|:-------------------------------|:-----------|:------------------------------|:-----------|:------------------------------------------------|:-------------|
+| Oakbank & Area RCMP            | Facebook   | Royal Canadian Mounted Police | English    | https://www.facebook.com/OakbankAreaRCMP        | 2026-05-07   |
+| Cross Lake RCMP                | Facebook   | Royal Canadian Mounted Police | English    | https://www.facebook.com/CrossLakeRCMP          | 2026-05-07   |
+| Lac du Bonnet & Area RCMP      | Facebook   | Royal Canadian Mounted Police | English    | https://www.facebook.com/LacduBonnetAreaRCMP    | 2026-05-07   |
+| GRC d'Oakbank et région        | Facebook   | Gendarmerie royale du Canada  | Français   | https://www.facebook.com/GRCdOakbank            | 2026-05-07   |
+| GRC de Lake Cross              | Facebook   | Gendarmerie royale du Canada  | Français   | https://www.facebook.com/GRCdeCrossLake         | 2026-05-07   |
+| GRC du Lac du Bonnet et région | Facebook   | Gendarmerie royale du Canada  | Français   | https://www.facebook.com/GRCduLacduBonnetRegion | 2026-05-07   |
 
 ### Accounts Deleted
 
@@ -57,7 +64,7 @@ _No accounts in the last 14 days._
 
 ```mermaid
 pie showData title Platform Distribution
-    "Facebook": 725
+    "Facebook": 731
     "X": 676
     "Instagram": 147
     "YouTube": 144
@@ -76,8 +83,8 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 815
-    "Français": 802
+    "English": 818
+    "Français": 805
     "Bilingual": 224
     "Bilingue": 13
     "bilingual": 1
@@ -89,7 +96,7 @@ pie showData title Language Distribution
 pie showData title Department Count (English Only - Top 20)
     "Global Affairs Canada": 264
     "Parks Canada": 113
-    "Royal Canadian Mounted Police": 68
+    "Royal Canadian Mounted Police": 71
     "National Defence and the Canadian Armed Forces": 36
     "Public Services and Procurement Canada": 16
     "Privy Council Office": 14
@@ -115,7 +122,7 @@ pie showData title Department Count (English Only - Top 20)
 pie showData title Department Count (Français Only - Top 20)
     "Affaires mondiales Canada": 258
     "Parcs Canada": 113
-    "Gendarmerie royale du Canada": 64
+    "Gendarmerie royale du Canada": 67
     "Défense nationale et les Forces armées canadiennes": 26
     "Services publics et Approvisionnement Canada": 16
     "Innovation, Sciences et Développement économique Canada": 15
