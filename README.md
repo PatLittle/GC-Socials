@@ -23,7 +23,7 @@ sankey-beta
   Bilingual + Bilingue,Instagram,26
   Bilingual + Bilingue,LinkedIn,108
   Bilingual + Bilingue,Reddit,1
-  Bilingual + Bilingue,X,21
+  Bilingual + Bilingue,X,20
   Bilingual + Bilingue,YouTube,30
   English,Facebook,347
   English,Flickr,3
@@ -65,7 +65,7 @@ _No accounts in the last 14 days._
 ```mermaid
 pie showData title Platform Distribution
     "Facebook": 731
-    "X": 676
+    "X": 675
     "Instagram": 147
     "YouTube": 144
     "LinkedIn": 130
@@ -85,7 +85,7 @@ pie showData title Platform Distribution
 pie showData title Language Distribution
     "English": 818
     "Français": 805
-    "Bilingual": 224
+    "Bilingual": 223
     "Bilingue": 13
     "bilingual": 1
 ```
