@@ -20,7 +20,7 @@ View the number of official accounts by department overtime
 sankey-beta
   Bilingual + Bilingue,Facebook,40
   Bilingual + Bilingue,Flickr,11
-  Bilingual + Bilingue,Instagram,26
+  Bilingual + Bilingue,Instagram,27
   Bilingual + Bilingue,LinkedIn,108
   Bilingual + Bilingue,Reddit,1
   Bilingual + Bilingue,X,20
@@ -48,6 +48,7 @@ sankey-beta
 
 | Account                        | Platform   | Department                    | Language   | URL                                             | Date Added   |
 |:-------------------------------|:-----------|:------------------------------|:-----------|:------------------------------------------------|:-------------|
+| canembqatar                    | Instagram  | Global Affairs Canada         | Bilingual  | https://www.instagram.com/canembqatar/          | 2026-05-16   |
 | Oakbank & Area RCMP            | Facebook   | Royal Canadian Mounted Police | English    | https://www.facebook.com/OakbankAreaRCMP        | 2026-05-07   |
 | Cross Lake RCMP                | Facebook   | Royal Canadian Mounted Police | English    | https://www.facebook.com/CrossLakeRCMP          | 2026-05-07   |
 | Lac du Bonnet & Area RCMP      | Facebook   | Royal Canadian Mounted Police | English    | https://www.facebook.com/LacduBonnetAreaRCMP    | 2026-05-07   |
@@ -57,7 +58,9 @@ sankey-beta
 
 ### Accounts Deleted
 
-_No accounts in the last 14 days._
+| Account       | Platform   | Department                      | Language   | URL                              | Date Deleted   |
+|:--------------|:-----------|:--------------------------------|:-----------|:---------------------------------|:---------------|
+| @CFIAPresACIA | X          | Canadian Food Inspection Agency | Bilingual  | https://twitter.com/CFIAPresACIA | 2026-05-15     |
 
 
 # Social Media Platform Distribution
@@ -66,7 +69,7 @@ _No accounts in the last 14 days._
 pie showData title Platform Distribution
     "Facebook": 731
     "X": 675
-    "Instagram": 147
+    "Instagram": 148
     "YouTube": 144
     "LinkedIn": 130
     "Flickr": 16
@@ -85,7 +88,7 @@ pie showData title Platform Distribution
 pie showData title Language Distribution
     "English": 818
     "Français": 805
-    "Bilingual": 223
+    "Bilingual": 224
     "Bilingue": 13
     "bilingual": 1
 ```
@@ -147,7 +150,7 @@ pie showData title Department Count (Français Only - Top 20)
 ```mermaid
 pie showData title Department Count (Bilingual Only - Top 20)
     "National Defence and the Canadian Armed Forces": 59
-    "Global Affairs Canada": 20
+    "Global Affairs Canada": 21
     "Royal Canadian Mounted Police": 12
     "Employment and Social Development Canada": 7
     "Public Services and Procurement Canada": 6
