@@ -54,7 +54,6 @@ sankey-beta
 | GCEmployeePay_PayeEmployésGC | Reddit     | Public Service and Procurement Canada | Bilingual  | https://www.reddit.com/user/GCPay_PayeGC/ | 2026-05-20     |
 | Parks Canada                 | snapchat   | Parks Canada                          | English    | https://www.snapchat.com/add/parks.canada | 2026-05-20     |
 | Parcs Canada                 | Snapchat   | Parcs Canada                          | Français   | http://snapchat.com/add/parcs.canada      | 2026-05-20     |
-| @CFIAPresACIA                | X          | Canadian Food Inspection Agency       | Bilingual  | https://twitter.com/CFIAPresACIA          | 2026-05-15     |
 
 
 # Social Media Platform Distribution
