@@ -2,9 +2,11 @@
 
 ### Accounts Added
 
-| Account     | Platform   | Department            | Language   | URL                                    | Date Added   |
-|:------------|:-----------|:----------------------|:-----------|:---------------------------------------|:-------------|
-| canembqatar | Instagram  | Global Affairs Canada | Bilingual  | https://www.instagram.com/canembqatar/ | 2026-05-16   |
+| Account                    | Platform   | Department              | Language   | URL                                  | Date Added   |
+|:---------------------------|:-----------|:------------------------|:-----------|:-------------------------------------|:-------------|
+| Prime Minister of Canada   | X          | Privy Council Office    | English    | https://x.com/CanadianPM             | 2026-05-30   |
+| Prime Minister of Canada   | Instagram  | Privy Council Office    | English    | https://www.instagram.com/canadianpm | 2026-05-30   |
+| Premier Ministre du Canada | Instagram  | Bureau du Conseil privé | Français   | https://www.instagram.com/pmcanadien | 2026-05-30   |
 
 ### Accounts Deleted
 
