@@ -26,13 +26,13 @@ sankey-beta
   Bilingual + Bilingue,YouTube,30
   English,Facebook,347
   English,Flickr,3
-  English,Instagram,64
+  English,Instagram,65
   English,LinkedIn,12
   English,X,329
   English,YouTube,62
   Francais,Facebook,344
   Francais,Flickr,2
-  Francais,Instagram,58
+  Francais,Instagram,59
   Francais,LinkedIn,11
   Francais,X,328
   Francais,YouTube,61
@@ -43,9 +43,11 @@ sankey-beta
 
 ### Accounts Added
 
-| Account     | Platform   | Department            | Language   | URL                                    | Date Added   |
-|:------------|:-----------|:----------------------|:-----------|:---------------------------------------|:-------------|
-| canembqatar | Instagram  | Global Affairs Canada | Bilingual  | https://www.instagram.com/canembqatar/ | 2026-05-16   |
+| Account                    | Platform   | Department              | Language   | URL                                  | Date Added   |
+|:---------------------------|:-----------|:------------------------|:-----------|:-------------------------------------|:-------------|
+| Prime Minister of Canada   | X          | Privy Council Office    | English    | https://x.com/CanadianPM             | 2026-05-30   |
+| Prime Minister of Canada   | Instagram  | Privy Council Office    | English    | https://www.instagram.com/canadianpm | 2026-05-30   |
+| Premier Ministre du Canada | Instagram  | Bureau du Conseil privé | Français   | https://www.instagram.com/pmcanadien | 2026-05-30   |
 
 ### Accounts Deleted
 
@@ -62,7 +64,7 @@ sankey-beta
 pie showData title Platform Distribution
     "Facebook": 731
     "X": 675
-    "Instagram": 148
+    "Instagram": 150
     "YouTube": 144
     "LinkedIn": 130
     "Flickr": 16
@@ -76,8 +78,8 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 817
-    "Français": 804
+    "English": 818
+    "Français": 805
     "Bilingual": 223
     "Bilingue": 13
     "bilingual": 1
@@ -92,7 +94,7 @@ pie showData title Department Count (English Only - Top 20)
     "Royal Canadian Mounted Police": 71
     "National Defence and the Canadian Armed Forces": 36
     "Public Services and Procurement Canada": 16
-    "Privy Council Office": 14
+    "Privy Council Office": 15
     "Innovation, Science and Economic Development Canada": 13
     "Employment and Social Development Canada": 13
     "Canadian Heritage": 11
@@ -118,8 +120,8 @@ pie showData title Department Count (Français Only - Top 20)
     "Gendarmerie royale du Canada": 67
     "Défense nationale et les Forces armées canadiennes": 26
     "Services publics et Approvisionnement Canada": 16
+    "Bureau du Conseil privé": 15
     "Innovation, Sciences et Développement économique Canada": 15
-    "Bureau du Conseil privé": 14
     "Emploi et Développement social Canada": 14
     "Pêches et Océans Canada": 11
     "Ressources naturelles Canada": 9
