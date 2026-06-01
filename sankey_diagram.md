@@ -2,21 +2,14 @@
 sankey-beta
   Bilingual + Bilingue,Facebook,40
   Bilingual + Bilingue,Flickr,11
-  Bilingual + Bilingue,Instagram,27
-  Bilingual + Bilingue,LinkedIn,108
+  Bilingual + Bilingue,Instagram,28
+  Bilingual + Bilingue,LinkedIn,101
   Bilingual + Bilingue,X,20
-  Bilingual + Bilingue,YouTube,30
-  English,Facebook,347
-  English,Flickr,3
-  English,Instagram,65
-  English,LinkedIn,12
-  English,X,329
-  English,YouTube,62
-  Francais,Facebook,344
+  Bilingual + Bilingue,YouTube,26
+  Francais,Facebook,345
   Francais,Flickr,2
-  Francais,Instagram,59
-  Francais,LinkedIn,11
+  Francais,Instagram,61
+  Francais,LinkedIn,13
   Francais,X,328
   Francais,YouTube,61
-  bilingual,YouTube,1
 ```
