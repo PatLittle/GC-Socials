@@ -6,13 +6,13 @@ sankey-beta
   Bilingual + Bilingue,LinkedIn,112
   Bilingual + Bilingue,X,20
   Bilingual + Bilingue,YouTube,30
-  English,Facebook,348
+  English,Facebook,349
   English,Flickr,3
   English,Instagram,65
   English,LinkedIn,12
   English,X,327
   English,YouTube,61
-  Francais,Facebook,345
+  Francais,Facebook,346
   Francais,Flickr,2
   Francais,Instagram,59
   Francais,LinkedIn,11
