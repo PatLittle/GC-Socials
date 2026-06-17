@@ -56,14 +56,7 @@ sankey-beta
 
 ### Accounts Deleted
 
-| Account                          | Platform   | Department                          | Language   | URL                                                  | Date Deleted   |
-|:---------------------------------|:-----------|:------------------------------------|:-----------|:-----------------------------------------------------|:---------------|
-| Vice-première minister du Canada | X          | Bureau du Conseil privé             | Français   | https://twitter.com/VicePMduCanada                   | 2026-06-03     |
-| @WAGE_FEGC                       | X          | Women and Gender Equality Canada    | English    | https://twitter.com/WAGE_FEGC                        | 2026-06-03     |
-| Deputy Prime Minister of Canada  | X          | Privy Council Office                | English    | https://twitter.com/DeputyPM_Canada                  | 2026-06-03     |
-| Deputy Prime Minister            | YouTube    | Privy Council Office                | English    | https://youtube.com/channel/UC8ncaYsMuN_smxVIErpKb1w | 2026-06-03     |
-| @FEGC_WAGE                       | X          | Femmes et Égalité des genres Canada | Français   | https://twitter.com/FEGC_WAGE                        | 2026-06-03     |
-| Vice-première ministre           | YouTube    | Bureau du Conseil privé             | Français   | https://youtube.com/channel/UCaqJQnLSDagarkLyd98IIWg | 2026-06-03     |
+_No accounts in the last 14 days._
 
 
 # Social Media Platform Distribution
