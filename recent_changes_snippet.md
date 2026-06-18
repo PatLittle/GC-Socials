@@ -11,7 +11,6 @@
 | Office of the Foreign Influence Commissioner of Canada          | Facebook   | Public Safety Canada            | English    | https://www.facebook.com/ForeignInfluenceCanada        | 2026-06-06   |
 | OFICC | CIEC                                                    | LinkedIn   | Public Safety Canada            | Bilingual  | https://www.linkedin.com/company/oficc-ciec/           | 2026-06-06   |
 | Commissariat à l'influence étrangère du Canada                  | Facebook   | Sécurité publique Canada        | Français   | https://www.facebook.com/InfluenceEtrangereCanada/     | 2026-06-06   |
-| Embassy of Canada to Kuwait |Ambassade du Canada au Koweït      | LinkedIn   | Global Affairs Canada           | Bilingual  | https://www.linkedin.com/showcase/canembkw/            | 2026-06-04   |
 
 ### Accounts Deleted
 
