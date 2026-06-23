@@ -24,13 +24,13 @@ sankey-beta
   Bilingual + Bilingue,LinkedIn,112
   Bilingual + Bilingue,X,20
   Bilingual + Bilingue,YouTube,30
-  English,Facebook,349
+  English,Facebook,350
   English,Flickr,3
   English,Instagram,65
   English,LinkedIn,12
   English,X,327
   English,YouTube,61
-  Francais,Facebook,346
+  Francais,Facebook,347
   Francais,Flickr,2
   Francais,Instagram,59
   Francais,LinkedIn,11
@@ -43,12 +43,13 @@ sankey-beta
 
 ### Accounts Added
 
-| Account                                                         | Platform   | Department                      | Language   | URL                                                    | Date Added   |
-|:----------------------------------------------------------------|:-----------|:--------------------------------|:-----------|:-------------------------------------------------------|:-------------|
-| Yellowhead & Spruce Plains RCMP                                 | Facebook   | Royal Canadian Mounted Police   | English    | https://www.facebook.com/YellowheadSprucePlainsRCMP/   | 2026-06-16   |
-| GRC de Yellowhead & Spruce Plains                               | Facebook   | Gendarmerie royale du Canada    | Français   | https://www.facebook.com/GRCdeYellowheadSprucePlains   | 2026-06-16   |
-| Our CFIA | Notre ACIA                                           | LinkedIn   | Canadian Food Inspection Agency | Bilingual  | https://www.linkedin.com/showcase/our-cfia-notre-acia/ | 2026-06-12   |
-| Canada in Barbados and the OECS | Canada à la Barbade et l’OECO | LinkedIn   | Global Affairs Canada           | Bilingual  | https://www.linkedin.com/showcase/canhcbarbados/       | 2026-06-09   |
+| Account                           | Platform   | Department                      | Language   | URL                                                    | Date Added   |
+|:----------------------------------|:-----------|:--------------------------------|:-----------|:-------------------------------------------------------|:-------------|
+| Canada in the Arctic              | Facebook   | Global Affairs Canada           | English    | https://www.facebook.com/CanadaArctic/                 | 2026-06-23   |
+| Le Canada dans l'Arctique         | Facebook   | Affaires mondiales Canada       | Français   | https://www.facebook.com/CanadaArctique/               | 2026-06-23   |
+| Yellowhead & Spruce Plains RCMP   | Facebook   | Royal Canadian Mounted Police   | English    | https://www.facebook.com/YellowheadSprucePlainsRCMP/   | 2026-06-16   |
+| GRC de Yellowhead & Spruce Plains | Facebook   | Gendarmerie royale du Canada    | Français   | https://www.facebook.com/GRCdeYellowheadSprucePlains   | 2026-06-16   |
+| Our CFIA | Notre ACIA             | LinkedIn   | Canadian Food Inspection Agency | Bilingual  | https://www.linkedin.com/showcase/our-cfia-notre-acia/ | 2026-06-12   |
 
 ### Accounts Deleted
 
@@ -59,7 +60,7 @@ _No accounts in the last 14 days._
 
 ```mermaid
 pie showData title Platform Distribution
-    "Facebook": 735
+    "Facebook": 737
     "X": 671
     "Instagram": 150
     "YouTube": 142
@@ -75,8 +76,8 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 817
-    "Français": 804
+    "English": 818
+    "Français": 805
     "Bilingual": 227
     "Bilingue": 13
     "bilingual": 1
@@ -86,7 +87,7 @@ pie showData title Language Distribution
 
 ```mermaid
 pie showData title Department Count (English Only - Top 20)
-    "Global Affairs Canada": 264
+    "Global Affairs Canada": 265
     "Parks Canada": 112
     "Royal Canadian Mounted Police": 72
     "National Defence and the Canadian Armed Forces": 36
@@ -112,7 +113,7 @@ pie showData title Department Count (English Only - Top 20)
 
 ```mermaid
 pie showData title Department Count (Français Only - Top 20)
-    "Affaires mondiales Canada": 258
+    "Affaires mondiales Canada": 259
     "Parcs Canada": 112
     "Gendarmerie royale du Canada": 68
     "Défense nationale et les Forces armées canadiennes": 26
