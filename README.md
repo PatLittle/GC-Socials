@@ -18,19 +18,19 @@ View the number of official accounts by department overtime
 
 ```mermaid
 sankey-beta
-  Bilingual + Bilingue,Facebook,40
+  Bilingual + Bilingue,Facebook,38
   Bilingual + Bilingue,Flickr,11
   Bilingual + Bilingue,Instagram,27
   Bilingual + Bilingue,LinkedIn,112
   Bilingual + Bilingue,X,20
   Bilingual + Bilingue,YouTube,30
-  English,Facebook,350
+  English,Facebook,349
   English,Flickr,3
   English,Instagram,65
   English,LinkedIn,12
   English,X,327
   English,YouTube,61
-  Francais,Facebook,347
+  Francais,Facebook,346
   Francais,Flickr,2
   Francais,Instagram,59
   Francais,LinkedIn,11
@@ -57,7 +57,7 @@ _No accounts in the last 14 days._
 
 ```mermaid
 pie showData title Platform Distribution
-    "Facebook": 737
+    "Facebook": 733
     "X": 671
     "Instagram": 150
     "YouTube": 142
@@ -73,9 +73,9 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 818
-    "Français": 805
-    "Bilingual": 227
+    "English": 817
+    "Français": 804
+    "Bilingual": 225
     "Bilingue": 13
     "bilingual": 1
 ```
@@ -142,11 +142,11 @@ pie showData title Department Count (Bilingual Only - Top 20)
     "Employment and Social Development Canada": 7
     "Public Services and Procurement Canada": 6
     "Privy Council Office": 5
-    "Canadian Institutes of Health Research": 5
     "Social Sciences and Humanities Research Council": 5
     "Innovation, Science and Economic Development Canada": 4
     "Canadian Human Rights Commission": 4
     "Fisheries and Oceans Canada": 3
+    "Canadian Institutes of Health Research": 3
     "Natural Resources Canada": 3
     "Canada Economic Development for Quebec Regions": 3
     "Treasury Board of Canada Secretariat": 3
