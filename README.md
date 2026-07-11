@@ -20,7 +20,7 @@ View the number of official accounts by department overtime
 sankey-beta
   Bilingual + Bilingue,Facebook,38
   Bilingual + Bilingue,Flickr,11
-  Bilingual + Bilingue,Instagram,27
+  Bilingual + Bilingue,Instagram,26
   Bilingual + Bilingue,LinkedIn,112
   Bilingual + Bilingue,X,20
   Bilingual + Bilingue,YouTube,30
@@ -28,13 +28,13 @@ sankey-beta
   English,Flickr,3
   English,Instagram,65
   English,LinkedIn,12
-  English,X,326
+  English,X,325
   English,YouTube,61
   Francais,Facebook,346
   Francais,Flickr,2
   Francais,Instagram,59
   Francais,LinkedIn,11
-  Francais,X,325
+  Francais,X,324
   Francais,YouTube,60
   bilingual,YouTube,1
 ```
@@ -62,8 +62,8 @@ _No accounts in the last 14 days._
 ```mermaid
 pie showData title Platform Distribution
     "Facebook": 733
-    "X": 669
-    "Instagram": 150
+    "X": 667
+    "Instagram": 149
     "YouTube": 142
     "LinkedIn": 134
     "Flickr": 16
@@ -77,9 +77,9 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 816
-    "Français": 803
-    "Bilingual": 225
+    "English": 815
+    "Français": 802
+    "Bilingual": 224
     "Bilingue": 13
     "bilingual": 1
 ```
@@ -95,7 +95,7 @@ pie showData title Department Count (English Only - Top 20)
     "Public Services and Procurement Canada": 16
     "Privy Council Office": 13
     "Innovation, Science and Economic Development Canada": 13
-    "Employment and Social Development Canada": 13
+    "Employment and Social Development Canada": 12
     "Canadian Heritage": 11
     "Fisheries and Oceans Canada": 9
     "Canada Border Services Agency": 8
@@ -120,8 +120,8 @@ pie showData title Department Count (Français Only - Top 20)
     "Défense nationale et les Forces armées canadiennes": 26
     "Services publics et Approvisionnement Canada": 16
     "Innovation, Sciences et Développement économique Canada": 15
-    "Emploi et Développement social Canada": 14
     "Bureau du Conseil privé": 13
+    "Emploi et Développement social Canada": 13
     "Pêches et Océans Canada": 11
     "Ressources naturelles Canada": 9
     "Relations Couronne-Autochtones et Affaires du Nord Canada et Services aux Autochtones Canada": 8
@@ -143,8 +143,8 @@ pie showData title Department Count (Bilingual Only - Top 20)
     "National Defence and the Canadian Armed Forces": 59
     "Global Affairs Canada": 23
     "Royal Canadian Mounted Police": 12
-    "Employment and Social Development Canada": 7
     "Public Services and Procurement Canada": 6
+    "Employment and Social Development Canada": 6
     "Privy Council Office": 5
     "Social Sciences and Humanities Research Council": 5
     "Innovation, Science and Economic Development Canada": 4
