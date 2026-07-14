@@ -2,7 +2,9 @@
 
 ### Accounts Added
 
-_No accounts in the last 14 days._
+| Account     | Platform   | Department            | Language   | URL                                    | Date Added   |
+|:------------|:-----------|:----------------------|:-----------|:---------------------------------------|:-------------|
+| canadaembtz | Instagram  | Global Affairs Canada | Bilingual  | https://www.instagram.com/canadaembtz/ | 2026-07-14   |
 
 ### Accounts Deleted
 
