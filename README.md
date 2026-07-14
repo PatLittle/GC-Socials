@@ -20,7 +20,7 @@ View the number of official accounts by department overtime
 sankey-beta
   Bilingual + Bilingue,Facebook,38
   Bilingual + Bilingue,Flickr,11
-  Bilingual + Bilingue,Instagram,26
+  Bilingual + Bilingue,Instagram,27
   Bilingual + Bilingue,LinkedIn,112
   Bilingual + Bilingue,X,20
   Bilingual + Bilingue,YouTube,30
@@ -43,7 +43,9 @@ sankey-beta
 
 ### Accounts Added
 
-_No accounts in the last 14 days._
+| Account     | Platform   | Department            | Language   | URL                                    | Date Added   |
+|:------------|:-----------|:----------------------|:-----------|:---------------------------------------|:-------------|
+| canadaembtz | Instagram  | Global Affairs Canada | Bilingual  | https://www.instagram.com/canadaembtz/ | 2026-07-14   |
 
 ### Accounts Deleted
 
@@ -66,7 +68,7 @@ _No accounts in the last 14 days._
 pie showData title Platform Distribution
     "Facebook": 733
     "X": 667
-    "Instagram": 149
+    "Instagram": 150
     "YouTube": 142
     "LinkedIn": 134
     "Flickr": 16
@@ -82,7 +84,7 @@ pie showData title Platform Distribution
 pie showData title Language Distribution
     "English": 815
     "Français": 802
-    "Bilingual": 224
+    "Bilingual": 225
     "Bilingue": 13
     "bilingual": 1
 ```
@@ -144,7 +146,7 @@ pie showData title Department Count (Français Only - Top 20)
 ```mermaid
 pie showData title Department Count (Bilingual Only - Top 20)
     "National Defence and the Canadian Armed Forces": 59
-    "Global Affairs Canada": 23
+    "Global Affairs Canada": 24
     "Royal Canadian Mounted Police": 12
     "Public Services and Procurement Canada": 6
     "Employment and Social Development Canada": 6
