@@ -20,8 +20,8 @@ View the number of official accounts by department overtime
 sankey-beta
   Bilingual + Bilingue,Facebook,38
   Bilingual + Bilingue,Flickr,11
-  Bilingual + Bilingue,Instagram,27
-  Bilingual + Bilingue,LinkedIn,112
+  Bilingual + Bilingue,Instagram,28
+  Bilingual + Bilingue,LinkedIn,113
   Bilingual + Bilingue,X,20
   Bilingual + Bilingue,YouTube,30
   English,Facebook,349
@@ -43,23 +43,21 @@ sankey-beta
 
 ### Accounts Added
 
-| Account     | Platform   | Department            | Language   | URL                                    | Date Added   |
-|:------------|:-----------|:----------------------|:-----------|:---------------------------------------|:-------------|
-| canadaembtz | Instagram  | Global Affairs Canada | Bilingual  | https://www.instagram.com/canadaembtz/ | 2026-07-14   |
+| Account                                                           | Platform   | Department            | Language   | URL                                         | Date Added   |
+|:------------------------------------------------------------------|:-----------|:----------------------|:-----------|:--------------------------------------------|:-------------|
+| canadaembar                                                       | Instagram  | Global Affairs Canada | Bilingual  | https://www.instagram.com/canadaembar/      | 2026-07-17   |
+| Embassy of Canada to Argentina | Ambassade du Canada en Argentine | LinkedIn   | Global Affairs Canada | Bilingual  | https://www.linkedin.com/showcase/canembar/ | 2026-07-17   |
+| canadaembtz                                                       | Instagram  | Global Affairs Canada | Bilingual  | https://www.instagram.com/canadaembtz/      | 2026-07-14   |
 
 ### Accounts Deleted
 
-| Account                     | Platform   | Department                                                                | Language   | URL                                        | Date Deleted   |
-|:----------------------------|:-----------|:--------------------------------------------------------------------------|:-----------|:-------------------------------------------|:---------------|
-| horizonscanada              | Instagram  | Employment and Social Development Canada                                  | Bilingual  | https://www.instagram.com/horizonscanada/  | 2026-07-11     |
-| @PolicyHorizons             | X          | Employment and Social Development Canada                                  | English    | https://twitter.com/policyhorizons         | 2026-07-11     |
-| @HorizonsCanada             | X          | Emploi et Développement social Canada                                     | Français   | https://twitter.com/HorizonsCanada         | 2026-07-11     |
-| @MPCC_Canada                | X          | Military Police Complaints Commission of Canada                           | English    | https://twitter.com/mpcc_canada            | 2026-07-09     |
-| @CPPM_Canada                | X          | Commission d'examen des plaintes concernant la police militaire du Canada | Français   | https://twitter.com/cppm_canada            | 2026-07-09     |
-| Show me the Evidence        | Facebook   | Canadian Institutes of Health Research                                    | English    | https://www.facebook.com/ShowmetheEvidence | 2026-07-03     |
-| Bourses Vanier Scholarships | Facebook   | Canadian Institutes of Health Research                                    | Bilingual  | https://www.facebook.com/vanier.canada/    | 2026-07-03     |
-| Bourses Banting Fellowships | Facebook   | Canadian Institutes of Health Research                                    | Bilingual  | https://www.facebook.com/banting.canada/   | 2026-07-03     |
-| Voici les faits             | Facebook   | Instituts de recherche en santé du Canada                                 | Français   | https://www.facebook.com/Voicilesfaits     | 2026-07-03     |
+| Account         | Platform   | Department                                                                | Language   | URL                                       | Date Deleted   |
+|:----------------|:-----------|:--------------------------------------------------------------------------|:-----------|:------------------------------------------|:---------------|
+| horizonscanada  | Instagram  | Employment and Social Development Canada                                  | Bilingual  | https://www.instagram.com/horizonscanada/ | 2026-07-11     |
+| @PolicyHorizons | X          | Employment and Social Development Canada                                  | English    | https://twitter.com/policyhorizons        | 2026-07-11     |
+| @HorizonsCanada | X          | Emploi et Développement social Canada                                     | Français   | https://twitter.com/HorizonsCanada        | 2026-07-11     |
+| @MPCC_Canada    | X          | Military Police Complaints Commission of Canada                           | English    | https://twitter.com/mpcc_canada           | 2026-07-09     |
+| @CPPM_Canada    | X          | Commission d'examen des plaintes concernant la police militaire du Canada | Français   | https://twitter.com/cppm_canada           | 2026-07-09     |
 
 
 # Social Media Platform Distribution
@@ -68,9 +66,9 @@ sankey-beta
 pie showData title Platform Distribution
     "Facebook": 733
     "X": 667
-    "Instagram": 150
+    "Instagram": 151
     "YouTube": 142
-    "LinkedIn": 134
+    "LinkedIn": 135
     "Flickr": 16
     "Youtube": 10
     "x": 2
@@ -84,7 +82,7 @@ pie showData title Platform Distribution
 pie showData title Language Distribution
     "English": 815
     "Français": 802
-    "Bilingual": 225
+    "Bilingual": 227
     "Bilingue": 13
     "bilingual": 1
 ```
@@ -146,7 +144,7 @@ pie showData title Department Count (Français Only - Top 20)
 ```mermaid
 pie showData title Department Count (Bilingual Only - Top 20)
     "National Defence and the Canadian Armed Forces": 59
-    "Global Affairs Canada": 24
+    "Global Affairs Canada": 26
     "Royal Canadian Mounted Police": 12
     "Public Services and Procurement Canada": 6
     "Employment and Social Development Canada": 6
