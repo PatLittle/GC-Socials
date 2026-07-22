@@ -21,7 +21,7 @@ sankey-beta
   Bilingual + Bilingue,Facebook,38
   Bilingual + Bilingue,Flickr,11
   Bilingual + Bilingue,Instagram,28
-  Bilingual + Bilingue,LinkedIn,113
+  Bilingual + Bilingue,LinkedIn,114
   Bilingual + Bilingue,X,20
   Bilingual + Bilingue,YouTube,30
   English,Facebook,349
@@ -43,11 +43,12 @@ sankey-beta
 
 ### Accounts Added
 
-| Account                                                           | Platform   | Department            | Language   | URL                                         | Date Added   |
-|:------------------------------------------------------------------|:-----------|:----------------------|:-----------|:--------------------------------------------|:-------------|
-| canadaembar                                                       | Instagram  | Global Affairs Canada | Bilingual  | https://www.instagram.com/canadaembar/      | 2026-07-17   |
-| Embassy of Canada to Argentina | Ambassade du Canada en Argentine | LinkedIn   | Global Affairs Canada | Bilingual  | https://www.linkedin.com/showcase/canembar/ | 2026-07-17   |
-| canadaembtz                                                       | Instagram  | Global Affairs Canada | Bilingual  | https://www.instagram.com/canadaembtz/      | 2026-07-14   |
+| Account                                                                     | Platform   | Department            | Language   | URL                                                | Date Added   |
+|:----------------------------------------------------------------------------|:-----------|:----------------------|:-----------|:---------------------------------------------------|:-------------|
+| Consulate General of Canada in Denver | Consulat général du Canada à Denver | LinkedIn   | Global Affairs Canada | Bilingual  | https://www.linkedin.com/showcase/canconsuldenver/ | 2026-07-22   |
+| canadaembar                                                                 | Instagram  | Global Affairs Canada | Bilingual  | https://www.instagram.com/canadaembar/             | 2026-07-17   |
+| Embassy of Canada to Argentina | Ambassade du Canada en Argentine           | LinkedIn   | Global Affairs Canada | Bilingual  | https://www.linkedin.com/showcase/canembar/        | 2026-07-17   |
+| canadaembtz                                                                 | Instagram  | Global Affairs Canada | Bilingual  | https://www.instagram.com/canadaembtz/             | 2026-07-14   |
 
 ### Accounts Deleted
 
@@ -68,7 +69,7 @@ pie showData title Platform Distribution
     "X": 667
     "Instagram": 151
     "YouTube": 142
-    "LinkedIn": 135
+    "LinkedIn": 136
     "Flickr": 16
     "Youtube": 10
     "x": 2
@@ -82,7 +83,7 @@ pie showData title Platform Distribution
 pie showData title Language Distribution
     "English": 815
     "Français": 802
-    "Bilingual": 227
+    "Bilingual": 228
     "Bilingue": 13
     "bilingual": 1
 ```
@@ -144,7 +145,7 @@ pie showData title Department Count (Français Only - Top 20)
 ```mermaid
 pie showData title Department Count (Bilingual Only - Top 20)
     "National Defence and the Canadian Armed Forces": 59
-    "Global Affairs Canada": 26
+    "Global Affairs Canada": 27
     "Royal Canadian Mounted Police": 12
     "Public Services and Procurement Canada": 6
     "Employment and Social Development Canada": 6
