@@ -2,11 +2,12 @@
 
 ### Accounts Added
 
-| Account                                                           | Platform   | Department            | Language   | URL                                         | Date Added   |
-|:------------------------------------------------------------------|:-----------|:----------------------|:-----------|:--------------------------------------------|:-------------|
-| canadaembar                                                       | Instagram  | Global Affairs Canada | Bilingual  | https://www.instagram.com/canadaembar/      | 2026-07-17   |
-| Embassy of Canada to Argentina | Ambassade du Canada en Argentine | LinkedIn   | Global Affairs Canada | Bilingual  | https://www.linkedin.com/showcase/canembar/ | 2026-07-17   |
-| canadaembtz                                                       | Instagram  | Global Affairs Canada | Bilingual  | https://www.instagram.com/canadaembtz/      | 2026-07-14   |
+| Account                                                                     | Platform   | Department            | Language   | URL                                                | Date Added   |
+|:----------------------------------------------------------------------------|:-----------|:----------------------|:-----------|:---------------------------------------------------|:-------------|
+| Consulate General of Canada in Denver | Consulat général du Canada à Denver | LinkedIn   | Global Affairs Canada | Bilingual  | https://www.linkedin.com/showcase/canconsuldenver/ | 2026-07-22   |
+| canadaembar                                                                 | Instagram  | Global Affairs Canada | Bilingual  | https://www.instagram.com/canadaembar/             | 2026-07-17   |
+| Embassy of Canada to Argentina | Ambassade du Canada en Argentine           | LinkedIn   | Global Affairs Canada | Bilingual  | https://www.linkedin.com/showcase/canembar/        | 2026-07-17   |
+| canadaembtz                                                                 | Instagram  | Global Affairs Canada | Bilingual  | https://www.instagram.com/canadaembtz/             | 2026-07-14   |
 
 ### Accounts Deleted
 
