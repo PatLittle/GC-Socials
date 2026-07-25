@@ -52,11 +52,7 @@ sankey-beta
 
 ### Accounts Deleted
 
-| Account         | Platform   | Department                               | Language   | URL                                       | Date Deleted   |
-|:----------------|:-----------|:-----------------------------------------|:-----------|:------------------------------------------|:---------------|
-| horizonscanada  | Instagram  | Employment and Social Development Canada | Bilingual  | https://www.instagram.com/horizonscanada/ | 2026-07-11     |
-| @PolicyHorizons | X          | Employment and Social Development Canada | English    | https://twitter.com/policyhorizons        | 2026-07-11     |
-| @HorizonsCanada | X          | Emploi et Développement social Canada    | Français   | https://twitter.com/HorizonsCanada        | 2026-07-11     |
+_No accounts in the last 14 days._
 
 
 # Social Media Platform Distribution
