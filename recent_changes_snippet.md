@@ -13,4 +13,6 @@
 
 ### Accounts Deleted
 
-_No accounts in the last 14 days._
+| Account                                                       | Platform   | Department            | Language   | URL                                                                      | Date Deleted   |
+|:--------------------------------------------------------------|:-----------|:----------------------|:-----------|:-------------------------------------------------------------------------|:---------------|
+| Trade Commissioner Service | Service des délégués commerciaux | LinkedIn   | Global Affairs Canada | Bilingual  | https://www.linkedin.com/company/the-canadian-trade-commissioner-service | 2026-08-01     |
