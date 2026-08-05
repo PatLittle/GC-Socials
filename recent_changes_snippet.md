@@ -9,7 +9,6 @@
 | Embassy of Canada to the Netherlands | Ambassade du Canada aux Pays-Bas                     | LinkedIn   | Global Affairs Canada                          | Bilingual  | https://www.linkedin.com/showcase/canembnl                                                                                       | 2026-07-30   |
 | Embassy of Canada to Ethiopia | Ambassade du Canada en Éthiopie                             | LinkedIn   | Global Affairs Canada                          | Bilingual  | https://www.linkedin.com/showcase/canembet/                                                                                      | 2026-07-30   |
 | Mission of Canada to the European Union | Mission du Canada auprès de l'Union européenne    | LinkedIn   | Global Affairs Canada                          | Bilingual  | https://www.linkedin.com/showcase/canadamissioneu/                                                                               | 2026-07-30   |
-| Consulate General of Canada in Denver | Consulat général du Canada à Denver                 | LinkedIn   | Global Affairs Canada                          | Bilingual  | https://www.linkedin.com/showcase/canconsuldenver/                                                                               | 2026-07-22   |
 
 ### Accounts Deleted
 
