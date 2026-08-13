@@ -10,13 +10,13 @@ sankey-beta
   English,Flickr,3
   English,Instagram,65
   English,LinkedIn,12
-  English,X,325
+  English,X,323
   English,YouTube,61
   Francais,Facebook,346
   Francais,Flickr,2
   Francais,Instagram,59
   Francais,LinkedIn,11
-  Francais,X,324
+  Francais,X,322
   Francais,YouTube,60
   bilingual,YouTube,1
 ```
