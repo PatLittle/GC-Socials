@@ -28,13 +28,13 @@ sankey-beta
   English,Flickr,3
   English,Instagram,65
   English,LinkedIn,12
-  English,X,325
+  English,X,323
   English,YouTube,61
   Francais,Facebook,346
   Francais,Flickr,2
   Francais,Instagram,59
   Francais,LinkedIn,11
-  Francais,X,324
+  Francais,X,322
   Francais,YouTube,60
   bilingual,YouTube,1
 ```
@@ -47,9 +47,6 @@ sankey-beta
 |:--------------------------------------------------------------------------------------------|:-----------|:-----------------------------------------------|:-----------|:---------------------------------------------------------------------------------------------------------------------------------|:-------------|
 | Trade Commissioner Service | Service des délégués commerciaux                               | LinkedIn   | Global Affairs Canada                          | Bilingual  | https://www.linkedin.com/company/tcssdc/                                                                                         | 2026-08-01   |
 | Office of the Correctional Investigator Canada / Bureau de l'enquêteur correctionnel Canada | LinkedIn   | Office of the Correctional Investigator Canada | Bilingual  | https://www.linkedin.com/company/office-of-the-correctional-investigator-canada-bureau-de-l-enqu%C3%AAteur-correctionnel-canada/ | 2026-08-01   |
-| Embassy of Canada to the Netherlands | Ambassade du Canada aux Pays-Bas                     | LinkedIn   | Global Affairs Canada                          | Bilingual  | https://www.linkedin.com/showcase/canembnl                                                                                       | 2026-07-30   |
-| Embassy of Canada to Ethiopia | Ambassade du Canada en Éthiopie                             | LinkedIn   | Global Affairs Canada                          | Bilingual  | https://www.linkedin.com/showcase/canembet/                                                                                      | 2026-07-30   |
-| Mission of Canada to the European Union | Mission du Canada auprès de l'Union européenne    | LinkedIn   | Global Affairs Canada                          | Bilingual  | https://www.linkedin.com/showcase/canadamissioneu/                                                                               | 2026-07-30   |
 
 ### Accounts Deleted
 
@@ -63,7 +60,7 @@ sankey-beta
 ```mermaid
 pie showData title Platform Distribution
     "Facebook": 733
-    "X": 667
+    "X": 663
     "Instagram": 151
     "YouTube": 142
     "LinkedIn": 140
@@ -78,8 +75,8 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 815
-    "Français": 802
+    "English": 813
+    "Français": 800
     "Bilingual": 232
     "Bilingue": 13
     "bilingual": 1
@@ -94,9 +91,9 @@ pie showData title Department Count (English Only - Top 20)
     "Royal Canadian Mounted Police": 72
     "National Defence and the Canadian Armed Forces": 36
     "Public Services and Procurement Canada": 16
-    "Privy Council Office": 13
     "Innovation, Science and Economic Development Canada": 13
     "Employment and Social Development Canada": 12
+    "Privy Council Office": 11
     "Canadian Heritage": 11
     "Fisheries and Oceans Canada": 9
     "Canada Border Services Agency": 8
@@ -121,8 +118,8 @@ pie showData title Department Count (Français Only - Top 20)
     "Défense nationale et les Forces armées canadiennes": 26
     "Services publics et Approvisionnement Canada": 16
     "Innovation, Sciences et Développement économique Canada": 15
-    "Bureau du Conseil privé": 13
     "Emploi et Développement social Canada": 13
+    "Bureau du Conseil privé": 11
     "Pêches et Océans Canada": 11
     "Ressources naturelles Canada": 9
     "Relations Couronne-Autochtones et Affaires du Nord Canada et Services aux Autochtones Canada": 8
