@@ -6,15 +6,15 @@ sankey-beta
   Bilingual + Bilingue,LinkedIn,118
   Bilingual + Bilingue,X,20
   Bilingual + Bilingue,YouTube,30
-  English,Facebook,349
+  English,Facebook,350
   English,Flickr,3
-  English,Instagram,65
+  English,Instagram,66
   English,LinkedIn,12
   English,X,323
   English,YouTube,61
-  Francais,Facebook,346
+  Francais,Facebook,347
   Francais,Flickr,2
-  Francais,Instagram,59
+  Francais,Instagram,60
   Francais,LinkedIn,11
   Francais,X,322
   Francais,YouTube,60
