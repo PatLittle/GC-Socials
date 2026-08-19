@@ -24,11 +24,11 @@ sankey-beta
   Bilingual + Bilingue,LinkedIn,118
   Bilingual + Bilingue,X,20
   Bilingual + Bilingue,YouTube,30
-  English,Facebook,350
+  English,Facebook,351
   English,Flickr,3
   English,Instagram,66
   English,LinkedIn,12
-  English,X,323
+  English,X,324
   English,YouTube,61
   Francais,Facebook,347
   Francais,Flickr,2
@@ -45,6 +45,8 @@ sankey-beta
 
 | Account                      | Platform   | Department                                             | Language   | URL                                               | Date Added   |
 |:-----------------------------|:-----------|:-------------------------------------------------------|:-----------|:--------------------------------------------------|:-------------|
+| Langley RCMP                 | Facebook   | Royal Canadian Mounted Police                          | English    | https://www.facebook.com/LangleyRCMP              | 2026-08-19   |
+| @LangleyRCMP                 | X          | Royal Canadian Mounted Police                          | English    | https://x.com/LangleyRCMP                         | 2026-08-19   |
 | pacifican_en                 | Instagram  | Pacific Economic Development Agency of Canada          | English    | https://www.instagram.com/pacifican_en/           | 2026-08-15   |
 | Southwest Manitoba RCMP      | Facebook   | Royal Canadian Mounted Police                          | English    | https://www.facebook.com/SouthwestManitobaRCMP/   | 2026-08-15   |
 | pacifican_fr                 | Instagram  | Agence de développement économique du Pacifique Canada | Français   | https://www.instagram.com/pacifican_fr/           | 2026-08-15   |
@@ -64,8 +66,8 @@ sankey-beta
 
 ```mermaid
 pie showData title Platform Distribution
-    "Facebook": 735
-    "X": 663
+    "Facebook": 736
+    "X": 664
     "Instagram": 153
     "YouTube": 142
     "LinkedIn": 140
@@ -80,7 +82,7 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 815
+    "English": 817
     "Français": 802
     "Bilingual": 232
     "Bilingue": 13
@@ -93,7 +95,7 @@ pie showData title Language Distribution
 pie showData title Department Count (English Only - Top 20)
     "Global Affairs Canada": 265
     "Parks Canada": 112
-    "Royal Canadian Mounted Police": 73
+    "Royal Canadian Mounted Police": 75
     "National Defence and the Canadian Armed Forces": 36
     "Public Services and Procurement Canada": 16
     "Innovation, Science and Economic Development Canada": 13
