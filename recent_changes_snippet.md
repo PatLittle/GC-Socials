@@ -13,9 +13,4 @@
 
 ### Accounts Deleted
 
-| Account         | Platform   | Department              | Language   | URL                                | Date Deleted   |
-|:----------------|:-----------|:------------------------|:-----------|:-----------------------------------|:---------------|
-| @DeputyClerk_GC | X          | Privy Council Office    | English    | https://twitter.com/DeputyClerk_GC | 2026-08-13     |
-| Au-dela de 2020 | X          | Bureau du Conseil privé | Français   | https://twitter.com/AuDelaGC2020   | 2026-08-13     |
-| Beyond2020      | X          | Privy Council Office    | English    | https://twitter.com/BeyondGC2020   | 2026-08-13     |
-| SousGreff_GC    | X          | Bureau du Conseil privé | Français   | https://twitter.com/SousGreff_GC   | 2026-08-13     |
+_No accounts in the last 14 days._
