@@ -21,7 +21,7 @@ sankey-beta
   Bilingual + Bilingue,Facebook,38
   Bilingual + Bilingue,Flickr,11
   Bilingual + Bilingue,Instagram,28
-  Bilingual + Bilingue,LinkedIn,118
+  Bilingual + Bilingue,LinkedIn,120
   Bilingual + Bilingue,X,20
   Bilingual + Bilingue,YouTube,30
   English,Facebook,351
@@ -43,10 +43,10 @@ sankey-beta
 
 ### Accounts Added
 
-| Account      | Platform   | Department                    | Language   | URL                                  | Date Added   |
-|:-------------|:-----------|:------------------------------|:-----------|:-------------------------------------|:-------------|
-| Langley RCMP | Facebook   | Royal Canadian Mounted Police | English    | https://www.facebook.com/LangleyRCMP | 2026-08-19   |
-| @LangleyRCMP | X          | Royal Canadian Mounted Police | English    | https://x.com/LangleyRCMP            | 2026-08-19   |
+| Account   | Platform   | Department                     | Language   | URL                                    | Date Added   |
+|:----------|:-----------|:-------------------------------|:-----------|:---------------------------------------|:-------------|
+| CORCAN    | LinkedIn   | Correctional Service of Canada | Bilingual  | ttps://ca.linkedin.com/company/corcan  | 2026-09-02   |
+| CORCAN    | LinkedIn   | Service correctionel Canada    | Bilingue   | https://ca.linkedin.com/company/corcan | 2026-09-02   |
 
 ### Accounts Deleted
 
@@ -60,8 +60,8 @@ pie showData title Platform Distribution
     "Facebook": 736
     "X": 664
     "Instagram": 153
+    "LinkedIn": 142
     "YouTube": 142
-    "LinkedIn": 140
     "Flickr": 16
     "Youtube": 10
     "x": 2
@@ -75,8 +75,8 @@ pie showData title Platform Distribution
 pie showData title Language Distribution
     "English": 817
     "Français": 802
-    "Bilingual": 232
-    "Bilingue": 13
+    "Bilingual": 233
+    "Bilingue": 14
     "bilingual": 1
 ```
 
