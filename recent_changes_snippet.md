@@ -2,10 +2,10 @@
 
 ### Accounts Added
 
-| Account      | Platform   | Department                    | Language   | URL                                  | Date Added   |
-|:-------------|:-----------|:------------------------------|:-----------|:-------------------------------------|:-------------|
-| Langley RCMP | Facebook   | Royal Canadian Mounted Police | English    | https://www.facebook.com/LangleyRCMP | 2026-08-19   |
-| @LangleyRCMP | X          | Royal Canadian Mounted Police | English    | https://x.com/LangleyRCMP            | 2026-08-19   |
+| Account   | Platform   | Department                     | Language   | URL                                    | Date Added   |
+|:----------|:-----------|:-------------------------------|:-----------|:---------------------------------------|:-------------|
+| CORCAN    | LinkedIn   | Correctional Service of Canada | Bilingual  | ttps://ca.linkedin.com/company/corcan  | 2026-09-02   |
+| CORCAN    | LinkedIn   | Service correctionel Canada    | Bilingue   | https://ca.linkedin.com/company/corcan | 2026-09-02   |
 
 ### Accounts Deleted
 
