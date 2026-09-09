@@ -21,7 +21,7 @@ sankey-beta
   Bilingual + Bilingue,Facebook,38
   Bilingual + Bilingue,Flickr,11
   Bilingual + Bilingue,Instagram,28
-  Bilingual + Bilingue,LinkedIn,120
+  Bilingual + Bilingue,LinkedIn,121
   Bilingual + Bilingue,X,20
   Bilingual + Bilingue,YouTube,30
   English,Facebook,351
@@ -43,10 +43,11 @@ sankey-beta
 
 ### Accounts Added
 
-| Account   | Platform   | Department                     | Language   | URL                                    | Date Added   |
-|:----------|:-----------|:-------------------------------|:-----------|:---------------------------------------|:-------------|
-| CORCAN    | LinkedIn   | Correctional Service of Canada | Bilingual  | ttps://ca.linkedin.com/company/corcan  | 2026-09-02   |
-| CORCAN    | LinkedIn   | Service correctionel Canada    | Bilingue   | https://ca.linkedin.com/company/corcan | 2026-09-02   |
+| Account                                                          | Platform   | Department                     | Language   | URL                                                         | Date Added   |
+|:-----------------------------------------------------------------|:-----------|:-------------------------------|:-----------|:------------------------------------------------------------|:-------------|
+| Office des transports du Canada | Canadian Transportation Agency | LinkedIn   | Canadian Transportation Agency | Bilingual  | https://www.linkedin.com/company/otc-cta/?viewAsMember=true | 2026-09-09   |
+| CORCAN                                                           | LinkedIn   | Correctional Service of Canada | Bilingual  | ttps://ca.linkedin.com/company/corcan                       | 2026-09-02   |
+| CORCAN                                                           | LinkedIn   | Service correctionel Canada    | Bilingue   | https://ca.linkedin.com/company/corcan                      | 2026-09-02   |
 
 ### Accounts Deleted
 
@@ -60,7 +61,7 @@ pie showData title Platform Distribution
     "Facebook": 736
     "X": 664
     "Instagram": 153
-    "LinkedIn": 142
+    "LinkedIn": 143
     "YouTube": 142
     "Flickr": 16
     "Youtube": 10
@@ -75,7 +76,7 @@ pie showData title Platform Distribution
 pie showData title Language Distribution
     "English": 817
     "Français": 802
-    "Bilingual": 233
+    "Bilingual": 234
     "Bilingue": 14
     "bilingual": 1
 ```
