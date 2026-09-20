@@ -43,6 +43,24 @@ COLUMNS = [
     "icon",
 ]
 DELETED_COLUMNS = COLUMNS + ["Removal detected date"]
+COUNT_COLUMNS = [
+    "date",
+    "Department",
+    "Ministère",
+    "unique_app_count",
+    "iOS_count",
+    "android_count",
+    "blackberry_count",
+    "amazon_count",
+]
+PLATFORM_COUNTS = {
+    "ios": "iOS_count",
+    "android": "android_count",
+    "blackberry": "blackberry_count",
+    "amazon": "amazon_count",
+}
+SANKEY_START = "<!-- MOBILE_APPS_SANKEY_START -->"
+SANKEY_END = "<!-- MOBILE_APPS_SANKEY_END -->"
 
 
 def normalized_space(value: str) -> str:
@@ -328,8 +346,125 @@ def update_outputs(
     return len(current_rows), len(newly_deleted)
 
 
+def daily_department_counts(
+    current_rows: list[dict[str, str]], snapshot_date: str
+) -> list[dict[str, str | int]]:
+    """Count unique apps and platform availability for each department."""
+    groups: dict[tuple[str, str], dict[str, str | int]] = {}
+    for app in current_rows:
+        key = (app.get("Department", ""), app.get("Ministère", ""))
+        if key not in groups:
+            groups[key] = {
+                "date": snapshot_date,
+                "Department": key[0],
+                "Ministère": key[1],
+                "unique_app_count": 0,
+                "iOS_count": 0,
+                "android_count": 0,
+                "blackberry_count": 0,
+                "amazon_count": 0,
+            }
+
+        group = groups[key]
+        group["unique_app_count"] = int(group["unique_app_count"]) + 1
+        platforms = {
+            platform.strip().casefold()
+            for platform in app.get("Platforms", "").split(";")
+            if platform.strip()
+        }
+        for platform, column in PLATFORM_COUNTS.items():
+            if platform in platforms:
+                group[column] = int(group[column]) + 1
+
+    return sorted(groups.values(), key=lambda row: str(row["Department"]).casefold())
+
+
+def update_daily_count_history(
+    path: Path, snapshot_rows: list[dict[str, str | int]], snapshot_date: str
+) -> None:
+    """Append a daily snapshot, replacing that date if the workflow is rerun."""
+    history = [row for row in read_csv(path) if row.get("date") != snapshot_date]
+    history.extend(snapshot_rows)
+    history.sort(
+        key=lambda row: (
+            str(row.get("date", "")),
+            str(row.get("Department", "")).casefold(),
+        )
+    )
+    write_csv(path, COUNT_COLUMNS, history)
+
+
+def sankey_csv_line(source: str, target: str, count: int) -> str:
+    """Create one correctly quoted Mermaid Sankey CSV line."""
+    from io import StringIO
+
+    buffer = StringIO()
+    csv.writer(buffer, lineterminator="").writerow([source, target, count])
+    return f"  {buffer.getvalue()}"
+
+
+def render_mobile_apps_sankey(
+    snapshot_rows: list[dict[str, str | int]], snapshot_date: str
+) -> str:
+    lines = [
+        SANKEY_START,
+        "### Mobile apps by department and platform",
+        "",
+        (
+            f"Snapshot date: **{snapshot_date}**. "
+            "Department labels show unique apps. Because one app can support several "
+            "platforms, its outgoing platform counts may sum above that unique total."
+        ),
+        "",
+        "[View the daily department and platform count history](mobile-apps/mobile_app_counts.csv).",
+        "",
+        "```mermaid",
+        "sankey-beta",
+    ]
+    for row in snapshot_rows:
+        unique_count = int(row["unique_app_count"])
+        noun = "app" if unique_count == 1 else "apps"
+        source = f"{row['Department']} ({unique_count} unique {noun})"
+        for platform, column in (
+            ("iOS", "iOS_count"),
+            ("Android", "android_count"),
+            ("BlackBerry", "blackberry_count"),
+            ("Amazon", "amazon_count"),
+        ):
+            count = int(row[column])
+            if count:
+                lines.append(sankey_csv_line(source, platform, count))
+    lines.extend(["```", SANKEY_END, ""])
+    return "\n".join(lines)
+
+
+def write_text(path: Path, content: str) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    temporary.write_text(content, encoding="utf-8")
+    temporary.replace(path)
+
+
+def update_readme_sankey(readme_path: Path, sankey: str) -> None:
+    readme = readme_path.read_text(encoding="utf-8") if readme_path.exists() else ""
+    marker_pattern = re.compile(
+        rf"{re.escape(SANKEY_START)}.*?{re.escape(SANKEY_END)}\n?",
+        flags=re.DOTALL,
+    )
+    if marker_pattern.search(readme):
+        updated = marker_pattern.sub(sankey, readme, count=1)
+    else:
+        insertion_point = "# Social Media Platform Overview"
+        if insertion_point in readme:
+            updated = readme.replace(insertion_point, f"{sankey}\n{insertion_point}", 1)
+        else:
+            updated = f"{readme.rstrip()}\n\n{sankey}".lstrip()
+    write_text(readme_path, updated)
+
+
 def parse_args() -> argparse.Namespace:
     directory = Path(__file__).resolve().parent
+    repository = directory.parent
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--english-json", default=ENGLISH_URL)
     parser.add_argument("--french-json", default=FRENCH_URL)
@@ -343,6 +478,18 @@ def parse_args() -> argparse.Namespace:
         help="Directory for decoded icons (defaults to an icons folder beside --output)",
     )
     parser.add_argument("--removal-date", default=datetime.now(UTC).date().isoformat())
+    parser.add_argument("--snapshot-date")
+    parser.add_argument(
+        "--counts-output",
+        type=Path,
+        default=directory / "mobile_app_counts.csv",
+    )
+    parser.add_argument(
+        "--sankey-output",
+        type=Path,
+        default=directory / "mobile_apps_sankey.md",
+    )
+    parser.add_argument("--readme", type=Path, default=repository / "README.md")
     return parser.parse_args()
 
 
@@ -360,9 +507,16 @@ def main() -> None:
     current_count, deleted_count = update_outputs(
         args.output, args.deleted_output, rows, args.removal_date
     )
+    snapshot_date = args.snapshot_date or args.removal_date
+    snapshot_rows = daily_department_counts(rows, snapshot_date)
+    update_daily_count_history(args.counts_output, snapshot_rows, snapshot_date)
+    sankey = render_mobile_apps_sankey(snapshot_rows, snapshot_date)
+    write_text(args.sankey_output, sankey)
+    update_readme_sankey(args.readme, sankey)
     print(
         f"Wrote {current_count} current apps to {args.output}; "
-        f"recorded {deleted_count} newly removed apps in {args.deleted_output}."
+        f"recorded {deleted_count} newly removed apps in {args.deleted_output}; "
+        f"wrote {len(snapshot_rows)} department counts to {args.counts_output}."
     )
 
 

@@ -57,8 +57,16 @@ with open('sankey_diagram.md', 'r') as sankey_file:
 with open('recent_changes_snippet.md', 'r') as recent_changes_file:
     recent_changes = recent_changes_file.read()
 
+try:
+    with open('mobile-apps/mobile_apps_sankey.md', 'r') as mobile_sankey_file:
+        mobile_sankey = mobile_sankey_file.read()
+except FileNotFoundError:
+    mobile_sankey = ""
+
 with open('README.md', 'w') as readme_file:
     readme_file.write(static_content + "\n\n")
+    if mobile_sankey:
+        readme_file.write(mobile_sankey + "\n\n")
     readme_file.write("# Social Media Platform Overview\n\n")
     readme_file.write(sankey + "\n\n")
     readme_file.write(recent_changes + "\n\n")
