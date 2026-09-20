@@ -13,6 +13,10 @@ View the number of official accounts by department overtime
 
 [![Static Badge](https://img.shields.io/badge/Open%20in%20Flatdata%20Viewer-FF00E8?style=for-the-badge&logo=github&logoColor=black)](https://flatgithub.com/PatLittle/GC-Socials?filename=department_counts.csv&sort=Count%2Cdesc&stickyColumnName=Date)
 
+## Government of Canada mobile apps
+
+The [`mobile-apps`](mobile-apps/) section contains a bilingual CSV of current Government of Canada mobile apps and an append-only history of apps removed from the Canada.ca feeds.
+
 
 # Social Media Platform Overview
 
