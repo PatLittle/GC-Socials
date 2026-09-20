@@ -28,7 +28,17 @@ Snapshot date: **2026-09-20**. Department labels show unique apps. Because one a
 #### Platform availability by department
 
 ```mermaid
-sankey-beta
+---
+config:
+  sankey:
+    showValues: true
+    labelStyle: outlined
+    nodeWidth: 50
+    nodePadding: 0
+    look: handDrawn
+  theme: forest
+---
+sankey
   National Defence and the Canadian Armed Forces (7 unique apps),iOS,7
   National Defence and the Canadian Armed Forces (7 unique apps),Android,7
   Canada Border Services Agency (2 unique apps),iOS,2
