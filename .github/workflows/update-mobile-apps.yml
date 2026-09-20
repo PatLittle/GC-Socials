@@ -50,12 +50,12 @@ jobs:
 
       - name: Commit data changes
         run: |
-          if git diff --quiet -- mobile-apps/mobile_apps.csv mobile-apps/deleted_mobile_apps.csv mobile-apps/icons; then
+          if git diff --quiet -- README.md mobile-apps/mobile_apps.csv mobile-apps/deleted_mobile_apps.csv mobile-apps/mobile_app_counts.csv mobile-apps/mobile_apps_sankey.md mobile-apps/icons; then
             echo "No mobile-app data changes to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add mobile-apps/mobile_apps.csv mobile-apps/deleted_mobile_apps.csv mobile-apps/icons
+          git add README.md mobile-apps/mobile_apps.csv mobile-apps/deleted_mobile_apps.csv mobile-apps/mobile_app_counts.csv mobile-apps/mobile_apps_sankey.md mobile-apps/icons
           git commit -m "Update mobile apps inventory"
           git push
