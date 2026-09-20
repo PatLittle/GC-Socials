@@ -436,7 +436,17 @@ def render_mobile_apps_sankey(
         "#### Platform availability by department",
         "",
         "```mermaid",
-        "sankey-beta",
+        "---",
+        "config:",
+        "  sankey:",
+        "    showValues: true",
+        "    labelStyle: outlined",
+        "    nodeWidth: 50",
+        "    nodePadding: 0",
+        "    look: handDrawn",
+        "  theme: forest",
+        "---",
+        "sankey",
     ]
     for row in chart_rows:
         unique_count = int(row["unique_app_count"])
