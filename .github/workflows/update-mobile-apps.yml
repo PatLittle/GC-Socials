@@ -1,0 +1,61 @@
+name: Update mobile apps inventory
+
+on:
+  schedule:
+    - cron: "15 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-mobile-apps
+  cancel-in-progress: false
+
+jobs:
+  update-mobile-apps:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: mobile-apps/requirements.txt
+
+      - name: Install dependencies
+        run: python -m pip install -r mobile-apps/requirements.txt
+
+      - name: Download English and French feeds
+        run: |
+          mkdir -p "${RUNNER_TEMP}/mobile-apps"
+          curl --fail --location --retry 3 --retry-all-errors \
+            https://www.canada.ca/content/dam/canada/json/mob-en.json \
+            --output "${RUNNER_TEMP}/mobile-apps/mob-en.json"
+          curl --fail --location --retry 3 --retry-all-errors \
+            https://www.canada.ca/content/dam/canada/json/mob-fr.json \
+            --output "${RUNNER_TEMP}/mobile-apps/mob-fr.json"
+
+      - name: Build bilingual CSV and update removal history
+        run: |
+          python mobile-apps/update_mobile_apps.py \
+            --english-json "${RUNNER_TEMP}/mobile-apps/mob-en.json" \
+            --french-json "${RUNNER_TEMP}/mobile-apps/mob-fr.json"
+
+      - name: Commit data changes
+        run: |
+          if git diff --quiet -- mobile-apps/mobile_apps.csv mobile-apps/deleted_mobile_apps.csv mobile-apps/icons; then
+            echo "No mobile-app data changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add mobile-apps/mobile_apps.csv mobile-apps/deleted_mobile_apps.csv mobile-apps/icons
+          git commit -m "Update mobile apps inventory"
+          git push
