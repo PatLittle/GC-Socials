@@ -394,18 +394,33 @@ def update_daily_count_history(
     write_csv(path, COUNT_COLUMNS, history)
 
 
-def sankey_csv_line(source: str, target: str, count: int) -> str:
-    """Create one correctly quoted Mermaid Sankey CSV line."""
-    from io import StringIO
+def sankey_label(value: object) -> str:
+    """Return a GitHub/Mermaid-safe Sankey label.
 
-    buffer = StringIO()
-    csv.writer(buffer, lineterminator="").writerow([source, target, count])
-    return f"  {buffer.getvalue()}"
+    Mermaid's Sankey parser is CSV-like, but GitHub's renderer does not reliably
+    accept quoted node labels containing commas. Replace commas in labels while
+    preserving the source department name everywhere else.
+    """
+    return normalized_space(str(value)).replace(",", " /")
+
+
+def sankey_csv_line(source: str, target: str, count: int) -> str:
+    """Create one GitHub-compatible Mermaid Sankey line."""
+    return f"  {sankey_label(source)},{sankey_label(target)},{count}"
 
 
 def render_mobile_apps_sankey(
     snapshot_rows: list[dict[str, str | int]], snapshot_date: str
 ) -> str:
+    """Render the generated Sankey and unique-app pie chart."""
+    chart_rows = sorted(
+        snapshot_rows,
+        key=lambda row: (
+            -int(row["unique_app_count"]),
+            str(row["Department"]).casefold(),
+        ),
+    )
+
     lines = [
         SANKEY_START,
         "### Mobile apps by department and platform",
@@ -418,10 +433,12 @@ def render_mobile_apps_sankey(
         "",
         "[View the daily department and platform count history](mobile-apps/mobile_app_counts.csv).",
         "",
+        "#### Platform availability by department",
+        "",
         "```mermaid",
         "sankey-beta",
     ]
-    for row in snapshot_rows:
+    for row in chart_rows:
         unique_count = int(row["unique_app_count"])
         noun = "app" if unique_count == 1 else "apps"
         source = f"{row['Department']} ({unique_count} unique {noun})"
@@ -434,9 +451,23 @@ def render_mobile_apps_sankey(
             count = int(row[column])
             if count:
                 lines.append(sankey_csv_line(source, platform, count))
+
+    lines.extend(
+        [
+            "```",
+            "",
+            "#### Count of unique applications by department",
+            "",
+            "```mermaid",
+            "pie showData title Count of Unique Applications by Department",
+        ]
+    )
+    for row in chart_rows:
+        department = str(row["Department"]).replace('"', "'")
+        lines.append(f'  "{department}" : {int(row["unique_app_count"])}')
+
     lines.extend(["```", SANKEY_END, ""])
     return "\n".join(lines)
-
 
 def write_text(path: Path, content: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
