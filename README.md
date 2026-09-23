@@ -132,9 +132,7 @@ sankey-beta
 
 ### Accounts Added
 
-| Account                                                          | Platform   | Department                     | Language   | URL                                                         | Date Added   |
-|:-----------------------------------------------------------------|:-----------|:-------------------------------|:-----------|:------------------------------------------------------------|:-------------|
-| Office des transports du Canada | Canadian Transportation Agency | LinkedIn   | Canadian Transportation Agency | Bilingual  | https://www.linkedin.com/company/otc-cta/?viewAsMember=true | 2026-09-09   |
+_No accounts in the last 14 days._
 
 ### Accounts Deleted
 
