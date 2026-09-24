@@ -21,7 +21,7 @@ The [`mobile-apps`](mobile-apps/) section contains a bilingual CSV of current Go
 <!-- MOBILE_APPS_SANKEY_START -->
 ### Mobile apps by department and platform
 
-Snapshot date: **2026-09-23**. Department labels show unique apps. Because one app can support several platforms, its outgoing platform counts may sum above that unique total.
+Snapshot date: **2026-09-24**. Department labels show unique apps. Because one app can support several platforms, its outgoing platform counts may sum above that unique total.
 
 [View the daily department and platform count history](mobile-apps/mobile_app_counts.csv).
 
