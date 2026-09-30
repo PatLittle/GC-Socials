@@ -2,7 +2,9 @@
 
 ### Accounts Added
 
-_No accounts in the last 14 days._
+| Account          | Platform   | Department                   | Language   | URL                 | Date Added   |
+|:-----------------|:-----------|:-----------------------------|:-----------|:--------------------|:-------------|
+| GRC de Coquitlam | X          | Gendarmerie royale du Canada | Français   | https://x.com/grccq | 2026-09-30   |
 
 ### Accounts Deleted
 
