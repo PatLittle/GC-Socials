@@ -123,7 +123,7 @@ sankey-beta
   Francais,Flickr,2
   Francais,Instagram,60
   Francais,LinkedIn,11
-  Francais,X,322
+  Francais,X,323
   Francais,YouTube,60
   bilingual,YouTube,1
 ```
@@ -132,7 +132,9 @@ sankey-beta
 
 ### Accounts Added
 
-_No accounts in the last 14 days._
+| Account          | Platform   | Department                   | Language   | URL                 | Date Added   |
+|:-----------------|:-----------|:-----------------------------|:-----------|:--------------------|:-------------|
+| GRC de Coquitlam | X          | Gendarmerie royale du Canada | Français   | https://x.com/grccq | 2026-09-30   |
 
 ### Accounts Deleted
 
@@ -144,7 +146,7 @@ _No accounts in the last 14 days._
 ```mermaid
 pie showData title Platform Distribution
     "Facebook": 736
-    "X": 664
+    "X": 665
     "Instagram": 153
     "LinkedIn": 143
     "YouTube": 142
@@ -160,7 +162,7 @@ pie showData title Platform Distribution
 ```mermaid
 pie showData title Language Distribution
     "English": 817
-    "Français": 802
+    "Français": 803
     "Bilingual": 234
     "Bilingue": 14
     "bilingual": 1
@@ -198,7 +200,7 @@ pie showData title Department Count (English Only - Top 20)
 pie showData title Department Count (Français Only - Top 20)
     "Affaires mondiales Canada": 259
     "Parcs Canada": 112
-    "Gendarmerie royale du Canada": 69
+    "Gendarmerie royale du Canada": 70
     "Défense nationale et les Forces armées canadiennes": 26
     "Services publics et Approvisionnement Canada": 16
     "Innovation, Sciences et Développement économique Canada": 15
