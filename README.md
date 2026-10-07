@@ -119,7 +119,7 @@ sankey-beta
   English,LinkedIn,12
   English,X,324
   English,YouTube,61
-  Francais,Facebook,347
+  Francais,Facebook,348
   Francais,Flickr,2
   Francais,Instagram,60
   Francais,LinkedIn,11
@@ -132,9 +132,10 @@ sankey-beta
 
 ### Accounts Added
 
-| Account          | Platform   | Department                   | Language   | URL                 | Date Added   |
-|:-----------------|:-----------|:-----------------------------|:-----------|:--------------------|:-------------|
-| GRC de Coquitlam | X          | Gendarmerie royale du Canada | Français   | https://x.com/grccq | 2026-09-30   |
+| Account          | Platform   | Department                   | Language   | URL                             | Date Added   |
+|:-----------------|:-----------|:-----------------------------|:-----------|:--------------------------------|:-------------|
+| GRC de Coquitlam | Facebook   | Gendarmerie royale du Canada | Français   | https://www.facebook.com/grccq/ | 2026-10-07   |
+| GRC de Coquitlam | X          | Gendarmerie royale du Canada | Français   | https://x.com/grccq             | 2026-09-30   |
 
 ### Accounts Deleted
 
@@ -145,7 +146,7 @@ _No accounts in the last 14 days._
 
 ```mermaid
 pie showData title Platform Distribution
-    "Facebook": 736
+    "Facebook": 737
     "X": 665
     "Instagram": 153
     "LinkedIn": 143
@@ -162,7 +163,7 @@ pie showData title Platform Distribution
 ```mermaid
 pie showData title Language Distribution
     "English": 817
-    "Français": 803
+    "Français": 804
     "Bilingual": 234
     "Bilingue": 14
     "bilingual": 1
@@ -200,7 +201,7 @@ pie showData title Department Count (English Only - Top 20)
 pie showData title Department Count (Français Only - Top 20)
     "Affaires mondiales Canada": 259
     "Parcs Canada": 112
-    "Gendarmerie royale du Canada": 70
+    "Gendarmerie royale du Canada": 71
     "Défense nationale et les Forces armées canadiennes": 26
     "Services publics et Approvisionnement Canada": 16
     "Innovation, Sciences et Développement économique Canada": 15
