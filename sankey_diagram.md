@@ -1,6 +1,6 @@
 ```mermaid
 sankey-beta
-  Bilingual + Bilingue,Facebook,38
+  Bilingual + Bilingue,Facebook,37
   Bilingual + Bilingue,Flickr,11
   Bilingual + Bilingue,Instagram,28
   Bilingual + Bilingue,LinkedIn,121
