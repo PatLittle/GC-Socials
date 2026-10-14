@@ -107,7 +107,7 @@ pie showData title Count of Unique Applications by Department
 
 ```mermaid
 sankey-beta
-  Bilingual + Bilingue,Facebook,38
+  Bilingual + Bilingue,Facebook,37
   Bilingual + Bilingue,Flickr,11
   Bilingual + Bilingue,Instagram,28
   Bilingual + Bilingue,LinkedIn,121
@@ -135,7 +135,6 @@ sankey-beta
 | Account          | Platform   | Department                   | Language   | URL                             | Date Added   |
 |:-----------------|:-----------|:-----------------------------|:-----------|:--------------------------------|:-------------|
 | GRC de Coquitlam | Facebook   | Gendarmerie royale du Canada | Français   | https://www.facebook.com/grccq/ | 2026-10-07   |
-| GRC de Coquitlam | X          | Gendarmerie royale du Canada | Français   | https://x.com/grccq             | 2026-09-30   |
 
 ### Accounts Deleted
 
@@ -146,7 +145,7 @@ _No accounts in the last 14 days._
 
 ```mermaid
 pie showData title Platform Distribution
-    "Facebook": 737
+    "Facebook": 736
     "X": 665
     "Instagram": 153
     "LinkedIn": 143
@@ -164,7 +163,7 @@ pie showData title Platform Distribution
 pie showData title Language Distribution
     "English": 817
     "Français": 804
-    "Bilingual": 234
+    "Bilingual": 233
     "Bilingue": 14
     "bilingual": 1
 ```
@@ -225,7 +224,7 @@ pie showData title Department Count (Français Only - Top 20)
 
 ```mermaid
 pie showData title Department Count (Bilingual Only - Top 20)
-    "National Defence and the Canadian Armed Forces": 59
+    "National Defence and the Canadian Armed Forces": 58
     "Global Affairs Canada": 30
     "Royal Canadian Mounted Police": 12
     "Public Services and Procurement Canada": 6
