@@ -8,13 +8,13 @@ sankey-beta
   Bilingual + Bilingue,YouTube,30
   English,Facebook,351
   English,Flickr,3
-  English,Instagram,66
+  English,Instagram,67
   English,LinkedIn,12
   English,X,324
   English,YouTube,61
   Francais,Facebook,348
   Francais,Flickr,2
-  Francais,Instagram,60
+  Francais,Instagram,61
   Francais,LinkedIn,11
   Francais,X,323
   Francais,YouTube,60
