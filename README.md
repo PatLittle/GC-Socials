@@ -115,13 +115,13 @@ sankey-beta
   Bilingual + Bilingue,YouTube,30
   English,Facebook,351
   English,Flickr,3
-  English,Instagram,66
+  English,Instagram,67
   English,LinkedIn,12
   English,X,324
   English,YouTube,61
   Francais,Facebook,348
   Francais,Flickr,2
-  Francais,Instagram,60
+  Francais,Instagram,61
   Francais,LinkedIn,11
   Francais,X,323
   Francais,YouTube,60
@@ -132,9 +132,11 @@ sankey-beta
 
 ### Accounts Added
 
-| Account          | Platform   | Department                   | Language   | URL                             | Date Added   |
-|:-----------------|:-----------|:-----------------------------|:-----------|:--------------------------------|:-------------|
-| GRC de Coquitlam | Facebook   | Gendarmerie royale du Canada | Français   | https://www.facebook.com/grccq/ | 2026-10-07   |
+| Account          | Platform   | Department                    | Language   | URL                                    | Date Added   |
+|:-----------------|:-----------|:------------------------------|:-----------|:---------------------------------------|:-------------|
+| Finance Canada   | Instagram  | Department of Finance Canada  | English    | https://www.instagram.com/Finance.Can  | 2026-10-16   |
+| Finances Canada  | Instagram  | Ministère des Finances Canada | Français   | https://www.instagram.com/Finances.Can | 2026-10-16   |
+| GRC de Coquitlam | Facebook   | Gendarmerie royale du Canada  | Français   | https://www.facebook.com/grccq/        | 2026-10-07   |
 
 ### Accounts Deleted
 
@@ -149,7 +151,7 @@ sankey-beta
 pie showData title Platform Distribution
     "Facebook": 736
     "X": 665
-    "Instagram": 153
+    "Instagram": 155
     "LinkedIn": 143
     "YouTube": 142
     "Flickr": 16
@@ -163,8 +165,8 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 817
-    "Français": 804
+    "English": 818
+    "Français": 805
     "Bilingual": 233
     "Bilingue": 14
     "bilingual": 1
