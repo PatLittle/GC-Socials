@@ -2,9 +2,11 @@
 
 ### Accounts Added
 
-| Account          | Platform   | Department                   | Language   | URL                             | Date Added   |
-|:-----------------|:-----------|:-----------------------------|:-----------|:--------------------------------|:-------------|
-| GRC de Coquitlam | Facebook   | Gendarmerie royale du Canada | Français   | https://www.facebook.com/grccq/ | 2026-10-07   |
+| Account          | Platform   | Department                    | Language   | URL                                    | Date Added   |
+|:-----------------|:-----------|:------------------------------|:-----------|:---------------------------------------|:-------------|
+| Finance Canada   | Instagram  | Department of Finance Canada  | English    | https://www.instagram.com/Finance.Can  | 2026-10-16   |
+| Finances Canada  | Instagram  | Ministère des Finances Canada | Français   | https://www.instagram.com/Finances.Can | 2026-10-16   |
+| GRC de Coquitlam | Facebook   | Gendarmerie royale du Canada  | Français   | https://www.facebook.com/grccq/        | 2026-10-07   |
 
 ### Accounts Deleted
 
