@@ -113,17 +113,17 @@ sankey-beta
   Bilingual + Bilingue,LinkedIn,121
   Bilingual + Bilingue,X,20
   Bilingual + Bilingue,YouTube,30
-  English,Facebook,351
+  English,Facebook,350
   English,Flickr,3
-  English,Instagram,67
+  English,Instagram,66
   English,LinkedIn,12
-  English,X,324
+  English,X,323
   English,YouTube,61
-  Francais,Facebook,348
+  Francais,Facebook,347
   Francais,Flickr,2
-  Francais,Instagram,61
+  Francais,Instagram,60
   Francais,LinkedIn,11
-  Francais,X,323
+  Francais,X,322
   Francais,YouTube,60
   bilingual,YouTube,1
 ```
@@ -148,9 +148,9 @@ sankey-beta
 
 ```mermaid
 pie showData title Platform Distribution
-    "Facebook": 736
-    "X": 665
-    "Instagram": 155
+    "Facebook": 734
+    "X": 663
+    "Instagram": 153
     "LinkedIn": 143
     "YouTube": 142
     "Flickr": 16
@@ -164,8 +164,8 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 818
-    "Français": 805
+    "English": 815
+    "Français": 802
     "Bilingual": 233
     "Bilingue": 14
     "bilingual": 1
@@ -191,10 +191,10 @@ pie showData title Department Count (English Only - Top 20)
     "Immigration, Refugees and Citizenship Canada": 7
     "Environment and Climate Change Canada": 6
     "Library and Archives Canada": 6
-    "Public Safety Canada": 6
     "Canadian Human Rights Commission": 6
     "Canadian Space Agency": 6
     "Canada Revenue Agency": 5
+    "Financial Consumer Agency of Canada": 5
 ```
 
 # Department Count (Français Only - Top 20)
@@ -215,12 +215,12 @@ pie showData title Department Count (Français Only - Top 20)
     "Agence des services frontaliers du Canada": 8
     "Patrimoine canadien": 8
     "Bibliothèque et Archives Canada": 6
-    "Sécurité publique Canada": 6
     "Commission canadienne des droits de la personne": 6
     "Environnement et Changement climatique Canada": 5
     "Défense nationale et des Forces armées canadiennes": 5
     "Logement, Infrastructures et Collectivités Canada": 5
     "Commission de la fonction publique du Canada": 5
+    "Anciens Combattants Canada": 5
 ```
 
 # Department Count (Bilingual Only - Top 20)
