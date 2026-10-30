@@ -132,10 +132,7 @@ sankey-beta
 
 ### Accounts Added
 
-| Account         | Platform   | Department                    | Language   | URL                                    | Date Added   |
-|:----------------|:-----------|:------------------------------|:-----------|:---------------------------------------|:-------------|
-| Finance Canada  | Instagram  | Department of Finance Canada  | English    | https://www.instagram.com/Finance.Can  | 2026-10-16   |
-| Finances Canada | Instagram  | Ministère des Finances Canada | Français   | https://www.instagram.com/Finances.Can | 2026-10-16   |
+_No accounts in the last 14 days._
 
 ### Accounts Deleted
 
