@@ -113,13 +113,13 @@ sankey-beta
   Bilingual + Bilingue,LinkedIn,121
   Bilingual + Bilingue,X,20
   Bilingual + Bilingue,YouTube,30
-  English,Facebook,350
+  English,Facebook,351
   English,Flickr,3
   English,Instagram,66
   English,LinkedIn,12
   English,X,323
   English,YouTube,61
-  Francais,Facebook,347
+  Francais,Facebook,348
   Francais,Flickr,2
   Francais,Instagram,60
   Francais,LinkedIn,11
@@ -132,7 +132,10 @@ sankey-beta
 
 ### Accounts Added
 
-_No accounts in the last 14 days._
+| Account             | Platform   | Department                    | Language   | URL                                       | Date Added   |
+|:--------------------|:-----------|:------------------------------|:-----------|:------------------------------------------|:-------------|
+| Norway House RCMP   | Facebook   | Royal Canadian Mounted Police | English    | https://www.facebook.com/NorwayHouseRCMP  | 2026-11-25   |
+| GRC de Norway House | Facebook   | Gendarmerie royale du Canada  | Français   | https://www.facebook.com/GRCdeNorwayHouse | 2026-11-25   |
 
 ### Accounts Deleted
 
@@ -143,7 +146,7 @@ _No accounts in the last 14 days._
 
 ```mermaid
 pie showData title Platform Distribution
-    "Facebook": 734
+    "Facebook": 736
     "X": 663
     "Instagram": 153
     "LinkedIn": 143
@@ -159,8 +162,8 @@ pie showData title Platform Distribution
 
 ```mermaid
 pie showData title Language Distribution
-    "English": 815
-    "Français": 802
+    "English": 816
+    "Français": 803
     "Bilingual": 233
     "Bilingue": 14
     "bilingual": 1
@@ -172,7 +175,7 @@ pie showData title Language Distribution
 pie showData title Department Count (English Only - Top 20)
     "Global Affairs Canada": 265
     "Parks Canada": 112
-    "Royal Canadian Mounted Police": 75
+    "Royal Canadian Mounted Police": 76
     "National Defence and the Canadian Armed Forces": 36
     "Public Services and Procurement Canada": 16
     "Innovation, Science and Economic Development Canada": 13
@@ -198,7 +201,7 @@ pie showData title Department Count (English Only - Top 20)
 pie showData title Department Count (Français Only - Top 20)
     "Affaires mondiales Canada": 259
     "Parcs Canada": 112
-    "Gendarmerie royale du Canada": 71
+    "Gendarmerie royale du Canada": 72
     "Défense nationale et les Forces armées canadiennes": 26
     "Services publics et Approvisionnement Canada": 16
     "Innovation, Sciences et Développement économique Canada": 15
